@@ -1,0 +1,2769 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d8b2e19d3cda6cd70963718c7605e94 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d8b2e19d3cda6cd70963718c7605e94" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d8b2e19d3cda6cd70963718c7605e94 = L.map(
+                "map_4d8b2e19d3cda6cd70963718c7605e94",
+                {
+                    center: [38.5, -95.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+
+            
+
+        
+    
+            var tile_layer_014482ca5772b31801bf50ada5a50844 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 9, "maxZoom": 9, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var marker_d7da18760bf6c0793867535fe74c2a14 = L.marker(
+                [37.338239, -121.886749],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_3c0c0e98023b3d2b2c921b4a0fb888e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d7da18760bf6c0793867535fe74c2a14.setIcon(icon_3c0c0e98023b3d2b2c921b4a0fb888e6);
+        
+    
+        var popup_09b277a4331c4e09f86c61d668fd5321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7299589c0ea28a1c20d9c5e278a38d7c = $(`<div id="html_7299589c0ea28a1c20d9c5e278a38d7c" style="width: 100.0%; height: 100.0%;">San Jose: ChargePoint Network</div>`)[0];
+                popup_09b277a4331c4e09f86c61d668fd5321.setContent(html_7299589c0ea28a1c20d9c5e278a38d7c);
+            
+        
+
+        marker_d7da18760bf6c0793867535fe74c2a14.bindPopup(popup_09b277a4331c4e09f86c61d668fd5321)
+        ;
+
+        
+    
+    
+            var marker_8fcb2f757cdb8127058b9bfa14ec6f92 = L.marker(
+                [41.967208, -73.990374],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_865437dcfd4ec57c041462ffd08149f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8fcb2f757cdb8127058b9bfa14ec6f92.setIcon(icon_865437dcfd4ec57c041462ffd08149f1);
+        
+    
+        var popup_2f61bbe34d44263db5ffddac900652d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5d9ebbada6f2e29ae9de1444847ac83 = $(`<div id="html_d5d9ebbada6f2e29ae9de1444847ac83" style="width: 100.0%; height: 100.0%;">Kingston: ChargePoint Network</div>`)[0];
+                popup_2f61bbe34d44263db5ffddac900652d9.setContent(html_d5d9ebbada6f2e29ae9de1444847ac83);
+            
+        
+
+        marker_8fcb2f757cdb8127058b9bfa14ec6f92.bindPopup(popup_2f61bbe34d44263db5ffddac900652d9)
+        ;
+
+        
+    
+    
+            var marker_4821dab2c5bcd79ce05f9c3fb721ac70 = L.marker(
+                [41.485588, -95.335864],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_e06d8f6e8a36e4f46fc5b3a483232169 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4821dab2c5bcd79ce05f9c3fb721ac70.setIcon(icon_e06d8f6e8a36e4f46fc5b3a483232169);
+        
+    
+        var popup_1c60fe3521f018dfa9a0a38f46616ddd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08646d62f2c44df297b117d21cb9c5fd = $(`<div id="html_08646d62f2c44df297b117d21cb9c5fd" style="width: 100.0%; height: 100.0%;">Avoca: SHELL_RECHARGE</div>`)[0];
+                popup_1c60fe3521f018dfa9a0a38f46616ddd.setContent(html_08646d62f2c44df297b117d21cb9c5fd);
+            
+        
+
+        marker_4821dab2c5bcd79ce05f9c3fb721ac70.bindPopup(popup_1c60fe3521f018dfa9a0a38f46616ddd)
+        ;
+
+        
+    
+    
+            var marker_f42c306b6021d02fbabed2ea04f69093 = L.marker(
+                [42.714348, -73.934726],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_75b51f1c1f31a85968478fa896430270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f42c306b6021d02fbabed2ea04f69093.setIcon(icon_75b51f1c1f31a85968478fa896430270);
+        
+    
+        var popup_c4fe69d62b5b89c1b91d9c04a1c44f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45d02cf3b4a32650531742ba7454d1e8 = $(`<div id="html_45d02cf3b4a32650531742ba7454d1e8" style="width: 100.0%; height: 100.0%;">Altamont: ChargePoint Network</div>`)[0];
+                popup_c4fe69d62b5b89c1b91d9c04a1c44f1a.setContent(html_45d02cf3b4a32650531742ba7454d1e8);
+            
+        
+
+        marker_f42c306b6021d02fbabed2ea04f69093.bindPopup(popup_c4fe69d62b5b89c1b91d9c04a1c44f1a)
+        ;
+
+        
+    
+    
+            var marker_cfd79b7d42c3445a3c886775052094a0 = L.marker(
+                [38.819828, -91.143486],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_bc32ec7e34c6611b66d835ef1db2dfd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cfd79b7d42c3445a3c886775052094a0.setIcon(icon_bc32ec7e34c6611b66d835ef1db2dfd6);
+        
+    
+        var popup_876f0eb954c841d141afe69c861907d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a0f275af2f70f6e37a4a76307f0f134 = $(`<div id="html_4a0f275af2f70f6e37a4a76307f0f134" style="width: 100.0%; height: 100.0%;">Warrenton: ChargePoint Network</div>`)[0];
+                popup_876f0eb954c841d141afe69c861907d5.setContent(html_4a0f275af2f70f6e37a4a76307f0f134);
+            
+        
+
+        marker_cfd79b7d42c3445a3c886775052094a0.bindPopup(popup_876f0eb954c841d141afe69c861907d5)
+        ;
+
+        
+    
+    
+            var marker_becacb5375ba217633dc4fc929bbfa87 = L.marker(
+                [37.812447, -122.300554],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_92c8b3eb2801712e50c724bfc1b07497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_becacb5375ba217633dc4fc929bbfa87.setIcon(icon_92c8b3eb2801712e50c724bfc1b07497);
+        
+    
+        var popup_2755645974eb53d217a91f6ca48204e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_227935049b2f315ca55bcfdfb7229d09 = $(`<div id="html_227935049b2f315ca55bcfdfb7229d09" style="width: 100.0%; height: 100.0%;">Oakland: ChargePoint Network</div>`)[0];
+                popup_2755645974eb53d217a91f6ca48204e1.setContent(html_227935049b2f315ca55bcfdfb7229d09);
+            
+        
+
+        marker_becacb5375ba217633dc4fc929bbfa87.bindPopup(popup_2755645974eb53d217a91f6ca48204e1)
+        ;
+
+        
+    
+    
+            var marker_21cde38cab9fbded598ce28dcec849da = L.marker(
+                [32.6871, -117.1321],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_d800f84dec8241a0bbb741bd1fafe416 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_21cde38cab9fbded598ce28dcec849da.setIcon(icon_d800f84dec8241a0bbb741bd1fafe416);
+        
+    
+        var popup_520c2a5b87d6205f41f7bff96af7f8fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f84fb0e7fc60b17cf967135dcfd126d = $(`<div id="html_8f84fb0e7fc60b17cf967135dcfd126d" style="width: 100.0%; height: 100.0%;">San Diego: Non-Networked</div>`)[0];
+                popup_520c2a5b87d6205f41f7bff96af7f8fd.setContent(html_8f84fb0e7fc60b17cf967135dcfd126d);
+            
+        
+
+        marker_21cde38cab9fbded598ce28dcec849da.bindPopup(popup_520c2a5b87d6205f41f7bff96af7f8fd)
+        ;
+
+        
+    
+    
+            var marker_8d084e9913a519404cbd0c8e7b1de219 = L.marker(
+                [36.151420525339, -86.8166802037048],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_b40b4cb69926acc01bd3b300219094d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8d084e9913a519404cbd0c8e7b1de219.setIcon(icon_b40b4cb69926acc01bd3b300219094d1);
+        
+    
+        var popup_15cb10ad9f7a4bbe1a3cd8befdda9d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a087306eac8879d0cbd8fc5cf6b772c6 = $(`<div id="html_a087306eac8879d0cbd8fc5cf6b772c6" style="width: 100.0%; height: 100.0%;">Nashville: Non-Networked</div>`)[0];
+                popup_15cb10ad9f7a4bbe1a3cd8befdda9d38.setContent(html_a087306eac8879d0cbd8fc5cf6b772c6);
+            
+        
+
+        marker_8d084e9913a519404cbd0c8e7b1de219.bindPopup(popup_15cb10ad9f7a4bbe1a3cd8befdda9d38)
+        ;
+
+        
+    
+    
+            var marker_099bdbb34b950713e63e5240522c3e60 = L.marker(
+                [33.654407, -117.6275],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_6c0459f05b8e05ba303b53f10548c4f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_099bdbb34b950713e63e5240522c3e60.setIcon(icon_6c0459f05b8e05ba303b53f10548c4f4);
+        
+    
+        var popup_5609234ecb131f329605c87933b2cacf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d8a0a17904a4fb1d9d2e133aca16483 = $(`<div id="html_3d8a0a17904a4fb1d9d2e133aca16483" style="width: 100.0%; height: 100.0%;">Mission Viejo: Tesla Destination</div>`)[0];
+                popup_5609234ecb131f329605c87933b2cacf.setContent(html_3d8a0a17904a4fb1d9d2e133aca16483);
+            
+        
+
+        marker_099bdbb34b950713e63e5240522c3e60.bindPopup(popup_5609234ecb131f329605c87933b2cacf)
+        ;
+
+        
+    
+    
+            var marker_d740f212f5d241d0643067c6f23e35e5 = L.marker(
+                [42.197709, -88.09147],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_6d3965c21e1d211e2d5d3b0c9ee87d00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d740f212f5d241d0643067c6f23e35e5.setIcon(icon_6d3965c21e1d211e2d5d3b0c9ee87d00);
+        
+    
+        var popup_93c909a551a650b287ee1db3a0e165a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46d8d5d55b3b4df3838867450c386905 = $(`<div id="html_46d8d5d55b3b4df3838867450c386905" style="width: 100.0%; height: 100.0%;">Lake Zurich: ChargePoint Network</div>`)[0];
+                popup_93c909a551a650b287ee1db3a0e165a0.setContent(html_46d8d5d55b3b4df3838867450c386905);
+            
+        
+
+        marker_d740f212f5d241d0643067c6f23e35e5.bindPopup(popup_93c909a551a650b287ee1db3a0e165a0)
+        ;
+
+        
+    
+    
+            var marker_af58a2675ae998815a56a7de7f993d52 = L.marker(
+                [41.8891899, -87.6181012],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_5a1b7728dd2ce981b20a90ce491b1a14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_af58a2675ae998815a56a7de7f993d52.setIcon(icon_5a1b7728dd2ce981b20a90ce491b1a14);
+        
+    
+        var popup_290067e9b9989ab818b8a4532fe9be5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73f1f6cdfa08a4137763a04471b97bcd = $(`<div id="html_73f1f6cdfa08a4137763a04471b97bcd" style="width: 100.0%; height: 100.0%;">Chicago: SemaCharge Network</div>`)[0];
+                popup_290067e9b9989ab818b8a4532fe9be5b.setContent(html_73f1f6cdfa08a4137763a04471b97bcd);
+            
+        
+
+        marker_af58a2675ae998815a56a7de7f993d52.bindPopup(popup_290067e9b9989ab818b8a4532fe9be5b)
+        ;
+
+        
+    
+    
+            var marker_44687fedb8699c81fab41b15f9ad8d25 = L.marker(
+                [37.312808, -121.935639],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_57dbcab837730bd913d84c0f66781fbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_44687fedb8699c81fab41b15f9ad8d25.setIcon(icon_57dbcab837730bd913d84c0f66781fbd);
+        
+    
+        var popup_bd0b54db367f3816e4fef3347139f787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa0aaa5ebdc744993266e3861de67350 = $(`<div id="html_fa0aaa5ebdc744993266e3861de67350" style="width: 100.0%; height: 100.0%;">San Jose: ChargePoint Network</div>`)[0];
+                popup_bd0b54db367f3816e4fef3347139f787.setContent(html_fa0aaa5ebdc744993266e3861de67350);
+            
+        
+
+        marker_44687fedb8699c81fab41b15f9ad8d25.bindPopup(popup_bd0b54db367f3816e4fef3347139f787)
+        ;
+
+        
+    
+    
+            var marker_f43cc4dcafeb17cf487add2b5459b48c = L.marker(
+                [37.426436, -122.175918],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a79ff6373ddc9c66b57e339d03acd472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f43cc4dcafeb17cf487add2b5459b48c.setIcon(icon_a79ff6373ddc9c66b57e339d03acd472);
+        
+    
+        var popup_7cc5b76c618b78a2ee2d8295dfb4a212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d14d094d6226e12b641541e8673a2e = $(`<div id="html_c4d14d094d6226e12b641541e8673a2e" style="width: 100.0%; height: 100.0%;">Stanford: ChargePoint Network</div>`)[0];
+                popup_7cc5b76c618b78a2ee2d8295dfb4a212.setContent(html_c4d14d094d6226e12b641541e8673a2e);
+            
+        
+
+        marker_f43cc4dcafeb17cf487add2b5459b48c.bindPopup(popup_7cc5b76c618b78a2ee2d8295dfb4a212)
+        ;
+
+        
+    
+    
+            var marker_78c45fcde39338096a8a3ee2ff8a5a23 = L.marker(
+                [39.421141, -123.807353],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_93343c2e3dfa624c637ac316a865465e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_78c45fcde39338096a8a3ee2ff8a5a23.setIcon(icon_93343c2e3dfa624c637ac316a865465e);
+        
+    
+        var popup_813c20932c268e83d7db2d9adbe5357b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc322262329a37be48a53e22c220e917 = $(`<div id="html_cc322262329a37be48a53e22c220e917" style="width: 100.0%; height: 100.0%;">Fort Bragg: Tesla</div>`)[0];
+                popup_813c20932c268e83d7db2d9adbe5357b.setContent(html_cc322262329a37be48a53e22c220e917);
+            
+        
+
+        marker_78c45fcde39338096a8a3ee2ff8a5a23.bindPopup(popup_813c20932c268e83d7db2d9adbe5357b)
+        ;
+
+        
+    
+    
+            var marker_459a7b6a53ff5e19e8ee9cbda6d401b3 = L.marker(
+                [37.800486, -122.26512],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_af2494d389a5fca58b5935940ef3df7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_459a7b6a53ff5e19e8ee9cbda6d401b3.setIcon(icon_af2494d389a5fca58b5935940ef3df7b);
+        
+    
+        var popup_7cedc1b3a401a13c0e9f4e2a4e5917c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2c7f9f0b8f3666678ef5f6d032a32af = $(`<div id="html_f2c7f9f0b8f3666678ef5f6d032a32af" style="width: 100.0%; height: 100.0%;">Oakland: ChargePoint Network</div>`)[0];
+                popup_7cedc1b3a401a13c0e9f4e2a4e5917c0.setContent(html_f2c7f9f0b8f3666678ef5f6d032a32af);
+            
+        
+
+        marker_459a7b6a53ff5e19e8ee9cbda6d401b3.bindPopup(popup_7cedc1b3a401a13c0e9f4e2a4e5917c0)
+        ;
+
+        
+    
+    
+            var marker_fbafdfc1ca141ed84f48b0c89ed43337 = L.marker(
+                [38.962374, -76.882474],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_98aae5156a3c3e079cd7853e77bd7b17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fbafdfc1ca141ed84f48b0c89ed43337.setIcon(icon_98aae5156a3c3e079cd7853e77bd7b17);
+        
+    
+        var popup_95ea7957558202d86992979011b758df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62f8209f7f77f54cb88c8383fb252937 = $(`<div id="html_62f8209f7f77f54cb88c8383fb252937" style="width: 100.0%; height: 100.0%;">New Carrollton: ChargePoint Network</div>`)[0];
+                popup_95ea7957558202d86992979011b758df.setContent(html_62f8209f7f77f54cb88c8383fb252937);
+            
+        
+
+        marker_fbafdfc1ca141ed84f48b0c89ed43337.bindPopup(popup_95ea7957558202d86992979011b758df)
+        ;
+
+        
+    
+    
+            var marker_0d26207be12ce4df0136df0626389463 = L.marker(
+                [40.027281, -75.227426],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_855233e963e18e818c476cba19888e89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_0d26207be12ce4df0136df0626389463.setIcon(icon_855233e963e18e818c476cba19888e89);
+        
+    
+        var popup_1035e9ed044e35e258bcb0cfc30f4737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_064520adb88aaa80e937ab4c1538385f = $(`<div id="html_064520adb88aaa80e937ab4c1538385f" style="width: 100.0%; height: 100.0%;">Philadelphia: ChargePoint Network</div>`)[0];
+                popup_1035e9ed044e35e258bcb0cfc30f4737.setContent(html_064520adb88aaa80e937ab4c1538385f);
+            
+        
+
+        marker_0d26207be12ce4df0136df0626389463.bindPopup(popup_1035e9ed044e35e258bcb0cfc30f4737)
+        ;
+
+        
+    
+    
+            var marker_9dae839cd04812a6cdf6c7d84bf5646d = L.marker(
+                [42.594589, -71.351632],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_4d85b3bb558297055e698a31f2a3ef6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9dae839cd04812a6cdf6c7d84bf5646d.setIcon(icon_4d85b3bb558297055e698a31f2a3ef6d);
+        
+    
+        var popup_fe29482cbefdc9ac48c1f6f74861afdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c044acdf5da7d870484a3a5864059d = $(`<div id="html_28c044acdf5da7d870484a3a5864059d" style="width: 100.0%; height: 100.0%;">Chelmsford: ChargePoint Network</div>`)[0];
+                popup_fe29482cbefdc9ac48c1f6f74861afdb.setContent(html_28c044acdf5da7d870484a3a5864059d);
+            
+        
+
+        marker_9dae839cd04812a6cdf6c7d84bf5646d.bindPopup(popup_fe29482cbefdc9ac48c1f6f74861afdb)
+        ;
+
+        
+    
+    
+            var marker_022f8ecc21ba066e4f32d74fa72a1c6b = L.marker(
+                [30.237391, -98.629206],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_425c889a143f456c7b4d2fb4feab0e12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_022f8ecc21ba066e4f32d74fa72a1c6b.setIcon(icon_425c889a143f456c7b4d2fb4feab0e12);
+        
+    
+        var popup_e8b06701c8b05ae336e302e441c015e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94374d521dd3806b323592ac964a35e = $(`<div id="html_a94374d521dd3806b323592ac964a35e" style="width: 100.0%; height: 100.0%;">Stonewall: Non-Networked</div>`)[0];
+                popup_e8b06701c8b05ae336e302e441c015e3.setContent(html_a94374d521dd3806b323592ac964a35e);
+            
+        
+
+        marker_022f8ecc21ba066e4f32d74fa72a1c6b.bindPopup(popup_e8b06701c8b05ae336e302e441c015e3)
+        ;
+
+        
+    
+    
+            var marker_9463f979d51dec5670dbfeef18e79d1b = L.marker(
+                [33.826297, -116.542129],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_695143709300a5495c3446b551b483f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9463f979d51dec5670dbfeef18e79d1b.setIcon(icon_695143709300a5495c3446b551b483f7);
+        
+    
+        var popup_419e542a9bb8869f0546ca0ec06f67d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c38a5e03020fbc86bd69610243f7677 = $(`<div id="html_9c38a5e03020fbc86bd69610243f7677" style="width: 100.0%; height: 100.0%;">Palm Springs: ChargePoint Network</div>`)[0];
+                popup_419e542a9bb8869f0546ca0ec06f67d7.setContent(html_9c38a5e03020fbc86bd69610243f7677);
+            
+        
+
+        marker_9463f979d51dec5670dbfeef18e79d1b.bindPopup(popup_419e542a9bb8869f0546ca0ec06f67d7)
+        ;
+
+        
+    
+    
+            var marker_fee09276e212b7cc4b3a04fe611f6e4a = L.marker(
+                [33.8474341, -84.3709066],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f30a6293c5e68a047655a4cabca4e49d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fee09276e212b7cc4b3a04fe611f6e4a.setIcon(icon_f30a6293c5e68a047655a4cabca4e49d);
+        
+    
+        var popup_df7427ebe058aa42a43255e1fb6b9545 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b00bd37007d6ca4a63888587fe3d7d = $(`<div id="html_79b00bd37007d6ca4a63888587fe3d7d" style="width: 100.0%; height: 100.0%;">Atlanta: SemaCharge Network</div>`)[0];
+                popup_df7427ebe058aa42a43255e1fb6b9545.setContent(html_79b00bd37007d6ca4a63888587fe3d7d);
+            
+        
+
+        marker_fee09276e212b7cc4b3a04fe611f6e4a.bindPopup(popup_df7427ebe058aa42a43255e1fb6b9545)
+        ;
+
+        
+    
+    
+            var marker_2fb294ae60f6330deb18ff03b546c81f = L.marker(
+                [37.840281, -122.294041],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_9b25fc5ecaa7bf18baa3f16ba51564a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2fb294ae60f6330deb18ff03b546c81f.setIcon(icon_9b25fc5ecaa7bf18baa3f16ba51564a4);
+        
+    
+        var popup_556e391c728f959af2f821d984612aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f2968b1965e336efa1be43c39acb945 = $(`<div id="html_2f2968b1965e336efa1be43c39acb945" style="width: 100.0%; height: 100.0%;">Emeryville: Tesla</div>`)[0];
+                popup_556e391c728f959af2f821d984612aef.setContent(html_2f2968b1965e336efa1be43c39acb945);
+            
+        
+
+        marker_2fb294ae60f6330deb18ff03b546c81f.bindPopup(popup_556e391c728f959af2f821d984612aef)
+        ;
+
+        
+    
+    
+            var marker_8b2667c474e515aa71acf0a5387b88aa = L.marker(
+                [33.6839281680068, -95.5432216011911],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_97c246c70c584ca6b87acfbf0455ba93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8b2667c474e515aa71acf0a5387b88aa.setIcon(icon_97c246c70c584ca6b87acfbf0455ba93);
+        
+    
+        var popup_a6613966533486316fa23640c9fb67a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad6acddf9fdbbfe68e872a4ea6c6579 = $(`<div id="html_8ad6acddf9fdbbfe68e872a4ea6c6579" style="width: 100.0%; height: 100.0%;">Paris: Volta</div>`)[0];
+                popup_a6613966533486316fa23640c9fb67a2.setContent(html_8ad6acddf9fdbbfe68e872a4ea6c6579);
+            
+        
+
+        marker_8b2667c474e515aa71acf0a5387b88aa.bindPopup(popup_a6613966533486316fa23640c9fb67a2)
+        ;
+
+        
+    
+    
+            var marker_2f34745697aa8cf5392d692b02d968cd = L.marker(
+                [35.674953, -119.225583],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a29333336e97258eef1ec90bebe708d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2f34745697aa8cf5392d692b02d968cd.setIcon(icon_a29333336e97258eef1ec90bebe708d1);
+        
+    
+        var popup_b8eb40e975df894fbadaddca746a4e95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66f340a071c23c42eb7555aea26fac97 = $(`<div id="html_66f340a071c23c42eb7555aea26fac97" style="width: 100.0%; height: 100.0%;">McFarland: ChargePoint Network</div>`)[0];
+                popup_b8eb40e975df894fbadaddca746a4e95.setContent(html_66f340a071c23c42eb7555aea26fac97);
+            
+        
+
+        marker_2f34745697aa8cf5392d692b02d968cd.bindPopup(popup_b8eb40e975df894fbadaddca746a4e95)
+        ;
+
+        
+    
+    
+            var marker_24943528ff001d2ce6539480bf5bdf61 = L.marker(
+                [32.874487, -117.236829],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a8c3dc584581521ee0213f09c187773d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_24943528ff001d2ce6539480bf5bdf61.setIcon(icon_a8c3dc584581521ee0213f09c187773d);
+        
+    
+        var popup_2aad964b3f3c64c8f7d2ecd602b1e5ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac39a78f4bf0a59d461c2cbb04568f80 = $(`<div id="html_ac39a78f4bf0a59d461c2cbb04568f80" style="width: 100.0%; height: 100.0%;">San Diego: ChargePoint Network</div>`)[0];
+                popup_2aad964b3f3c64c8f7d2ecd602b1e5ba.setContent(html_ac39a78f4bf0a59d461c2cbb04568f80);
+            
+        
+
+        marker_24943528ff001d2ce6539480bf5bdf61.bindPopup(popup_2aad964b3f3c64c8f7d2ecd602b1e5ba)
+        ;
+
+        
+    
+    
+            var marker_076dd12da07c25e11967677448d51b62 = L.marker(
+                [39.26756, -81.528507],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_9a35f069696005209cb7c20538584eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_076dd12da07c25e11967677448d51b62.setIcon(icon_9a35f069696005209cb7c20538584eee);
+        
+    
+        var popup_4c9fe87bf653b95d6a556bd0f758fd85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe0f20fa78120bcb1d8b472e8688907b = $(`<div id="html_fe0f20fa78120bcb1d8b472e8688907b" style="width: 100.0%; height: 100.0%;">Parkersburg: EV Connect</div>`)[0];
+                popup_4c9fe87bf653b95d6a556bd0f758fd85.setContent(html_fe0f20fa78120bcb1d8b472e8688907b);
+            
+        
+
+        marker_076dd12da07c25e11967677448d51b62.bindPopup(popup_4c9fe87bf653b95d6a556bd0f758fd85)
+        ;
+
+        
+    
+    
+            var marker_449019567ae265b4bef148227a407d75 = L.marker(
+                [42.274918, -71.761795],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_80dbea4efa7517d261be5ef3c3d0ba51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_449019567ae265b4bef148227a407d75.setIcon(icon_80dbea4efa7517d261be5ef3c3d0ba51);
+        
+    
+        var popup_46feb12618ad3137b0ec1207315cc052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65bc6b0bd8bd8e2cf459e9238e7e8882 = $(`<div id="html_65bc6b0bd8bd8e2cf459e9238e7e8882" style="width: 100.0%; height: 100.0%;">Worcester: ChargePoint Network</div>`)[0];
+                popup_46feb12618ad3137b0ec1207315cc052.setContent(html_65bc6b0bd8bd8e2cf459e9238e7e8882);
+            
+        
+
+        marker_449019567ae265b4bef148227a407d75.bindPopup(popup_46feb12618ad3137b0ec1207315cc052)
+        ;
+
+        
+    
+    
+            var marker_d34c6ad8d366c7bd55bcf0dfefe92b30 = L.marker(
+                [40.686945, -75.216641],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_3f5cd393b4cdfebca21f4d3817b93c05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d34c6ad8d366c7bd55bcf0dfefe92b30.setIcon(icon_3f5cd393b4cdfebca21f4d3817b93c05);
+        
+    
+        var popup_ac9b3e5c3db1a0aeb4075f57a2e5371c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15cd9a18c98d60673608a537b628d356 = $(`<div id="html_15cd9a18c98d60673608a537b628d356" style="width: 100.0%; height: 100.0%;">Easton: ChargePoint Network</div>`)[0];
+                popup_ac9b3e5c3db1a0aeb4075f57a2e5371c.setContent(html_15cd9a18c98d60673608a537b628d356);
+            
+        
+
+        marker_d34c6ad8d366c7bd55bcf0dfefe92b30.bindPopup(popup_ac9b3e5c3db1a0aeb4075f57a2e5371c)
+        ;
+
+        
+    
+    
+            var marker_2eab6356d9547a1ec4e99639127865be = L.marker(
+                [39.47012, -118.7701],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_47e931db1460659484e3accdb612d72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2eab6356d9547a1ec4e99639127865be.setIcon(icon_47e931db1460659484e3accdb612d72f);
+        
+    
+        var popup_fe667b679265644f5b47890ca3e8d3be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d658339d8d5ea0e8856211f47ea093d8 = $(`<div id="html_d658339d8d5ea0e8856211f47ea093d8" style="width: 100.0%; height: 100.0%;">Fallon: Non-Networked</div>`)[0];
+                popup_fe667b679265644f5b47890ca3e8d3be.setContent(html_d658339d8d5ea0e8856211f47ea093d8);
+            
+        
+
+        marker_2eab6356d9547a1ec4e99639127865be.bindPopup(popup_fe667b679265644f5b47890ca3e8d3be)
+        ;
+
+        
+    
+    
+            var marker_84c97ca02c59188c98903164e50a753a = L.marker(
+                [40.131943, -87.592265],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_410689d7cbcbdfe8568e57636cc036a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_84c97ca02c59188c98903164e50a753a.setIcon(icon_410689d7cbcbdfe8568e57636cc036a8);
+        
+    
+        var popup_bc4f3a1d4e25a9355a5c0cc7ec70eda9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b16f4e7c8cc5d41bebcad79f38819db = $(`<div id="html_4b16f4e7c8cc5d41bebcad79f38819db" style="width: 100.0%; height: 100.0%;">Danville: Non-Networked</div>`)[0];
+                popup_bc4f3a1d4e25a9355a5c0cc7ec70eda9.setContent(html_4b16f4e7c8cc5d41bebcad79f38819db);
+            
+        
+
+        marker_84c97ca02c59188c98903164e50a753a.bindPopup(popup_bc4f3a1d4e25a9355a5c0cc7ec70eda9)
+        ;
+
+        
+    
+    
+            var marker_7e93f40b930ee5a2279bfc844e5aeeb8 = L.marker(
+                [40.716208, -74.009488],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_2c485bcacfa5d5ce863b60e8377d9d7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7e93f40b930ee5a2279bfc844e5aeeb8.setIcon(icon_2c485bcacfa5d5ce863b60e8377d9d7b);
+        
+    
+        var popup_70995a6fc6f0a8b9390e13f787705eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec03c30c856a812fe452edc713463107 = $(`<div id="html_ec03c30c856a812fe452edc713463107" style="width: 100.0%; height: 100.0%;">New York: Tesla Destination</div>`)[0];
+                popup_70995a6fc6f0a8b9390e13f787705eb4.setContent(html_ec03c30c856a812fe452edc713463107);
+            
+        
+
+        marker_7e93f40b930ee5a2279bfc844e5aeeb8.bindPopup(popup_70995a6fc6f0a8b9390e13f787705eb4)
+        ;
+
+        
+    
+    
+            var marker_7d579dfcb28f390ef0de00593163236a = L.marker(
+                [24.571045, -81.752814],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_e968b0e7564e495e66aa2181632acf0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7d579dfcb28f390ef0de00593163236a.setIcon(icon_e968b0e7564e495e66aa2181632acf0d);
+        
+    
+        var popup_2994f591bc274f956591816bad9d918f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9300cf3de2a74eb3236d8403e7be24a2 = $(`<div id="html_9300cf3de2a74eb3236d8403e7be24a2" style="width: 100.0%; height: 100.0%;">Key West: Tesla Destination</div>`)[0];
+                popup_2994f591bc274f956591816bad9d918f.setContent(html_9300cf3de2a74eb3236d8403e7be24a2);
+            
+        
+
+        marker_7d579dfcb28f390ef0de00593163236a.bindPopup(popup_2994f591bc274f956591816bad9d918f)
+        ;
+
+        
+    
+    
+            var marker_def789717dea424b337b71b8944b6a2a = L.marker(
+                [36.041958, -115.18567],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_8d13ea59c5cabd5d6168e2e981328e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_def789717dea424b337b71b8944b6a2a.setIcon(icon_8d13ea59c5cabd5d6168e2e981328e1f);
+        
+    
+        var popup_18d32516c1f440edac414172de4415e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_902b47a414f930512e19c5db2a0170fe = $(`<div id="html_902b47a414f930512e19c5db2a0170fe" style="width: 100.0%; height: 100.0%;">Las Vegas: ChargePoint Network</div>`)[0];
+                popup_18d32516c1f440edac414172de4415e9.setContent(html_902b47a414f930512e19c5db2a0170fe);
+            
+        
+
+        marker_def789717dea424b337b71b8944b6a2a.bindPopup(popup_18d32516c1f440edac414172de4415e9)
+        ;
+
+        
+    
+    
+            var marker_a613a3bc8c5b72743ce7a351c5e34990 = L.marker(
+                [40.301698, -76.573607],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_4ead182a7267162825c9461b631e5114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a613a3bc8c5b72743ce7a351c5e34990.setIcon(icon_4ead182a7267162825c9461b631e5114);
+        
+    
+        var popup_c51b8f7bb5b834a78c94ded2ec4b2290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc03b125dc2452154ad38a2c5071a193 = $(`<div id="html_fc03b125dc2452154ad38a2c5071a193" style="width: 100.0%; height: 100.0%;">Palmyra: Non-Networked</div>`)[0];
+                popup_c51b8f7bb5b834a78c94ded2ec4b2290.setContent(html_fc03b125dc2452154ad38a2c5071a193);
+            
+        
+
+        marker_a613a3bc8c5b72743ce7a351c5e34990.bindPopup(popup_c51b8f7bb5b834a78c94ded2ec4b2290)
+        ;
+
+        
+    
+    
+            var marker_c47a804aa45f9fdcca22834775fcffad = L.marker(
+                [32.782826, -96.784387],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_58cd3a5721630849505bd8032957983f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c47a804aa45f9fdcca22834775fcffad.setIcon(icon_58cd3a5721630849505bd8032957983f);
+        
+    
+        var popup_eb1f424c905aed7084ef3f61be694505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be6a1ca724f3dc098d121960cde30ba0 = $(`<div id="html_be6a1ca724f3dc098d121960cde30ba0" style="width: 100.0%; height: 100.0%;">Dallas: ChargePoint Network</div>`)[0];
+                popup_eb1f424c905aed7084ef3f61be694505.setContent(html_be6a1ca724f3dc098d121960cde30ba0);
+            
+        
+
+        marker_c47a804aa45f9fdcca22834775fcffad.bindPopup(popup_eb1f424c905aed7084ef3f61be694505)
+        ;
+
+        
+    
+    
+            var marker_8d89ceeb493f6c1fba489a830db198ec = L.marker(
+                [40.439241, -80.003253],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_b98d0a66545bf67a201e785c2430bbd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8d89ceeb493f6c1fba489a830db198ec.setIcon(icon_b98d0a66545bf67a201e785c2430bbd0);
+        
+    
+        var popup_618a1c712946ffaf060a6e8eed5cda69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6d339c18dd7db2143d8c9043630ee54 = $(`<div id="html_c6d339c18dd7db2143d8c9043630ee54" style="width: 100.0%; height: 100.0%;">Pittsburgh: ChargePoint Network</div>`)[0];
+                popup_618a1c712946ffaf060a6e8eed5cda69.setContent(html_c6d339c18dd7db2143d8c9043630ee54);
+            
+        
+
+        marker_8d89ceeb493f6c1fba489a830db198ec.bindPopup(popup_618a1c712946ffaf060a6e8eed5cda69)
+        ;
+
+        
+    
+    
+            var marker_46470aa1a2aae44792c10d0e59060740 = L.marker(
+                [34.711439, -92.404311],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_ba15cfa0418aa6c01eca0ab5d229d973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_46470aa1a2aae44792c10d0e59060740.setIcon(icon_ba15cfa0418aa6c01eca0ab5d229d973);
+        
+    
+        var popup_23934105a93db6a9a573565e5230b172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a85e2a3a994c8df9be0914ca400a0053 = $(`<div id="html_a85e2a3a994c8df9be0914ca400a0053" style="width: 100.0%; height: 100.0%;">Little Rock: Non-Networked</div>`)[0];
+                popup_23934105a93db6a9a573565e5230b172.setContent(html_a85e2a3a994c8df9be0914ca400a0053);
+            
+        
+
+        marker_46470aa1a2aae44792c10d0e59060740.bindPopup(popup_23934105a93db6a9a573565e5230b172)
+        ;
+
+        
+    
+    
+            var marker_5b2a2c1a9a578d79265335ca607ded73 = L.marker(
+                [30.0091, -97.8611],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_e33fcd10a9a71ba8b86fea5bb53543b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5b2a2c1a9a578d79265335ca607ded73.setIcon(icon_e33fcd10a9a71ba8b86fea5bb53543b5);
+        
+    
+        var popup_ae1129e9e4fd2c6c39390a8d040c9628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_005b5c142baf8a7e15b4fc5589e66898 = $(`<div id="html_005b5c142baf8a7e15b4fc5589e66898" style="width: 100.0%; height: 100.0%;">Kyle: Non-Networked</div>`)[0];
+                popup_ae1129e9e4fd2c6c39390a8d040c9628.setContent(html_005b5c142baf8a7e15b4fc5589e66898);
+            
+        
+
+        marker_5b2a2c1a9a578d79265335ca607ded73.bindPopup(popup_ae1129e9e4fd2c6c39390a8d040c9628)
+        ;
+
+        
+    
+    
+            var marker_4b045e8464809335820cc55c25833f62 = L.marker(
+                [36.79849, -80.373918],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_ace9099a4f436f239af4d17bf6972989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4b045e8464809335820cc55c25833f62.setIcon(icon_ace9099a4f436f239af4d17bf6972989);
+        
+    
+        var popup_00f2522809d8b0264f4854509534867b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a264a5d6761fad026bb6b468d3c1be = $(`<div id="html_a9a264a5d6761fad026bb6b468d3c1be" style="width: 100.0%; height: 100.0%;">Floyd: Non-Networked</div>`)[0];
+                popup_00f2522809d8b0264f4854509534867b.setContent(html_a9a264a5d6761fad026bb6b468d3c1be);
+            
+        
+
+        marker_4b045e8464809335820cc55c25833f62.bindPopup(popup_00f2522809d8b0264f4854509534867b)
+        ;
+
+        
+    
+    
+            var marker_db4f5486ef427e41dbf39200a8f89d1e = L.marker(
+                [30.241886, -97.720477],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_00def92b5bc0ef6e5f57d900d9335ef4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_db4f5486ef427e41dbf39200a8f89d1e.setIcon(icon_00def92b5bc0ef6e5f57d900d9335ef4);
+        
+    
+        var popup_a5ff54548a26c67a90350671fdf65352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d07e73c2be195418bcf9c5d68f5ba6e5 = $(`<div id="html_d07e73c2be195418bcf9c5d68f5ba6e5" style="width: 100.0%; height: 100.0%;">Austin: ChargePoint Network</div>`)[0];
+                popup_a5ff54548a26c67a90350671fdf65352.setContent(html_d07e73c2be195418bcf9c5d68f5ba6e5);
+            
+        
+
+        marker_db4f5486ef427e41dbf39200a8f89d1e.bindPopup(popup_a5ff54548a26c67a90350671fdf65352)
+        ;
+
+        
+    
+    
+            var marker_e13e5905f685a6561265026000640bf4 = L.marker(
+                [37.501762, -121.969067],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a4481708045dccfc4a33765f1cd0b8e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e13e5905f685a6561265026000640bf4.setIcon(icon_a4481708045dccfc4a33765f1cd0b8e7);
+        
+    
+        var popup_1031226ddc7d2244ab6af71f927e9fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dac158a9b93c7ebc034275dc917a2a48 = $(`<div id="html_dac158a9b93c7ebc034275dc917a2a48" style="width: 100.0%; height: 100.0%;">Fremont: ChargePoint Network</div>`)[0];
+                popup_1031226ddc7d2244ab6af71f927e9fd3.setContent(html_dac158a9b93c7ebc034275dc917a2a48);
+            
+        
+
+        marker_e13e5905f685a6561265026000640bf4.bindPopup(popup_1031226ddc7d2244ab6af71f927e9fd3)
+        ;
+
+        
+    
+    
+            var marker_58c2c8482deaa4884146e3ed40006f17 = L.marker(
+                [34.16349445, -118.3683418],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a69501f7fb95e62f8233e0184ec81cba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_58c2c8482deaa4884146e3ed40006f17.setIcon(icon_a69501f7fb95e62f8233e0184ec81cba);
+        
+    
+        var popup_0f8e2f67a5253cbfc3a77bf16c056ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0334a58fa7986606477f1380c39215a = $(`<div id="html_f0334a58fa7986606477f1380c39215a" style="width: 100.0%; height: 100.0%;">Los Angeles: FLO</div>`)[0];
+                popup_0f8e2f67a5253cbfc3a77bf16c056ed2.setContent(html_f0334a58fa7986606477f1380c39215a);
+            
+        
+
+        marker_58c2c8482deaa4884146e3ed40006f17.bindPopup(popup_0f8e2f67a5253cbfc3a77bf16c056ed2)
+        ;
+
+        
+    
+    
+            var marker_4315f959912d8eeab5049e7a54cc1b79 = L.marker(
+                [42.463455, -71.069895],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_18c7d1827c2dd9f7f389fe8c433468af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4315f959912d8eeab5049e7a54cc1b79.setIcon(icon_18c7d1827c2dd9f7f389fe8c433468af);
+        
+    
+        var popup_1b00e75e26c3584c277692f16f15b24c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc6b408985147c2e5a6001955b151b43 = $(`<div id="html_fc6b408985147c2e5a6001955b151b43" style="width: 100.0%; height: 100.0%;">Melrose: AMPUP</div>`)[0];
+                popup_1b00e75e26c3584c277692f16f15b24c.setContent(html_fc6b408985147c2e5a6001955b151b43);
+            
+        
+
+        marker_4315f959912d8eeab5049e7a54cc1b79.bindPopup(popup_1b00e75e26c3584c277692f16f15b24c)
+        ;
+
+        
+    
+    
+            var marker_186ae26eb2f419ae874e4aab4a2eaf9f = L.marker(
+                [38.709843, -120.842261],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_ffdfbe9d92ef2547c47de603f7374d92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_186ae26eb2f419ae874e4aab4a2eaf9f.setIcon(icon_ffdfbe9d92ef2547c47de603f7374d92);
+        
+    
+        var popup_de23e52efba4a90fee92445ef3e89c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1f5525e6c86e5270c5fdb2af9271cf9 = $(`<div id="html_d1f5525e6c86e5270c5fdb2af9271cf9" style="width: 100.0%; height: 100.0%;">Placerville: Tesla</div>`)[0];
+                popup_de23e52efba4a90fee92445ef3e89c40.setContent(html_d1f5525e6c86e5270c5fdb2af9271cf9);
+            
+        
+
+        marker_186ae26eb2f419ae874e4aab4a2eaf9f.bindPopup(popup_de23e52efba4a90fee92445ef3e89c40)
+        ;
+
+        
+    
+    
+            var marker_fea5d55dca018962fb829dd91d5d55e3 = L.marker(
+                [37.319473, -121.950237],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_88b2fff4ed8185ac3644173416f9fa6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fea5d55dca018962fb829dd91d5d55e3.setIcon(icon_88b2fff4ed8185ac3644173416f9fa6d);
+        
+    
+        var popup_6d7aae681ac95fa0a5ed778c130d18c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f981abad47064defa5d399f540f6a2 = $(`<div id="html_20f981abad47064defa5d399f540f6a2" style="width: 100.0%; height: 100.0%;">San Jose: ChargePoint Network</div>`)[0];
+                popup_6d7aae681ac95fa0a5ed778c130d18c5.setContent(html_20f981abad47064defa5d399f540f6a2);
+            
+        
+
+        marker_fea5d55dca018962fb829dd91d5d55e3.bindPopup(popup_6d7aae681ac95fa0a5ed778c130d18c5)
+        ;
+
+        
+    
+    
+            var marker_4ff3f0593af205e6e8f70e73b240b3e3 = L.marker(
+                [33.835218, -118.350231],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_45887a76660589c7faf4de355ae166a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4ff3f0593af205e6e8f70e73b240b3e3.setIcon(icon_45887a76660589c7faf4de355ae166a7);
+        
+    
+        var popup_5c94e9ebcc01e4c14029bb0cac167c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05901c73c45823408a7ae68584327dff = $(`<div id="html_05901c73c45823408a7ae68584327dff" style="width: 100.0%; height: 100.0%;">Torrance: Non-Networked</div>`)[0];
+                popup_5c94e9ebcc01e4c14029bb0cac167c54.setContent(html_05901c73c45823408a7ae68584327dff);
+            
+        
+
+        marker_4ff3f0593af205e6e8f70e73b240b3e3.bindPopup(popup_5c94e9ebcc01e4c14029bb0cac167c54)
+        ;
+
+        
+    
+    
+            var marker_3e3c9e82b66806e1f67c8c202ed402dd = L.marker(
+                [37.801043, -122.459516],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a85a0c56ea5e4859a6171589166c2c2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_3e3c9e82b66806e1f67c8c202ed402dd.setIcon(icon_a85a0c56ea5e4859a6171589166c2c2a);
+        
+    
+        var popup_31940b3a90e7c9408378b8be9397f959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002d98bebd24aecdc4323fbe62f2725c = $(`<div id="html_002d98bebd24aecdc4323fbe62f2725c" style="width: 100.0%; height: 100.0%;">San Francisco: ChargePoint Network</div>`)[0];
+                popup_31940b3a90e7c9408378b8be9397f959.setContent(html_002d98bebd24aecdc4323fbe62f2725c);
+            
+        
+
+        marker_3e3c9e82b66806e1f67c8c202ed402dd.bindPopup(popup_31940b3a90e7c9408378b8be9397f959)
+        ;
+
+        
+    
+    
+            var marker_b1a8b6d57f8b3842af00d68c704f87a1 = L.marker(
+                [34.505305, -97.177445],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_44dd05f8b4ee027b0523a6ee601c6674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b1a8b6d57f8b3842af00d68c704f87a1.setIcon(icon_44dd05f8b4ee027b0523a6ee601c6674);
+        
+    
+        var popup_00e48b94e78e597542987a4eeb4b4853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bceb3ddb053958457924e98dda7df46 = $(`<div id="html_9bceb3ddb053958457924e98dda7df46" style="width: 100.0%; height: 100.0%;">Davis: FCN</div>`)[0];
+                popup_00e48b94e78e597542987a4eeb4b4853.setContent(html_9bceb3ddb053958457924e98dda7df46);
+            
+        
+
+        marker_b1a8b6d57f8b3842af00d68c704f87a1.bindPopup(popup_00e48b94e78e597542987a4eeb4b4853)
+        ;
+
+        
+    
+    
+            var marker_64a0e60bfd276ef477acb61ebb0925fd = L.marker(
+                [43.14939, -77.636613],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_d49745bc85e43ecb74bb34a8d59dc5f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_64a0e60bfd276ef477acb61ebb0925fd.setIcon(icon_d49745bc85e43ecb74bb34a8d59dc5f8);
+        
+    
+        var popup_9e49a41dfe3e78caca24fa8a3068daa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfef5bbe05eff747eb7c509668ae60d4 = $(`<div id="html_bfef5bbe05eff747eb7c509668ae60d4" style="width: 100.0%; height: 100.0%;">Rochester: ChargePoint Network</div>`)[0];
+                popup_9e49a41dfe3e78caca24fa8a3068daa0.setContent(html_bfef5bbe05eff747eb7c509668ae60d4);
+            
+        
+
+        marker_64a0e60bfd276ef477acb61ebb0925fd.bindPopup(popup_9e49a41dfe3e78caca24fa8a3068daa0)
+        ;
+
+        
+    
+    
+            var marker_e80ace6eac7d46de47062f1ab4a25e25 = L.marker(
+                [39.108846, -94.580774],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_a7fdf1aea727a037187f7f6617c9d7fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e80ace6eac7d46de47062f1ab4a25e25.setIcon(icon_a7fdf1aea727a037187f7f6617c9d7fa);
+        
+    
+        var popup_71a138966fffee5f570dfe5d7ef81a61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5efa2fbac75bdcd61812b73d71c852eb = $(`<div id="html_5efa2fbac75bdcd61812b73d71c852eb" style="width: 100.0%; height: 100.0%;">Kansas City: ChargePoint Network</div>`)[0];
+                popup_71a138966fffee5f570dfe5d7ef81a61.setContent(html_5efa2fbac75bdcd61812b73d71c852eb);
+            
+        
+
+        marker_e80ace6eac7d46de47062f1ab4a25e25.bindPopup(popup_71a138966fffee5f570dfe5d7ef81a61)
+        ;
+
+        
+    
+    
+            var marker_0b245ac48bec6eec3f55cd82a903040f = L.marker(
+                [42.670165, -82.834792],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_7f0686c50bb7457e5a624c0536ae4011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_0b245ac48bec6eec3f55cd82a903040f.setIcon(icon_7f0686c50bb7457e5a624c0536ae4011);
+        
+    
+        var popup_a4f3b26f037d2c31399475750340cbd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9c6e88582f5fe2fd5284382e9bea84e = $(`<div id="html_e9c6e88582f5fe2fd5284382e9bea84e" style="width: 100.0%; height: 100.0%;">New Baltimore: ChargePoint Network</div>`)[0];
+                popup_a4f3b26f037d2c31399475750340cbd1.setContent(html_e9c6e88582f5fe2fd5284382e9bea84e);
+            
+        
+
+        marker_0b245ac48bec6eec3f55cd82a903040f.bindPopup(popup_a4f3b26f037d2c31399475750340cbd1)
+        ;
+
+        
+    
+    
+            var marker_de2d1ad2b4f8439ce5eb236c724fdc0c = L.marker(
+                [38.950347, -104.795662],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_caf1c116903a5141b928d082880f4fa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_de2d1ad2b4f8439ce5eb236c724fdc0c.setIcon(icon_caf1c116903a5141b928d082880f4fa6);
+        
+    
+        var popup_9c697413ce052856ccb39dfd7f8e377c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58b857e9678cb438ac9c865a544952a1 = $(`<div id="html_58b857e9678cb438ac9c865a544952a1" style="width: 100.0%; height: 100.0%;">Colorado Springs: Non-Networked</div>`)[0];
+                popup_9c697413ce052856ccb39dfd7f8e377c.setContent(html_58b857e9678cb438ac9c865a544952a1);
+            
+        
+
+        marker_de2d1ad2b4f8439ce5eb236c724fdc0c.bindPopup(popup_9c697413ce052856ccb39dfd7f8e377c)
+        ;
+
+        
+    
+    
+            var marker_1428486a9cea6eedc4f5661ea034f27a = L.marker(
+                [36.1699561787133, -115.140678337651],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_c028ccabb4ec0249210ceea0d8f019cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_1428486a9cea6eedc4f5661ea034f27a.setIcon(icon_c028ccabb4ec0249210ceea0d8f019cb);
+        
+    
+        var popup_411345ecf23e8cc0caf877a7b5f6af7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fb7a9e6970f8c14ad14d97ac4699f26 = $(`<div id="html_8fb7a9e6970f8c14ad14d97ac4699f26" style="width: 100.0%; height: 100.0%;">Las Vegas: Non-Networked</div>`)[0];
+                popup_411345ecf23e8cc0caf877a7b5f6af7c.setContent(html_8fb7a9e6970f8c14ad14d97ac4699f26);
+            
+        
+
+        marker_1428486a9cea6eedc4f5661ea034f27a.bindPopup(popup_411345ecf23e8cc0caf877a7b5f6af7c)
+        ;
+
+        
+    
+    
+            var marker_2887fd2114e65336f624212cb00c7894 = L.marker(
+                [42.65268, -73.696239],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_11913b72777617218c3c692fe546db11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2887fd2114e65336f624212cb00c7894.setIcon(icon_11913b72777617218c3c692fe546db11);
+        
+    
+        var popup_96c61b2b7bf20d2b5a2861d679d8030f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b83bbc904fd8421a50df8bb9d8ab304 = $(`<div id="html_9b83bbc904fd8421a50df8bb9d8ab304" style="width: 100.0%; height: 100.0%;">Rensselaer: ChargePoint Network</div>`)[0];
+                popup_96c61b2b7bf20d2b5a2861d679d8030f.setContent(html_9b83bbc904fd8421a50df8bb9d8ab304);
+            
+        
+
+        marker_2887fd2114e65336f624212cb00c7894.bindPopup(popup_96c61b2b7bf20d2b5a2861d679d8030f)
+        ;
+
+        
+    
+    
+            var marker_09c718c60e363dfb647eeb81d1bb9347 = L.marker(
+                [25.7684784, -80.13466222],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_df0dfe589df9b5a7ce1bff252b81d041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_09c718c60e363dfb647eeb81d1bb9347.setIcon(icon_df0dfe589df9b5a7ce1bff252b81d041);
+        
+    
+        var popup_049339c7f072b1bc4de606451c0abfe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06d91170b653e39d5a65da2b07f4bf26 = $(`<div id="html_06d91170b653e39d5a65da2b07f4bf26" style="width: 100.0%; height: 100.0%;">Miami Beach: Blink Network</div>`)[0];
+                popup_049339c7f072b1bc4de606451c0abfe9.setContent(html_06d91170b653e39d5a65da2b07f4bf26);
+            
+        
+
+        marker_09c718c60e363dfb647eeb81d1bb9347.bindPopup(popup_049339c7f072b1bc4de606451c0abfe9)
+        ;
+
+        
+    
+    
+            var marker_2809f6bf9c434720aa655314a0a82e53 = L.marker(
+                [29.734509, -95.5483776],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_da3c67b25b467e389d2ee603bffe7a95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2809f6bf9c434720aa655314a0a82e53.setIcon(icon_da3c67b25b467e389d2ee603bffe7a95);
+        
+    
+        var popup_180b08b91050275283c5e4b2b7cc2c1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fd09450162ba044f101500b1dbb4c06 = $(`<div id="html_9fd09450162ba044f101500b1dbb4c06" style="width: 100.0%; height: 100.0%;">Houston: SemaCharge Network</div>`)[0];
+                popup_180b08b91050275283c5e4b2b7cc2c1d.setContent(html_9fd09450162ba044f101500b1dbb4c06);
+            
+        
+
+        marker_2809f6bf9c434720aa655314a0a82e53.bindPopup(popup_180b08b91050275283c5e4b2b7cc2c1d)
+        ;
+
+        
+    
+    
+            var marker_e2fa95772a3b392a507d6e91b6578225 = L.marker(
+                [40.447699, -80.022512],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_cd5ad59205308fd731b46f7b1ce8403e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e2fa95772a3b392a507d6e91b6578225.setIcon(icon_cd5ad59205308fd731b46f7b1ce8403e);
+        
+    
+        var popup_a1919e2abe58f7c2b10fac9a2b642db0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789502d565d266ac16064672c8216290 = $(`<div id="html_789502d565d266ac16064672c8216290" style="width: 100.0%; height: 100.0%;">Pittsburgh: ChargePoint Network</div>`)[0];
+                popup_a1919e2abe58f7c2b10fac9a2b642db0.setContent(html_789502d565d266ac16064672c8216290);
+            
+        
+
+        marker_e2fa95772a3b392a507d6e91b6578225.bindPopup(popup_a1919e2abe58f7c2b10fac9a2b642db0)
+        ;
+
+        
+    
+    
+            var marker_d7e9815003920d1ee7a266c14784d9f1 = L.marker(
+                [40.805031, -74.07776],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_e579ebaed3afec99ccfed5c304f36f46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d7e9815003920d1ee7a266c14784d9f1.setIcon(icon_e579ebaed3afec99ccfed5c304f36f46);
+        
+    
+        var popup_2370f836ae00e6551148574194fe8c6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72ed580eadd354536144906879f39361 = $(`<div id="html_72ed580eadd354536144906879f39361" style="width: 100.0%; height: 100.0%;">East Rutherford: ChargePoint Network</div>`)[0];
+                popup_2370f836ae00e6551148574194fe8c6d.setContent(html_72ed580eadd354536144906879f39361);
+            
+        
+
+        marker_d7e9815003920d1ee7a266c14784d9f1.bindPopup(popup_2370f836ae00e6551148574194fe8c6d)
+        ;
+
+        
+    
+    
+            var marker_efa1ff5ccab87a750a06b8a0928e333a = L.marker(
+                [39.047547, -94.486124],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_67ed07db45841acc077bcbfd0a7c97dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_efa1ff5ccab87a750a06b8a0928e333a.setIcon(icon_67ed07db45841acc077bcbfd0a7c97dd);
+        
+    
+        var popup_9769ac108ae0c72320ce592450c12934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c32813350b8369060b01a66b7196feb0 = $(`<div id="html_c32813350b8369060b01a66b7196feb0" style="width: 100.0%; height: 100.0%;">Kansas City: ChargePoint Network</div>`)[0];
+                popup_9769ac108ae0c72320ce592450c12934.setContent(html_c32813350b8369060b01a66b7196feb0);
+            
+        
+
+        marker_efa1ff5ccab87a750a06b8a0928e333a.bindPopup(popup_9769ac108ae0c72320ce592450c12934)
+        ;
+
+        
+    
+    
+            var marker_e4a0a289ac93ac2bd4d35cc9842a12af = L.marker(
+                [44.92669, -72.182071],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_10f5d480d8d7075cf178efc957b34669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e4a0a289ac93ac2bd4d35cc9842a12af.setIcon(icon_10f5d480d8d7075cf178efc957b34669);
+        
+    
+        var popup_044a0a2230f3f1f9297f06e0f051c443 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e59ad77a3c46cfca521f7e1efe0b71af = $(`<div id="html_e59ad77a3c46cfca521f7e1efe0b71af" style="width: 100.0%; height: 100.0%;">Newport: ChargePoint Network</div>`)[0];
+                popup_044a0a2230f3f1f9297f06e0f051c443.setContent(html_e59ad77a3c46cfca521f7e1efe0b71af);
+            
+        
+
+        marker_e4a0a289ac93ac2bd4d35cc9842a12af.bindPopup(popup_044a0a2230f3f1f9297f06e0f051c443)
+        ;
+
+        
+    
+    
+            var marker_d8f44292894088390976e0fafb9cc470 = L.marker(
+                [33.560017, -117.20952],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_82c110fd95ac05b2cb4587bb19ffb449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d8f44292894088390976e0fafb9cc470.setIcon(icon_82c110fd95ac05b2cb4587bb19ffb449);
+        
+    
+        var popup_09f470bc14a9a21b050e5061b86e7ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e79d18f78c343b54474ae328b0624f = $(`<div id="html_e5e79d18f78c343b54474ae328b0624f" style="width: 100.0%; height: 100.0%;">Murrieta: ChargePoint Network</div>`)[0];
+                popup_09f470bc14a9a21b050e5061b86e7ba5.setContent(html_e5e79d18f78c343b54474ae328b0624f);
+            
+        
+
+        marker_d8f44292894088390976e0fafb9cc470.bindPopup(popup_09f470bc14a9a21b050e5061b86e7ba5)
+        ;
+
+        
+    
+    
+            var marker_619b91a1b7b0f0e313f4ef967bdcdfed = L.marker(
+                [32.494795, -94.358985],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_db77c38e5cfb6fa71542694555381519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_619b91a1b7b0f0e313f4ef967bdcdfed.setIcon(icon_db77c38e5cfb6fa71542694555381519);
+        
+    
+        var popup_278553b9ee6255cc03bbab2e1a013a97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a0d681415b107481b4e8a2fef0202bf = $(`<div id="html_4a0d681415b107481b4e8a2fef0202bf" style="width: 100.0%; height: 100.0%;">Marshall: Non-Networked</div>`)[0];
+                popup_278553b9ee6255cc03bbab2e1a013a97.setContent(html_4a0d681415b107481b4e8a2fef0202bf);
+            
+        
+
+        marker_619b91a1b7b0f0e313f4ef967bdcdfed.bindPopup(popup_278553b9ee6255cc03bbab2e1a013a97)
+        ;
+
+        
+    
+    
+            var marker_33b40ceaf0ad57e693f940ae1ad566de = L.marker(
+                [34.156382, -118.437077],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f88abdc7454d95862e455d2ab0b01b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_33b40ceaf0ad57e693f940ae1ad566de.setIcon(icon_f88abdc7454d95862e455d2ab0b01b69);
+        
+    
+        var popup_54a97454d157248d7bc85712e05e536c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_252bce06546e6d28ce1406d698fb23f7 = $(`<div id="html_252bce06546e6d28ce1406d698fb23f7" style="width: 100.0%; height: 100.0%;">Los Angeles: ChargePoint Network</div>`)[0];
+                popup_54a97454d157248d7bc85712e05e536c.setContent(html_252bce06546e6d28ce1406d698fb23f7);
+            
+        
+
+        marker_33b40ceaf0ad57e693f940ae1ad566de.bindPopup(popup_54a97454d157248d7bc85712e05e536c)
+        ;
+
+        
+    
+    
+            var marker_4200782de1a20f0fd7ef8d3dec3b4c12 = L.marker(
+                [42.246589, -73.778701],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_4573bdf6c0c7d75d31f60575da3e9d67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4200782de1a20f0fd7ef8d3dec3b4c12.setIcon(icon_4573bdf6c0c7d75d31f60575da3e9d67);
+        
+    
+        var popup_5b37cbc8a6d126ba3a3da8d6d6907713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a37745ec101106f2315155a86df2da28 = $(`<div id="html_a37745ec101106f2315155a86df2da28" style="width: 100.0%; height: 100.0%;">Hudson: ChargePoint Network</div>`)[0];
+                popup_5b37cbc8a6d126ba3a3da8d6d6907713.setContent(html_a37745ec101106f2315155a86df2da28);
+            
+        
+
+        marker_4200782de1a20f0fd7ef8d3dec3b4c12.bindPopup(popup_5b37cbc8a6d126ba3a3da8d6d6907713)
+        ;
+
+        
+    
+    
+            var marker_8663f8667b11d7af1db0fdde132bd835 = L.marker(
+                [38.369802, -121.954516],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f662225b9297e594b168e94d5dd23dda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8663f8667b11d7af1db0fdde132bd835.setIcon(icon_f662225b9297e594b168e94d5dd23dda);
+        
+    
+        var popup_8898093612936d61ea56494389dacb16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a38ec06aacd201428f22f2a9b234eba = $(`<div id="html_7a38ec06aacd201428f22f2a9b234eba" style="width: 100.0%; height: 100.0%;">Vacaville: ChargePoint Network</div>`)[0];
+                popup_8898093612936d61ea56494389dacb16.setContent(html_7a38ec06aacd201428f22f2a9b234eba);
+            
+        
+
+        marker_8663f8667b11d7af1db0fdde132bd835.bindPopup(popup_8898093612936d61ea56494389dacb16)
+        ;
+
+        
+    
+    
+            var marker_4eb13c244f655ad49698908dac08ab64 = L.marker(
+                [37.383043, -121.973413],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_673274a039c7729f852a5ab0bcac05e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4eb13c244f655ad49698908dac08ab64.setIcon(icon_673274a039c7729f852a5ab0bcac05e0);
+        
+    
+        var popup_d5cc12fbdb76c3b6bbbf54fe33fcceb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c46808e965c4194b78521a723cefa6 = $(`<div id="html_08c46808e965c4194b78521a723cefa6" style="width: 100.0%; height: 100.0%;">Santa Clara: ChargePoint Network</div>`)[0];
+                popup_d5cc12fbdb76c3b6bbbf54fe33fcceb8.setContent(html_08c46808e965c4194b78521a723cefa6);
+            
+        
+
+        marker_4eb13c244f655ad49698908dac08ab64.bindPopup(popup_d5cc12fbdb76c3b6bbbf54fe33fcceb8)
+        ;
+
+        
+    
+    
+            var marker_e25a3c24d7ee5090cb8d7fe111571310 = L.marker(
+                [36.063466, -79.299886],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_3a8501c4b0d2f4146232e9533b10027a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e25a3c24d7ee5090cb8d7fe111571310.setIcon(icon_3a8501c4b0d2f4146232e9533b10027a);
+        
+    
+        var popup_6e992fc55bf83adfe552a3b610d85a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7231ac21c4c3779ab14c44b4244ee8f6 = $(`<div id="html_7231ac21c4c3779ab14c44b4244ee8f6" style="width: 100.0%; height: 100.0%;">Mebane: ChargePoint Network</div>`)[0];
+                popup_6e992fc55bf83adfe552a3b610d85a9b.setContent(html_7231ac21c4c3779ab14c44b4244ee8f6);
+            
+        
+
+        marker_e25a3c24d7ee5090cb8d7fe111571310.bindPopup(popup_6e992fc55bf83adfe552a3b610d85a9b)
+        ;
+
+        
+    
+    
+            var marker_8ce0670293c6ecb6a73842cf2a7541bf = L.marker(
+                [28.700964, -81.34446],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_b4cd203f217da0cf394e81652813ca3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8ce0670293c6ecb6a73842cf2a7541bf.setIcon(icon_b4cd203f217da0cf394e81652813ca3e);
+        
+    
+        var popup_b25471b4b32c73d85dbb01404034a648 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d7b52833270f724e2f40ee692e9c31f = $(`<div id="html_4d7b52833270f724e2f40ee692e9c31f" style="width: 100.0%; height: 100.0%;">Longwood: Tesla Destination</div>`)[0];
+                popup_b25471b4b32c73d85dbb01404034a648.setContent(html_4d7b52833270f724e2f40ee692e9c31f);
+            
+        
+
+        marker_8ce0670293c6ecb6a73842cf2a7541bf.bindPopup(popup_b25471b4b32c73d85dbb01404034a648)
+        ;
+
+        
+    
+    
+            var marker_153f53f2a151c033f68b580906e4a931 = L.marker(
+                [36.154339, -95.990117],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f247e492c9a32ddd8c6a844d14126836 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_153f53f2a151c033f68b580906e4a931.setIcon(icon_f247e492c9a32ddd8c6a844d14126836);
+        
+    
+        var popup_f59421f1fcced09e649b663ee0019bdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d661824dccf54c6a0ce31fa68d1e305d = $(`<div id="html_d661824dccf54c6a0ce31fa68d1e305d" style="width: 100.0%; height: 100.0%;">Tulsa: Non-Networked</div>`)[0];
+                popup_f59421f1fcced09e649b663ee0019bdf.setContent(html_d661824dccf54c6a0ce31fa68d1e305d);
+            
+        
+
+        marker_153f53f2a151c033f68b580906e4a931.bindPopup(popup_f59421f1fcced09e649b663ee0019bdf)
+        ;
+
+        
+    
+    
+            var marker_81ac39cba594dc730716b72024cb528c = L.marker(
+                [32.8122698, -117.1540323],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_01965e713b4a8e9cc58d3ea09d3ad8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_81ac39cba594dc730716b72024cb528c.setIcon(icon_01965e713b4a8e9cc58d3ea09d3ad8be);
+        
+    
+        var popup_7cc8b0a04d9149111da318748343e863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eabdbf4a0e70190a323a39e90f26919 = $(`<div id="html_1eabdbf4a0e70190a323a39e90f26919" style="width: 100.0%; height: 100.0%;">San Diego: SemaCharge Network</div>`)[0];
+                popup_7cc8b0a04d9149111da318748343e863.setContent(html_1eabdbf4a0e70190a323a39e90f26919);
+            
+        
+
+        marker_81ac39cba594dc730716b72024cb528c.bindPopup(popup_7cc8b0a04d9149111da318748343e863)
+        ;
+
+        
+    
+    
+            var marker_4b32d7ebde879ead117fb92dfa970cc7 = L.marker(
+                [37.134167, -104.519352],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_b80ab7d2d4d5463b1a34492a2635e6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4b32d7ebde879ead117fb92dfa970cc7.setIcon(icon_b80ab7d2d4d5463b1a34492a2635e6f4);
+        
+    
+        var popup_c3ede34571f643098e9f2b30350a6944 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5c80048807914e05177c623ce476acf = $(`<div id="html_d5c80048807914e05177c623ce476acf" style="width: 100.0%; height: 100.0%;">Trinidad: Tesla</div>`)[0];
+                popup_c3ede34571f643098e9f2b30350a6944.setContent(html_d5c80048807914e05177c623ce476acf);
+            
+        
+
+        marker_4b32d7ebde879ead117fb92dfa970cc7.bindPopup(popup_c3ede34571f643098e9f2b30350a6944)
+        ;
+
+        
+    
+    
+            var marker_62530ef7f7cfb47a404b54dedacf088c = L.marker(
+                [39.51222, -84.741455],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_1ad39a7d5f7ded95a7da484ce36922c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_62530ef7f7cfb47a404b54dedacf088c.setIcon(icon_1ad39a7d5f7ded95a7da484ce36922c5);
+        
+    
+        var popup_efd04dfd6b17dfb5c68a944333810cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0bdb912723726e24cd6cb0571b5b7a3 = $(`<div id="html_e0bdb912723726e24cd6cb0571b5b7a3" style="width: 100.0%; height: 100.0%;">Oxford: ChargePoint Network</div>`)[0];
+                popup_efd04dfd6b17dfb5c68a944333810cac.setContent(html_e0bdb912723726e24cd6cb0571b5b7a3);
+            
+        
+
+        marker_62530ef7f7cfb47a404b54dedacf088c.bindPopup(popup_efd04dfd6b17dfb5c68a944333810cac)
+        ;
+
+        
+    
+    
+            var marker_5142c1a8712abe0f9c32ba47d263b1e9 = L.marker(
+                [28.5887618, -81.1953179],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_121138bfbe3d9f1f0fd43b52e9ebf3ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5142c1a8712abe0f9c32ba47d263b1e9.setIcon(icon_121138bfbe3d9f1f0fd43b52e9ebf3ed);
+        
+    
+        var popup_237308351cc5ae3cdf077f53c95749b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_428f334628ad0e212d65c0b9fea9e1b0 = $(`<div id="html_428f334628ad0e212d65c0b9fea9e1b0" style="width: 100.0%; height: 100.0%;">Orlando: SemaCharge Network</div>`)[0];
+                popup_237308351cc5ae3cdf077f53c95749b9.setContent(html_428f334628ad0e212d65c0b9fea9e1b0);
+            
+        
+
+        marker_5142c1a8712abe0f9c32ba47d263b1e9.bindPopup(popup_237308351cc5ae3cdf077f53c95749b9)
+        ;
+
+        
+    
+    
+            var marker_74cdf35cca4081fe291dd63b9593c97c = L.marker(
+                [38.2186745, -104.6407541],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f608fe20f76aaee92b39971b5b5e458b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_74cdf35cca4081fe291dd63b9593c97c.setIcon(icon_f608fe20f76aaee92b39971b5b5e458b);
+        
+    
+        var popup_134dc9dd020b166ed8575ef05ff87f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_728e4dc8782b717e784b304eed8b37ea = $(`<div id="html_728e4dc8782b717e784b304eed8b37ea" style="width: 100.0%; height: 100.0%;">Pueblo: SemaCharge Network</div>`)[0];
+                popup_134dc9dd020b166ed8575ef05ff87f9f.setContent(html_728e4dc8782b717e784b304eed8b37ea);
+            
+        
+
+        marker_74cdf35cca4081fe291dd63b9593c97c.bindPopup(popup_134dc9dd020b166ed8575ef05ff87f9f)
+        ;
+
+        
+    
+    
+            var marker_b4d7049b7f8003add64b6da2982b7742 = L.marker(
+                [35.50063, -80.62816],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_05714b796c4eb681bb1c663b94cf0bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b4d7049b7f8003add64b6da2982b7742.setIcon(icon_05714b796c4eb681bb1c663b94cf0bf3);
+        
+    
+        var popup_bd3b598ac09ce8d0a43ac659f7c60815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50659b6bdcb0f53e19454e249d89154c = $(`<div id="html_50659b6bdcb0f53e19454e249d89154c" style="width: 100.0%; height: 100.0%;">Kannapolis: SHELL_RECHARGE</div>`)[0];
+                popup_bd3b598ac09ce8d0a43ac659f7c60815.setContent(html_50659b6bdcb0f53e19454e249d89154c);
+            
+        
+
+        marker_b4d7049b7f8003add64b6da2982b7742.bindPopup(popup_bd3b598ac09ce8d0a43ac659f7c60815)
+        ;
+
+        
+    
+    
+            var marker_22f73fa804af209fb22f9389ad0102bb = L.marker(
+                [36.22047, -115.3293],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_c81889f05b2de67ab366bae864f41ddb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_22f73fa804af209fb22f9389ad0102bb.setIcon(icon_c81889f05b2de67ab366bae864f41ddb);
+        
+    
+        var popup_e9d0f19538c8fffec322a8d58c312c8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce802e3d480e90ed28706063e7e7a89b = $(`<div id="html_ce802e3d480e90ed28706063e7e7a89b" style="width: 100.0%; height: 100.0%;">Las Vegas: eVgo Network</div>`)[0];
+                popup_e9d0f19538c8fffec322a8d58c312c8b.setContent(html_ce802e3d480e90ed28706063e7e7a89b);
+            
+        
+
+        marker_22f73fa804af209fb22f9389ad0102bb.bindPopup(popup_e9d0f19538c8fffec322a8d58c312c8b)
+        ;
+
+        
+    
+    
+            var marker_a3fa35ae98ae719137af7a3a8d82149a = L.marker(
+                [42.510523, -71.23016],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_b2b29a6a8b7dabd4d7218a856a5aed38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a3fa35ae98ae719137af7a3a8d82149a.setIcon(icon_b2b29a6a8b7dabd4d7218a856a5aed38);
+        
+    
+        var popup_e3e545e7c11156d5743cdff5f0aa7c57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e083cfe5883a2b93e98b4f225f28eed5 = $(`<div id="html_e083cfe5883a2b93e98b4f225f28eed5" style="width: 100.0%; height: 100.0%;">Burlington: ChargePoint Network</div>`)[0];
+                popup_e3e545e7c11156d5743cdff5f0aa7c57.setContent(html_e083cfe5883a2b93e98b4f225f28eed5);
+            
+        
+
+        marker_a3fa35ae98ae719137af7a3a8d82149a.bindPopup(popup_e3e545e7c11156d5743cdff5f0aa7c57)
+        ;
+
+        
+    
+    
+            var marker_750b3af97a73452a042b3d076ec600ca = L.marker(
+                [35.58424, -82.523956],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_9f41c9372b15d8e3d8591139013564ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_750b3af97a73452a042b3d076ec600ca.setIcon(icon_9f41c9372b15d8e3d8591139013564ef);
+        
+    
+        var popup_32c1e9f1ff1cc600cfadf8280d87c0db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_746da3c61c947d55adc16774385fc79e = $(`<div id="html_746da3c61c947d55adc16774385fc79e" style="width: 100.0%; height: 100.0%;">Asheville: Tesla</div>`)[0];
+                popup_32c1e9f1ff1cc600cfadf8280d87c0db.setContent(html_746da3c61c947d55adc16774385fc79e);
+            
+        
+
+        marker_750b3af97a73452a042b3d076ec600ca.bindPopup(popup_32c1e9f1ff1cc600cfadf8280d87c0db)
+        ;
+
+        
+    
+    
+            var marker_5406ab43274e1ec939ce3dd4ebdf2dd7 = L.marker(
+                [32.499111, -85.015305],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_cd400f625a058f49e6b69d89dddb0b74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5406ab43274e1ec939ce3dd4ebdf2dd7.setIcon(icon_cd400f625a058f49e6b69d89dddb0b74);
+        
+    
+        var popup_e2695f01fc2f178067b08773eaf3a8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ade3ece383860a323c4308feb10f46 = $(`<div id="html_e4ade3ece383860a323c4308feb10f46" style="width: 100.0%; height: 100.0%;">Phenix City: Non-Networked</div>`)[0];
+                popup_e2695f01fc2f178067b08773eaf3a8da.setContent(html_e4ade3ece383860a323c4308feb10f46);
+            
+        
+
+        marker_5406ab43274e1ec939ce3dd4ebdf2dd7.bindPopup(popup_e2695f01fc2f178067b08773eaf3a8da)
+        ;
+
+        
+    
+    
+            var marker_ae16565f778d3a4b41d41556dad3eb8c = L.marker(
+                [25.11364, -80.42166],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_0d030db8c3b9427b08e5168f93385cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ae16565f778d3a4b41d41556dad3eb8c.setIcon(icon_0d030db8c3b9427b08e5168f93385cb8);
+        
+    
+        var popup_24c80774a117209d0c53dd5013336176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2425e714d0ee66ae18c766236e978dd = $(`<div id="html_d2425e714d0ee66ae18c766236e978dd" style="width: 100.0%; height: 100.0%;">Key Largo: Electrify America</div>`)[0];
+                popup_24c80774a117209d0c53dd5013336176.setContent(html_d2425e714d0ee66ae18c766236e978dd);
+            
+        
+
+        marker_ae16565f778d3a4b41d41556dad3eb8c.bindPopup(popup_24c80774a117209d0c53dd5013336176)
+        ;
+
+        
+    
+    
+            var marker_03d042156da7a0518d1a0475d010d204 = L.marker(
+                [34.840679, -86.62964],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_25edf8ed0146163589f798b4253de5a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_03d042156da7a0518d1a0475d010d204.setIcon(icon_25edf8ed0146163589f798b4253de5a0);
+        
+    
+        var popup_bcd1a96e4a568812143e65bee7a9c12e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca9b5a39ef59177283cb3140a3246e2c = $(`<div id="html_ca9b5a39ef59177283cb3140a3246e2c" style="width: 100.0%; height: 100.0%;">Huntsville: ChargePoint Network</div>`)[0];
+                popup_bcd1a96e4a568812143e65bee7a9c12e.setContent(html_ca9b5a39ef59177283cb3140a3246e2c);
+            
+        
+
+        marker_03d042156da7a0518d1a0475d010d204.bindPopup(popup_bcd1a96e4a568812143e65bee7a9c12e)
+        ;
+
+        
+    
+    
+            var marker_d02e1bc04ad5f22007b9089004509aeb = L.marker(
+                [43.808128, -91.252894],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_c1284a042c8f91554d4964ae2aa7c753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d02e1bc04ad5f22007b9089004509aeb.setIcon(icon_c1284a042c8f91554d4964ae2aa7c753);
+        
+    
+        var popup_5afa0adca51669648ffdd2df3395352e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf32efaf24e333a9c014d550a966de12 = $(`<div id="html_bf32efaf24e333a9c014d550a966de12" style="width: 100.0%; height: 100.0%;">La Crosse: Non-Networked</div>`)[0];
+                popup_5afa0adca51669648ffdd2df3395352e.setContent(html_bf32efaf24e333a9c014d550a966de12);
+            
+        
+
+        marker_d02e1bc04ad5f22007b9089004509aeb.bindPopup(popup_5afa0adca51669648ffdd2df3395352e)
+        ;
+
+        
+    
+    
+            var marker_b321b00d5c3a06a629cd95e9b25cebd4 = L.marker(
+                [40.918106, -73.123368],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_355c21b71bd32fca82f9f4158eb2eae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b321b00d5c3a06a629cd95e9b25cebd4.setIcon(icon_355c21b71bd32fca82f9f4158eb2eae6);
+        
+    
+        var popup_902bc031cd288a064a7fe6bfa0d2d5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b87d60b8a28c05c5a9043fe084334e2 = $(`<div id="html_1b87d60b8a28c05c5a9043fe084334e2" style="width: 100.0%; height: 100.0%;">Stony Brook: ChargePoint Network</div>`)[0];
+                popup_902bc031cd288a064a7fe6bfa0d2d5f9.setContent(html_1b87d60b8a28c05c5a9043fe084334e2);
+            
+        
+
+        marker_b321b00d5c3a06a629cd95e9b25cebd4.bindPopup(popup_902bc031cd288a064a7fe6bfa0d2d5f9)
+        ;
+
+        
+    
+    
+            var marker_1a0f8555af71d20ea070c4f38e86f0e8 = L.marker(
+                [37.703138, -122.129266],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_f2b52efa833944a0780d02f0d7427959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_1a0f8555af71d20ea070c4f38e86f0e8.setIcon(icon_f2b52efa833944a0780d02f0d7427959);
+        
+    
+        var popup_cdae2a21d38066ee9aa56be12c57b66b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_754e432787ccd483bf7527583dad3ef9 = $(`<div id="html_754e432787ccd483bf7527583dad3ef9" style="width: 100.0%; height: 100.0%;">San Leandro: eVgo Network</div>`)[0];
+                popup_cdae2a21d38066ee9aa56be12c57b66b.setContent(html_754e432787ccd483bf7527583dad3ef9);
+            
+        
+
+        marker_1a0f8555af71d20ea070c4f38e86f0e8.bindPopup(popup_cdae2a21d38066ee9aa56be12c57b66b)
+        ;
+
+        
+    
+    
+            var marker_64eda2099e74b3abc641e3f630a806fd = L.marker(
+                [41.079753, -85.136878],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_254616fa98671080eaa809a629d0b827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_64eda2099e74b3abc641e3f630a806fd.setIcon(icon_254616fa98671080eaa809a629d0b827);
+        
+    
+        var popup_ae50f56f25b7c1f72c3e045893095af9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e634a0db3b6dc23230d5bd02e842f1ae = $(`<div id="html_e634a0db3b6dc23230d5bd02e842f1ae" style="width: 100.0%; height: 100.0%;">Fort Wayne: ChargePoint Network</div>`)[0];
+                popup_ae50f56f25b7c1f72c3e045893095af9.setContent(html_e634a0db3b6dc23230d5bd02e842f1ae);
+            
+        
+
+        marker_64eda2099e74b3abc641e3f630a806fd.bindPopup(popup_ae50f56f25b7c1f72c3e045893095af9)
+        ;
+
+        
+    
+    
+            var marker_fc0f1450a3d935e558c6218e4309def3 = L.marker(
+                [43.4074133604501, -84.6472158395183],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_555a6666ca6dac3fc1937978be893b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fc0f1450a3d935e558c6218e4309def3.setIcon(icon_555a6666ca6dac3fc1937978be893b02);
+        
+    
+        var popup_addb98605f013d47792d0605b623ff51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af0ae27bd4028c9cfd3f0d4183d42be = $(`<div id="html_4af0ae27bd4028c9cfd3f0d4183d42be" style="width: 100.0%; height: 100.0%;">Alma: Non-Networked</div>`)[0];
+                popup_addb98605f013d47792d0605b623ff51.setContent(html_4af0ae27bd4028c9cfd3f0d4183d42be);
+            
+        
+
+        marker_fc0f1450a3d935e558c6218e4309def3.bindPopup(popup_addb98605f013d47792d0605b623ff51)
+        ;
+
+        
+    
+    
+            var marker_4bad4d30b99edea0f7c360a724410db0 = L.marker(
+                [38.035409, -78.482316],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_d328a4f6b7553002e7da8bb661f664c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4bad4d30b99edea0f7c360a724410db0.setIcon(icon_d328a4f6b7553002e7da8bb661f664c4);
+        
+    
+        var popup_40881bbb035a6ff089a468a37e6f0893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a268bd330c7540f7a43fdf19b33dd8a1 = $(`<div id="html_a268bd330c7540f7a43fdf19b33dd8a1" style="width: 100.0%; height: 100.0%;">Charlottesville: ChargePoint Network</div>`)[0];
+                popup_40881bbb035a6ff089a468a37e6f0893.setContent(html_a268bd330c7540f7a43fdf19b33dd8a1);
+            
+        
+
+        marker_4bad4d30b99edea0f7c360a724410db0.bindPopup(popup_40881bbb035a6ff089a468a37e6f0893)
+        ;
+
+        
+    
+    
+            var marker_beb57245474279b99d0a2840ec2f60ab = L.marker(
+                [25.7523052, -80.2617674],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_80b9266b9451b4ad041f6ce0c3f4216a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_beb57245474279b99d0a2840ec2f60ab.setIcon(icon_80b9266b9451b4ad041f6ce0c3f4216a);
+        
+    
+        var popup_f957424b1f6da7a5ba7b85d547017db1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_280bb9e07fc057d0052df53bf3b5f705 = $(`<div id="html_280bb9e07fc057d0052df53bf3b5f705" style="width: 100.0%; height: 100.0%;">Coral Gables: SemaCharge Network</div>`)[0];
+                popup_f957424b1f6da7a5ba7b85d547017db1.setContent(html_280bb9e07fc057d0052df53bf3b5f705);
+            
+        
+
+        marker_beb57245474279b99d0a2840ec2f60ab.bindPopup(popup_f957424b1f6da7a5ba7b85d547017db1)
+        ;
+
+        
+    
+    
+            var marker_388e16df0e8b28684f0481f581f5fa8b = L.marker(
+                [42.360211, -83.064826],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_0073f6849a3cfa5f5d3bd976f8a3bd51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_388e16df0e8b28684f0481f581f5fa8b.setIcon(icon_0073f6849a3cfa5f5d3bd976f8a3bd51);
+        
+    
+        var popup_ee1e47570335acd8169be93ffef71072 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9db0a501a65c46af4a887f1afa71737a = $(`<div id="html_9db0a501a65c46af4a887f1afa71737a" style="width: 100.0%; height: 100.0%;">Detroit: ChargePoint Network</div>`)[0];
+                popup_ee1e47570335acd8169be93ffef71072.setContent(html_9db0a501a65c46af4a887f1afa71737a);
+            
+        
+
+        marker_388e16df0e8b28684f0481f581f5fa8b.bindPopup(popup_ee1e47570335acd8169be93ffef71072)
+        ;
+
+        
+    
+    
+            var marker_88b97a2aef2aba140290c868dffbfacf = L.marker(
+                [29.8620131, -95.6471029],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_4171744b3cd8ad22b4282f4183d55545 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_88b97a2aef2aba140290c868dffbfacf.setIcon(icon_4171744b3cd8ad22b4282f4183d55545);
+        
+    
+        var popup_6c6936ac96099e9cac812855bee73eb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7134a7fba9c7f84321fd8e1936f518b = $(`<div id="html_f7134a7fba9c7f84321fd8e1936f518b" style="width: 100.0%; height: 100.0%;">Houston: SemaCharge Network</div>`)[0];
+                popup_6c6936ac96099e9cac812855bee73eb5.setContent(html_f7134a7fba9c7f84321fd8e1936f518b);
+            
+        
+
+        marker_88b97a2aef2aba140290c868dffbfacf.bindPopup(popup_6c6936ac96099e9cac812855bee73eb5)
+        ;
+
+        
+    
+    
+            var marker_9655181bc6ac63fb1a5960b504281ea2 = L.marker(
+                [32.7358471, -96.2729153],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_5e9a7b023dfe1309c584800031ed5ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9655181bc6ac63fb1a5960b504281ea2.setIcon(icon_5e9a7b023dfe1309c584800031ed5ab2);
+        
+    
+        var popup_da3ffce7e80f3eecf58580b5ba5f9371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_687d272edeb214f12c6c5625d9070af0 = $(`<div id="html_687d272edeb214f12c6c5625d9070af0" style="width: 100.0%; height: 100.0%;">Terrell: UNIVERSAL</div>`)[0];
+                popup_da3ffce7e80f3eecf58580b5ba5f9371.setContent(html_687d272edeb214f12c6c5625d9070af0);
+            
+        
+
+        marker_9655181bc6ac63fb1a5960b504281ea2.bindPopup(popup_da3ffce7e80f3eecf58580b5ba5f9371)
+        ;
+
+        
+    
+    
+            var marker_ebd7cf9f9878cdb33781c81119ec2d1e = L.marker(
+                [44.69659, -73.49153],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_85c756bffcb47455caa9ce94d8b4f759 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ebd7cf9f9878cdb33781c81119ec2d1e.setIcon(icon_85c756bffcb47455caa9ce94d8b4f759);
+        
+    
+        var popup_954e4f6b5a3a6e04f6fdd51d5f002a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9092e40c7556c3c8af9d581d2234c1f = $(`<div id="html_a9092e40c7556c3c8af9d581d2234c1f" style="width: 100.0%; height: 100.0%;">Plattsburgh: Tesla Destination</div>`)[0];
+                popup_954e4f6b5a3a6e04f6fdd51d5f002a3c.setContent(html_a9092e40c7556c3c8af9d581d2234c1f);
+            
+        
+
+        marker_ebd7cf9f9878cdb33781c81119ec2d1e.bindPopup(popup_954e4f6b5a3a6e04f6fdd51d5f002a3c)
+        ;
+
+        
+    
+    
+            var marker_b38b5b0c09724a48bb13d50d7a85a8a2 = L.marker(
+                [36.627232, -93.344786],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_1cf2544e8b9ac60e82932c902d803d2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b38b5b0c09724a48bb13d50d7a85a8a2.setIcon(icon_1cf2544e8b9ac60e82932c902d803d2f);
+        
+    
+        var popup_86f9ee35dd82abc466777f93f1250277 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5145c851aaa9b4520717dbf6c7286bd0 = $(`<div id="html_5145c851aaa9b4520717dbf6c7286bd0" style="width: 100.0%; height: 100.0%;">Branson: Non-Networked</div>`)[0];
+                popup_86f9ee35dd82abc466777f93f1250277.setContent(html_5145c851aaa9b4520717dbf6c7286bd0);
+            
+        
+
+        marker_b38b5b0c09724a48bb13d50d7a85a8a2.bindPopup(popup_86f9ee35dd82abc466777f93f1250277)
+        ;
+
+        
+    
+    
+            var marker_ae8f6c3519177c40682d6d005460e088 = L.marker(
+                [33.766351, -118.19755],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_8c4ee83c3821572ff853f2acfc524e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ae8f6c3519177c40682d6d005460e088.setIcon(icon_8c4ee83c3821572ff853f2acfc524e2a);
+        
+    
+        var popup_8a13f11d6304bb5a7720e37da3d973a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e524133d9ffa7667354461e856b84da2 = $(`<div id="html_e524133d9ffa7667354461e856b84da2" style="width: 100.0%; height: 100.0%;">Long Beach: ChargePoint Network</div>`)[0];
+                popup_8a13f11d6304bb5a7720e37da3d973a2.setContent(html_e524133d9ffa7667354461e856b84da2);
+            
+        
+
+        marker_ae8f6c3519177c40682d6d005460e088.bindPopup(popup_8a13f11d6304bb5a7720e37da3d973a2)
+        ;
+
+        
+    
+    
+            var marker_382c3b86cf6a89e3bbeead1ccb81690b = L.marker(
+                [40.682181, -99.083326],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_0231f371034ea39cf74f6d1c0a2e7665 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_382c3b86cf6a89e3bbeead1ccb81690b.setIcon(icon_0231f371034ea39cf74f6d1c0a2e7665);
+        
+    
+        var popup_4db7fc6a3d7908cbacaab42e2b56e70d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39ce6c8f1bcc6ec87227cdc034a299e8 = $(`<div id="html_39ce6c8f1bcc6ec87227cdc034a299e8" style="width: 100.0%; height: 100.0%;">Kearney: Tesla</div>`)[0];
+                popup_4db7fc6a3d7908cbacaab42e2b56e70d.setContent(html_39ce6c8f1bcc6ec87227cdc034a299e8);
+            
+        
+
+        marker_382c3b86cf6a89e3bbeead1ccb81690b.bindPopup(popup_4db7fc6a3d7908cbacaab42e2b56e70d)
+        ;
+
+        
+    
+    
+            var marker_b9bdc45b13021e3c379f3a8a9d7af435 = L.marker(
+                [34.235678, -77.948353],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_8b42a0183fa4c55599cb6049175591a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b9bdc45b13021e3c379f3a8a9d7af435.setIcon(icon_8b42a0183fa4c55599cb6049175591a0);
+        
+    
+        var popup_94040a513eb3b69906904cd8178e01ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_799aceafbf8bae07c09920753b519c96 = $(`<div id="html_799aceafbf8bae07c09920753b519c96" style="width: 100.0%; height: 100.0%;">Wilmington: ChargePoint Network</div>`)[0];
+                popup_94040a513eb3b69906904cd8178e01ca.setContent(html_799aceafbf8bae07c09920753b519c96);
+            
+        
+
+        marker_b9bdc45b13021e3c379f3a8a9d7af435.bindPopup(popup_94040a513eb3b69906904cd8178e01ca)
+        ;
+
+        
+    
+    
+            var marker_d06b3523cec59bb5f19dffba95a59da9 = L.marker(
+                [46.9789, -120.54343],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_12ec0de6b3777d4982d151e76ccafe7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d06b3523cec59bb5f19dffba95a59da9.setIcon(icon_12ec0de6b3777d4982d151e76ccafe7a);
+        
+    
+        var popup_bfb5d1a1882806e239f21b35514dc8ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d3e1917b5d15c9d65e649c528ea1d08 = $(`<div id="html_0d3e1917b5d15c9d65e649c528ea1d08" style="width: 100.0%; height: 100.0%;">Ellensburg: Electrify America</div>`)[0];
+                popup_bfb5d1a1882806e239f21b35514dc8ce.setContent(html_0d3e1917b5d15c9d65e649c528ea1d08);
+            
+        
+
+        marker_d06b3523cec59bb5f19dffba95a59da9.bindPopup(popup_bfb5d1a1882806e239f21b35514dc8ce)
+        ;
+
+        
+    
+    
+            var marker_fb3b9dcddfc38e71fd3c3326f9998817 = L.marker(
+                [45.298048, -122.563601],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_aa23110e6aa5200902d56dca2bedb839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fb3b9dcddfc38e71fd3c3326f9998817.setIcon(icon_aa23110e6aa5200902d56dca2bedb839);
+        
+    
+        var popup_16cb80a4d98f64b500424c2545097ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9d389eed4d9ce915704dc304488ecac = $(`<div id="html_a9d389eed4d9ce915704dc304488ecac" style="width: 100.0%; height: 100.0%;">Oregon City: Non-Networked</div>`)[0];
+                popup_16cb80a4d98f64b500424c2545097ff1.setContent(html_a9d389eed4d9ce915704dc304488ecac);
+            
+        
+
+        marker_fb3b9dcddfc38e71fd3c3326f9998817.bindPopup(popup_16cb80a4d98f64b500424c2545097ff1)
+        ;
+
+        
+    
+    
+            var marker_1ea3bfd200c2dbbd87ea9a8c8f1426ba = L.marker(
+                [38.403224467291, -122.71768665264],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_2622f2792ec0e85c2e3c7ce08aa34952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_1ea3bfd200c2dbbd87ea9a8c8f1426ba.setIcon(icon_2622f2792ec0e85c2e3c7ce08aa34952);
+        
+    
+        var popup_8e497aeb2ff9cf94d826aa53a20a293f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8033f7ec9bae61da3817be75b553f4 = $(`<div id="html_7d8033f7ec9bae61da3817be75b553f4" style="width: 100.0%; height: 100.0%;">Santa Rosa: Non-Networked</div>`)[0];
+                popup_8e497aeb2ff9cf94d826aa53a20a293f.setContent(html_7d8033f7ec9bae61da3817be75b553f4);
+            
+        
+
+        marker_1ea3bfd200c2dbbd87ea9a8c8f1426ba.bindPopup(popup_8e497aeb2ff9cf94d826aa53a20a293f)
+        ;
+
+        
+    
+    
+            var marker_03cabb78b55b7f901497a104c472c1e0 = L.marker(
+                [39.663533, -75.605014],
+                {}
+            ).addTo(map_4d8b2e19d3cda6cd70963718c7605e94);
+        
+    
+            var icon_905a0cd72340f656a77ecbdbc0e64436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_03cabb78b55b7f901497a104c472c1e0.setIcon(icon_905a0cd72340f656a77ecbdbc0e64436);
+        
+    
+        var popup_fe7133f295304806a72a3b3115a4d154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db5f052c38b61c546d2b459b75561aee = $(`<div id="html_db5f052c38b61c546d2b459b75561aee" style="width: 100.0%; height: 100.0%;">New Castle: Non-Networked</div>`)[0];
+                popup_fe7133f295304806a72a3b3115a4d154.setContent(html_db5f052c38b61c546d2b459b75561aee);
+            
+        
+
+        marker_03cabb78b55b7f901497a104c472c1e0.bindPopup(popup_fe7133f295304806a72a3b3115a4d154)
+        ;
+
+        
+    
+</script>
+</html>

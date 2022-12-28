@@ -1,0 +1,2769 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c2bcad20cb16f3b2ed31b40098cb6b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5c2bcad20cb16f3b2ed31b40098cb6b7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5c2bcad20cb16f3b2ed31b40098cb6b7 = L.map(
+                "map_5c2bcad20cb16f3b2ed31b40098cb6b7",
+                {
+                    center: [38.5, -95.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+
+            
+
+        
+    
+            var tile_layer_0bf1fc9628a9792eefc9ae7fe789defc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 9, "maxZoom": 9, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var marker_f4f295548d3c82b146e06279dcd2ed0b = L.marker(
+                [37.548267, -121.981607],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_ee4bf25ab2c07dc7e4e0ee2ab654317c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f4f295548d3c82b146e06279dcd2ed0b.setIcon(icon_ee4bf25ab2c07dc7e4e0ee2ab654317c);
+        
+    
+        var popup_b08f500a56db38de5bee57d9bcf5b25f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5be3b25b2407b15cdc64c9afe72aeb7 = $(`<div id="html_a5be3b25b2407b15cdc64c9afe72aeb7" style="width: 100.0%; height: 100.0%;">Fremont: ELEC</div>`)[0];
+                popup_b08f500a56db38de5bee57d9bcf5b25f.setContent(html_a5be3b25b2407b15cdc64c9afe72aeb7);
+            
+        
+
+        marker_f4f295548d3c82b146e06279dcd2ed0b.bindPopup(popup_b08f500a56db38de5bee57d9bcf5b25f)
+        ;
+
+        
+    
+    
+            var marker_8bef8802b4aac216a7fd00b00083a93c = L.marker(
+                [43.178306, -84.862415],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_b9aad5af1271fb385a7828f7dc9467fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8bef8802b4aac216a7fd00b00083a93c.setIcon(icon_b9aad5af1271fb385a7828f7dc9467fc);
+        
+    
+        var popup_64c25cd0b752c33474316bc6eccd970c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be43fa69df6a4e238acf09546448e881 = $(`<div id="html_be43fa69df6a4e238acf09546448e881" style="width: 100.0%; height: 100.0%;">Carson City: ELEC</div>`)[0];
+                popup_64c25cd0b752c33474316bc6eccd970c.setContent(html_be43fa69df6a4e238acf09546448e881);
+            
+        
+
+        marker_8bef8802b4aac216a7fd00b00083a93c.bindPopup(popup_64c25cd0b752c33474316bc6eccd970c)
+        ;
+
+        
+    
+    
+            var marker_be45d46f9c7daf691c303c28d3ce0109 = L.marker(
+                [33.317842, -117.320512],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_19cd1c1b46fdf967adeb6c0afe1887df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_be45d46f9c7daf691c303c28d3ce0109.setIcon(icon_19cd1c1b46fdf967adeb6c0afe1887df);
+        
+    
+        var popup_c8da085a08c036a22a243f12bdf6bfb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5d5f9520b6cbfdd0008d141196343c3 = $(`<div id="html_a5d5f9520b6cbfdd0008d141196343c3" style="width: 100.0%; height: 100.0%;">Camp Pendleton: ELEC</div>`)[0];
+                popup_c8da085a08c036a22a243f12bdf6bfb4.setContent(html_a5d5f9520b6cbfdd0008d141196343c3);
+            
+        
+
+        marker_be45d46f9c7daf691c303c28d3ce0109.bindPopup(popup_c8da085a08c036a22a243f12bdf6bfb4)
+        ;
+
+        
+    
+    
+            var marker_5a4a7fc35bfd0f927f90e21332850977 = L.marker(
+                [43.066864, -70.776968],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_a60a7f3a1cfc1b7208dff1f0d4520f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5a4a7fc35bfd0f927f90e21332850977.setIcon(icon_a60a7f3a1cfc1b7208dff1f0d4520f6a);
+        
+    
+        var popup_ba58ba52e593ca9e4962f136cf5c7ddd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed524a4d1af754135349ae6c1a7c2548 = $(`<div id="html_ed524a4d1af754135349ae6c1a7c2548" style="width: 100.0%; height: 100.0%;">Portsmouth: LPG</div>`)[0];
+                popup_ba58ba52e593ca9e4962f136cf5c7ddd.setContent(html_ed524a4d1af754135349ae6c1a7c2548);
+            
+        
+
+        marker_5a4a7fc35bfd0f927f90e21332850977.bindPopup(popup_ba58ba52e593ca9e4962f136cf5c7ddd)
+        ;
+
+        
+    
+    
+            var marker_2c45ddb6c2fe2259f7a6a8bb18790502 = L.marker(
+                [37.743308, -121.428495],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_88b157be88cb9ce590b358e71b128fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2c45ddb6c2fe2259f7a6a8bb18790502.setIcon(icon_88b157be88cb9ce590b358e71b128fcb);
+        
+    
+        var popup_934258b4139dbd9f3cda0349218b6e33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d35630588700eac8e36001a34718dabb = $(`<div id="html_d35630588700eac8e36001a34718dabb" style="width: 100.0%; height: 100.0%;">Tracy: ELEC</div>`)[0];
+                popup_934258b4139dbd9f3cda0349218b6e33.setContent(html_d35630588700eac8e36001a34718dabb);
+            
+        
+
+        marker_2c45ddb6c2fe2259f7a6a8bb18790502.bindPopup(popup_934258b4139dbd9f3cda0349218b6e33)
+        ;
+
+        
+    
+    
+            var marker_9a2d085d8a280ebf9c0f0a592d3958b3 = L.marker(
+                [39.169981, -94.645653],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_82555ccf43b006a83146de92d2fcb002 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9a2d085d8a280ebf9c0f0a592d3958b3.setIcon(icon_82555ccf43b006a83146de92d2fcb002);
+        
+    
+        var popup_fec5646b3e28173f0a0f21145d7d0129 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_218b4aea8626568f168a4b82783c037c = $(`<div id="html_218b4aea8626568f168a4b82783c037c" style="width: 100.0%; height: 100.0%;">Riverside: ELEC</div>`)[0];
+                popup_fec5646b3e28173f0a0f21145d7d0129.setContent(html_218b4aea8626568f168a4b82783c037c);
+            
+        
+
+        marker_9a2d085d8a280ebf9c0f0a592d3958b3.bindPopup(popup_fec5646b3e28173f0a0f21145d7d0129)
+        ;
+
+        
+    
+    
+            var marker_4aada706cdad42b7ceb9b41166fc66cd = L.marker(
+                [45.627361, -122.673261],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_ac1ec6140131acaf8ecd9a378ce3b15d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4aada706cdad42b7ceb9b41166fc66cd.setIcon(icon_ac1ec6140131acaf8ecd9a378ce3b15d);
+        
+    
+        var popup_78dd4d61eb902ecf9db27f962a341c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb2c36fca72c55d6916ee0055a0fdad8 = $(`<div id="html_eb2c36fca72c55d6916ee0055a0fdad8" style="width: 100.0%; height: 100.0%;">Vancouver: ELEC</div>`)[0];
+                popup_78dd4d61eb902ecf9db27f962a341c26.setContent(html_eb2c36fca72c55d6916ee0055a0fdad8);
+            
+        
+
+        marker_4aada706cdad42b7ceb9b41166fc66cd.bindPopup(popup_78dd4d61eb902ecf9db27f962a341c26)
+        ;
+
+        
+    
+    
+            var marker_e90aeac28607d04e0bf322b0999a90a0 = L.marker(
+                [38.9190842, -78.15435],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_3e82ad2e65e38f4ba90b667e0dd87ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e90aeac28607d04e0bf322b0999a90a0.setIcon(icon_3e82ad2e65e38f4ba90b667e0dd87ae5);
+        
+    
+        var popup_6191638c786d11ef354d3689a08b055b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a2529b48a1a97d77fc21ad9f7eeb575 = $(`<div id="html_3a2529b48a1a97d77fc21ad9f7eeb575" style="width: 100.0%; height: 100.0%;">Front Royal: ELEC</div>`)[0];
+                popup_6191638c786d11ef354d3689a08b055b.setContent(html_3a2529b48a1a97d77fc21ad9f7eeb575);
+            
+        
+
+        marker_e90aeac28607d04e0bf322b0999a90a0.bindPopup(popup_6191638c786d11ef354d3689a08b055b)
+        ;
+
+        
+    
+    
+            var marker_eb50d332c8aa7a6081e6212a9d8471b4 = L.marker(
+                [38.616948, -122.593873],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_3d8582c00ce116fb1247ad121e4ec489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_eb50d332c8aa7a6081e6212a9d8471b4.setIcon(icon_3d8582c00ce116fb1247ad121e4ec489);
+        
+    
+        var popup_396cd244abfae81b165e75d0cdc7fb6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c802cf5541cd8fcdacf13a897697ca3c = $(`<div id="html_c802cf5541cd8fcdacf13a897697ca3c" style="width: 100.0%; height: 100.0%;">Calistoga: ELEC</div>`)[0];
+                popup_396cd244abfae81b165e75d0cdc7fb6f.setContent(html_c802cf5541cd8fcdacf13a897697ca3c);
+            
+        
+
+        marker_eb50d332c8aa7a6081e6212a9d8471b4.bindPopup(popup_396cd244abfae81b165e75d0cdc7fb6f)
+        ;
+
+        
+    
+    
+            var marker_c5af8b1687d154064442eef7f47bf451 = L.marker(
+                [40.739074, -84.026939],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_4da043a469d247202b538f9af0bef7e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c5af8b1687d154064442eef7f47bf451.setIcon(icon_4da043a469d247202b538f9af0bef7e3);
+        
+    
+        var popup_0c8d0286599e4e2851eb379f765a5f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1baa447d40bd1c95057e67e5ff8f0b8c = $(`<div id="html_1baa447d40bd1c95057e67e5ff8f0b8c" style="width: 100.0%; height: 100.0%;">Lima: ELEC</div>`)[0];
+                popup_0c8d0286599e4e2851eb379f765a5f2d.setContent(html_1baa447d40bd1c95057e67e5ff8f0b8c);
+            
+        
+
+        marker_c5af8b1687d154064442eef7f47bf451.bindPopup(popup_0c8d0286599e4e2851eb379f765a5f2d)
+        ;
+
+        
+    
+    
+            var marker_7867410c476c0a8cacab6570fcc6ea57 = L.marker(
+                [33.923391, -118.240101],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_85124d9f9826dd893c3619594f06f61e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7867410c476c0a8cacab6570fcc6ea57.setIcon(icon_85124d9f9826dd893c3619594f06f61e);
+        
+    
+        var popup_83e2f090edf7ec7384af6ee1f934840b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0575c39ab82ff9e05dc3adc2c7ff72e1 = $(`<div id="html_0575c39ab82ff9e05dc3adc2c7ff72e1" style="width: 100.0%; height: 100.0%;">Los Angeles: ELEC</div>`)[0];
+                popup_83e2f090edf7ec7384af6ee1f934840b.setContent(html_0575c39ab82ff9e05dc3adc2c7ff72e1);
+            
+        
+
+        marker_7867410c476c0a8cacab6570fcc6ea57.bindPopup(popup_83e2f090edf7ec7384af6ee1f934840b)
+        ;
+
+        
+    
+    
+            var marker_28248637975712ee74dbcd22900bd3a7 = L.marker(
+                [39.4069961, -76.7819518],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_bac4555d0415ebdffdea05b184e254b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_28248637975712ee74dbcd22900bd3a7.setIcon(icon_bac4555d0415ebdffdea05b184e254b3);
+        
+    
+        var popup_67519ff9cd4efcb4d889fe945f5b0a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0e3234d09b43d920909b874d93c7401 = $(`<div id="html_e0e3234d09b43d920909b874d93c7401" style="width: 100.0%; height: 100.0%;">Owings Mills: ELEC</div>`)[0];
+                popup_67519ff9cd4efcb4d889fe945f5b0a59.setContent(html_e0e3234d09b43d920909b874d93c7401);
+            
+        
+
+        marker_28248637975712ee74dbcd22900bd3a7.bindPopup(popup_67519ff9cd4efcb4d889fe945f5b0a59)
+        ;
+
+        
+    
+    
+            var marker_af746199ab0434d56df506d4a0808bd4 = L.marker(
+                [36.034824, -115.04813],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_1f27e88a339e9bcf660b469fcbb3868d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_af746199ab0434d56df506d4a0808bd4.setIcon(icon_1f27e88a339e9bcf660b469fcbb3868d);
+        
+    
+        var popup_269057627e5b4fed9512394b6303b9b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b40c3596b835741640054dfeec21ddb6 = $(`<div id="html_b40c3596b835741640054dfeec21ddb6" style="width: 100.0%; height: 100.0%;">Henderson: ELEC</div>`)[0];
+                popup_269057627e5b4fed9512394b6303b9b6.setContent(html_b40c3596b835741640054dfeec21ddb6);
+            
+        
+
+        marker_af746199ab0434d56df506d4a0808bd4.bindPopup(popup_269057627e5b4fed9512394b6303b9b6)
+        ;
+
+        
+    
+    
+            var marker_a64633fc4ee45525bf2513ee65d0168d = L.marker(
+                [40.707242, -73.803844],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_418b4476980b31e5a5b367596fb94e57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a64633fc4ee45525bf2513ee65d0168d.setIcon(icon_418b4476980b31e5a5b367596fb94e57);
+        
+    
+        var popup_9b0b3bc8a4b84a208979390e5dad69be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc050c1822d5885b5c96b64bb48d5dd3 = $(`<div id="html_dc050c1822d5885b5c96b64bb48d5dd3" style="width: 100.0%; height: 100.0%;">Jamaica: ELEC</div>`)[0];
+                popup_9b0b3bc8a4b84a208979390e5dad69be.setContent(html_dc050c1822d5885b5c96b64bb48d5dd3);
+            
+        
+
+        marker_a64633fc4ee45525bf2513ee65d0168d.bindPopup(popup_9b0b3bc8a4b84a208979390e5dad69be)
+        ;
+
+        
+    
+    
+            var marker_47f2e02476c38d59c0e8319dded5b562 = L.marker(
+                [33.463957, -112.127562],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c9fe1018a7d73b772da93655b115c395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_47f2e02476c38d59c0e8319dded5b562.setIcon(icon_c9fe1018a7d73b772da93655b115c395);
+        
+    
+        var popup_516fd2590fcf13b360891f616790c5cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca3ecf2bb481bfc47849f9be532a8c2c = $(`<div id="html_ca3ecf2bb481bfc47849f9be532a8c2c" style="width: 100.0%; height: 100.0%;">Phoenix: BD</div>`)[0];
+                popup_516fd2590fcf13b360891f616790c5cb.setContent(html_ca3ecf2bb481bfc47849f9be532a8c2c);
+            
+        
+
+        marker_47f2e02476c38d59c0e8319dded5b562.bindPopup(popup_516fd2590fcf13b360891f616790c5cb)
+        ;
+
+        
+    
+    
+            var marker_48b50e9ef4eb4b884a2f9e14451b44b7 = L.marker(
+                [42.867376, -100.548579],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_7043105feb518788aec5e4cccc786980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_48b50e9ef4eb4b884a2f9e14451b44b7.setIcon(icon_7043105feb518788aec5e4cccc786980);
+        
+    
+        var popup_eb311afd0ed388f6fe12c5cb31a60fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3487de7b1f420819704cf9645f23a26d = $(`<div id="html_3487de7b1f420819704cf9645f23a26d" style="width: 100.0%; height: 100.0%;">Valentine: E85</div>`)[0];
+                popup_eb311afd0ed388f6fe12c5cb31a60fdb.setContent(html_3487de7b1f420819704cf9645f23a26d);
+            
+        
+
+        marker_48b50e9ef4eb4b884a2f9e14451b44b7.bindPopup(popup_eb311afd0ed388f6fe12c5cb31a60fdb)
+        ;
+
+        
+    
+    
+            var marker_7dec3d4588a470f830e25cc724c1a4c5 = L.marker(
+                [40.9702811, -73.9581533],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_16182d79970a55eb6410f3940b905773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7dec3d4588a470f830e25cc724c1a4c5.setIcon(icon_16182d79970a55eb6410f3940b905773);
+        
+    
+        var popup_c51467436d097a630dde0b002f48fada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2eb8e98cd36b235f52d178a07a6cb8c = $(`<div id="html_a2eb8e98cd36b235f52d178a07a6cb8c" style="width: 100.0%; height: 100.0%;">Closter: ELEC</div>`)[0];
+                popup_c51467436d097a630dde0b002f48fada.setContent(html_a2eb8e98cd36b235f52d178a07a6cb8c);
+            
+        
+
+        marker_7dec3d4588a470f830e25cc724c1a4c5.bindPopup(popup_c51467436d097a630dde0b002f48fada)
+        ;
+
+        
+    
+    
+            var marker_f7143072b4b70e223132a2ee74a6cae7 = L.marker(
+                [34.07208, -117.323877],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_379f98e2807cc7846516a668837bfb3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f7143072b4b70e223132a2ee74a6cae7.setIcon(icon_379f98e2807cc7846516a668837bfb3a);
+        
+    
+        var popup_341303f089a62f0a8ed777cdae011a5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b6eaf549b7f898668c6318d7555c31 = $(`<div id="html_51b6eaf549b7f898668c6318d7555c31" style="width: 100.0%; height: 100.0%;">Colton: ELEC</div>`)[0];
+                popup_341303f089a62f0a8ed777cdae011a5e.setContent(html_51b6eaf549b7f898668c6318d7555c31);
+            
+        
+
+        marker_f7143072b4b70e223132a2ee74a6cae7.bindPopup(popup_341303f089a62f0a8ed777cdae011a5e)
+        ;
+
+        
+    
+    
+            var marker_87ad3510fd7385bf0471be7f58e9b629 = L.marker(
+                [37.433223, -121.920758],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_4265216ed64d695747907f72cbbc13e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_87ad3510fd7385bf0471be7f58e9b629.setIcon(icon_4265216ed64d695747907f72cbbc13e4);
+        
+    
+        var popup_50954d209e6970ac9e16f2262f285de0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed6bf170f40878956eacd87a56ccc72 = $(`<div id="html_2ed6bf170f40878956eacd87a56ccc72" style="width: 100.0%; height: 100.0%;">Milpitas: ELEC</div>`)[0];
+                popup_50954d209e6970ac9e16f2262f285de0.setContent(html_2ed6bf170f40878956eacd87a56ccc72);
+            
+        
+
+        marker_87ad3510fd7385bf0471be7f58e9b629.bindPopup(popup_50954d209e6970ac9e16f2262f285de0)
+        ;
+
+        
+    
+    
+            var marker_4c727639f2685c34e4b094192c1d06e2 = L.marker(
+                [38.385891, -78.970885],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_bb88f9934029f3c8791dbecb4b1474bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4c727639f2685c34e4b094192c1d06e2.setIcon(icon_bb88f9934029f3c8791dbecb4b1474bf);
+        
+    
+        var popup_bb35da1578b309324a47a2d2255b76ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce8032d0fb38bbbf282f310d0ff3712c = $(`<div id="html_ce8032d0fb38bbbf282f310d0ff3712c" style="width: 100.0%; height: 100.0%;">Bridgewater: ELEC</div>`)[0];
+                popup_bb35da1578b309324a47a2d2255b76ba.setContent(html_ce8032d0fb38bbbf282f310d0ff3712c);
+            
+        
+
+        marker_4c727639f2685c34e4b094192c1d06e2.bindPopup(popup_bb35da1578b309324a47a2d2255b76ba)
+        ;
+
+        
+    
+    
+            var marker_261037e5b364c0b77bfec906d4c2fdb0 = L.marker(
+                [36.214083, -80.283069],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_09f31ce0d6a899b6888577ad85937389 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_261037e5b364c0b77bfec906d4c2fdb0.setIcon(icon_09f31ce0d6a899b6888577ad85937389);
+        
+    
+        var popup_fcd40e88c2af1c575af70a2e15749994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ffb3b0f8c5fcab3d9781f6e88fad1d = $(`<div id="html_99ffb3b0f8c5fcab3d9781f6e88fad1d" style="width: 100.0%; height: 100.0%;">Rural Hall: LPG</div>`)[0];
+                popup_fcd40e88c2af1c575af70a2e15749994.setContent(html_99ffb3b0f8c5fcab3d9781f6e88fad1d);
+            
+        
+
+        marker_261037e5b364c0b77bfec906d4c2fdb0.bindPopup(popup_fcd40e88c2af1c575af70a2e15749994)
+        ;
+
+        
+    
+    
+            var marker_6de8feeac70a8f2e45224cb7bd25d60d = L.marker(
+                [26.342284, -80.078495],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_cbf358968884093c00bf50c878dd5691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6de8feeac70a8f2e45224cb7bd25d60d.setIcon(icon_cbf358968884093c00bf50c878dd5691);
+        
+    
+        var popup_2d1872199067b803eba98f28994f4516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2306b0a1842695dd1290fdd1213e84ec = $(`<div id="html_2306b0a1842695dd1290fdd1213e84ec" style="width: 100.0%; height: 100.0%;">Boca Raton: ELEC</div>`)[0];
+                popup_2d1872199067b803eba98f28994f4516.setContent(html_2306b0a1842695dd1290fdd1213e84ec);
+            
+        
+
+        marker_6de8feeac70a8f2e45224cb7bd25d60d.bindPopup(popup_2d1872199067b803eba98f28994f4516)
+        ;
+
+        
+    
+    
+            var marker_f98b6b689ad9586207869ecbc9a7e970 = L.marker(
+                [37.717033, -97.408581],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_1a644f10395e50d1a054509acd7de021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f98b6b689ad9586207869ecbc9a7e970.setIcon(icon_1a644f10395e50d1a054509acd7de021);
+        
+    
+        var popup_c33d185b36897a99f0eb41880383ae86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f49ba29bf877242cec5403abe9ff202 = $(`<div id="html_6f49ba29bf877242cec5403abe9ff202" style="width: 100.0%; height: 100.0%;">Wichita: ELEC</div>`)[0];
+                popup_c33d185b36897a99f0eb41880383ae86.setContent(html_6f49ba29bf877242cec5403abe9ff202);
+            
+        
+
+        marker_f98b6b689ad9586207869ecbc9a7e970.bindPopup(popup_c33d185b36897a99f0eb41880383ae86)
+        ;
+
+        
+    
+    
+            var marker_fedd9b342841029110d5d40b818e29ea = L.marker(
+                [42.503349, -92.398044],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_8f5a368b3ac50347f8bd2269ec97a0db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fedd9b342841029110d5d40b818e29ea.setIcon(icon_8f5a368b3ac50347f8bd2269ec97a0db);
+        
+    
+        var popup_07f342dc12c8d352ce42a3d78b9b0d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b88e2ddaeb40b6b27603bad0809da597 = $(`<div id="html_b88e2ddaeb40b6b27603bad0809da597" style="width: 100.0%; height: 100.0%;">Waterloo: LPG</div>`)[0];
+                popup_07f342dc12c8d352ce42a3d78b9b0d85.setContent(html_b88e2ddaeb40b6b27603bad0809da597);
+            
+        
+
+        marker_fedd9b342841029110d5d40b818e29ea.bindPopup(popup_07f342dc12c8d352ce42a3d78b9b0d85)
+        ;
+
+        
+    
+    
+            var marker_37882cf4d9c4982e9d25df7b9e9544f4 = L.marker(
+                [31.447794, -100.44101],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_37d2a363b3d0fb541d3e98045ea8b971 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_37882cf4d9c4982e9d25df7b9e9544f4.setIcon(icon_37d2a363b3d0fb541d3e98045ea8b971);
+        
+    
+        var popup_cc767df48141fa4bc1418366f6746fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_672333dc02f9810006112ef5883245ac = $(`<div id="html_672333dc02f9810006112ef5883245ac" style="width: 100.0%; height: 100.0%;">San Angelo: LPG</div>`)[0];
+                popup_cc767df48141fa4bc1418366f6746fe0.setContent(html_672333dc02f9810006112ef5883245ac);
+            
+        
+
+        marker_37882cf4d9c4982e9d25df7b9e9544f4.bindPopup(popup_cc767df48141fa4bc1418366f6746fe0)
+        ;
+
+        
+    
+    
+            var marker_fc7179a8093a686d79fd7eae11650242 = L.marker(
+                [48.1197291, -123.4322999],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_5e599c34ed0872bf4cc5b13288cfea64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fc7179a8093a686d79fd7eae11650242.setIcon(icon_5e599c34ed0872bf4cc5b13288cfea64);
+        
+    
+        var popup_2cc0df8782bc2d4780ca9b8d7b868c32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adbd936e816902429f6205b3f7f31d1c = $(`<div id="html_adbd936e816902429f6205b3f7f31d1c" style="width: 100.0%; height: 100.0%;">Port Angeles: ELEC</div>`)[0];
+                popup_2cc0df8782bc2d4780ca9b8d7b868c32.setContent(html_adbd936e816902429f6205b3f7f31d1c);
+            
+        
+
+        marker_fc7179a8093a686d79fd7eae11650242.bindPopup(popup_2cc0df8782bc2d4780ca9b8d7b868c32)
+        ;
+
+        
+    
+    
+            var marker_8f0ca165d2670d242936eab5c0791246 = L.marker(
+                [45.493455, -122.819869],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_393aeb0598b2312a39328875702885fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8f0ca165d2670d242936eab5c0791246.setIcon(icon_393aeb0598b2312a39328875702885fb);
+        
+    
+        var popup_93f3a81e6f117c19be47f53663db29ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf2f9e92d1388a8922591ccd59519e6 = $(`<div id="html_fcf2f9e92d1388a8922591ccd59519e6" style="width: 100.0%; height: 100.0%;">Beaverton: ELEC</div>`)[0];
+                popup_93f3a81e6f117c19be47f53663db29ec.setContent(html_fcf2f9e92d1388a8922591ccd59519e6);
+            
+        
+
+        marker_8f0ca165d2670d242936eab5c0791246.bindPopup(popup_93f3a81e6f117c19be47f53663db29ec)
+        ;
+
+        
+    
+    
+            var marker_fcd614581558e01b66652ce8c6d7425e = L.marker(
+                [19.915766, -155.882057],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_48af2072a897b50ffb3657d7740d3e7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_fcd614581558e01b66652ce8c6d7425e.setIcon(icon_48af2072a897b50ffb3657d7740d3e7a);
+        
+    
+        var popup_a1b6927e7ccc4573c2baa29ff6f358e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_456279474aae48c88830a8a170c90c0c = $(`<div id="html_456279474aae48c88830a8a170c90c0c" style="width: 100.0%; height: 100.0%;">Waikoloa: ELEC</div>`)[0];
+                popup_a1b6927e7ccc4573c2baa29ff6f358e1.setContent(html_456279474aae48c88830a8a170c90c0c);
+            
+        
+
+        marker_fcd614581558e01b66652ce8c6d7425e.bindPopup(popup_a1b6927e7ccc4573c2baa29ff6f358e1)
+        ;
+
+        
+    
+    
+            var marker_b87101ca0844bb16a896836cdb0e9afb = L.marker(
+                [30.300934, -97.699428],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c255694b28458c3702c1772eb9911e72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b87101ca0844bb16a896836cdb0e9afb.setIcon(icon_c255694b28458c3702c1772eb9911e72);
+        
+    
+        var popup_98528d61384c84fdeb912a95c4e059a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee19d525e0afe73926e525fc738f09de = $(`<div id="html_ee19d525e0afe73926e525fc738f09de" style="width: 100.0%; height: 100.0%;">Austin: ELEC</div>`)[0];
+                popup_98528d61384c84fdeb912a95c4e059a9.setContent(html_ee19d525e0afe73926e525fc738f09de);
+            
+        
+
+        marker_b87101ca0844bb16a896836cdb0e9afb.bindPopup(popup_98528d61384c84fdeb912a95c4e059a9)
+        ;
+
+        
+    
+    
+            var marker_8e5c4f8094be7ddfb1eeed51fcf9e161 = L.marker(
+                [45.080024, -87.662487],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_5e2411932f844cad4d09be81d27f6c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8e5c4f8094be7ddfb1eeed51fcf9e161.setIcon(icon_5e2411932f844cad4d09be81d27f6c55);
+        
+    
+        var popup_118200e4047bc6711c923c0c7c6be15d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_949b787aee39229009cfdc804598f50d = $(`<div id="html_949b787aee39229009cfdc804598f50d" style="width: 100.0%; height: 100.0%;">Marinette: ELEC</div>`)[0];
+                popup_118200e4047bc6711c923c0c7c6be15d.setContent(html_949b787aee39229009cfdc804598f50d);
+            
+        
+
+        marker_8e5c4f8094be7ddfb1eeed51fcf9e161.bindPopup(popup_118200e4047bc6711c923c0c7c6be15d)
+        ;
+
+        
+    
+    
+            var marker_cf8d50313b3b0977805d7f7f645dbc32 = L.marker(
+                [43.36059, -73.65705],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_57e60ca6cfef9ed8a1adeb901882479d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cf8d50313b3b0977805d7f7f645dbc32.setIcon(icon_57e60ca6cfef9ed8a1adeb901882479d);
+        
+    
+        var popup_4dff81e48a6ff3e53b50c8634e5f8f56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e11cf4af8a0dc5e07d27842520369b2 = $(`<div id="html_0e11cf4af8a0dc5e07d27842520369b2" style="width: 100.0%; height: 100.0%;">Queensbury: ELEC</div>`)[0];
+                popup_4dff81e48a6ff3e53b50c8634e5f8f56.setContent(html_0e11cf4af8a0dc5e07d27842520369b2);
+            
+        
+
+        marker_cf8d50313b3b0977805d7f7f645dbc32.bindPopup(popup_4dff81e48a6ff3e53b50c8634e5f8f56)
+        ;
+
+        
+    
+    
+            var marker_899bfaf542e109c7751e8f0fca9285d6 = L.marker(
+                [33.831271, -84.332533],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_1421d5d9d767d8863ee491fbb2b675bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_899bfaf542e109c7751e8f0fca9285d6.setIcon(icon_1421d5d9d767d8863ee491fbb2b675bb);
+        
+    
+        var popup_7f6f6a4c7a03b99263d9b0dafc08ffd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14cd27e1cab343da9a223f58d19994d9 = $(`<div id="html_14cd27e1cab343da9a223f58d19994d9" style="width: 100.0%; height: 100.0%;">Atlanta: ELEC</div>`)[0];
+                popup_7f6f6a4c7a03b99263d9b0dafc08ffd5.setContent(html_14cd27e1cab343da9a223f58d19994d9);
+            
+        
+
+        marker_899bfaf542e109c7751e8f0fca9285d6.bindPopup(popup_7f6f6a4c7a03b99263d9b0dafc08ffd5)
+        ;
+
+        
+    
+    
+            var marker_3c51aeb6b217c6f86e58102293ec3097 = L.marker(
+                [32.875546, -117.211316],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c7cbaf097efb0e148585753500ea000a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_3c51aeb6b217c6f86e58102293ec3097.setIcon(icon_c7cbaf097efb0e148585753500ea000a);
+        
+    
+        var popup_17ad642597a2ac37180e8e51fbc0a235 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_486206dfd95e3bf3e336dbce0a67b4c0 = $(`<div id="html_486206dfd95e3bf3e336dbce0a67b4c0" style="width: 100.0%; height: 100.0%;">San Diego: ELEC</div>`)[0];
+                popup_17ad642597a2ac37180e8e51fbc0a235.setContent(html_486206dfd95e3bf3e336dbce0a67b4c0);
+            
+        
+
+        marker_3c51aeb6b217c6f86e58102293ec3097.bindPopup(popup_17ad642597a2ac37180e8e51fbc0a235)
+        ;
+
+        
+    
+    
+            var marker_72105c18a894e86696d43e06648d3da8 = L.marker(
+                [47.602553, -122.332883],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_8ee90d57612fd9f1c5ac1825c85b5aa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_72105c18a894e86696d43e06648d3da8.setIcon(icon_8ee90d57612fd9f1c5ac1825c85b5aa8);
+        
+    
+        var popup_2d4c1f8eddeba14a05a790b402cdddc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c5c1189ee4f65a7b8bbb3995bbfaf89 = $(`<div id="html_4c5c1189ee4f65a7b8bbb3995bbfaf89" style="width: 100.0%; height: 100.0%;">Seattle: ELEC</div>`)[0];
+                popup_2d4c1f8eddeba14a05a790b402cdddc7.setContent(html_4c5c1189ee4f65a7b8bbb3995bbfaf89);
+            
+        
+
+        marker_72105c18a894e86696d43e06648d3da8.bindPopup(popup_2d4c1f8eddeba14a05a790b402cdddc7)
+        ;
+
+        
+    
+    
+            var marker_8b5c7c966b6e87b0f3219a734bf5a4dd = L.marker(
+                [38.964861, -92.338171],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_98f46e89fbb9ed2f83082715533742cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8b5c7c966b6e87b0f3219a734bf5a4dd.setIcon(icon_98f46e89fbb9ed2f83082715533742cb);
+        
+    
+        var popup_5a1e62c14f0ed88b7113c5697bd94d4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb3f2a412dbe9fb075103dfa6068897a = $(`<div id="html_eb3f2a412dbe9fb075103dfa6068897a" style="width: 100.0%; height: 100.0%;">Columbia: E85</div>`)[0];
+                popup_5a1e62c14f0ed88b7113c5697bd94d4c.setContent(html_eb3f2a412dbe9fb075103dfa6068897a);
+            
+        
+
+        marker_8b5c7c966b6e87b0f3219a734bf5a4dd.bindPopup(popup_5a1e62c14f0ed88b7113c5697bd94d4c)
+        ;
+
+        
+    
+    
+            var marker_0d523cef148d5fa3bd2d6e2849fce7a2 = L.marker(
+                [39.914684, -104.91995],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_76a4ee406f9288232f585a65cd0ac3a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_0d523cef148d5fa3bd2d6e2849fce7a2.setIcon(icon_76a4ee406f9288232f585a65cd0ac3a0);
+        
+    
+        var popup_43154ff86aed62c4a1050d4e44a68e66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1797af04fab89bbf8551b0d9f99771b0 = $(`<div id="html_1797af04fab89bbf8551b0d9f99771b0" style="width: 100.0%; height: 100.0%;">Thornton: ELEC</div>`)[0];
+                popup_43154ff86aed62c4a1050d4e44a68e66.setContent(html_1797af04fab89bbf8551b0d9f99771b0);
+            
+        
+
+        marker_0d523cef148d5fa3bd2d6e2849fce7a2.bindPopup(popup_43154ff86aed62c4a1050d4e44a68e66)
+        ;
+
+        
+    
+    
+            var marker_2af301b0d1ca2b69ae78603706bd9bf1 = L.marker(
+                [40.107295, -75.667504],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_3708f0974768cf94ef4cb5e6bbacfa8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2af301b0d1ca2b69ae78603706bd9bf1.setIcon(icon_3708f0974768cf94ef4cb5e6bbacfa8c);
+        
+    
+        var popup_090d3213ca049ffacac9f8c9b25d5eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c86758718eb084e0cc3da4ec4c87e0da = $(`<div id="html_c86758718eb084e0cc3da4ec4c87e0da" style="width: 100.0%; height: 100.0%;">Chester Springs: ELEC</div>`)[0];
+                popup_090d3213ca049ffacac9f8c9b25d5eb0.setContent(html_c86758718eb084e0cc3da4ec4c87e0da);
+            
+        
+
+        marker_2af301b0d1ca2b69ae78603706bd9bf1.bindPopup(popup_090d3213ca049ffacac9f8c9b25d5eb0)
+        ;
+
+        
+    
+    
+            var marker_ecae0eb589a0df0491b98724fa0ea55f = L.marker(
+                [29.195017, -81.083005],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c92075cd19cccfa3718f42b16070a585 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ecae0eb589a0df0491b98724fa0ea55f.setIcon(icon_c92075cd19cccfa3718f42b16070a585);
+        
+    
+        var popup_3c343f079c8a57ec3eb81c43b277ac69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f039f5cc52c260ec354a0fc5911964 = $(`<div id="html_53f039f5cc52c260ec354a0fc5911964" style="width: 100.0%; height: 100.0%;">Daytona Beach: ELEC</div>`)[0];
+                popup_3c343f079c8a57ec3eb81c43b277ac69.setContent(html_53f039f5cc52c260ec354a0fc5911964);
+            
+        
+
+        marker_ecae0eb589a0df0491b98724fa0ea55f.bindPopup(popup_3c343f079c8a57ec3eb81c43b277ac69)
+        ;
+
+        
+    
+    
+            var marker_64bb5d189cd193bb8eac50d0a43b92b4 = L.marker(
+                [32.916031, -97.034359],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_12f1234dfc740ec0f0c2a9e54b036093 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_64bb5d189cd193bb8eac50d0a43b92b4.setIcon(icon_12f1234dfc740ec0f0c2a9e54b036093);
+        
+    
+        var popup_0024d9d3a6fee8766d8ceebee1ef51dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25556ffb2426f9596dca151fae6e2f74 = $(`<div id="html_25556ffb2426f9596dca151fae6e2f74" style="width: 100.0%; height: 100.0%;">Dallas: ELEC</div>`)[0];
+                popup_0024d9d3a6fee8766d8ceebee1ef51dc.setContent(html_25556ffb2426f9596dca151fae6e2f74);
+            
+        
+
+        marker_64bb5d189cd193bb8eac50d0a43b92b4.bindPopup(popup_0024d9d3a6fee8766d8ceebee1ef51dc)
+        ;
+
+        
+    
+    
+            var marker_ab2a91c142b2d0a39fee8bc01aac392f = L.marker(
+                [43.683121, -72.284702],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_affc7c3e5ed88fdcaee813cb2b8ff61e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ab2a91c142b2d0a39fee8bc01aac392f.setIcon(icon_affc7c3e5ed88fdcaee813cb2b8ff61e);
+        
+    
+        var popup_5b1b040fbb431a0c4ddc10a6cc250463 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a423860f97d37ad06e097f6b5ffb66 = $(`<div id="html_02a423860f97d37ad06e097f6b5ffb66" style="width: 100.0%; height: 100.0%;">Lebanon: ELEC</div>`)[0];
+                popup_5b1b040fbb431a0c4ddc10a6cc250463.setContent(html_02a423860f97d37ad06e097f6b5ffb66);
+            
+        
+
+        marker_ab2a91c142b2d0a39fee8bc01aac392f.bindPopup(popup_5b1b040fbb431a0c4ddc10a6cc250463)
+        ;
+
+        
+    
+    
+            var marker_e08b10b45a7f2e0144ba63bf61590ef0 = L.marker(
+                [40.1320190280457, -77.0196250083866],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_887c1d5cb6b79505c2057a14560d1ca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e08b10b45a7f2e0144ba63bf61590ef0.setIcon(icon_887c1d5cb6b79505c2057a14560d1ca2);
+        
+    
+        var popup_48d0e7ea9df772fed487d9058638c61b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d0d75814d07e1ddf52c1a2ade75547 = $(`<div id="html_43d0d75814d07e1ddf52c1a2ade75547" style="width: 100.0%; height: 100.0%;">Dillsburg: E85</div>`)[0];
+                popup_48d0e7ea9df772fed487d9058638c61b.setContent(html_43d0d75814d07e1ddf52c1a2ade75547);
+            
+        
+
+        marker_e08b10b45a7f2e0144ba63bf61590ef0.bindPopup(popup_48d0e7ea9df772fed487d9058638c61b)
+        ;
+
+        
+    
+    
+            var marker_3416e64912a103771732ae47e7a4a6f5 = L.marker(
+                [26.3623181, -80.0906021],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_b3b01aa27017088c96feca8523e385c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_3416e64912a103771732ae47e7a4a6f5.setIcon(icon_b3b01aa27017088c96feca8523e385c2);
+        
+    
+        var popup_84f4c4e6948cc041ff748cf00293c38a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deabe46ea7798c0d7c14025012f27e3c = $(`<div id="html_deabe46ea7798c0d7c14025012f27e3c" style="width: 100.0%; height: 100.0%;">Boca Raton: ELEC</div>`)[0];
+                popup_84f4c4e6948cc041ff748cf00293c38a.setContent(html_deabe46ea7798c0d7c14025012f27e3c);
+            
+        
+
+        marker_3416e64912a103771732ae47e7a4a6f5.bindPopup(popup_84f4c4e6948cc041ff748cf00293c38a)
+        ;
+
+        
+    
+    
+            var marker_c2be048ecc2e58e44867db906bdbff09 = L.marker(
+                [39.4481, -83.828135],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_b4d6223d1895ac6d0a2707e50d6890ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c2be048ecc2e58e44867db906bdbff09.setIcon(icon_b4d6223d1895ac6d0a2707e50d6890ed);
+        
+    
+        var popup_632e4f9f46b0cf755df469278f1e9abf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4115a1fbbfa6be21cda45d08b725d649 = $(`<div id="html_4115a1fbbfa6be21cda45d08b725d649" style="width: 100.0%; height: 100.0%;">Wilmington: ELEC</div>`)[0];
+                popup_632e4f9f46b0cf755df469278f1e9abf.setContent(html_4115a1fbbfa6be21cda45d08b725d649);
+            
+        
+
+        marker_c2be048ecc2e58e44867db906bdbff09.bindPopup(popup_632e4f9f46b0cf755df469278f1e9abf)
+        ;
+
+        
+    
+    
+            var marker_6cd2a69582d49a899c844d16b1768d3a = L.marker(
+                [39.296285, -76.607484],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_1fd0d39a8afe6d03873ccc31e26b8296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6cd2a69582d49a899c844d16b1768d3a.setIcon(icon_1fd0d39a8afe6d03873ccc31e26b8296);
+        
+    
+        var popup_eec0f341061acf3390d51f6c0e66721e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f7f02cc70221e7afaef017f26dfad00 = $(`<div id="html_1f7f02cc70221e7afaef017f26dfad00" style="width: 100.0%; height: 100.0%;">Baltimore: ELEC</div>`)[0];
+                popup_eec0f341061acf3390d51f6c0e66721e.setContent(html_1f7f02cc70221e7afaef017f26dfad00);
+            
+        
+
+        marker_6cd2a69582d49a899c844d16b1768d3a.bindPopup(popup_eec0f341061acf3390d51f6c0e66721e)
+        ;
+
+        
+    
+    
+            var marker_150bf55799abb3ca27c6b3a8cbf4bb90 = L.marker(
+                [39.542409, -84.290958],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_9766244010f614a03c9e0c40555ccff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_150bf55799abb3ca27c6b3a8cbf4bb90.setIcon(icon_9766244010f614a03c9e0c40555ccff5);
+        
+    
+        var popup_01a29b6a65124fc1da3bb90f711cc8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb31e4bad1f42126d21698286c6dff1 = $(`<div id="html_5cb31e4bad1f42126d21698286c6dff1" style="width: 100.0%; height: 100.0%;">Franklin: LNG</div>`)[0];
+                popup_01a29b6a65124fc1da3bb90f711cc8a8.setContent(html_5cb31e4bad1f42126d21698286c6dff1);
+            
+        
+
+        marker_150bf55799abb3ca27c6b3a8cbf4bb90.bindPopup(popup_01a29b6a65124fc1da3bb90f711cc8a8)
+        ;
+
+        
+    
+    
+            var marker_762e4a211228f7149a1aa43c20fa3984 = L.marker(
+                [38.854214, -77.008711],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_d9af0b8246d7ff54e13bacbdc8bb22d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_762e4a211228f7149a1aa43c20fa3984.setIcon(icon_d9af0b8246d7ff54e13bacbdc8bb22d5);
+        
+    
+        var popup_fb50519a57ee7690164e0bce955fd9f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fcab1a936e24dc3627150233167a06b = $(`<div id="html_6fcab1a936e24dc3627150233167a06b" style="width: 100.0%; height: 100.0%;">Washington: ELEC</div>`)[0];
+                popup_fb50519a57ee7690164e0bce955fd9f3.setContent(html_6fcab1a936e24dc3627150233167a06b);
+            
+        
+
+        marker_762e4a211228f7149a1aa43c20fa3984.bindPopup(popup_fb50519a57ee7690164e0bce955fd9f3)
+        ;
+
+        
+    
+    
+            var marker_ca32292092ea08e37556cd1e5e9adb4c = L.marker(
+                [33.775099, -117.906743],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_05eeeb12c1788d3fca73f56051328e55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ca32292092ea08e37556cd1e5e9adb4c.setIcon(icon_05eeeb12c1788d3fca73f56051328e55);
+        
+    
+        var popup_80a017c705f1c2d464898f4fc5187422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3521886b228dd7ce6b82cb3e3b913261 = $(`<div id="html_3521886b228dd7ce6b82cb3e3b913261" style="width: 100.0%; height: 100.0%;">Garden Grove: CNG</div>`)[0];
+                popup_80a017c705f1c2d464898f4fc5187422.setContent(html_3521886b228dd7ce6b82cb3e3b913261);
+            
+        
+
+        marker_ca32292092ea08e37556cd1e5e9adb4c.bindPopup(popup_80a017c705f1c2d464898f4fc5187422)
+        ;
+
+        
+    
+    
+            var marker_b468eb932daaa03f550f3a5ef3a127c1 = L.marker(
+                [32.878677, -117.215667],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_f6c96b0c994ec4f2cddf28e2b2ab1889 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b468eb932daaa03f550f3a5ef3a127c1.setIcon(icon_f6c96b0c994ec4f2cddf28e2b2ab1889);
+        
+    
+        var popup_6d673bad77e67bd24e70f4e9bf314e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22bf4e9ff1ebfd82d73d5da613c95e1b = $(`<div id="html_22bf4e9ff1ebfd82d73d5da613c95e1b" style="width: 100.0%; height: 100.0%;">San Diego: ELEC</div>`)[0];
+                popup_6d673bad77e67bd24e70f4e9bf314e1e.setContent(html_22bf4e9ff1ebfd82d73d5da613c95e1b);
+            
+        
+
+        marker_b468eb932daaa03f550f3a5ef3a127c1.bindPopup(popup_6d673bad77e67bd24e70f4e9bf314e1e)
+        ;
+
+        
+    
+    
+            var marker_611555e95c2bc76c56d6b06081f453e8 = L.marker(
+                [47.595392, -122.311507],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_614fcb55b780b2ef3bf6d5e721f02521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_611555e95c2bc76c56d6b06081f453e8.setIcon(icon_614fcb55b780b2ef3bf6d5e721f02521);
+        
+    
+        var popup_4a88503d31edad739a9fc4244573a87a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ff18d034242e203b0ae5fddf03b2841 = $(`<div id="html_7ff18d034242e203b0ae5fddf03b2841" style="width: 100.0%; height: 100.0%;">Seattle: ELEC</div>`)[0];
+                popup_4a88503d31edad739a9fc4244573a87a.setContent(html_7ff18d034242e203b0ae5fddf03b2841);
+            
+        
+
+        marker_611555e95c2bc76c56d6b06081f453e8.bindPopup(popup_4a88503d31edad739a9fc4244573a87a)
+        ;
+
+        
+    
+    
+            var marker_5fad636ca1e3b47c9158ab2ff885b4de = L.marker(
+                [40.775208, -73.950978],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_eb3e8837be693853f4d5e9dc2d2d515f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5fad636ca1e3b47c9158ab2ff885b4de.setIcon(icon_eb3e8837be693853f4d5e9dc2d2d515f);
+        
+    
+        var popup_4144ce1347bc2fbb5798a7a8c218da7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ead998422ca219ae2a339a734acfa56d = $(`<div id="html_ead998422ca219ae2a339a734acfa56d" style="width: 100.0%; height: 100.0%;">New York: ELEC</div>`)[0];
+                popup_4144ce1347bc2fbb5798a7a8c218da7c.setContent(html_ead998422ca219ae2a339a734acfa56d);
+            
+        
+
+        marker_5fad636ca1e3b47c9158ab2ff885b4de.bindPopup(popup_4144ce1347bc2fbb5798a7a8c218da7c)
+        ;
+
+        
+    
+    
+            var marker_56876dc890a2de92aa0596568808d263 = L.marker(
+                [35.685722, -97.5085],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_7fa8a2aba7fc9f9a69099d7e95d62706 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_56876dc890a2de92aa0596568808d263.setIcon(icon_7fa8a2aba7fc9f9a69099d7e95d62706);
+        
+    
+        var popup_09f7ed70fc6e3dbd97304323760d7331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e3a0b0c68f383f3271504f7e0fd32d3 = $(`<div id="html_3e3a0b0c68f383f3271504f7e0fd32d3" style="width: 100.0%; height: 100.0%;">Edmond: ELEC</div>`)[0];
+                popup_09f7ed70fc6e3dbd97304323760d7331.setContent(html_3e3a0b0c68f383f3271504f7e0fd32d3);
+            
+        
+
+        marker_56876dc890a2de92aa0596568808d263.bindPopup(popup_09f7ed70fc6e3dbd97304323760d7331)
+        ;
+
+        
+    
+    
+            var marker_ff3a0c23f5cb79f60bcb738ddbc4b825 = L.marker(
+                [39.064333, -84.706836],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_5effad813c648f419c1719e15036e173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ff3a0c23f5cb79f60bcb738ddbc4b825.setIcon(icon_5effad813c648f419c1719e15036e173);
+        
+    
+        var popup_2797f247652b729b6780f22d7717fbe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e865cf714bbb8e97e5c5b3acf0f5496 = $(`<div id="html_5e865cf714bbb8e97e5c5b3acf0f5496" style="width: 100.0%; height: 100.0%;">Hebron: E85</div>`)[0];
+                popup_2797f247652b729b6780f22d7717fbe3.setContent(html_5e865cf714bbb8e97e5c5b3acf0f5496);
+            
+        
+
+        marker_ff3a0c23f5cb79f60bcb738ddbc4b825.bindPopup(popup_2797f247652b729b6780f22d7717fbe3)
+        ;
+
+        
+    
+    
+            var marker_4fd484141f6b41d6493b66f73a7bff13 = L.marker(
+                [43.031103, -77.906018],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_afdba94b52fc4611e2b02f7e4596404f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4fd484141f6b41d6493b66f73a7bff13.setIcon(icon_afdba94b52fc4611e2b02f7e4596404f);
+        
+    
+        var popup_e0c32c24a61c02f3e544279d6c09708e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c4bf8b9e468f9940643f15dcbb6660 = $(`<div id="html_19c4bf8b9e468f9940643f15dcbb6660" style="width: 100.0%; height: 100.0%;">Le Roy: ELEC</div>`)[0];
+                popup_e0c32c24a61c02f3e544279d6c09708e.setContent(html_19c4bf8b9e468f9940643f15dcbb6660);
+            
+        
+
+        marker_4fd484141f6b41d6493b66f73a7bff13.bindPopup(popup_e0c32c24a61c02f3e544279d6c09708e)
+        ;
+
+        
+    
+    
+            var marker_6ddc5cca03c836fc7379ad3fd4399e00 = L.marker(
+                [44.971275, -74.64318],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_1b23aac1589f84cc91a8197173a6bcfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6ddc5cca03c836fc7379ad3fd4399e00.setIcon(icon_1b23aac1589f84cc91a8197173a6bcfe);
+        
+    
+        var popup_0bc5bd8d9270a53ec01d99e3e916dcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98c14fffa18a2cb11b038c6d4c2207b9 = $(`<div id="html_98c14fffa18a2cb11b038c6d4c2207b9" style="width: 100.0%; height: 100.0%;">Akwesasne: ELEC</div>`)[0];
+                popup_0bc5bd8d9270a53ec01d99e3e916dcc7.setContent(html_98c14fffa18a2cb11b038c6d4c2207b9);
+            
+        
+
+        marker_6ddc5cca03c836fc7379ad3fd4399e00.bindPopup(popup_0bc5bd8d9270a53ec01d99e3e916dcc7)
+        ;
+
+        
+    
+    
+            var marker_6e5c5efaf65e8d8cf7e67cd85d77bbcb = L.marker(
+                [40.457675, -79.916515],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_9aa4ca6fdc941adad3a1a3342548721a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6e5c5efaf65e8d8cf7e67cd85d77bbcb.setIcon(icon_9aa4ca6fdc941adad3a1a3342548721a);
+        
+    
+        var popup_9d9ba25372ea56c29be0832a5444cf3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5d7ab96bc585df2b633a4402a7a388 = $(`<div id="html_ce5d7ab96bc585df2b633a4402a7a388" style="width: 100.0%; height: 100.0%;">Pittsburgh: ELEC</div>`)[0];
+                popup_9d9ba25372ea56c29be0832a5444cf3e.setContent(html_ce5d7ab96bc585df2b633a4402a7a388);
+            
+        
+
+        marker_6e5c5efaf65e8d8cf7e67cd85d77bbcb.bindPopup(popup_9d9ba25372ea56c29be0832a5444cf3e)
+        ;
+
+        
+    
+    
+            var marker_f8d9c81798ba9f3be47f4e286609d432 = L.marker(
+                [47.443215, -122.212479],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c3ff29f96eba1be4aa6dfe48f31677a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_f8d9c81798ba9f3be47f4e286609d432.setIcon(icon_c3ff29f96eba1be4aa6dfe48f31677a2);
+        
+    
+        var popup_01f98bbdaeb8663c421eea7520a725fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e94ffbe631374ce6767174ea92fb1144 = $(`<div id="html_e94ffbe631374ce6767174ea92fb1144" style="width: 100.0%; height: 100.0%;">Renton: ELEC</div>`)[0];
+                popup_01f98bbdaeb8663c421eea7520a725fd.setContent(html_e94ffbe631374ce6767174ea92fb1144);
+            
+        
+
+        marker_f8d9c81798ba9f3be47f4e286609d432.bindPopup(popup_01f98bbdaeb8663c421eea7520a725fd)
+        ;
+
+        
+    
+    
+            var marker_2f19f84e866f72c629078540cb095df0 = L.marker(
+                [35.3130341691049, -80.7312948153897],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_aaa2038a88b2717e53e13cb8f6b1e2dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2f19f84e866f72c629078540cb095df0.setIcon(icon_aaa2038a88b2717e53e13cb8f6b1e2dc);
+        
+    
+        var popup_b6b6411089f71aeae2d35492c830583e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba478f80a2ceea363b7f842335e839d = $(`<div id="html_eba478f80a2ceea363b7f842335e839d" style="width: 100.0%; height: 100.0%;">Charlotte: ELEC</div>`)[0];
+                popup_b6b6411089f71aeae2d35492c830583e.setContent(html_eba478f80a2ceea363b7f842335e839d);
+            
+        
+
+        marker_2f19f84e866f72c629078540cb095df0.bindPopup(popup_b6b6411089f71aeae2d35492c830583e)
+        ;
+
+        
+    
+    
+            var marker_90b96a4003f4204848f41fa460153399 = L.marker(
+                [40.03095, -83.051786],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_e237d37466f7ceb2b7a9fc140e58d25b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_90b96a4003f4204848f41fa460153399.setIcon(icon_e237d37466f7ceb2b7a9fc140e58d25b);
+        
+    
+        var popup_100c539f6fe5a3192862148bfd43117c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_456f3e1ecc3c206a0495239dad177410 = $(`<div id="html_456f3e1ecc3c206a0495239dad177410" style="width: 100.0%; height: 100.0%;">Upper Arlington: ELEC</div>`)[0];
+                popup_100c539f6fe5a3192862148bfd43117c.setContent(html_456f3e1ecc3c206a0495239dad177410);
+            
+        
+
+        marker_90b96a4003f4204848f41fa460153399.bindPopup(popup_100c539f6fe5a3192862148bfd43117c)
+        ;
+
+        
+    
+    
+            var marker_c6a11351096be77451b5a41a67b23ad7 = L.marker(
+                [40.741668, -73.609459],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_c0f359e65b8963240ee4416274ca1bb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c6a11351096be77451b5a41a67b23ad7.setIcon(icon_c0f359e65b8963240ee4416274ca1bb5);
+        
+    
+        var popup_644986da1b273350d08d000e06b7c6d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0bad4f0dd743e74a7affbaf25c41510 = $(`<div id="html_f0bad4f0dd743e74a7affbaf25c41510" style="width: 100.0%; height: 100.0%;">Garden City: ELEC</div>`)[0];
+                popup_644986da1b273350d08d000e06b7c6d0.setContent(html_f0bad4f0dd743e74a7affbaf25c41510);
+            
+        
+
+        marker_c6a11351096be77451b5a41a67b23ad7.bindPopup(popup_644986da1b273350d08d000e06b7c6d0)
+        ;
+
+        
+    
+    
+            var marker_cace0d4d542f3c7bc8afb1c3b316d816 = L.marker(
+                [36.836818, -119.717629],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_15ef7f0701c00d6e0a811d8d0bb92823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cace0d4d542f3c7bc8afb1c3b316d816.setIcon(icon_15ef7f0701c00d6e0a811d8d0bb92823);
+        
+    
+        var popup_eda675e48aed8f3929c3462509c2c484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c450f1f6d8555b4c90e5123aa0452f1 = $(`<div id="html_7c450f1f6d8555b4c90e5123aa0452f1" style="width: 100.0%; height: 100.0%;">Clovis: ELEC</div>`)[0];
+                popup_eda675e48aed8f3929c3462509c2c484.setContent(html_7c450f1f6d8555b4c90e5123aa0452f1);
+            
+        
+
+        marker_cace0d4d542f3c7bc8afb1c3b316d816.bindPopup(popup_eda675e48aed8f3929c3462509c2c484)
+        ;
+
+        
+    
+    
+            var marker_d4b002a228f1acdf767129e5774b15e4 = L.marker(
+                [47.972937, -122.200839],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_971d2e6a2e206d642d80c942dbef0de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d4b002a228f1acdf767129e5774b15e4.setIcon(icon_971d2e6a2e206d642d80c942dbef0de9);
+        
+    
+        var popup_f8e31848d29007d5c914265cd2fade6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e76e1f2ffc198f41e2ba26e8bda1bf74 = $(`<div id="html_e76e1f2ffc198f41e2ba26e8bda1bf74" style="width: 100.0%; height: 100.0%;">Everett: ELEC</div>`)[0];
+                popup_f8e31848d29007d5c914265cd2fade6c.setContent(html_e76e1f2ffc198f41e2ba26e8bda1bf74);
+            
+        
+
+        marker_d4b002a228f1acdf767129e5774b15e4.bindPopup(popup_f8e31848d29007d5c914265cd2fade6c)
+        ;
+
+        
+    
+    
+            var marker_ac51b94e055af7849b800f0012ae876e = L.marker(
+                [45.543683, -122.935901],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_d2f606b96dc2f684cfe7092fdc554fd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_ac51b94e055af7849b800f0012ae876e.setIcon(icon_d2f606b96dc2f684cfe7092fdc554fd9);
+        
+    
+        var popup_2f5097e612d3bad14749516007cc972c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5fd902094843420eec6a8895be34105 = $(`<div id="html_d5fd902094843420eec6a8895be34105" style="width: 100.0%; height: 100.0%;">Hillsboro: ELEC</div>`)[0];
+                popup_2f5097e612d3bad14749516007cc972c.setContent(html_d5fd902094843420eec6a8895be34105);
+            
+        
+
+        marker_ac51b94e055af7849b800f0012ae876e.bindPopup(popup_2f5097e612d3bad14749516007cc972c)
+        ;
+
+        
+    
+    
+            var marker_90f29c21c67d8d9ab78eb1e61e14a295 = L.marker(
+                [33.7352929, -117.835493],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_ad34c20ebbd25f942376a4cd8acbb797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_90f29c21c67d8d9ab78eb1e61e14a295.setIcon(icon_ad34c20ebbd25f942376a4cd8acbb797);
+        
+    
+        var popup_1e7507b85efbac476ed9752eb6ce517c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_090e65c1dfe4a2095f9239becad529ce = $(`<div id="html_090e65c1dfe4a2095f9239becad529ce" style="width: 100.0%; height: 100.0%;">Tustin: ELEC</div>`)[0];
+                popup_1e7507b85efbac476ed9752eb6ce517c.setContent(html_090e65c1dfe4a2095f9239becad529ce);
+            
+        
+
+        marker_90f29c21c67d8d9ab78eb1e61e14a295.bindPopup(popup_1e7507b85efbac476ed9752eb6ce517c)
+        ;
+
+        
+    
+    
+            var marker_9513eb1fb19df5e8b133cea6b8b10d90 = L.marker(
+                [45.023979, -93.18537],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_e63449a62b0e54ff27ce635129ed1dcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9513eb1fb19df5e8b133cea6b8b10d90.setIcon(icon_e63449a62b0e54ff27ce635129ed1dcc);
+        
+    
+        var popup_c68f016c3469d8748551d4f3c5fa9fbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b08e1dcecc15b4c36b8fe6f3ca578fe4 = $(`<div id="html_b08e1dcecc15b4c36b8fe6f3ca578fe4" style="width: 100.0%; height: 100.0%;">Roseville: ELEC</div>`)[0];
+                popup_c68f016c3469d8748551d4f3c5fa9fbd.setContent(html_b08e1dcecc15b4c36b8fe6f3ca578fe4);
+            
+        
+
+        marker_9513eb1fb19df5e8b133cea6b8b10d90.bindPopup(popup_c68f016c3469d8748551d4f3c5fa9fbd)
+        ;
+
+        
+    
+    
+            var marker_54e3ada09ac23f24a1fe07d5b4cdc7ed = L.marker(
+                [33.140922, -97.051691],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_eb3a3921dc1685c8f03a3327a41fd823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_54e3ada09ac23f24a1fe07d5b4cdc7ed.setIcon(icon_eb3a3921dc1685c8f03a3327a41fd823);
+        
+    
+        var popup_f4f41b227029ecd291afde86411dbf31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1412d1c00c4eda5599c7ba13d669c8d9 = $(`<div id="html_1412d1c00c4eda5599c7ba13d669c8d9" style="width: 100.0%; height: 100.0%;">Lake Dallas: LPG</div>`)[0];
+                popup_f4f41b227029ecd291afde86411dbf31.setContent(html_1412d1c00c4eda5599c7ba13d669c8d9);
+            
+        
+
+        marker_54e3ada09ac23f24a1fe07d5b4cdc7ed.bindPopup(popup_f4f41b227029ecd291afde86411dbf31)
+        ;
+
+        
+    
+    
+            var marker_8e6492e9f671e158688182d1d458c584 = L.marker(
+                [39.271298, -76.618898],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_829f507c24be81e1581afb4bddae0519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8e6492e9f671e158688182d1d458c584.setIcon(icon_829f507c24be81e1581afb4bddae0519);
+        
+    
+        var popup_b563298f23712d359d77758a9d015183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65768aac9be259f06619d228ea0a65b6 = $(`<div id="html_65768aac9be259f06619d228ea0a65b6" style="width: 100.0%; height: 100.0%;">Baltimore: ELEC</div>`)[0];
+                popup_b563298f23712d359d77758a9d015183.setContent(html_65768aac9be259f06619d228ea0a65b6);
+            
+        
+
+        marker_8e6492e9f671e158688182d1d458c584.bindPopup(popup_b563298f23712d359d77758a9d015183)
+        ;
+
+        
+    
+    
+            var marker_bc4ea95df59253a5aea43754d4594792 = L.marker(
+                [30.278114, -97.635932],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_bd1e943c3336ab4d839bcd01f9176923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_bc4ea95df59253a5aea43754d4594792.setIcon(icon_bd1e943c3336ab4d839bcd01f9176923);
+        
+    
+        var popup_3070a11d7ff0a9b746e5cb16a2b84674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149428808b4171b3e19a239f9c2f11cc = $(`<div id="html_149428808b4171b3e19a239f9c2f11cc" style="width: 100.0%; height: 100.0%;">Austin: ELEC</div>`)[0];
+                popup_3070a11d7ff0a9b746e5cb16a2b84674.setContent(html_149428808b4171b3e19a239f9c2f11cc);
+            
+        
+
+        marker_bc4ea95df59253a5aea43754d4594792.bindPopup(popup_3070a11d7ff0a9b746e5cb16a2b84674)
+        ;
+
+        
+    
+    
+            var marker_9326766ed92092860907b9b0d2fe9e39 = L.marker(
+                [32.775266, -117.155568],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_4955da978c03daa505eeecd19e924e94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_9326766ed92092860907b9b0d2fe9e39.setIcon(icon_4955da978c03daa505eeecd19e924e94);
+        
+    
+        var popup_9ccbbdbd3e3c8496bfeefd4c187d25a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf06173fbe613d9c6a8393dc7e2fc4e = $(`<div id="html_1cf06173fbe613d9c6a8393dc7e2fc4e" style="width: 100.0%; height: 100.0%;">San Diego: ELEC</div>`)[0];
+                popup_9ccbbdbd3e3c8496bfeefd4c187d25a2.setContent(html_1cf06173fbe613d9c6a8393dc7e2fc4e);
+            
+        
+
+        marker_9326766ed92092860907b9b0d2fe9e39.bindPopup(popup_9ccbbdbd3e3c8496bfeefd4c187d25a2)
+        ;
+
+        
+    
+    
+            var marker_37a96982a647a8ec14c2ca9a588cdff8 = L.marker(
+                [28.410029, -81.429681],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_3fa903370d7acc66c6845416f8114ab1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_37a96982a647a8ec14c2ca9a588cdff8.setIcon(icon_3fa903370d7acc66c6845416f8114ab1);
+        
+    
+        var popup_13413a62a9cb2bd3dc6727eb98ab6bcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b55ae09181e8d3975d06a36dcdf224 = $(`<div id="html_09b55ae09181e8d3975d06a36dcdf224" style="width: 100.0%; height: 100.0%;">Orlando: ELEC</div>`)[0];
+                popup_13413a62a9cb2bd3dc6727eb98ab6bcd.setContent(html_09b55ae09181e8d3975d06a36dcdf224);
+            
+        
+
+        marker_37a96982a647a8ec14c2ca9a588cdff8.bindPopup(popup_13413a62a9cb2bd3dc6727eb98ab6bcd)
+        ;
+
+        
+    
+    
+            var marker_30dca34989a827faa535024a828c759c = L.marker(
+                [43.03345, -76.0184],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_a9273c42938b6fbbdef51d3a61ba6afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_30dca34989a827faa535024a828c759c.setIcon(icon_a9273c42938b6fbbdef51d3a61ba6afa);
+        
+    
+        var popup_99e1d155e339cf1a9c2e859fdff44325 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_280aadbd83b334b4b767ba088aee5af8 = $(`<div id="html_280aadbd83b334b4b767ba088aee5af8" style="width: 100.0%; height: 100.0%;">Fayetteville: ELEC</div>`)[0];
+                popup_99e1d155e339cf1a9c2e859fdff44325.setContent(html_280aadbd83b334b4b767ba088aee5af8);
+            
+        
+
+        marker_30dca34989a827faa535024a828c759c.bindPopup(popup_99e1d155e339cf1a9c2e859fdff44325)
+        ;
+
+        
+    
+    
+            var marker_a7d26c19fc562db42895902819d29e26 = L.marker(
+                [34.130945, -117.969546],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_70ac0f54b2449fa9719738aea921e098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a7d26c19fc562db42895902819d29e26.setIcon(icon_70ac0f54b2449fa9719738aea921e098);
+        
+    
+        var popup_52395c90c8335ac6408a10d09e5e0825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf6feb7dd7e8a2aa6f166beb33ea095 = $(`<div id="html_1cf6feb7dd7e8a2aa6f166beb33ea095" style="width: 100.0%; height: 100.0%;">Duarte: ELEC</div>`)[0];
+                popup_52395c90c8335ac6408a10d09e5e0825.setContent(html_1cf6feb7dd7e8a2aa6f166beb33ea095);
+            
+        
+
+        marker_a7d26c19fc562db42895902819d29e26.bindPopup(popup_52395c90c8335ac6408a10d09e5e0825)
+        ;
+
+        
+    
+    
+            var marker_e37ea2b938494067f9ef638312c3b951 = L.marker(
+                [42.781489, -86.075261],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_7f1297dcdd8ddfaa712243f87f6d5237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e37ea2b938494067f9ef638312c3b951.setIcon(icon_7f1297dcdd8ddfaa712243f87f6d5237);
+        
+    
+        var popup_b1c657fe69ed97930ee850573a207521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bb40e8f4fc5a4da74d6329111d50add = $(`<div id="html_9bb40e8f4fc5a4da74d6329111d50add" style="width: 100.0%; height: 100.0%;">Holland: ELEC</div>`)[0];
+                popup_b1c657fe69ed97930ee850573a207521.setContent(html_9bb40e8f4fc5a4da74d6329111d50add);
+            
+        
+
+        marker_e37ea2b938494067f9ef638312c3b951.bindPopup(popup_b1c657fe69ed97930ee850573a207521)
+        ;
+
+        
+    
+    
+            var marker_cbe2edcc087461ee609caa4c707db3da = L.marker(
+                [37.40784, -121.9532],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_79d9b65e79b0166b19b9aa806812eb1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cbe2edcc087461ee609caa4c707db3da.setIcon(icon_79d9b65e79b0166b19b9aa806812eb1f);
+        
+    
+        var popup_33168ba3735dc11e64f1f8964885e895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42aa891499a3b3f607a628e901a0aaed = $(`<div id="html_42aa891499a3b3f607a628e901a0aaed" style="width: 100.0%; height: 100.0%;">San Jose: ELEC</div>`)[0];
+                popup_33168ba3735dc11e64f1f8964885e895.setContent(html_42aa891499a3b3f607a628e901a0aaed);
+            
+        
+
+        marker_cbe2edcc087461ee609caa4c707db3da.bindPopup(popup_33168ba3735dc11e64f1f8964885e895)
+        ;
+
+        
+    
+    
+            var marker_a3a1cb34f496228d7e0c572c32b166df = L.marker(
+                [36.870126, -86.71038],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_29d82e831ba96c67409f13abee834bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a3a1cb34f496228d7e0c572c32b166df.setIcon(icon_29d82e831ba96c67409f13abee834bf3);
+        
+    
+        var popup_bb0f37c6c7b9544cdba2aaaffd81602a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cc293d4ee4c663ec22d3b2cbed19140 = $(`<div id="html_7cc293d4ee4c663ec22d3b2cbed19140" style="width: 100.0%; height: 100.0%;">Auburn: E85</div>`)[0];
+                popup_bb0f37c6c7b9544cdba2aaaffd81602a.setContent(html_7cc293d4ee4c663ec22d3b2cbed19140);
+            
+        
+
+        marker_a3a1cb34f496228d7e0c572c32b166df.bindPopup(popup_bb0f37c6c7b9544cdba2aaaffd81602a)
+        ;
+
+        
+    
+    
+            var marker_83ad8a008d687fe1b3ed5504067ee9e5 = L.marker(
+                [41.879243, -87.626855],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_78cecbc2766a6eb5e64154ed1eeb1c08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_83ad8a008d687fe1b3ed5504067ee9e5.setIcon(icon_78cecbc2766a6eb5e64154ed1eeb1c08);
+        
+    
+        var popup_d726f56ea958a734a1502cd9a72e61fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_420645a58a24731aa55ec71ead84d185 = $(`<div id="html_420645a58a24731aa55ec71ead84d185" style="width: 100.0%; height: 100.0%;">Chicago: ELEC</div>`)[0];
+                popup_d726f56ea958a734a1502cd9a72e61fa.setContent(html_420645a58a24731aa55ec71ead84d185);
+            
+        
+
+        marker_83ad8a008d687fe1b3ed5504067ee9e5.bindPopup(popup_d726f56ea958a734a1502cd9a72e61fa)
+        ;
+
+        
+    
+    
+            var marker_84cd5c6d5648b01307b6f96c210c95e8 = L.marker(
+                [32.88055, -111.748734],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_3f615db5262710965bd8e3da558a6d36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_84cd5c6d5648b01307b6f96c210c95e8.setIcon(icon_3f615db5262710965bd8e3da558a6d36);
+        
+    
+        var popup_77cbfc969f7f57e8f3f47fe3c3c15ecd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6a1c623eaaf52d0960fedc1ffd7352 = $(`<div id="html_ab6a1c623eaaf52d0960fedc1ffd7352" style="width: 100.0%; height: 100.0%;">Casa Grande: ELEC</div>`)[0];
+                popup_77cbfc969f7f57e8f3f47fe3c3c15ecd.setContent(html_ab6a1c623eaaf52d0960fedc1ffd7352);
+            
+        
+
+        marker_84cd5c6d5648b01307b6f96c210c95e8.bindPopup(popup_77cbfc969f7f57e8f3f47fe3c3c15ecd)
+        ;
+
+        
+    
+    
+            var marker_2e4d81a0791fbfb8649fb8b63843e27c = L.marker(
+                [26.29727, -80.25345],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_ddc2c06ba9496de9ffa066e49ee689e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2e4d81a0791fbfb8649fb8b63843e27c.setIcon(icon_ddc2c06ba9496de9ffa066e49ee689e8);
+        
+    
+        var popup_23cff088bad480a72e58b387898cfb97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52c670450d807bbe367653036ac69a0 = $(`<div id="html_d52c670450d807bbe367653036ac69a0" style="width: 100.0%; height: 100.0%;">Coral Springs: ELEC</div>`)[0];
+                popup_23cff088bad480a72e58b387898cfb97.setContent(html_d52c670450d807bbe367653036ac69a0);
+            
+        
+
+        marker_2e4d81a0791fbfb8649fb8b63843e27c.bindPopup(popup_23cff088bad480a72e58b387898cfb97)
+        ;
+
+        
+    
+    
+            var marker_6e6d0edf455a5aae2f5e72d93f8f49d7 = L.marker(
+                [40.591714, -74.625642],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_4e81155e466526354e8f7e514e66ed18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6e6d0edf455a5aae2f5e72d93f8f49d7.setIcon(icon_4e81155e466526354e8f7e514e66ed18);
+        
+    
+        var popup_7bd68d6e5e3913efe031135fcbe8e667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8130eae6d2a70d93e65454e7f7929b7 = $(`<div id="html_e8130eae6d2a70d93e65454e7f7929b7" style="width: 100.0%; height: 100.0%;">Bridgewater Township: ELEC</div>`)[0];
+                popup_7bd68d6e5e3913efe031135fcbe8e667.setContent(html_e8130eae6d2a70d93e65454e7f7929b7);
+            
+        
+
+        marker_6e6d0edf455a5aae2f5e72d93f8f49d7.bindPopup(popup_7bd68d6e5e3913efe031135fcbe8e667)
+        ;
+
+        
+    
+    
+            var marker_37c66ca68b155eb89631b0b6ef1c0cae = L.marker(
+                [48.291006, -122.657044],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_adad531b719f76f001a534ace22d724f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_37c66ca68b155eb89631b0b6ef1c0cae.setIcon(icon_adad531b719f76f001a534ace22d724f);
+        
+    
+        var popup_86801b64e48801303752b90d4ef8e14e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c2fcfa89100a9b8e70ffe5f2ef6379 = $(`<div id="html_e1c2fcfa89100a9b8e70ffe5f2ef6379" style="width: 100.0%; height: 100.0%;">Oak Harbor: LPG</div>`)[0];
+                popup_86801b64e48801303752b90d4ef8e14e.setContent(html_e1c2fcfa89100a9b8e70ffe5f2ef6379);
+            
+        
+
+        marker_37c66ca68b155eb89631b0b6ef1c0cae.bindPopup(popup_86801b64e48801303752b90d4ef8e14e)
+        ;
+
+        
+    
+    
+            var marker_cfbf513ba62adc609f3a5b3ea84eae34 = L.marker(
+                [35.971963, -77.895664],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_52664927abb2970b42dc8c81d125dea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cfbf513ba62adc609f3a5b3ea84eae34.setIcon(icon_52664927abb2970b42dc8c81d125dea5);
+        
+    
+        var popup_24eb5fc58f89baba90cdd14e6e646446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df6949aa1aff23175d60256d10b1035d = $(`<div id="html_df6949aa1aff23175d60256d10b1035d" style="width: 100.0%; height: 100.0%;">Rocky Mount: E85</div>`)[0];
+                popup_24eb5fc58f89baba90cdd14e6e646446.setContent(html_df6949aa1aff23175d60256d10b1035d);
+            
+        
+
+        marker_cfbf513ba62adc609f3a5b3ea84eae34.bindPopup(popup_24eb5fc58f89baba90cdd14e6e646446)
+        ;
+
+        
+    
+    
+            var marker_40f7411b1201be5724fb4a7c2671742e = L.marker(
+                [21.393628, -157.742142],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_9c5feceddec8849ae2ea0735828ada10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_40f7411b1201be5724fb4a7c2671742e.setIcon(icon_9c5feceddec8849ae2ea0735828ada10);
+        
+    
+        var popup_1f5846f8c74a85de15e343cb982807bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_957f5e426ccfa21743ae8ab161e2cb77 = $(`<div id="html_957f5e426ccfa21743ae8ab161e2cb77" style="width: 100.0%; height: 100.0%;">Kailua: ELEC</div>`)[0];
+                popup_1f5846f8c74a85de15e343cb982807bf.setContent(html_957f5e426ccfa21743ae8ab161e2cb77);
+            
+        
+
+        marker_40f7411b1201be5724fb4a7c2671742e.bindPopup(popup_1f5846f8c74a85de15e343cb982807bf)
+        ;
+
+        
+    
+    
+            var marker_b1296f894a564890cffdd9e8f8d1bd4d = L.marker(
+                [39.989815, -74.258336],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_26ecda5a3b7dc529157755e40c3753b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b1296f894a564890cffdd9e8f8d1bd4d.setIcon(icon_26ecda5a3b7dc529157755e40c3753b4);
+        
+    
+        var popup_e780a747c58578bf0b63cf702a6c5d94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f56645bc727e73fdf149a248c8a39ee1 = $(`<div id="html_f56645bc727e73fdf149a248c8a39ee1" style="width: 100.0%; height: 100.0%;">Toms River: CNG</div>`)[0];
+                popup_e780a747c58578bf0b63cf702a6c5d94.setContent(html_f56645bc727e73fdf149a248c8a39ee1);
+            
+        
+
+        marker_b1296f894a564890cffdd9e8f8d1bd4d.bindPopup(popup_e780a747c58578bf0b63cf702a6c5d94)
+        ;
+
+        
+    
+    
+            var marker_d148f89edad2066198a3eb62af21d2ad = L.marker(
+                [38.935074, -76.948502],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_81d5b85052c74dee9fa2d8a1c19c9d0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d148f89edad2066198a3eb62af21d2ad.setIcon(icon_81d5b85052c74dee9fa2d8a1c19c9d0c);
+        
+    
+        var popup_23d1c19faccc072bf6ca372da2252c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06ca312162d56e30fd37229b19d36b56 = $(`<div id="html_06ca312162d56e30fd37229b19d36b56" style="width: 100.0%; height: 100.0%;">Colmar Manor: ELEC</div>`)[0];
+                popup_23d1c19faccc072bf6ca372da2252c69.setContent(html_06ca312162d56e30fd37229b19d36b56);
+            
+        
+
+        marker_d148f89edad2066198a3eb62af21d2ad.bindPopup(popup_23d1c19faccc072bf6ca372da2252c69)
+        ;
+
+        
+    
+    
+            var marker_c8005c4690cebb0e352914443ad486dd = L.marker(
+                [47.046482, -122.865678],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_7d3a95d1a7d813d040ea22089fb9f036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c8005c4690cebb0e352914443ad486dd.setIcon(icon_7d3a95d1a7d813d040ea22089fb9f036);
+        
+    
+        var popup_aebaa9f58685d9222032feaee5a6e036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_670bd2e99e8b98ab7b51109b7b4d6156 = $(`<div id="html_670bd2e99e8b98ab7b51109b7b4d6156" style="width: 100.0%; height: 100.0%;">Olympia: LPG</div>`)[0];
+                popup_aebaa9f58685d9222032feaee5a6e036.setContent(html_670bd2e99e8b98ab7b51109b7b4d6156);
+            
+        
+
+        marker_c8005c4690cebb0e352914443ad486dd.bindPopup(popup_aebaa9f58685d9222032feaee5a6e036)
+        ;
+
+        
+    
+    
+            var marker_7d08c352b9debf7481b12bb9dd9ce83d = L.marker(
+                [35.992665, -78.902102],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_cc07e9b627fe5b79a9b3cc583a4e27b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7d08c352b9debf7481b12bb9dd9ce83d.setIcon(icon_cc07e9b627fe5b79a9b3cc583a4e27b1);
+        
+    
+        var popup_eab88a7bb18e71ab0c27eed29aae86ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c22388c41d8eb14a0bc1ff2417a21093 = $(`<div id="html_c22388c41d8eb14a0bc1ff2417a21093" style="width: 100.0%; height: 100.0%;">Durham: ELEC</div>`)[0];
+                popup_eab88a7bb18e71ab0c27eed29aae86ac.setContent(html_c22388c41d8eb14a0bc1ff2417a21093);
+            
+        
+
+        marker_7d08c352b9debf7481b12bb9dd9ce83d.bindPopup(popup_eab88a7bb18e71ab0c27eed29aae86ac)
+        ;
+
+        
+    
+    
+            var marker_b32921a4d5cd296b3eba1dd7e6d6ce18 = L.marker(
+                [30.252438, -97.694427],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_cd998cdca6e9141d50e58b9b196cebcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b32921a4d5cd296b3eba1dd7e6d6ce18.setIcon(icon_cd998cdca6e9141d50e58b9b196cebcc);
+        
+    
+        var popup_2a0e3c236ff4aaf9109bcc2974704b0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfbca8c5a2c530a4a93fc72aad38ab3c = $(`<div id="html_cfbca8c5a2c530a4a93fc72aad38ab3c" style="width: 100.0%; height: 100.0%;">Austin: ELEC</div>`)[0];
+                popup_2a0e3c236ff4aaf9109bcc2974704b0b.setContent(html_cfbca8c5a2c530a4a93fc72aad38ab3c);
+            
+        
+
+        marker_b32921a4d5cd296b3eba1dd7e6d6ce18.bindPopup(popup_2a0e3c236ff4aaf9109bcc2974704b0b)
+        ;
+
+        
+    
+    
+            var marker_044a85580bc2f1b5e6a80f457eb2ce90 = L.marker(
+                [37.284189, -121.999331],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_dd35c91d1ac4521b7b13b5ed7dfb6433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_044a85580bc2f1b5e6a80f457eb2ce90.setIcon(icon_dd35c91d1ac4521b7b13b5ed7dfb6433);
+        
+    
+        var popup_df4e676ad395a5801270296ddc06ace1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92a31f854e8e728b7a0096d2a55a481c = $(`<div id="html_92a31f854e8e728b7a0096d2a55a481c" style="width: 100.0%; height: 100.0%;">Saratoga: HY</div>`)[0];
+                popup_df4e676ad395a5801270296ddc06ace1.setContent(html_92a31f854e8e728b7a0096d2a55a481c);
+            
+        
+
+        marker_044a85580bc2f1b5e6a80f457eb2ce90.bindPopup(popup_df4e676ad395a5801270296ddc06ace1)
+        ;
+
+        
+    
+    
+            var marker_cd102f1af52f62919ad211e87f870eef = L.marker(
+                [45.368745, -122.818764],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_030111edfb5bf6242c83edc3c1263635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_cd102f1af52f62919ad211e87f870eef.setIcon(icon_030111edfb5bf6242c83edc3c1263635);
+        
+    
+        var popup_497b950edd3e8447933264a1c0eab4d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_669cfa49d37d5b17f67e48adb072b513 = $(`<div id="html_669cfa49d37d5b17f67e48adb072b513" style="width: 100.0%; height: 100.0%;">Sherwood: LPG</div>`)[0];
+                popup_497b950edd3e8447933264a1c0eab4d6.setContent(html_669cfa49d37d5b17f67e48adb072b513);
+            
+        
+
+        marker_cd102f1af52f62919ad211e87f870eef.bindPopup(popup_497b950edd3e8447933264a1c0eab4d6)
+        ;
+
+        
+    
+    
+            var marker_609010796005876a181912a5802cbe4d = L.marker(
+                [37.484232, -122.150257],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_d9904a4047a72c871a9703dbfe3a8299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_609010796005876a181912a5802cbe4d.setIcon(icon_d9904a4047a72c871a9703dbfe3a8299);
+        
+    
+        var popup_40c5d14ce3c9c5bdf89bb83bd1437eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae416771639aa3d60460a6cc0b6b6032 = $(`<div id="html_ae416771639aa3d60460a6cc0b6b6032" style="width: 100.0%; height: 100.0%;">Menlo Park: ELEC</div>`)[0];
+                popup_40c5d14ce3c9c5bdf89bb83bd1437eb0.setContent(html_ae416771639aa3d60460a6cc0b6b6032);
+            
+        
+
+        marker_609010796005876a181912a5802cbe4d.bindPopup(popup_40c5d14ce3c9c5bdf89bb83bd1437eb0)
+        ;
+
+        
+    
+    
+            var marker_0879d4f019a4fb0f7e3fcf9bd97076c9 = L.marker(
+                [32.825982, -83.654688],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_a78fb10ec13a6440697ede793c9680ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_0879d4f019a4fb0f7e3fcf9bd97076c9.setIcon(icon_a78fb10ec13a6440697ede793c9680ae);
+        
+    
+        var popup_75e23579d9bb5a9ada8e23c08e95e61f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bc7def5c83a7a0f97bd5a6dd1e67aaf = $(`<div id="html_5bc7def5c83a7a0f97bd5a6dd1e67aaf" style="width: 100.0%; height: 100.0%;">Macon: ELEC</div>`)[0];
+                popup_75e23579d9bb5a9ada8e23c08e95e61f.setContent(html_5bc7def5c83a7a0f97bd5a6dd1e67aaf);
+            
+        
+
+        marker_0879d4f019a4fb0f7e3fcf9bd97076c9.bindPopup(popup_75e23579d9bb5a9ada8e23c08e95e61f)
+        ;
+
+        
+    
+    
+            var marker_7e153054dead7eecf5e0accec32ba6fe = L.marker(
+                [41.922521, -91.636398],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_e727f13bc2627d0646f115899e6e59ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7e153054dead7eecf5e0accec32ba6fe.setIcon(icon_e727f13bc2627d0646f115899e6e59ca);
+        
+    
+        var popup_0ac0c707f10c74887e632181baee4392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91051219d89bdbb30d2bcf39330cbcd = $(`<div id="html_e91051219d89bdbb30d2bcf39330cbcd" style="width: 100.0%; height: 100.0%;">Cedar Rapids: BD</div>`)[0];
+                popup_0ac0c707f10c74887e632181baee4392.setContent(html_e91051219d89bdbb30d2bcf39330cbcd);
+            
+        
+
+        marker_7e153054dead7eecf5e0accec32ba6fe.bindPopup(popup_0ac0c707f10c74887e632181baee4392)
+        ;
+
+        
+    
+    
+            var marker_4246e05e7a0777740a48800dd6c6d63c = L.marker(
+                [28.874924, -82.579351],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_88a0c574f1910fb88348c34a4342a44a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4246e05e7a0777740a48800dd6c6d63c.setIcon(icon_88a0c574f1910fb88348c34a4342a44a);
+        
+    
+        var popup_000817726af4f0373287f5d9f2e206b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463128363e6ced5e14f557727b1034e1 = $(`<div id="html_463128363e6ced5e14f557727b1034e1" style="width: 100.0%; height: 100.0%;">Crystal River: ELEC</div>`)[0];
+                popup_000817726af4f0373287f5d9f2e206b9.setContent(html_463128363e6ced5e14f557727b1034e1);
+            
+        
+
+        marker_4246e05e7a0777740a48800dd6c6d63c.bindPopup(popup_000817726af4f0373287f5d9f2e206b9)
+        ;
+
+        
+    
+    
+            var marker_a8761d4fd196457e578535524cb69b2b = L.marker(
+                [44.887883, -97.108091],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_4053c081141b68dd633ac94131382adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_a8761d4fd196457e578535524cb69b2b.setIcon(icon_4053c081141b68dd633ac94131382adb);
+        
+    
+        var popup_6e80caeab19c622577fecda4b32f604e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d45f4b409f8a10be7e7fd689553bf36b = $(`<div id="html_d45f4b409f8a10be7e7fd689553bf36b" style="width: 100.0%; height: 100.0%;">Watertown: E85</div>`)[0];
+                popup_6e80caeab19c622577fecda4b32f604e.setContent(html_d45f4b409f8a10be7e7fd689553bf36b);
+            
+        
+
+        marker_a8761d4fd196457e578535524cb69b2b.bindPopup(popup_6e80caeab19c622577fecda4b32f604e)
+        ;
+
+        
+    
+    
+            var marker_094ca4e2fc940c33d3c10f8d4c775522 = L.marker(
+                [33.678208, -117.759918],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_91cd4fd645308e57aa3e6d2eaacc7a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_094ca4e2fc940c33d3c10f8d4c775522.setIcon(icon_91cd4fd645308e57aa3e6d2eaacc7a1b);
+        
+    
+        var popup_d2caebabefb79e60edd8ed72bc7bbc2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b62e20838bd3bccdf76aa361d4dd8d2c = $(`<div id="html_b62e20838bd3bccdf76aa361d4dd8d2c" style="width: 100.0%; height: 100.0%;">Irvine: ELEC</div>`)[0];
+                popup_d2caebabefb79e60edd8ed72bc7bbc2f.setContent(html_b62e20838bd3bccdf76aa361d4dd8d2c);
+            
+        
+
+        marker_094ca4e2fc940c33d3c10f8d4c775522.bindPopup(popup_d2caebabefb79e60edd8ed72bc7bbc2f)
+        ;
+
+        
+    
+    
+            var marker_aaebe41907c6ac6eccbfe9fcc256ba6d = L.marker(
+                [33.5450679737711, -105.568503591263],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_329788a301792f4350252255cd0801ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_aaebe41907c6ac6eccbfe9fcc256ba6d.setIcon(icon_329788a301792f4350252255cd0801ee);
+        
+    
+        var popup_e3181c52ada8218f4b56dc6eda001035 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01314f23dcc22eba60f74b03ca25ee60 = $(`<div id="html_01314f23dcc22eba60f74b03ca25ee60" style="width: 100.0%; height: 100.0%;">Capitan: LPG</div>`)[0];
+                popup_e3181c52ada8218f4b56dc6eda001035.setContent(html_01314f23dcc22eba60f74b03ca25ee60);
+            
+        
+
+        marker_aaebe41907c6ac6eccbfe9fcc256ba6d.bindPopup(popup_e3181c52ada8218f4b56dc6eda001035)
+        ;
+
+        
+    
+    
+            var marker_b9dc9ff9b6804fc486a1e08a869c7f7e = L.marker(
+                [34.22086578, -118.5337418],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_f05bcd0bb29ce2b32fcec071e800fc50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b9dc9ff9b6804fc486a1e08a869c7f7e.setIcon(icon_f05bcd0bb29ce2b32fcec071e800fc50);
+        
+    
+        var popup_353a66b3694ab774607bbf228ee351c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4eff0b20e620ec7527d2c313543b1b5 = $(`<div id="html_a4eff0b20e620ec7527d2c313543b1b5" style="width: 100.0%; height: 100.0%;">Los Angeles: ELEC</div>`)[0];
+                popup_353a66b3694ab774607bbf228ee351c9.setContent(html_a4eff0b20e620ec7527d2c313543b1b5);
+            
+        
+
+        marker_b9dc9ff9b6804fc486a1e08a869c7f7e.bindPopup(popup_353a66b3694ab774607bbf228ee351c9)
+        ;
+
+        
+    
+    
+            var marker_5fbe51a33f453f1f7f7e205a9300c589 = L.marker(
+                [42.818034, -75.532041],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_560018c1ad416cf19ab552d40bec746f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5fbe51a33f453f1f7f7e205a9300c589.setIcon(icon_560018c1ad416cf19ab552d40bec746f);
+        
+    
+        var popup_38c67f8f8346bde3dea7b0f0ba43ac93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92c3af4e5b7ad042a9b95fb989d18730 = $(`<div id="html_92c3af4e5b7ad042a9b95fb989d18730" style="width: 100.0%; height: 100.0%;">Hamilton: ELEC</div>`)[0];
+                popup_38c67f8f8346bde3dea7b0f0ba43ac93.setContent(html_92c3af4e5b7ad042a9b95fb989d18730);
+            
+        
+
+        marker_5fbe51a33f453f1f7f7e205a9300c589.bindPopup(popup_38c67f8f8346bde3dea7b0f0ba43ac93)
+        ;
+
+        
+    
+    
+            var marker_1fd5f8345a0a6f44adaf34dba6ae3bea = L.marker(
+                [33.671088, -117.842308],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_0028ae315554a4a3a97fb3d7d0d39def = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_1fd5f8345a0a6f44adaf34dba6ae3bea.setIcon(icon_0028ae315554a4a3a97fb3d7d0d39def);
+        
+    
+        var popup_ab4562b782e1ba4da8c88394269a6ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9e119cf5ccc5070d7a4326ffb517ec3 = $(`<div id="html_f9e119cf5ccc5070d7a4326ffb517ec3" style="width: 100.0%; height: 100.0%;">Irvine: ELEC</div>`)[0];
+                popup_ab4562b782e1ba4da8c88394269a6ae0.setContent(html_f9e119cf5ccc5070d7a4326ffb517ec3);
+            
+        
+
+        marker_1fd5f8345a0a6f44adaf34dba6ae3bea.bindPopup(popup_ab4562b782e1ba4da8c88394269a6ae0)
+        ;
+
+        
+    
+    
+            var marker_7a7ff93f5c756b20c225e2f2eb84dccb = L.marker(
+                [47.616932, -122.33399],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_e86f1218d82402a0156e308465fbb509 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7a7ff93f5c756b20c225e2f2eb84dccb.setIcon(icon_e86f1218d82402a0156e308465fbb509);
+        
+    
+        var popup_638ab50f136bb552e2b0166e89afcff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5cc70540536b9f0a7fac2861d64a537 = $(`<div id="html_d5cc70540536b9f0a7fac2861d64a537" style="width: 100.0%; height: 100.0%;">Seattle: ELEC</div>`)[0];
+                popup_638ab50f136bb552e2b0166e89afcff7.setContent(html_d5cc70540536b9f0a7fac2861d64a537);
+            
+        
+
+        marker_7a7ff93f5c756b20c225e2f2eb84dccb.bindPopup(popup_638ab50f136bb552e2b0166e89afcff7)
+        ;
+
+        
+    
+    
+            var marker_118d5bbdee655f45f94bdb61bc4bd52d = L.marker(
+                [41.830185, -88.031294],
+                {}
+            ).addTo(map_5c2bcad20cb16f3b2ed31b40098cb6b7);
+        
+    
+            var icon_ceac46439c9be1a83e70b98155bd1529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "car", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_118d5bbdee655f45f94bdb61bc4bd52d.setIcon(icon_ceac46439c9be1a83e70b98155bd1529);
+        
+    
+        var popup_43e8fec7a98dd8114abdabf3bf9b070f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003d86db2bc892288522dac90b6bbadb = $(`<div id="html_003d86db2bc892288522dac90b6bbadb" style="width: 100.0%; height: 100.0%;">Downers Grove: ELEC</div>`)[0];
+                popup_43e8fec7a98dd8114abdabf3bf9b070f.setContent(html_003d86db2bc892288522dac90b6bbadb);
+            
+        
+
+        marker_118d5bbdee655f45f94bdb61bc4bd52d.bindPopup(popup_43e8fec7a98dd8114abdabf3bf9b070f)
+        ;
+
+        
+    
+</script>
+</html>
