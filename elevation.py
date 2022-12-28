@@ -1,9 +1,9 @@
 import requests
 
-params = {'pretty': True}
-product_id = 'SRTMGL1_NC.003'
-response = requests.get(
-    'https://appeears.earthdatacloud.nasa.gov/api/product/{0}'.format(product_id),
-    params=params)
-product_response = response.text
-print(product_response)
+def fetch_elevation(lon: float, lat: float):
+    res = requests.get(f"https://api.open-elevation.com/api/v1/lookup?locations={lat},{lon}")
+    return res.json()["results"][0]["elevation"]
+
+if __name__ == "__main__":
+    #random point in the middle of the ocean
+    fetch_elevation(31.416944, 409.999877)
