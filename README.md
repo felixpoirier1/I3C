@@ -1,6 +1,7 @@
 <img src="/img/geo_data.png" width=1200>
 
-# Green street notes
+# Notes
+## Green street notes
 
 <table>
   <tr>
@@ -62,8 +63,19 @@ Columns to use in <i>market_sectors__historical_market</i>:
   - Healthy (3)
   - Stable (2)
   - Concerning (1)
-* interstate distance
+* interstate_distance
 * interstate_miles (The total miles of interstate with in a market)
 * mrevpaf_growth_yoy_credit (The year-over-year growth in M-RevPAF, which combines two key operating metrics (rent and occupancy) into a single value) (75% full)
 * occupancy (Percentage of total unit count that is physically occupied)
 * population_500mi 
+
+
+## ML notes
+
+We can try to predict some financial metric based on its prediction & data from the past 6mo
+<div style="color:yellow"><b>BEWARE OF AUTOCORRELATION<b></div>
+
+Candidates for y-values :
+* ncf_growth
+* noi_growth
+* rent_growth
