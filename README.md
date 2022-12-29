@@ -1,4 +1,4 @@
-<img src="/img/geo_data.png" width=200>
+<img src="/img/geo_data.png" width=1200>
 
 # Green street notes
 
