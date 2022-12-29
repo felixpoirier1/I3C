@@ -1,3 +1,5 @@
+<img src="/img/geo_data.png" width=200>
+
 # Green street notes
 
 <table>
@@ -44,4 +46,24 @@
 
 </table>
 
-<img src="/img/geo_data.png" width=200>
+Columns to use in <i>market_sectors__historical_market</i>:
+
+* age_median
+* airport_volume (Total airport passenger volume. Measured at the zip code level based on the nearest airport)
+* asset_value_momentum (Compares the year-over-year and trailing-twelve month change in asset values)
+* desirability_quintile (Measures how desirable a market is to live in)
+  - Somewhat Desirable (5)
+  - Desirable (4)
+  - Somewhat Desirable (3)
+  - Less Desirable (2)
+  - Much Less Desirable (1)
+
+* fiscal_health_tax_quintile (Measures the financial viability and solvency of a market)
+  - Healthy (3)
+  - Stable (2)
+  - Concerning (1)
+* interstate distance
+* interstate_miles (The total miles of interstate with in a market)
+* mrevpaf_growth_yoy_credit (The year-over-year growth in M-RevPAF, which combines two key operating metrics (rent and occupancy) into a single value) (75% full)
+* occupancy (Percentage of total unit count that is physically occupied)
+* population_500mi 
