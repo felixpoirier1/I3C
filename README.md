@@ -73,7 +73,7 @@ Columns to use in <i>market_sectors__historical_market</i>:
 ## ML notes
 
 We can try to predict some financial metric based on its prediction & data from the past 6mo
-<div style="color:yellow"><b>BEWARE OF AUTOCORRELATION<b></div>
+<div style="color:yellow;"><b>BEWARE OF AUTOCORRELATION<b></div>
 
 Candidates for y-values :
 * ncf_growth
