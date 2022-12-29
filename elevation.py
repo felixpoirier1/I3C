@@ -6,4 +6,4 @@ def fetch_elevation(lon: float, lat: float):
 
 if __name__ == "__main__":
     #random point in the middle of the ocean
-    fetch_elevation(31.416944, 409.999877)
+    fetch_elevation(31.416944, -56.999877)
