@@ -43,3 +43,5 @@
 
 
 </table>
+
+<img src="img/geo_data.png" width=200>ý,€ý,>€ý,€ý,
