@@ -72,27 +72,40 @@ Here are the assumptions underlying the final model, which will try to find pric
 
 </table>
 
-Columns to use in <i>market_sectors__historical_market</i>:
+# Data selection and justification
 
-* age_median
-* airport_volume (Total airport passenger volume. Measured at the zip code level based on the nearest airport)
-* asset_value_momentum (Compares the year-over-year and trailing-twelve month change in asset values)
-* desirability_quintile (Measures how desirable a market is to live in)
+### Regional data x_itn (max 15)
+Columns to use in <i>market_sectors__historical_market</i> <b> ("regional" data x_itn) </b>:
+
+* age_median (we assume age to be an important indocator of a population's propensity to buy goods and stimulate the local economy)
+* airport_volume (Total airport passenger volume. Measured at the zip code level based on the nearest airport) (since airports locations are already included in geographic model and that it somewhat takes into consideration volume, this may be trivial)
+* asset_value_momentum (Compares the year-over-year and trailing-twelve month change in asset values) (Momentum is generally a good sign of futur growth, still unsure if it should be added)
+* desirability_quintile (Measures how desirable a market is to live in) (somewhat subjective and its measurement is unclear, but if accurate could be very useful)
   - Somewhat Desirable (5)
   - Desirable (4)
   - Somewhat Desirable (3)
   - Less Desirable (2)
   - Much Less Desirable (1)
 
-* fiscal_health_tax_quintile (Measures the financial viability and solvency of a market)
+* fiscal_health_tax_quintile (Measures the financial viability and solvency of a market) (very useful, credit risk has to be inserted somewhere and local credit risk is optimal, specifically when included with a macro indicator)
   - Healthy (3)
   - Stable (2)
   - Concerning (1)
-* interstate_distance
-* interstate_miles (The total miles of interstate with in a market)
-* mrevpaf_growth_yoy_credit (The year-over-year growth in M-RevPAF, which combines two key operating metrics (rent and occupancy) into a single value) (75% full)
-* occupancy (Percentage of total unit count that is physically occupied)
-* population_500mi 
+* interstate_distance (interstates could not be added in the geographic model due to complex data structures, this is a shortcut, not a feature)
+* interstate_miles (The total miles of interstate with in a market) (still a copout, but slightly better)
+* mrevpaf_growth_yoy_credit (The year-over-year growth in M-RevPAF, which combines two key operating metrics (rent and occupancy) into a single value) (75% full) (quite black-box, but if accurate very useful to describe the actual utilization rate of properties)
+* occupancy (Percentage of total unit count that is physically occupied) (perhaps this metric should trump previous metric)
+* population_500mi (useful, quite broad, may be able to somewhat complement the urban center geo map)
+
+Other potential <b> ("regional" data x_itn) </b>:
+
+### Macro data (max 5)
+* Interest rates (obviously preferably for same maturity as the avg logistic center mortgage)
+* Exchange rates (especially USDMEX & USDCAD) (NAFTA is a huge part of the US's exports, this matters quite a lot)
+* PMI (Purchasing Manager's Index is a great forward looking indicator that incorporates business confidence, which are generally the owners of logistics centers)
+* Inflation (inflation could be a good forward indicator of monetary policies, and therefore financial risk)
+* Vacancy rates (have used before, great forward indicator of a market's health)
+* S&P 500 (could be a great forward indicator of RE future growth)
 
 
 ## ML notes
