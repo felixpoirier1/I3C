@@ -11,15 +11,15 @@ Here are the assumptions underlying the final model, which will try to find pric
 	1. Data compiled by GS is accurate and represents a regional RE market holistically
 	2. Methods of measurment are constant throughout time
 
-* Relative to "regional" data (x_i data):
+* Relative to "regional" data (x_itn data):
 	1. Regional data is unlikely to experience large changes through time
 	2. Regional data are mean reverting, meaning they subscribe to no directional trend
 
-* Relative to "macro" data (x_t data):
+* Relative to "macro" data (x_tn data):
 	1. The expected effect of macro data is equal across markets
 	2. Macro data has explanatory value regarding fluctuations in RE valuation
 
-* Relative to "geographic" data (x_ll data):
+* Relative to "geographic" data (x_lln data):
 	1. Geographic data is unlikely to experience large changes through time
 	2. Geographic data is constant throughout the vector of time (subject to change*)
 
