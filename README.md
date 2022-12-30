@@ -3,11 +3,27 @@
 
 # Assumptions
 Here are the assumptions underlying the final model, which will try to find price inefficiencies:
-* Relative to "forecast" data (y-val to be predicted)
-1. GS baseline forecasts are most likely to materialize given a large enough time interval
-2. CF forecasts follow market expectations are unlikely to deviate by a large amount
+* Relative to "forecast" data (y-val to be predicted):
+	1. GS baseline forecasts are most likely to materialize given a large enough time interval
+	2. CF forecasts follow market expectations are unlikely to deviate by a large amount
 
-* Relative to "regional" data ($x_i$ data)
+* Relative to "dependant" data (y-val to be trained/tested/cross-validated):
+	1. Data compiled by GS is accurate and represents a regional RE market holistically
+	2. Methods of measurment are constant throughout time
+
+* Relative to "regional" data (x_i data):
+	1. Regional data is unlikely to experience large changes through time
+	2. Regional data are mean reverting, meaning they subscribe to no directional trend
+
+* Relative to "macro" data (x_t data):
+	1. The expected effect of macro data is equal across markets
+	2. Macro data has explanatory value regarding fluctuations in RE valuation
+
+* Relative to "geographic" data (x_ll data):
+	1. Geographic data is unlikely to experience large changes through time
+	2. Geographic data is constant throughout the vector of time (subject to change*)
+
+*if there is enough time, we could simulate monte-carlo simulation, by perverting the geographic landscape of a region and seeing how it affects its RE potential
 
 # Notes
 ## Green street notes
