@@ -1,6 +1,14 @@
 <img src="/img/geo_data.png" width=1200>
 <img src="/img/NCF_Top10.png" width=2000>
 
+# Assumptions
+Here are the assumptions underlying the final model, which will try to find price inefficiencies:
+* Relative to "forecast" data (y-val to be predicted)
+1. GS baseline forecasts are most likely to materialize given a large enough time interval
+2. CF forecasts follow market expectations are unlikely to deviate by a large amount
+
+* Relative to "regional" data ($x_i$ data)
+
 # Notes
 ## Green street notes
 
