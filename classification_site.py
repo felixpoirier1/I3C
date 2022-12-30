@@ -47,7 +47,7 @@ cities = cities_df.city.tolist()[:10]+ ["Top 50"]
 past_data.date = pd.to_datetime(past_data.date)
 past_data = past_data[past_data.date.dt.month == 12]
 
-plt.figure(figsize=(50, 20), facecolor="white")
+plt.figure(figsize=(50, 20), facecolor="grey")
 plt.title("Net Cash Flow Growth of 10 most populous american cities", **{"size": 34})
 
 for city in cities:
