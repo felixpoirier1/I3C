@@ -72,3 +72,7 @@ plt.savefig("img/NCF_Top10.png")
 # COMMAND ----------
 
 
+
+# COMMAND ----------
+
+
