@@ -18,9 +18,9 @@ miami.head()
 plt.figure(figsize=(50, 20))
 plt.title("mrevpaf_growth")
 miami = forecasts[(forecasts.fc_publish == "2021 Q1") & (forecasts.sector_publish == "Industrial") & (forecasts.market_publish == "Miami")]
-plt.plot(miami.date, miami.supply_growth, label = f"{miami.fc_publish.to_list()[0]}")
+plt.plot(miami.date, miami.mrevpaf_growth, label = f"{miami.fc_publish.to_list()[0]}")
 miami = forecasts[(forecasts.date_fc_release == "2022-03-31") & (forecasts.sector_publish == "Industrial") & (forecasts.market_publish == "Miami")]
-plt.plot(miami.date, miami.supply_growth, label = f"{miami.fc_publish.to_list()[0]}");
+plt.plot(miami.date, miami.mrevpaf_growth, label = f"{miami.fc_publish.to_list()[0]}");
 plt.legend()
 plt.grid(True)
 
@@ -48,7 +48,7 @@ past_data.date = pd.to_datetime(past_data.date)
 past_data = past_data[past_data.date.dt.month == 12]
 
 plt.figure(figsize=(30, 10), facecolor="#d9d9d9")
-plt.title("Net Cash Flow Growth of 10 most populous american cities", **{"size": 34})
+plt.title("Net Cash Flow Growth of 10 most populous american cities", **{"size": 30})
 
 for city in cities:
     data = past_data[(forecasts.market_publish == city)]
