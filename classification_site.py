@@ -47,7 +47,7 @@ cities = cities_df.city.tolist()[:10]+ ["Top 50"]
 past_data.date = pd.to_datetime(past_data.date)
 past_data = past_data[past_data.date.dt.month == 12]
 
-plt.figure(figsize=(50, 20), facecolor="grey")
+plt.figure(figsize=(30, 10), facecolor="#d9d9d9")
 plt.title("Net Cash Flow Growth of 10 most populous american cities", **{"size": 34})
 
 for city in cities:
@@ -68,11 +68,6 @@ forecast = data.date.loc[39851:].to_list()
 plt.axvspan(forecast[0], forecast[-1], facecolor='r', alpha=0.1)
 plt.legend(fontsize=15)
 plt.savefig("img/NCF_Top10.png")
-
-# COMMAND ----------
-
-past_data = past_data[past_data.date.dt.month == 12]
-past_data
 
 # COMMAND ----------
 
