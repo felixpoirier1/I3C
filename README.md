@@ -81,7 +81,7 @@ Columns to use in <i>market_sectors__historical_market</i> <b> ("regional" data 
 * airport_volume (Total airport passenger volume. Measured at the zip code level based on the nearest airport) (since airports locations are already included in geographic model and that it somewhat takes into consideration volume, this may be trivial)
 * asset_value_momentum (Compares the year-over-year and trailing-twelve month change in asset values) (Momentum is generally a good sign of futur growth, still unsure if it should be added)
 * desirability_quintile (Measures how desirable a market is to live in) (somewhat subjective and its measurement is unclear, but if accurate could be very useful)
-  - Somewhat Desirable (5)
+  - Very Desirable (5)
   - Desirable (4)
   - Somewhat Desirable (3)
   - Less Desirable (2)
@@ -101,12 +101,10 @@ Other potential <b> ("regional" data x_itn) </b>:
 
 ### Macro data (max 5)
 * Interest rates (obviously preferably for same maturity as the avg logistic center mortgage)
-* Exchange rates (especially USDMEX & USDCAD) (NAFTA is a huge part of the US's exports, this matters quite a lot)
+* Exchange rates (especially USDMEX & USDCAD & EURUSD) (NAFTA is a huge part of the US's exports, this matters quite a lot)
 * PMI (Purchasing Manager's Index is a great forward looking indicator that incorporates business confidence, which are generally the owners of logistics centers)
-* Inflation (inflation could be a good forward indicator of monetary policies, and therefore financial risk)
-* Vacancy rates (have used before, great forward indicator of a market's health)
-* S&P 500 (could be a great forward indicator of RE future growth)
-
+* WTICO
+* EX - IM (trade balance)
 
 ## ML notes
 
