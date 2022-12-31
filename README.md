@@ -116,3 +116,13 @@ Candidates for y-values :
 * ncf_growth
 * noi_growth
 * rent_growth
+
+# Structure rapport
+1. 
+1. Expliquer le modèle
+2. Justifications
+3. Performance financière
+4. ESG
+5. Résultats
+6. Analyse
+7. Conclusion
