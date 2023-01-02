@@ -38,7 +38,7 @@ def save_map(map :np.ndarray, filename :str):
 
 # COMMAND ----------
 
-xmap = np.load("output/us_map.npy")
+xmap = np.load("ml/data/map/us_map.npy")
 
 font1 = {'size'   : 22}
 font2 = {'size' : 16}
@@ -63,9 +63,9 @@ xmap.shape
 
 # COMMAND ----------
 
-us_landmass = np.load("output/us_landmass.npy")
-can_landmass = np.load("output/can_landmass.npy")
-mex_landmass = np.load("output/mex_landmass.npy")
+us_landmass = np.load("ml/data/map/us_landmass.npy")
+can_landmass = np.load("ml/data/map/can_landmass.npy")
+mex_landmass = np.load("ml/data/map/mex_landmass.npy")
 
 fig, (us, can, mex) = plt.subplots(1, 3)
 
@@ -102,57 +102,57 @@ mex.imshow(mex_landmass, cmap="terrain_r");
 # MAGIC axs[0,0].imshow(landmass, cmap="terrain_r")
 # MAGIC 
 # MAGIC # airports
-# MAGIC airports = np.load("output/airports.npy")
+# MAGIC airports = np.load("ml/data/map/airports.npy")
 # MAGIC axs[0,1].set_title("Aéroports internationaux", **font2)
 # MAGIC axs[0,1].imshow(landmass - airports, cmap="terrain_r")
 # MAGIC 
 # MAGIC # cng stations
-# MAGIC cng = np.load("output/cng_stations.npy")
+# MAGIC cng = np.load("ml/data/map/cng_stations.npy")
 # MAGIC axs[0,2].set_title("Stations de gaz naturel compressé", **font2)
 # MAGIC axs[0,2].imshow(landmass - cng, cmap="terrain_r")
 # MAGIC 
 # MAGIC # docks
-# MAGIC docks = np.load("output/docks.npy")
+# MAGIC docks = np.load("ml/data/map/docks.npy")
 # MAGIC axs[0,3].set_title("Quais", **font2)
 # MAGIC axs[0,3].imshow(landmass - docks, cmap="terrain_r")
 # MAGIC 
 # MAGIC # e85 stations
-# MAGIC e85 = np.load("output/e85_stations.npy")
+# MAGIC e85 = np.load("ml/data/map/e85_stations.npy")
 # MAGIC axs[1,0].set_title("Stations superéthanol-E85", **font2)
 # MAGIC axs[1,0].imshow(landmass - e85, cmap="terrain_r")
 # MAGIC 
 # MAGIC # electric stations
-# MAGIC elec = np.load("output/elec_stations.npy")
+# MAGIC elec = np.load("ml/data/map/elec_stations.npy")
 # MAGIC axs[1,1].set_title("Bornes de recharge", **font2)
 # MAGIC axs[1,1].imshow(landmass*30 - elec, cmap="terrain_r")
 # MAGIC 
 # MAGIC # ferry terminals
-# MAGIC ferry = np.load("output/ferry_terminals.npy")
+# MAGIC ferry = np.load("ml/data/map/ferry_terminals.npy")
 # MAGIC axs[1,2].set_title("Ports pour bateau de courte distance", **font2)
 # MAGIC axs[1,2].imshow(landmass*5 - ferry, cmap="terrain_r")
 # MAGIC 
 # MAGIC # lng terminals
-# MAGIC lng = np.load("output/lng_terminals.npy")
+# MAGIC lng = np.load("ml/data/map/lng_terminals.npy")
 # MAGIC axs[1,3].set_title("Terminaux de gaz naturel liquéfié", **font2)
 # MAGIC axs[1,3].imshow(landmass*2 - lng, cmap="terrain_r")
 # MAGIC 
 # MAGIC # lpg stations
-# MAGIC lpg = np.load("output/lpg_stations.npy")
+# MAGIC lpg = np.load("ml/data/map/lpg_stations.npy")
 # MAGIC axs[2,0].set_title("Stations de gaz de pétrole liquéfié", **font2)
 # MAGIC axs[2,0].imshow(landmass - lpg, cmap="terrain_r")
 # MAGIC 
 # MAGIC #railroad nodes
-# MAGIC rlrd = np.load("output/rlrd_nodes.npy")
+# MAGIC rlrd = np.load("ml/data/map/rlrd_nodes.npy")
 # MAGIC axs[2,1].set_title("Stations et arrêts de train", **font2)
 # MAGIC axs[2,1].imshow(landmass - rlrd, cmap="terrain_r")
 # MAGIC 
 # MAGIC #transit stops
-# MAGIC stops = np.load("output/transit_stops.npy")
+# MAGIC stops = np.load("ml/data/map/transit_stops.npy")
 # MAGIC axs[2,2].set_title("Arrêts transports en commun", **font2)
 # MAGIC axs[2,2].imshow(landmass*30 - stops, cmap="terrain_r")
 # MAGIC 
 # MAGIC #truck stop parkings
-# MAGIC truck = np.load("output/truck_stops.npy")
+# MAGIC truck = np.load("ml/data/map/truck_stops.npy")
 # MAGIC axs[2,3].set_title("Arrêts de camions", **font2)
 # MAGIC axs[2,3].imshow(landmass*30 - truck, cmap="terrain_r")
 
@@ -184,7 +184,7 @@ plt.imshow(landmass - markets, cmap="terrain_r");
 # COMMAND ----------
 
 mkts_indus = mkts[mkts["sector"]=="Industrial"]
-mkts_indus = mkts_indus[["market_publish", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]]
+mkts_indus = mkts_indus[["market_publish", "date_bom", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]]
 
 # COMMAND ----------
 
@@ -225,6 +225,16 @@ mkts_indus.fillna(mkts_indus.median(), inplace=True)
 
 mkts_indus.reset_index(drop=True, inplace=True)
 mkts_indus
+
+# COMMAND ----------
+
+mkts_indus.groupby(["market_publish", "date_bom"]).first().loc[("Chicago")]
+
+# COMMAND ----------
+
+plt.imshow((landmass-lpg)[10:40, 80:100], cmap="terrain_r")
+plt.axis("off")
+
 
 # COMMAND ----------
 

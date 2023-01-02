@@ -42,6 +42,10 @@ past_data
 
 # COMMAND ----------
 
+past_data[past_data.market_publish == "Boston"]
+
+# COMMAND ----------
+
 cities_df = pd.read_csv("data/clean/american_cities.csv")
 cities = cities_df.city.tolist()[:10]+ ["Top 50"]
 past_data.date = pd.to_datetime(past_data.date)
@@ -71,7 +75,7 @@ plt.savefig("img/NCF_Top10.png")
 
 # COMMAND ----------
 
-
+past_data[past_data.market_publish]
 
 # COMMAND ----------
 
