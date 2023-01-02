@@ -35,7 +35,7 @@ import os
 maps = os.listdir("ml/data/map")
 maps.remove("us_map.npy")
 maps_dict = {map.replace(".npy",""): np.load(f"ml/data/map/{map}") for map in maps}
-xmap = np.load("ml/data/map/us_map.npy")
+xmap = np.load("ml/data/map/us_map.npy")[::-1]
 
 # COMMAND ----------
 
@@ -49,8 +49,17 @@ mkts_ref = pd.read_csv("data/clean/markets_reference.csv")
 
 # COMMAND ----------
 
-mkts_indus = mkts[mkts["sector"]=="Industrial"]
+mkts_indus = mkts[(mkts["sector"]=="Industrial")]
 mkts_indus = mkts_indus[["market_publish", "date_bom", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]]
+mkts_indus.columns = ["market_publish", "date", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]
+mkts_indus.date = pd.to_datetime(mkts_indus.date)
+mkts_indus = mkts_indus[(mkts_indus["date"].dt.month == 1)]
+
+start = mkts_indus.date.to_list()[0] - dt.timedelta(days = 31)
+end = mkts_indus.date.to_list()[-1]
+
+mkts_indus.date = mkts_indus.date.dt.year
+
 
 desirability_quintile_dict = {
     "Very Desirable" : 5,
@@ -83,9 +92,7 @@ mkts_indus["longitude"] = mkts_indus["market_publish"].apply(get_lon)
 
 #Pour gérer les valeurs manquantes, on pourrait remplacer par la moyenne/médianne. Toutefois, ce serait mieux d'y aller par proximité (remplacer par la valeur de lieux le plus proche). Par souci de temps j'y vais par la médiane
 mkts_indus.fillna(mkts_indus.median(), inplace=True)
-start = dt.datetime.strptime(mkts_indus.date_bom.to_list()[0], "%Y-%m-%d") - dt.timedelta(days = 31)
-end = dt.datetime.strptime(mkts_indus.date_bom.to_list()[-1], "%Y-%m-%d")
-mkts_indus = mkts_indus.groupby(["market_publish", "date_bom"]).first()
+mkts_indus = mkts_indus.groupby(["market_publish", "date"]).first()
 mkts_indus
 
 # COMMAND ----------
@@ -113,7 +120,10 @@ for i in var_macro:
 
 # COMMAND ----------
 
-var_macro_df = var_macro_df.ffill().dropna().resample("M").last()
+var_macro_df = var_macro_df.ffill().dropna().resample("Y").first()
+var_macro_df.index = var_macro_df.index.year
+var_macro_df.index.names = ['date']
+
 
 # COMMAND ----------
 
@@ -127,11 +137,12 @@ ncf = spark.sql('select * from hive_metastore.gs.forecasts__historical_baseline'
 # COMMAND ----------
 
 ncf.date = pd.to_datetime(ncf.date)
-ncf = ncf[(ncf.date_fc_release == "2022-03-31") & (ncf.sector_publish == "Industrial") & (ncf.date >= start) & (ncf.date <= end) & (ncf.market_publish != "Top 50")]
+ncf = ncf[(ncf.date_fc_release == "2022-03-31") & (ncf.sector_publish == "Industrial") & (ncf.date >= start + dt.timedelta(days=30*12)) & (ncf.date <= end) & (ncf.market_publish != "Top 50")]
+ncf.date = ncf.date.dt.year
 
 # COMMAND ----------
 
-ncf = ncf[["market_publish", "date", "ncf_growth"]].groupby(["market_publish", "date"]).first()
+ncf = ncf[["market_publish", "date", "ncf_growth"]].groupby(["market_publish", "date"]).last()
 
 # COMMAND ----------
 
@@ -148,18 +159,21 @@ ncf = ncf[["market_publish", "date", "ncf_growth"]].groupby(["market_publish", "
 
 def get_zone(longitude, latitude, map, size = 10):
     x, y = np.unravel_index(np.argmin(np.sqrt((xmap[:, :, 0] - latitude) ** 2 + (xmap[:, :, 1] - longitude) ** 2)), xmap.shape[:2])
-    print(1)
     zone = maps_dict[map][max([x-size, 0]):min([x+size, xmap.shape[0]]), max([y-size,0]):min([y+size,xmap.shape[1]])]
-    print(2)
     if (x-size < 0):
         top = -(x-size)
-        zone = np.append(np.zeros(top, zone.shape[1]), zone, axis=0)
+        zone = np.append(np.zeros((top, zone.shape[1])), zone, axis=0)
     elif (x+size > xmap.shape[0]):
-        bottom = (x+size > xmap.shape[0]) - xmap.shape[0]
+        bottom = x + size - xmap.shape[0]
+        zone = np.append(zone, np.zeros((bottom, zone.shape[1])), axis=0)
     
     if (y-size < 0):
-        left = None
-    return zone
+        left = -(y-size)
+        zone = np.append(np.zeros((zone.shape[0],left)), zone, axis = 1)
+    elif (y+size > xmap.shape[1]):
+        right = y + size - xmap.shape[1]
+        zone = np.append(zone, np.zeros((zone.shape[0],right)), axis = 1)
+    return zone.astype('float64')
     
 
 # COMMAND ----------
@@ -171,35 +185,39 @@ for row in ncf.index:
     city = row[0]
     lon = get_lon(city)
     lat = get_lat(city)
-    print(city)
     for map in maps_dict.keys():
-        ncf.loc[row][map] = get_zone(lon, lat, map)
+        ncf[map][row] = get_zone(lon, lat, map, 15)
         
 
 # COMMAND ----------
 
-ncf.loc[row]
+LON = -87.6244212
+LAT = 41.8755616
+MAP = "ferry_terminals"
+SIZE = 15
+plt.title(f"{MAP} at lat = {round(LAT,2)} & lon = {round(LON,2)} with zoom of {SIZE}")
+plt.imshow(get_zone(LON, LAT, MAP, SIZE)+ get_zone(LON, LAT, "us_landmass", SIZE)*10);
 
 # COMMAND ----------
 
-mkts_ref
+# MAGIC %md
+# MAGIC 
+# MAGIC ### Local data
 
 # COMMAND ----------
 
-plt.imshow(get_zone(-106.646400, 35.105300, "mex_landmass", size=30), cmap="terrain_r")
+ncf_ = ncf.join(mkts_indus)
 
 # COMMAND ----------
 
-plt.imshow(maps_dict["mex_landmass"][22-20:22+20, 37-20:37+20], cmap="terrain_r")
+# MAGIC %md
+# MAGIC 
+# MAGIC ### Macro data
 
 # COMMAND ----------
 
-plt.imshow(get_zone(-90.904200, 20.128400, "us_landmass", size=20))
+ncf__ = ncf_.join(var_macro_df)
 
 # COMMAND ----------
 
-max(1,2)
-
-# COMMAND ----------
-
-
+ncf__
