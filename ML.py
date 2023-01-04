@@ -225,7 +225,7 @@ plt.savefig("img/zoom_15_lpg.png")
 
 # COMMAND ----------
 
-plt.figure(figsize=(30, 60))
+plt.figure(figsize=(60, 30))
 
 plt.imshow(maps_dict["lpg_stations"]+ maps_dict["us_landmass"])
 plt.axis('off')
