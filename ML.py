@@ -213,23 +213,32 @@ for row in ncf.index:
 LON = -74.040900
 LAT = 40.762699
 MAP = "lpg_stations"
-SIZE = 25
-plt.axis('off')
-plt.title(f"{MAP} at lat = {round(LAT,2)} \n& lon = {round(LON,2)} with zoom of {SIZE}")
-plt.imshow(get_zone(LON, LAT, MAP, SIZE)+ get_zone(LON, LAT, "us_landmass", SIZE));
+SIZE = 15
 
-plt.savefig("img/zoom_25_lpg.png")
+plt.figure(figsize=(10, 10))
+
+plt.title(f"{MAP} at lat = {round(LAT,2)} \n& lon = {round(LON,2)} with zoom of {SIZE}", **{"size": 20})
+plt.imshow(get_zone(LON, LAT, MAP, SIZE)+ get_zone(LON, LAT, "us_landmass", SIZE));
+plt.axis('off')
+
+plt.savefig("img/zoom_15_lpg.png")
 
 # COMMAND ----------
 
+plt.figure(figsize=(30, 60))
+
 plt.imshow(maps_dict["lpg_stations"]+ maps_dict["us_landmass"])
 plt.axis('off')
-plt.title("lpg_stations")
+plt.title("lpg_stations", **{"size":30})
 plt.savefig("img/lpg.png")
 
 # COMMAND ----------
 
 maps_dict.keys()
+
+# COMMAND ----------
+
+plt.rcParams["savefig.dpi"]
 
 # COMMAND ----------
 
