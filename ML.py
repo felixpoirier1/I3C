@@ -16,6 +16,7 @@ import pandas as pd
 import pandas_datareader as web
 import matplotlib.pyplot as plt
 import datetime as dt
+import seaborn as sns
 
 import os
 
@@ -53,6 +54,7 @@ mkts_ref = pd.read_csv("data/clean/markets_reference.csv")
 mkts_indus = mkts[(mkts["sector"]=="Industrial")]
 mkts_indus = mkts_indus[["market_publish", "date_bom", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]]
 mkts_indus.columns = ["market_publish", "date", "age_median", "airport_volume", "asset_value_momentum", "desirability_quintile", "fiscal_health_tax_quintile", "interstate_distance", "interstate_miles", "mrevpaf_growth_yoy_credit", "occupancy", "population_500mi"]
+print(mkts_indus)
 mkts_indus.date = pd.to_datetime(mkts_indus.date)
 mkts_indus = mkts_indus[(mkts_indus["date"].dt.month == 1)]
 
@@ -113,7 +115,7 @@ var_macro_df = pd.DataFrame()
 
 for i in var_macro:
     # téléchargement sur la fed américaine à l'aide de pandas datareader
-    var_macro_dict[i] = web.DataReader(i.upper(), 'fred', start, end)
+    var_macro_dict[i] = web.DataReader(i.upper(), 'fred', start, end + dt.timedelta(days=365))
     if var_macro_df.empty:
         var_macro_df = var_macro_dict[i]
     else:
@@ -142,10 +144,15 @@ ncf
 # COMMAND ----------
 
 ncf.date = pd.to_datetime(ncf.date)
+# & ((ncf.date <= end)|((ncf.date.dt.year == end.year) & (ncf.date.dt.month == 12)))
 
-ncf = ncf[(ncf.date_fc_release == "2022-03-31") & (ncf.sector_publish == "Industrial") & (ncf.date <= end) & (ncf.market_publish != "Top 50")]
+ncf = ncf[(ncf.date_fc_release == "2022-03-31") & ((ncf.date <= end) | ((ncf.date.dt.year == end.year) & (ncf.date.dt.month == 12))) & (ncf.sector_publish == "Industrial")  & (ncf.market_publish != "Top 50")]
 
 ncf.date = ncf.date.dt.year
+
+# COMMAND ----------
+
+end
 
 # COMMAND ----------
 
@@ -160,7 +167,7 @@ ncf["ncf_growth_3"] = ncf.ncf_growth.shift(3)
 # COMMAND ----------
 
 ncf = ncf.reset_index()
-ncf = ncf.loc[ncf.date >= 2019].groupby(["market_publish", "date"]).first()
+ncf = ncf.loc[(ncf.date >= 2019)].groupby(["market_publish", "date"]).first()
 ncf
 
 # COMMAND ----------
@@ -206,7 +213,6 @@ for row in ncf.index:
     lat = get_lat(city)
     for map in maps_dict.keys():
         ncf[map][row] = get_zone(lon, lat, map, 15)
-        
 
 # COMMAND ----------
 
@@ -222,23 +228,6 @@ plt.imshow(get_zone(LON, LAT, MAP, SIZE)+ get_zone(LON, LAT, "us_landmass", SIZE
 plt.axis('off')
 
 plt.savefig("img/zoom_15_lpg.png")
-
-# COMMAND ----------
-
-plt.figure(figsize=(30, 15))
-
-plt.imshow(maps_dict["lpg_stations"]+ maps_dict["us_landmass"])
-plt.axis('off')
-plt.title("lpg_stations", **{"size":30})
-plt.savefig("img/lpg.png")
-
-# COMMAND ----------
-
-maps_dict.keys()
-
-# COMMAND ----------
-
-plt.rcParams["savefig.dpi"]
 
 # COMMAND ----------
 
@@ -262,6 +251,10 @@ ncf__ = ncf_.join(var_macro_df)
 
 # COMMAND ----------
 
+ncf__
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC 
 # MAGIC ### Splitting dataset
@@ -270,17 +263,19 @@ ncf__ = ncf_.join(var_macro_df)
 
 x_df = ncf__.copy().drop(["latitude", "longitude"], axis=1)
 new_order = x_df.columns[4:].append(x_df.columns[:4])
-x_df = x_df[new_order]
-y_df = x_df.pop("ncf_growth")
 
+x_pred = x_df[new_order].drop([2019, 2020, 2021], level=1, axis=0)
+y_pred = x_pred.pop("ncf_growth")
+x_df = x_df[new_order].drop(2022, level=1, axis=0)
+y_df = x_df.pop("ncf_growth")
 
 x_arr = np.array(x_df)
 y_arr = np.array(y_df)
-labelname = np.array(y_df.index)
 
-# COMMAND ----------
+x_pred_arr = np.array(x_pred)
+y_pred_arr = np.array(y_pred)
 
-x_df.isna().describe()
+labelname = np.array(y_pred.index.levels[0])
 
 # COMMAND ----------
 
@@ -298,9 +293,11 @@ X_test_mat = X_test[:, :14]
 X_test_mat = np.stack(X_test_mat.tolist())
 X_test_mat = tf.keras.utils.normalize(X_test_mat)
 
-# COMMAND ----------
-
-
+X_pred_val = x_pred_arr[:,14:].astype(np.float32)
+X_pred_val = tf.keras.utils.normalize(X_pred_val)
+X_pred_mat = x_pred_arr[:, :14]
+X_pred_mat = np.stack(X_pred_mat.tolist())
+X_pred_mat = tf.keras.utils.normalize(X_pred_mat)
 
 # COMMAND ----------
 
@@ -350,7 +347,7 @@ model.summary()
 
 # COMMAND ----------
 
-history = model.fit([X_train_mat, X_train_val], [y_train, y_train], epochs=50)
+history = model.fit([X_train_mat, X_train_val], [y_train, y_train], epochs=100)
 
 # COMMAND ----------
 
@@ -358,8 +355,29 @@ plt.plot(history.history['loss'])
 
 # COMMAND ----------
 
-predict = model.predict((X_train_mat, X_train_val))
+bm = model.predict((X_train_mat, X_train_val))
 
+
+# COMMAND ----------
+
+real = np.transpose([y_train])
+
+x_base = [i/100 for i in list(range(-10, 20))]
+
+plt.figure(figsize=(15, 10))
+plt.ylim(-0.05,0.1)
+plt.xlim(-0.05,0.1)
+plt.title("Fit sur données d'entraînement", **{'size': 20})
+plt.scatter(real, bm, label="Prédiction")
+plt.plot(x_base, x_base, c="red", label="Valeur optimale")
+plt.legend(fontsize = 15)
+plt.xlabel("Valeur réelle", **{'size': 15})
+plt.ylabel("Valeur prédite", **{'size': 15});
+
+
+# COMMAND ----------
+
+predict = model.predict((X_pred_mat, X_pred_val))
 
 # COMMAND ----------
 
@@ -367,16 +385,42 @@ predict
 
 # COMMAND ----------
 
-real = np.transpose([y_train])
+anticip = np.transpose([y_pred_arr])
 
-plt.ylim(-0.05,0.08)
-plt.xlim(-0.05,0.08)
+x_base = [i/100 for i in list(range(-10, 20))]
 
-# #x_base = [i/100 for i in list(range(-10, 20))]
-
-plt.scatter(real, predict)
+plt.figure(figsize=(15, 10))
+plt.ylim(-0.05,0.1)
+plt.xlim(-0.05,0.1)
+plt.title("Fit sur données d'entraînement", **{'size': 20})
+plt.scatter(anticip, predict, label="Prédiction")
+plt.plot(x_base, x_base, c="red", label="Valeur optimale")
+plt.legend(fontsize = 15)
+plt.xlabel("Valeur anticipée", **{'size': 15})
+plt.ylabel("Valeur prédite", **{'size': 15});
 
 # COMMAND ----------
 
-for mat in X_train_mat[0]:
-    plt.imshow(mat)
+ ncf_diff = pd.DataFrame(predict-anticip, columns = ["ncf_growth differential"], index = labelname).sort_values("ncf_growth differential", ascending = False)
+
+# COMMAND ----------
+
+import plotly.express as px
+fig = px.bar(x=ncf_diff.index, y = ncf_diff["ncf_growth differential"].tolist(),
+            labels={'x': 'Marché', 'y':'Différentiel du ncf growth en pourcentage'})
+fig.update_xaxes(type='category')
+fig.write_html("Prediction_file.html")
+fig.show()
+
+# COMMAND ----------
+
+plt.figure(figsize=(30, 5))
+plt.bar(ncf_diff.index, ncf_diff["ncf_growth differential"].tolist())
+
+# COMMAND ----------
+
+ncf_diff.reset_index().index.tolist()
+
+# COMMAND ----------
+
+
