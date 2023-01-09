@@ -51,8 +51,8 @@ cities = cities_df.city.tolist()[:10]+ ["Top 50"]
 past_data.date = pd.to_datetime(past_data.date)
 past_data = past_data[past_data.date.dt.month == 12]
 
-plt.figure(figsize=(30, 10), facecolor="#d9d9d9")
-plt.title("Net Cash Flow Growth of 10 most populous american cities", **{"size": 30})
+plt.figure(figsize=(30, 10))
+plt.title("Croissance des flux monétaires net des actifs industriels pour les 10 villes les plus populées", **{"size": 30})
 
 for city in cities:
     data = past_data[(forecasts.market_publish == city)]
@@ -61,11 +61,11 @@ for city in cities:
     else:
         plt.plot(data.date, data.ncf_growth.cumsum(), linewidth=2.0, label = city);
 
-plt.text(pd.Timestamp('2024-03-31 00:00:00'), 1.25, "Forecast", **{"size": 20})
-plt.text(pd.Timestamp('2012-03-31 00:00:00'), 1.25, "Historical", **{"size": 20})
+plt.text(pd.Timestamp('2024-03-31 00:00:00'), 1.25, "Prévisions", **{"size": 20})
+plt.text(pd.Timestamp('2012-03-31 00:00:00'), 1.25, "Historique", **{"size": 20})
 
 plt.xlabel("Date", **{"size": 20})
-plt.ylabel("Cumulative growth in percentage", **{"size": 20})
+plt.ylabel("Croissance cumulative en pourcentage", **{"size": 20})
 
 
 forecast = data.date.loc[39851:].to_list()

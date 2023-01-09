@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %sh pip install tensorflow pandas_datareader pydot graphviz
+# MAGIC %sh pip install tensorflow pandas_datareader
 
 # COMMAND ----------
 
@@ -48,6 +48,10 @@ xmap = np.load("ml/data/map/us_map.npy")[::-1]
 
 mkts = spark.sql('select * from hive_metastore.gs.market_sectors__historical_market').toPandas()
 mkts_ref = pd.read_csv("data/clean/markets_reference.csv")
+
+# COMMAND ----------
+
+mkts.groupby("sector").count()
 
 # COMMAND ----------
 
@@ -377,6 +381,27 @@ plt.ylabel("Valeur prédite", **{'size': 15});
 
 # COMMAND ----------
 
+bm = model.predict((X_test_mat, X_test_val))
+
+
+# COMMAND ----------
+
+real = np.transpose([y_test])
+
+x_base = [i/100 for i in list(range(-10, 20))]
+
+plt.figure(figsize=(15, 10))
+plt.ylim(-0.05,0.1)
+plt.xlim(-0.05,0.1)
+plt.title("Fit sur données de test", **{'size': 20})
+plt.scatter(real, bm, label="Prédiction")
+plt.plot(x_base, x_base, c="red", label="Valeur optimale")
+plt.legend(fontsize = 15)
+plt.xlabel("Valeur réelle", **{'size': 15})
+plt.ylabel("Valeur prédite", **{'size': 15});
+
+# COMMAND ----------
+
 predict = model.predict((X_pred_mat, X_pred_val))
 
 # COMMAND ----------
@@ -392,7 +417,7 @@ x_base = [i/100 for i in list(range(-10, 20))]
 plt.figure(figsize=(15, 10))
 plt.ylim(-0.05,0.1)
 plt.xlim(-0.05,0.1)
-plt.title("Fit sur données d'entraînement", **{'size': 20})
+plt.title("Prédictions pour l'année 2022", **{'size': 20})
 plt.scatter(anticip, predict, label="Prédiction")
 plt.plot(x_base, x_base, c="red", label="Valeur optimale")
 plt.legend(fontsize = 15)
@@ -414,12 +439,52 @@ fig.show()
 
 # COMMAND ----------
 
-plt.figure(figsize=(30, 5))
-plt.bar(ncf_diff.index, ncf_diff["ncf_growth differential"].tolist())
+ncf__.loc[["New York", "Sacramento", "Kansas City"]][ncf__.columns[18:]]
 
 # COMMAND ----------
 
-ncf_diff.reset_index().index.tolist()
+city = "Honolulu"
+
+fig, axs = plt.subplots(3, 4)
+fig.set_size_inches(40, 12)
+fig.suptitle(f"Données géographiques de {city}", **{"size":30})
+
+count = 0
+
+maps_dict2 = {map : maps_dict[map] for map in maps_dict if map not in ["can_landmass", "mex_landmass"]}
+for map in maps_dict2:
+    
+    lon = mkts_ref.loc[mkts_ref.market_publish	== city]["longitude"].item()
+    lat = mkts_ref.loc[mkts_ref.market_publish == city]["latitude"].item()
+    
+    row = count // 3  # integer division
+    col = count % 3 
+    
+    axs[col,row].set_title(map, **{"size":15})
+    axs[col,row].imshow(get_zone(lon, lat, map, size = 15), cmap="terrain_r")
+    
+    count += 1
+        
+
+# COMMAND ----------
+
+mkts_ref
+
+# COMMAND ----------
+
+get_zone(lon, lat, (maps_dict[map]), size = 10)
+
+# COMMAND ----------
+
+maps_dict[map]
+
+# COMMAND ----------
+
+lat
+
+# COMMAND ----------
+
+mkts_ref.loc[mkts_ref.market_publish	== city]["longitude"].item()
 
 # COMMAND ----------
 
