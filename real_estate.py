@@ -232,8 +232,9 @@ mkts_indus.groupby(["market_publish", "date_bom"]).first().loc[("Chicago")]
 
 # COMMAND ----------
 
-plt.imshow((landmass-lpg)[10:40, 80:100], cmap="terrain_r")
+plt.imshow((landmass-lpg)[10:50, 70:110], cmap="terrain_r")
 plt.axis("off")
+plt.savefig('img/frontpage.png', dpi=1000)
 
 
 # COMMAND ----------
