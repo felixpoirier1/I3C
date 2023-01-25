@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétition I3C</title>
+    <link rel="stylesheet" href="../static/styles/style.css"> 
+</head>
+<nav>
+    <ul class="menu">
+        <li><a href="/" class="active">Menu</a></li>
+        <li><a href="/newyork">New York</a></li>
+        <li><a href="/kansascity">Kansas City</a></li>
+        <li><a href="/sanfrancisco">San Francisco</a></li>
+        <li><a href="/allcities">Toutes les villes</a></li>
+        <li class="slider"></li>
+      </ul>
+</nav>
+<body>
+    <style>
+        @font-face {
+        font-family: "PT Sans";
+        src: url("../assets/PTSans-Regular.ttf") format("truetype");
+        }
+        .top-page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e8c736;
+            height: 10vh;
+        }
+        .cities-carousel {
+            display: flex;
+            flex:2;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+        }
+        .cities-wrapper {
+            justify-content: center;
+            flex: 1 1;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+        }
+        
+        #topcity-element {
+            width: 500px;
+            height: 600px;
+            background-color: #eee;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            padding-top: 5%;
+        }
+        .city-wrapper:hover {
+            -webkit-filter: brightness(70%);
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+
+        /* city-element must have a background image and darken on hover */
+        #bottomcity-element {
+
+            height: 300px;
+            background-color: #eee;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            padding-top: 5%;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h2 {
+            margin: 0;
+            padding: 0;
+            font-family: Garamond, serif;
+        }
+        #bottomcity-element h2{
+            margin: 0;
+            padding: 0;
+            font-family: Garamond, serif;
+            color: white;
+
+        }
+
+        h1 {
+            font-size: 4em;
+            text-align: center;
+            font-family: Garamond, serif;
+            text-size-adjust: 100%;
+        }
+
+    </style>
+    <div class="top-page">
+        <h1>Compétition I3C</h1>
+    </div>
+
+    <div class="cities-wrapper">
+        <div class="cities-carousel">
+            {% for city in context.cities %}
+            <div class="city-wrapper">
+                <a href="/{{ context.citiesfilename[loop.index-1] }}">
+                    <div id="topcity-element" style="background-size: cover; background-image: url('../static/images/{{ context.citiesfilename[loop.index-1]}}.jpg')">
+                        <h2>{{ city }}</h2>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+            <div class="city-wrapper">
+                <a href="/allcities">
+                    <div id="bottomcity-element" style="background-image: url('../static/images/allcities.jpg'); background-position: 50%; background-repeat: no-repeat; background-attachment: fixed;">
+                        <h2>Toutes les villes</h2>
+                    </div>
+                </a>
+            </div>
+    </div>
+    
+    {% for n in range(50) %}
+        <br> 
+    {% endfor %}
+
+</body>
+</html>

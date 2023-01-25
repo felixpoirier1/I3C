@@ -1,0 +1,906 @@
+city,lat,lng,country,population
+New York,40.6943,-73.9249,United States,19354922
+Los Angeles,34.1139,-118.4068,United States,12815475
+Chicago,41.8373,-87.6861,United States,8675982
+Miami,25.784,-80.2102,United States,6381966
+Dallas,32.7937,-96.7662,United States,5733259
+Philadelphia,40.0076,-75.134,United States,5637884
+Houston,29.7868,-95.3905,United States,5446468
+Washington,38.9047,-77.0163,United States,5289420
+Atlanta,33.7626,-84.4228,United States,5228750
+Boston,42.3188,-71.0846,United States,4637537
+Phoenix,33.5722,-112.0891,United States,4081849
+Seattle,47.6211,-122.3244,United States,3643765
+San Francisco,37.7562,-122.443,United States,3603761
+Detroit,42.3834,-83.1024,United States,3522206
+San Diego,32.8312,-117.1226,United States,3210314
+Minneapolis,44.9635,-93.2678,United States,2926757
+Tampa,27.9937,-82.4454,United States,2804240
+Denver,39.7621,-104.8759,United States,2787266
+Brooklyn,40.6501,-73.9496,United States,2629150
+Queens,40.7498,-73.7976,United States,2333054
+Baltimore,39.3051,-76.6144,United States,2170504
+Riverside,33.9381,-117.3948,United States,2084749
+Saint Louis,38.6358,-90.2451,United States,2078283
+Las Vegas,36.2291,-115.2607,United States,2073045
+Portland,45.5372,-122.65,United States,2052796
+San Antonio,29.4722,-98.5247,United States,2002530
+Sacramento,38.5667,-121.4683,United States,1854698
+San Jose,37.3018,-121.8485,United States,1821899
+Orlando,28.4788,-81.342,United States,1776841
+Cleveland,41.4767,-81.6805,United States,1730363
+Pittsburgh,40.4396,-79.9763,United States,1715297
+Cincinnati,39.1412,-84.5059,United States,1648254
+Manhattan,40.7834,-73.9662,United States,1643734
+Austin,30.3006,-97.7517,United States,1638716
+Kansas City,39.1239,-94.5541,United States,1615621
+Indianapolis,39.7771,-86.1458,United States,1564699
+Columbus,39.986,-82.9852,United States,1528314
+Virginia Beach,36.7335,-76.0435,United States,1480383
+Charlotte,35.2079,-80.8303,United States,1467362
+Bronx,40.8501,-73.8662,United States,1455720
+Milwaukee,43.064,-87.9669,United States,1377808
+Providence,41.8229,-71.4186,United States,1206642
+Jacksonville,30.3322,-81.6749,United States,1156291
+Salt Lake City,40.7774,-111.9301,United States,1098400
+Nashville,36.1714,-86.7844,United States,1076645
+Memphis,35.1047,-89.9773,United States,1068873
+Richmond,37.5295,-77.4756,United States,1059907
+New Orleans,30.0687,-89.9288,United States,1029123
+Raleigh,35.8323,-78.6439,United States,1018336
+Louisville,38.1662,-85.6488,United States,1011696
+Oklahoma City,35.4676,-97.5136,United States,955998
+Bridgeport,41.1909,-73.1958,United States,938406
+Buffalo,42.9017,-78.8487,United States,926261
+Hartford,41.7661,-72.6834,United States,914751
+Fort Worth,32.7814,-97.3473,United States,874168
+Tucson,32.1546,-110.8782,United States,868391
+El Paso,31.8479,-106.4309,United States,845674
+Honolulu,21.3294,-157.846,United States,833671
+Omaha,41.2628,-96.0495,United States,827786
+McAllen,26.2325,-98.2467,United States,800904
+Albuquerque,35.1053,-106.6464,United States,758523
+Birmingham,33.5276,-86.7988,United States,744189
+Dayton,39.7797,-84.1998,United States,718169
+Rochester,43.168,-77.6162,United States,711998
+Sarasota,27.3391,-82.5439,United States,706245
+Fresno,36.7834,-119.7941,United States,698021
+Allentown,40.5961,-75.4756,United States,682899
+Tulsa,36.1284,-95.9042,United States,672054
+Concord,37.9722,-122.0016,United States,654770
+Cape Coral,26.6444,-81.9956,United States,630134
+Springfield,42.1155,-72.5395,United States,628076
+Colorado Springs,38.8674,-104.7606,United States,623946
+Charleston,32.8137,-79.9643,United States,616085
+Grand Rapids,42.9615,-85.6557,United States,602694
+Mission Viejo,33.6095,-117.6551,United States,600474
+Albany,42.6664,-73.7987,United States,597270
+Knoxville,35.9692,-83.9495,United States,585249
+Baton Rouge,30.4423,-91.1314,United States,583613
+Bakersfield,35.353,-119.036,United States,574362
+Ogden,41.228,-111.9677,United States,573632
+New Haven,41.3112,-72.9245,United States,568144
+Columbia,34.037,-80.9042,United States,566166
+Akron,41.0802,-81.5219,United States,565920
+Provo,40.2458,-111.6457,United States,503695
+Worcester,42.2705,-71.8079,United States,498997
+Mesa,33.4017,-111.7181,United States,496401
+Palm Bay,27.9861,-80.6628,United States,489912
+Toledo,41.6639,-83.5822,United States,488672
+Murrieta,33.5719,-117.1909,United States,483681
+Wichita,37.6897,-97.3442,United States,483057
+Des Moines,41.5725,-93.6104,United States,481222
+Staten Island,40.5834,-74.1496,United States,476015
+Long Beach,33.8059,-118.161,United States,469450
+Greenville,34.8363,-82.365,United States,467894
+Little Rock,34.7255,-92.3581,United States,442699
+Harrisburg,40.2752,-76.8843,United States,441580
+Denton,33.2176,-97.1421,United States,440146
+Madison,43.0808,-89.3922,United States,439553
+Reno,39.5497,-119.8483,United States,433271
+Port Saint Lucie,27.2796,-80.3883,United States,432589
+Oakland,37.7903,-122.2165,United States,425195
+Winston-Salem,36.1029,-80.261,United States,416581
+Indio,33.7346,-116.2346,United States,408097
+Durham,35.9797,-78.9037,United States,407575
+Syracuse,43.0409,-76.1438,United States,407259
+Chattanooga,35.0657,-85.2488,United States,407182
+Lancaster,40.0421,-76.3012,United States,404525
+Spokane,47.6671,-117.433,United States,403043
+Palm Coast,29.5389,-81.246,United States,401757
+Arlington,32.6998,-97.125,United States,396394
+Bonita Springs,26.3559,-81.7861,United States,396220
+Poughkeepsie,41.6949,-73.921,United States,396041
+Stockton,37.9766,-121.3112,United States,394467
+Oxnard,34.1962,-119.1819,United States,389792
+Augusta,33.3645,-82.0708,United States,389383
+Scranton,41.4044,-75.6649,United States,389022
+Boise,43.6006,-116.2316,United States,385218
+Modesto,37.6374,-121.0028,United States,381398
+Kissimmee,28.3042,-81.4164,United States,374231
+Youngstown,41.0993,-80.6463,United States,373728
+Aurora,39.7084,-104.7274,United States,366623
+Anaheim,33.839,-117.8572,United States,352497
+Lancaster,34.6934,-118.1753,United States,349218
+Victorville,34.5277,-117.3537,United States,346948
+Pensacola,30.4427,-87.1886,United States,344400
+Fayetteville,36.0713,-94.166,United States,341890
+Corpus Christi,27.7173,-97.3822,United States,341435
+Jackson,32.3163,-90.2124,United States,338185
+Greensboro,36.0956,-79.8269,United States,335588
+Flint,43.0236,-83.6922,United States,335354
+Santa Ana,33.7366,-117.8819,United States,334136
+Fort Wayne,41.0885,-85.1436,United States,328564
+Ann Arbor,42.2755,-83.7312,United States,326288
+Fayetteville,35.0846,-78.9776,United States,324700
+Santa Rosa,38.4465,-122.706,United States,321908
+Lansing,42.7142,-84.56,United States,320928
+Mobile,30.6783,-88.1162,United States,318084
+Lexington,38.0423,-84.4587,United States,315939
+Huntsville,34.6989,-86.6414,United States,309716
+Santa Clarita,34.4155,-118.4992,United States,309378
+Asheville,35.5706,-82.5537,United States,309250
+Saint Paul,44.9477,-93.104,United States,306621
+Fort Collins,40.5479,-105.0658,United States,303184
+Antioch,37.9789,-121.7957,United States,302885
+Henderson,36.0145,-115.0362,United States,302539
+Trenton,40.2237,-74.764,United States,296869
+Lakeland,28.0557,-81.9543,United States,291281
+Shreveport,32.4659,-93.7959,United States,287432
+Davenport,41.5563,-90.6052,United States,287413
+Springfield,37.1943,-93.2915,United States,287222
+Plano,33.0502,-96.7487,United States,286143
+Rockford,42.2598,-89.0641,United States,285562
+Newark,40.7245,-74.1725,United States,285154
+Lincoln,40.8098,-96.6802,United States,285118
+Round Lake Beach,42.3791,-88.0811,United States,284607
+South Bend,41.6771,-86.2692,United States,281100
+Savannah,32.0282,-81.1786,United States,280082
+Irvine,33.6772,-117.7738,United States,277453
+Canton,40.8076,-81.3677,United States,271184
+Jersey City,40.7161,-74.0682,United States,270753
+Chula Vista,32.6281,-117.0145,United States,270471
+Eugene,44.0563,-123.1173,United States,267568
+Reading,40.34,-75.9266,United States,267300
+Lafayette,30.2083,-92.0322,United States,265746
+Saint Petersburg,27.793,-82.6652,United States,263255
+Lubbock,33.5643,-101.8871,United States,262505
+Peoria,40.752,-89.6155,United States,262010
+Myrtle Beach,33.7096,-78.8843,United States,260487
+Laredo,27.5616,-99.487,United States,260244
+Salem,44.9232,-123.0245,United States,259816
+Columbus,32.51,-84.8771,United States,259160
+Montgomery,32.347,-86.2663,United States,255908
+Chandler,33.2827,-111.8516,United States,253458
+Anchorage,61.1508,-149.1091,United States,253421
+Tallahassee,30.455,-84.2526,United States,253030
+Concord,35.3933,-80.636,United States,250186
+Scottsdale,33.6872,-111.865,United States,249950
+Killeen,31.0754,-97.7293,United States,247489
+Glendale,33.5796,-112.2258,United States,246709
+Wilmington,34.21,-77.886,United States,245910
+Winter Haven,28.0122,-81.7018,United States,245237
+Norfolk,36.8945,-76.259,United States,244703
+North Las Vegas,36.288,-115.0901,United States,242975
+Gilbert,33.3103,-111.7463,United States,242354
+Atlantic City,39.3797,-74.4527,United States,241363
+Chesapeake,36.6778,-76.3024,United States,240397
+Irving,32.8584,-96.9702,United States,240373
+Hialeah,25.8696,-80.3045,United States,239673
+Garland,32.91,-96.6305,United States,238002
+McKinney,33.2016,-96.6669,United States,235134
+Fremont,37.5265,-121.9852,United States,234962
+Visalia,36.3273,-119.3264,United States,234573
+York,39.9651,-76.7315,United States,234245
+Kennewick,46.1979,-119.1732,United States,232915
+Evansville,37.9882,-87.5339,United States,232285
+Nashua,42.7491,-71.491,United States,231262
+Brownsville,25.998,-97.4565,United States,227883
+Appleton,44.2774,-88.3894,United States,222222
+Gulfport,30.4271,-89.0703,United States,221348
+Thousand Oaks,34.1914,-118.8755,United States,218729
+Avondale,33.3858,-112.3236,United States,217192
+San Bernardino,34.1412,-117.2936,United States,216995
+Bremerton,47.5436,-122.7122,United States,216480
+Roanoke,37.2785,-79.958,United States,216177
+Hickory,35.7427,-81.3233,United States,215353
+Kalamazoo,42.2749,-85.5881,United States,214083
+Tacoma,47.2431,-122.4531,United States,213418
+Fontana,34.0968,-117.4599,United States,211815
+Green Bay,44.515,-87.9896,United States,208625
+College Station,30.5852,-96.296,United States,207308
+Moreno Valley,33.9244,-117.2045,United States,207226
+Amarillo,35.1988,-101.8308,United States,206072
+Portland,43.6773,-70.2715,United States,206023
+Fargo,46.8653,-96.8292,United States,204820
+Santa Barbara,34.4285,-119.7202,United States,204034
+Norwich,41.5495,-72.0882,United States,203916
+Glendale,34.1818,-118.2468,United States,203054
+Yonkers,40.9466,-73.8674,United States,202019
+Huntington Beach,33.696,-118.0025,United States,201874
+Aurora,41.7638,-88.2901,United States,200965
+Gainesville,29.6808,-82.3455,United States,199695
+Olympia,47.0418,-122.8959,United States,196078
+North Port,27.0577,-82.1976,United States,195992
+Huntington,38.4109,-82.4344,United States,194155
+Deltona,28.905,-81.2136,United States,194061
+Grand Prairie,32.6869,-97.0209,United States,193837
+Salinas,36.6881,-121.6316,United States,193590
+Waterbury,41.5583,-73.0361,United States,191484
+Overland Park,38.887,-94.687,United States,191278
+Waco,31.5597,-97.1883,United States,188448
+Erie,42.1168,-80.0733,United States,188079
+Cedar Rapids,41.9667,-91.6782,United States,186160
+Hagerstown,39.6401,-77.7217,United States,185704
+Tempe,33.3881,-111.9318,United States,185038
+Spartanburg,34.9437,-81.9257,United States,183184
+Clarksville,36.5696,-87.3428,United States,182849
+Gastonia,35.2494,-81.1855,United States,180974
+Lorain,41.4409,-82.184,United States,180239
+Sioux Falls,43.5397,-96.7322,United States,180204
+Fort Lauderdale,26.1412,-80.1464,United States,180072
+Newport News,37.1051,-76.5185,United States,179388
+High Point,35.9902,-79.9938,United States,177874
+Santa Cruz,36.9788,-122.0346,United States,177556
+Rancho Cucamonga,34.1247,-117.5664,United States,177452
+Frisco,33.1553,-96.8218,United States,177286
+Danbury,41.4016,-73.471,United States,177177
+Hemet,33.7341,-116.9969,United States,176892
+Oceanside,33.2247,-117.3083,United States,176193
+Ontario,34.0393,-117.6064,United States,175841
+Vancouver,45.6352,-122.597,United States,175673
+Garden Grove,33.7787,-117.9601,United States,174226
+Nampa,43.5843,-116.5626,United States,173863
+Vallejo,38.1133,-122.2359,United States,173844
+Elk Grove,38.416,-121.384,United States,171844
+Pembroke Pines,26.0128,-80.3387,United States,170712
+Medford,42.3372,-122.8537,United States,168219
+Peoria,33.7844,-112.2989,United States,168181
+Corona,33.862,-117.5644,United States,167836
+Murfreesboro,35.8493,-86.4098,United States,167055
+Marysville,48.0809,-122.1558,United States,166541
+Cary,35.7814,-78.8167,United States,165904
+Fredericksburg,38.2992,-77.4872,United States,164976
+Ocala,29.1803,-82.1495,United States,164712
+Manchester,42.9848,-71.4447,United States,160742
+Hayward,37.6328,-122.0772,United States,160500
+Muskegon,43.2281,-86.2562,United States,160142
+Alexandria,38.8185,-77.0861,United States,160035
+Springfield,39.7712,-89.6539,United States,159394
+Lafayette,40.3991,-86.8594,United States,159293
+Port Arthur,29.8554,-93.9264,United States,157934
+Palmdale,34.5944,-118.1057,United States,157519
+Champaign,40.1144,-88.2735,United States,156794
+Gainesville,34.2901,-83.8301,United States,156248
+Frederick,39.4335,-77.4157,United States,154972
+Lakewood,39.6978,-105.1168,United States,154958
+Tuscaloosa,33.2349,-87.5267,United States,154204
+Sunnyvale,37.3835,-122.0257,United States,153656
+Lake Charles,30.203,-93.215,United States,153633
+Hollywood,26.0293,-80.1678,United States,153627
+Pasadena,29.6584,-95.1499,United States,153520
+Pomona,34.0585,-117.7625,United States,152939
+Kansas City,39.1234,-94.7443,United States,152938
+Escondido,33.1347,-117.0722,United States,151969
+Binghamton,42.1014,-75.9093,United States,150747
+Warner Robins,32.598,-83.6528,United States,149617
+New Bedford,41.6697,-70.9428,United States,149528
+Topeka,39.0346,-95.6956,United States,148960
+Beaumont,30.0849,-94.1451,United States,148954
+Paterson,40.9147,-74.1624,United States,148678
+Joliet,41.5193,-88.1501,United States,148462
+Leesburg,28.7674,-81.8981,United States,148161
+Elkhart,41.6913,-85.9628,United States,148131
+Odessa,31.8831,-102.3407,United States,147810
+Naperville,41.7483,-88.1657,United States,147682
+Fairfield,38.2594,-122.0319,United States,147582
+Torrance,33.8346,-118.3417,United States,146758
+Panama City,30.1997,-85.6003,United States,145239
+Bellevue,47.5953,-122.1551,United States,144444
+Midland,32.0249,-102.1137,United States,144247
+Merced,37.3058,-120.4778,United States,144117
+Mesquite,32.7622,-96.5889,United States,143949
+Houma,29.5799,-90.7058,United States,142969
+Charleston,38.3484,-81.6323,United States,142858
+Pasadena,34.1598,-118.139,United States,142647
+Pueblo,38.2701,-104.6131,United States,142351
+Tyler,32.3184,-95.3065,United States,141116
+Orange,33.8038,-117.8219,United States,140560
+Fullerton,33.8841,-117.9279,United States,140392
+Miramar,25.9773,-80.3358,United States,140328
+Santa Maria,34.9333,-120.4432,United States,140219
+Athens,33.9508,-83.3689,United States,140169
+Columbia,38.9478,-92.3258,United States,139945
+Yuma,32.5991,-114.5488,United States,138802
+Olathe,38.8838,-94.8196,United States,137472
+Thornton,39.9205,-104.9443,United States,136978
+Harlingen,26.1917,-97.6977,United States,136968
+Grand Junction,39.0878,-108.5673,United States,136688
+West Valley City,40.6889,-112.0115,United States,136170
+Carrollton,32.9886,-96.9,United States,135710
+Roseville,38.7691,-121.3178,United States,135329
+Warren,42.4934,-83.027,United States,135022
+Bloomington,40.4757,-88.9705,United States,134892
+Hampton,37.0551,-76.3629,United States,134669
+Surprise,33.6802,-112.4525,United States,134085
+Las Cruces,32.3265,-106.7893,United States,133988
+Greeley,40.415,-104.7696,United States,133750
+Yakima,46.5923,-120.5496,United States,133233
+Coral Springs,26.2701,-80.2592,United States,133037
+Sterling Heights,42.5809,-83.0305,United States,132631
+Mauldin,34.7864,-82.2996,United States,132402
+Racine,42.7274,-87.8135,United States,131467
+Stamford,41.1036,-73.5583,United States,130824
+Elizabeth,40.6657,-74.1912,United States,130215
+Kent,47.3887,-122.2128,United States,128458
+Greenville,35.5957,-77.3764,United States,128385
+Simi Valley,34.2663,-118.749,United States,127864
+Burlington,36.0762,-79.4687,United States,127374
+Santa Clara,37.3646,-121.9679,United States,127134
+Johnson City,36.3406,-82.3804,United States,126589
+Boulder,40.0249,-105.2523,United States,126054
+Bellingham,48.7543,-122.4687,United States,126015
+Fort Smith,35.3494,-94.3695,United States,125562
+Lynchburg,37.4003,-79.1908,United States,125004
+Kenosha,42.5863,-87.8759,United States,124888
+South Lyon,42.4614,-83.6526,United States,123850
+Round Rock,30.5252,-97.6659,United States,123678
+Berkeley,37.8723,-122.276,United States,122324
+Billings,45.7889,-108.5503,United States,120800
+Redding,40.5698,-122.365,United States,120270
+Yuba City,39.1357,-121.6381,United States,120186
+Duluth,46.7757,-92.1392,United States,120101
+Pearland,29.5585,-95.3215,United States,119940
+Leominster,42.5209,-71.7717,United States,119400
+Saginaw,43.4199,-83.9501,United States,119336
+Iowa City,41.6559,-91.5304,United States,119091
+Arvada,39.8321,-105.151,United States,118807
+Seaside,36.6224,-121.8191,United States,118110
+Kingsport,36.522,-82.5453,United States,118001
+Independence,39.0871,-94.3503,United States,117306
+Richardson,32.9717,-96.7092,United States,116783
+Rochester,44.0151,-92.4778,United States,116713
+Gilroy,37.0047,-121.5843,United States,116235
+El Monte,34.074,-118.0291,United States,116109
+Rock Hill,34.9413,-81.025,United States,115963
+Clearwater,27.9786,-82.7622,United States,115513
+Monroe,32.5184,-92.0774,United States,115462
+Dover,39.1603,-75.5203,United States,115352
+Carlsbad,33.1246,-117.2837,United States,115330
+Norman,35.2335,-97.3471,United States,115065
+Abilene,32.4543,-99.7384,United States,114964
+Bloomington,39.1637,-86.5256,United States,114959
+Texas City,29.4128,-94.9658,United States,114546
+Temecula,33.4928,-117.1314,United States,114327
+Utica,43.0961,-75.226,United States,114318
+Saint Cloud,45.5339,-94.1719,United States,114225
+Saint George,37.0769,-113.577,United States,113906
+West Jordan,40.6024,-112.0008,United States,113905
+Costa Mesa,33.6667,-117.9135,United States,113825
+Miami Gardens,25.9433,-80.2425,United States,113750
+Cambridge,42.3758,-71.1184,United States,113630
+Downey,33.9379,-118.1312,United States,113092
+Coeur d'Alene,47.7039,-116.7933,United States,112935
+Westminster,39.8837,-105.0627,United States,112812
+Elgin,42.0385,-88.3229,United States,112456
+El Centro,32.7873,-115.5579,United States,112145
+Waterloo,42.492,-92.3522,United States,112060
+Lowell,42.6389,-71.3217,United States,111346
+Gresham,45.5023,-122.4414,United States,111053
+North Charleston,32.9086,-80.0705,United States,110861
+Inglewood,33.9566,-118.3444,United States,110598
+Pompano Beach,26.2428,-80.1312,United States,110473
+Centennial,39.5926,-104.8674,United States,110250
+West Palm Beach,26.7467,-80.1314,United States,110222
+Everett,47.9524,-122.167,United States,110079
+Santa Fe,35.6619,-105.9819,United States,110078
+Richmond,37.9477,-122.339,United States,110040
+Clovis,36.8278,-119.6841,United States,109691
+Pottstown,40.2508,-75.6445,United States,109437
+Jacksonville,34.7323,-77.3962,United States,108872
+Broken Arrow,36.0365,-95.7808,United States,108303
+Burlington,44.4877,-73.2314,United States,108277
+West Covina,34.0555,-117.9113,United States,107598
+Turlock,37.5053,-120.8588,United States,107208
+Daly City,37.6863,-122.4684,United States,107074
+Eau Claire,44.8203,-91.4951,United States,107068
+Hillsboro,45.5271,-122.9358,United States,106894
+Sandy Springs,33.9366,-84.3703,United States,106739
+Sioux City,42.4959,-96.3901,United States,106279
+Chico,39.7574,-121.815,United States,106268
+Norwalk,33.9069,-118.0829,United States,106084
+Salisbury,38.3755,-75.5867,United States,106034
+Lewisville,33.0453,-96.9823,United States,106021
+Davie,26.079,-80.287,United States,105149
+League City,29.4874,-95.1087,United States,104903
+Burbank,34.1879,-118.3234,United States,104834
+San Mateo,37.5522,-122.3122,United States,104748
+El Cajon,32.8017,-116.9604,United States,103894
+Rialto,34.1128,-117.3885,United States,103562
+Bend,44.0562,-121.3087,United States,103349
+Charlottesville,38.0375,-78.4855,United States,102016
+La Crosse,43.8241,-91.2268,United States,101886
+Temple,31.1076,-97.3894,United States,101876
+Vista,33.1895,-117.2387,United States,101568
+Renton,47.4758,-122.1905,United States,101379
+Sparks,39.5729,-119.7157,United States,100888
+Holland,42.7677,-86.0984,United States,100885
+Vacaville,38.3592,-121.9686,United States,100801
+Logan,41.7402,-111.8419,United States,100774
+Allen,33.1088,-96.6735,United States,100685
+Longview,32.5192,-94.7622,United States,100196
+Meridian,43.6113,-116.3972,United States,99926
+San Angelo,31.4426,-100.4501,United States,99890
+Wichita Falls,33.9072,-98.5293,United States,99617
+Longmont,40.1691,-105.0996,United States,99398
+Manteca,37.7938,-121.227,United States,98736
+Boca Raton,26.3749,-80.1077,United States,98150
+Spokane Valley,47.6625,-117.2346,United States,97847
+Orem,40.2983,-111.6993,United States,97839
+Middletown,39.5032,-84.3659,United States,97762
+Compton,33.893,-118.2275,United States,97612
+Idaho Falls,43.4868,-112.0363,United States,97548
+Beaverton,45.4779,-122.8168,United States,97514
+Bismarck,46.814,-100.7695,United States,97457
+Lawrence,38.9597,-95.2641,United States,97341
+Prescott Valley,34.5982,-112.3178,United States,97066
+Federal Way,47.309,-122.3359,United States,96690
+San Marcos,33.1349,-117.1744,United States,96198
+Rio Rancho,35.2872,-106.6981,United States,96159
+Tracy,37.726,-121.444,United States,95982
+Brockton,42.0821,-71.0242,United States,95672
+South Gate,33.9447,-118.1926,United States,95430
+Hesperia,34.3974,-117.3144,United States,94859
+Roswell,34.0391,-84.3513,United States,94786
+Mandeville,30.375,-90.0906,United States,94760
+Vineland,39.4653,-74.9981,United States,94734
+Portsmouth,36.8468,-76.354,United States,94572
+Dearborn,42.3127,-83.2129,United States,94491
+Sunrise,26.1547,-80.2997,United States,94323
+Quincy,42.2516,-71.0183,United States,94166
+Livonia,42.3972,-83.3733,United States,94105
+Lynn,42.4779,-70.9663,United States,94063
+Plantation,26.126,-80.2617,United States,93909
+Slidell,30.2882,-89.7826,United States,93882
+Carson,33.8374,-118.2559,United States,92735
+Terre Haute,39.4654,-87.3763,United States,92722
+Blacksburg,37.23,-80.428,United States,92573
+Portsmouth,43.058,-70.7826,United States,92513
+Miami Beach,25.8171,-80.1396,United States,92307
+Santa Monica,34.0232,-118.4813,United States,92306
+Dover,43.1887,-70.8845,United States,92234
+Carmel,39.9658,-86.1461,United States,92198
+Hanford,36.326,-119.654,United States,92066
+Lafayette,39.9949,-105.0997,United States,91985
+Edmond,35.6689,-97.4159,United States,91950
+Fishers,39.9589,-85.967,United States,91832
+Westminster,33.7523,-117.9938,United States,91564
+Lawton,34.6171,-98.4204,United States,91383
+Florence,34.1785,-79.7857,United States,91311
+Livermore,37.6861,-121.7608,United States,91030
+Lees Summit,38.9172,-94.3816,United States,90597
+Menifee,33.6909,-117.1849,United States,90595
+San Leandro,37.7071,-122.1601,United States,90553
+Albany,31.5776,-84.1762,United States,90515
+Bowling Green,36.9721,-86.4367,United States,90448
+Edinburg,26.319,-98.1607,United States,90280
+Suffolk,36.6953,-76.6398,United States,90237
+Missoula,46.8685,-114.0094,United States,90218
+Chino,33.9836,-117.6653,United States,89797
+Auburn,32.6084,-85.4897,United States,89577
+Fall River,41.7136,-71.1015,United States,89420
+Norwalk,41.1144,-73.4215,United States,89005
+Decatur,39.8556,-88.9337,United States,88997
+Newton,42.3316,-71.2084,United States,88994
+Rapid City,44.0716,-103.2205,United States,88979
+Muncie,40.1989,-85.395,United States,88688
+Kirkland,47.6997,-122.2041,United States,88630
+Sugar Land,29.5965,-95.6293,United States,88485
+State College,40.7909,-77.8568,United States,88285
+Citrus Heights,38.6948,-121.288,United States,87931
+Hawthorne,33.9147,-118.3476,United States,87854
+Jackson,42.2431,-84.4038,United States,87819
+Waukegan,42.3697,-87.8716,United States,87729
+O'Fallon,38.7851,-90.7176,United States,87597
+Napa,38.2977,-122.3011,United States,87032
+Dalton,34.7689,-84.9711,United States,86841
+Whittier,33.9678,-118.0188,United States,86838
+Redwood City,37.5026,-122.2252,United States,86685
+Mount Pleasant,32.8533,-79.8269,United States,86668
+Clifton,40.8631,-74.1575,United States,86607
+Anderson,40.0874,-85.692,United States,86481
+Joplin,37.0766,-94.5016,United States,86298
+Newport Beach,33.6151,-117.8669,United States,86160
+Bloomington,44.8306,-93.3151,United States,85866
+Alhambra,34.084,-118.1355,United States,85396
+Hoover,33.3763,-86.8058,United States,84920
+Largo,27.9088,-82.7713,United States,84754
+Mission,26.204,-98.3251,United States,84424
+Conroe,30.322,-95.4807,United States,84378
+Johns Creek,34.0333,-84.2027,United States,84350
+Lake Forest,33.6607,-117.6712,United States,84293
+Bryan,30.6657,-96.3672,United States,84021
+Port Huron,42.9822,-82.4387,United States,83841
+Troy,42.5818,-83.1457,United States,83813
+Madera,36.964,-120.0803,United States,83636
+Springfield,39.9304,-83.7961,United States,83286
+Buena Park,33.8572,-118.0046,United States,83015
+Pleasanton,37.6664,-121.8805,United States,83007
+Cicero,41.8445,-87.7593,United States,82552
+Alexandria,31.2923,-92.4702,United States,82131
+Melbourne,28.1084,-80.6628,United States,82011
+Westland,42.3192,-83.3805,United States,81747
+Mountain View,37.4,-122.0796,United States,81438
+Somerville,42.3908,-71.1013,United States,81360
+Cranston,41.7658,-71.4858,United States,81202
+Farmington Hills,42.486,-83.3771,United States,81050
+Hattiesburg,31.3072,-89.3168,United States,81036
+Lakewood,33.8471,-118.1221,United States,80967
+Warwick,41.7062,-71.4334,United States,80871
+Williamsburg,37.2693,-76.7076,United States,80855
+Saint Joseph,39.7598,-94.821,United States,80818
+Auburn,47.3041,-122.211,United States,80776
+Brooklyn Park,45.1112,-93.3505,United States,80581
+Deerfield Beach,26.305,-80.1278,United States,80571
+Tustin,33.7309,-117.8106,United States,80498
+Alton,38.9033,-90.1523,United States,80462
+Chino Hills,33.9508,-117.7254,United States,80374
+Lawrence,42.7003,-71.1626,United States,80162
+Texarkana,33.4487,-94.0815,United States,80145
+New Rochelle,40.9305,-73.7836,United States,79946
+Fort Myers,26.6195,-81.8302,United States,79943
+Goodyear,33.2614,-112.3622,United States,79858
+Springdale,36.1898,-94.1573,United States,79599
+Pharr,26.1686,-98.1904,United States,79487
+Valdosta,30.8503,-83.2789,United States,79294
+Alameda,37.767,-122.2673,United States,79177
+Parma,41.3842,-81.7286,United States,79167
+New Braunfels,29.6995,-98.1153,United States,79152
+Kokomo,40.464,-86.1277,United States,79099
+Newark,40.0705,-82.425,United States,79025
+Cheyenne,41.1406,-104.7926,United States,78728
+Flagstaff,35.1872,-111.6195,United States,78628
+Plymouth,45.0224,-93.4615,United States,78395
+Franklin,35.9214,-86.8524,United States,78321
+Florence,34.83,-87.6658,United States,78112
+Milpitas,37.4338,-121.8921,United States,78106
+Folsom,38.6669,-121.1422,United States,78038
+Kankakee,41.102,-87.8643,United States,78001
+Lebanon,40.3412,-76.4228,United States,77973
+Perris,33.7899,-117.2233,United States,77879
+Bellflower,33.888,-118.1271,United States,77772
+Boynton Beach,26.5282,-80.0811,United States,77702
+Watsonville,36.9205,-121.7706,United States,77700
+Anderson,34.5212,-82.6479,United States,77426
+Elizabethtown,37.703,-85.8772,United States,77317
+Wheeling,40.0755,-80.6951,United States,77206
+Upland,34.1178,-117.6603,United States,76999
+Baytown,29.7607,-94.9628,United States,76804
+Battle Creek,42.2985,-85.2296,United States,76803
+Porterville,36.0644,-119.0337,United States,76729
+Loveland,40.4167,-105.0621,United States,76701
+Layton,41.0771,-111.9622,United States,76691
+Flower Mound,33.0344,-97.1147,United States,76681
+Hammond,41.617,-87.4908,United States,76618
+Lake Jackson,29.0516,-95.4522,United States,76565
+Davis,38.5552,-121.7365,United States,76524
+Zephyrhills,28.2407,-82.1797,United States,76416
+Baldwin Park,34.0829,-117.972,United States,76402
+Altoona,40.5082,-78.4007,United States,76096
+Gary,41.5906,-87.3472,United States,76008
+Wyoming,42.8909,-85.7066,United States,75938
+Saint Augustine,29.8979,-81.31,United States,75932
+San Ramon,37.7625,-121.9365,United States,75931
+Bethlehem,40.6266,-75.3679,United States,75707
+Cedar Park,30.5105,-97.8198,United States,75704
+Arlington Heights,42.0956,-87.9825,United States,75634
+Union City,37.603,-122.0187,United States,75343
+Bolingbrook,41.6903,-88.102,United States,75201
+Anniston,33.6713,-85.8136,United States,75169
+Oshkosh,44.0228,-88.5616,United States,75154
+Evanston,42.0463,-87.6942,United States,74756
+Camarillo,34.223,-119.0323,United States,74682
+Camden,39.9361,-75.1073,United States,74532
+Hilton Head Island,32.1896,-80.7499,United States,74500
+Missouri City,29.5635,-95.5377,United States,74497
+San Marcos,29.8734,-97.9382,United States,74212
+Rochester Hills,42.6645,-83.1563,United States,74205
+Schaumburg,42.0307,-88.0838,United States,74184
+Winchester,39.1735,-78.1746,United States,74031
+Harrisonburg,38.4362,-78.8735,United States,74023
+Wausau,44.9615,-89.6436,United States,73933
+Jonesboro,35.8212,-90.6795,United States,73788
+Jackson,35.6533,-88.8352,United States,73685
+Rancho Cordova,38.5739,-121.2521,United States,73563
+Southfield,42.4765,-83.2605,United States,73208
+Owensboro,37.7575,-87.1172,United States,73173
+Apple Valley,34.5329,-117.2102,United States,73077
+Pasco,46.2503,-119.1298,United States,73013
+Conway,35.0753,-92.4695,United States,72894
+Lodi,38.1218,-121.2932,United States,72890
+New Britain,41.6758,-72.7862,United States,72710
+Mansfield,40.7656,-82.5275,United States,72635
+Waukesha,43.0087,-88.2464,United States,72489
+Morgantown,39.638,-79.9468,United States,72453
+Pittsburg,38.019,-121.8969,United States,72141
+Sumter,33.9392,-80.393,United States,72131
+Pawtucket,41.8743,-71.3743,United States,72001
+Lauderhill,26.1605,-80.2241,United States,71970
+Cleveland,35.1817,-84.8707,United States,71944
+Dothan,31.2336,-85.4068,United States,71620
+Redlands,34.0512,-117.171,United States,71554
+Wenatchee,47.4338,-120.3285,United States,71512
+Passaic,40.8574,-74.1282,United States,71247
+Wilmington,39.7415,-75.5413,United States,71106
+Lynwood,33.924,-118.2017,United States,71099
+Maple Grove,45.1089,-93.4626,United States,71066
+Pocatello,42.8716,-112.4656,United States,71020
+South Jordan,40.5571,-111.9782,United States,70954
+Weston,26.1006,-80.4057,United States,70944
+Georgetown,30.6664,-97.6937,United States,70685
+Janesville,42.6855,-89.0136,United States,70518
+North Richland Hills,32.8605,-97.218,United States,70441
+Union City,40.7674,-74.0323,United States,70387
+Saint Charles,38.7958,-90.5159,United States,70329
+Sheboygan,43.7447,-87.7322,United States,69920
+Homestead,25.4664,-80.4472,United States,69907
+Bristol,36.5572,-82.2144,United States,69865
+Lima,40.7409,-84.1121,United States,69798
+Walnut Creek,37.9025,-122.0398,United States,69773
+Woodbury,44.9057,-92.923,United States,69756
+West Bend,43.4184,-88.1822,United States,69577
+Mount Vernon,48.4202,-122.3116,United States,69528
+Hammond,30.506,-90.456,United States,69180
+Daphne,30.6291,-87.8872,United States,69065
+Mansfield,32.569,-97.1211,United States,68928
+Decatur,34.573,-86.9905,United States,68816
+Delray Beach,26.455,-80.0905,United States,68749
+Gaithersburg,39.1347,-77.213,United States,68710
+Mount Vernon,40.9136,-73.8291,United States,68703
+Palatine,42.1181,-88.043,United States,68644
+Dubuque,42.5007,-90.7067,United States,68573
+Bossier City,32.523,-93.6666,United States,68554
+Buckeye,33.4318,-112.643,United States,68453
+Rockville,39.0834,-77.1553,United States,68401
+Broomfield,39.9541,-105.0527,United States,68341
+Victoria,28.8285,-96.985,United States,68271
+Yorba Linda,33.889,-117.7714,United States,68229
+Ames,42.0261,-93.6279,United States,68156
+Daytona Beach,29.1995,-81.0982,United States,68055
+Redondo Beach,33.8574,-118.3766,United States,67908
+Carbondale,37.722,-89.2238,United States,67807
+Hanover,39.8117,-76.9835,United States,67679
+Saratoga Springs,43.0674,-73.7775,United States,67582
+DeKalb,41.9312,-88.7483,United States,67500
+Casper,42.8421,-106.3208,United States,67462
+Kenner,30.0109,-90.2549,United States,67451
+South San Francisco,37.6536,-122.4197,United States,67429
+Sherman,33.6266,-96.6195,United States,67354
+Petaluma,38.2423,-122.6267,United States,67316
+Bayonne,40.6659,-74.1141,United States,67186
+Palo Alto,37.3913,-122.1467,United States,67178
+Weirton,40.406,-80.5671,United States,67082
+Bay City,43.5903,-83.8886,United States,67059
+Eagan,44.817,-93.1638,United States,66627
+Los Lunas,34.8114,-106.7808,United States,66613
+Corvallis,44.5697,-123.278,United States,66441
+Rogers,36.3173,-94.1514,United States,66430
+Lake Elsinore,33.6843,-117.3348,United States,66411
+Laguna Niguel,33.5275,-117.705,United States,66334
+Grand Forks,47.9223,-97.0887,United States,66159
+North Little Rock,34.7814,-92.2378,United States,65911
+Alpharetta,34.0704,-84.2739,United States,65799
+Tamarac,26.2058,-80.2547,United States,65669
+Schenectady,42.8025,-73.9276,United States,65625
+Great Falls,47.5022,-111.2995,United States,65624
+Longview,46.146,-122.963,United States,65619
+West Des Moines,41.5527,-93.7805,United States,65608
+Shawnee,39.0158,-94.8076,United States,65513
+East Orange,40.7651,-74.2117,United States,65378
+San Clemente,33.4498,-117.6103,United States,65267
+Michigan City,41.7098,-86.8705,United States,65144
+Jupiter,26.9199,-80.1127,United States,64976
+Wellington,26.6464,-80.2707,United States,64848
+Rocklin,38.8075,-121.2488,United States,64838
+Rocky Mount,35.9676,-77.8047,United States,64732
+Fairbanks,64.8353,-147.6533,United States,64732
+Elmira,42.0938,-76.8097,United States,64664
+Johnstown,40.3258,-78.9194,United States,64615
+Blaine,45.1696,-93.2077,United States,64557
+Sammamish,47.6019,-122.0419,United States,64548
+Eden Prairie,44.8488,-93.4595,United States,64400
+Redmond,47.6762,-122.1166,United States,64291
+Glens Falls,43.3109,-73.6459,United States,64287
+Parkersburg,39.2623,-81.5419,United States,64253
+Skokie,42.0359,-87.74,United States,63978
+Tulare,36.1996,-119.34,United States,63855
+Lakeville,44.6776,-93.2521,United States,63748
+Haverhill,42.7838,-71.0871,United States,63639
+Pico Rivera,33.9902,-118.0888,United States,63522
+Beloit,42.523,-89.0184,United States,63498
+Pflugerville,30.4528,-97.6022,United States,63359
+Eastvale,33.9617,-117.5802,United States,63211
+Port Orange,29.1084,-81.0136,United States,63203
+Montebello,34.0155,-118.1108,United States,63192
+Encinitas,33.0492,-117.2613,United States,63184
+Rowlett,32.9156,-96.5488,United States,62868
+Monessen,40.1519,-79.8828,United States,62833
+Sebring,27.477,-81.453,United States,62814
+Lehi,40.4137,-111.8728,United States,62712
+Coon Rapids,45.1755,-93.3094,United States,62656
+La Habra,33.9278,-117.9513,United States,62466
+Waltham,42.3889,-71.2423,United States,62442
+Brentwood,37.9355,-121.7191,United States,62433
+Ankeny,41.728,-93.6031,United States,62416
+San Luis Obispo,35.2671,-120.6689,United States,62398
+Springfield,44.0538,-122.9811,United States,62353
+Council Bluffs,41.2369,-95.8517,United States,62316
+Castle Rock,39.3761,-104.8534,United States,62276
+North Miami,25.9006,-80.1681,United States,62225
+Hamilton,39.3938,-84.5653,United States,62092
+Mankato,44.1712,-93.9773,United States,61912
+Noblesville,40.0353,-86.006,United States,61882
+Gadsden,34.009,-86.0156,United States,61656
+Moore,35.3294,-97.4758,United States,61523
+Burnsville,44.7648,-93.2795,United States,61439
+National City,32.6654,-117.0983,United States,61363
+Taylor,42.226,-83.2688,United States,61276
+Malden,42.4305,-71.0576,United States,61246
+Doral,25.8149,-80.3565,United States,61130
+Marietta,33.9532,-84.5421,United States,61048
+Monterey Park,34.0497,-118.1325,United States,61044
+Coconut Creek,26.2803,-80.1842,United States,61010
+Rome,34.2662,-85.1862,United States,60966
+Dublin,37.7161,-121.8964,United States,60939
+Albany,44.6274,-123.0966,United States,60795
+Cupertino,37.3168,-122.0465,United States,60777
+Morristown,36.2043,-83.3001,United States,60316
+Lakewood,47.1628,-122.5299,United States,60296
+Gardena,33.8944,-118.3073,United States,60224
+Bristol,41.6812,-72.9407,United States,60223
+Millcreek,40.6892,-111.8291,United States,60192
+Woodland,38.6712,-121.75,United States,60062
+La Mesa,32.7703,-117.0204,United States,60021
+Taylorsville,40.6569,-111.9493,United States,59992
+Benton Harbor,42.1159,-86.4488,United States,59939
+West Allis,43.0068,-88.0296,United States,59934
+Meriden,41.5367,-72.7943,United States,59927
+Chapel Hill,35.9269,-79.039,United States,59862
+Pontiac,42.6493,-83.2878,United States,59792
+Novi,42.4786,-83.4893,United States,59715
+Saint Clair Shores,42.4921,-82.8957,United States,59635
+Beckley,37.7878,-81.1841,United States,59629
+Sanford,28.7891,-81.2757,United States,59317
+Midland,43.6239,-84.2315,United States,59138
+Royal Oak,42.5084,-83.1539,United States,59112
+Bangor,44.8322,-68.7906,United States,59107
+Bartlett,35.2337,-89.8195,United States,59102
+San Rafael,37.9905,-122.5222,United States,59070
+White Plains,41.022,-73.7548,United States,59047
+Goldsboro,35.3777,-77.972,United States,58972
+Bowie,38.9575,-76.7421,United States,58859
+Huntington Park,33.98,-118.2167,United States,58822
+Arcadia,34.1342,-118.0373,United States,58799
+Lewiston,44.0915,-70.1681,United States,58796
+Columbus,39.2091,-85.918,United States,58771
+Orland Park,41.6075,-87.8619,United States,58765
+Casa Grande,32.907,-111.7624,United States,58632
+Staunton,38.1593,-79.0611,United States,58470
+Margate,26.2465,-80.2119,United States,58430
+Jefferson City,38.5677,-92.1757,United States,58279
+Des Plaines,42.0344,-87.9008,United States,58193
+Santee,32.8555,-116.9856,United States,58113
+Middletown,41.4458,-74.4228,United States,57973
+Hot Springs,34.4902,-93.0498,United States,57819
+Medford,42.4234,-71.1087,United States,57797
+Walla Walla,46.067,-118.3365,United States,57779
+Carson City,39.1512,-119.7474,United States,57525
+Hendersonville,36.3063,-86.5997,United States,57517
+Titusville,28.5727,-80.8193,United States,57497
+Greenwood,39.6019,-86.1073,United States,57375
+Midwest City,35.463,-97.371,United States,57308
+Manhattan,39.1882,-96.6053,United States,57284
+Saint Peters,38.7825,-90.6061,United States,57178
+Taunton,41.9036,-71.0943,United States,57139
+New Brunswick,40.487,-74.445,United States,57073
+East Stroudsburg,41.0023,-75.1779,United States,56771
+Smyrna,33.8633,-84.5168,United States,56685
+Tinley Park,41.567,-87.8051,United States,56668
+Diamond Bar,33.9992,-117.8161,United States,56665
+Bradenton,27.49,-82.5743,United States,56508
+Fountain Valley,33.7105,-117.9514,United States,56313
+Pittsfield,42.4517,-73.2605,United States,56291
+Richland,46.2826,-119.2938,United States,56243
+Huntersville,35.4057,-80.873,United States,56212
+Shoreline,47.7564,-122.3426,United States,56189
+Oak Lawn,41.7139,-87.7528,United States,56087
+Novato,38.092,-122.5576,United States,55980
+Commerce City,39.8642,-104.8434,United States,55923
+Hempstead,40.7043,-73.6193,United States,55806
+Cartersville,34.1632,-84.8007,United States,55794
+Dearborn Heights,42.3164,-83.2769,United States,55758
+Kingston,41.9295,-73.9968,United States,55695
+Berwyn,41.8433,-87.7909,United States,55550
+Chicopee,42.1764,-72.5719,United States,55515
+Hazleton,40.9504,-75.9724,United States,55444
+Ithaca,42.4442,-76.5032,United States,55439
+Highland,34.1113,-117.1653,United States,55342
+Lake Havasu City,34.5006,-114.3115,United States,55341
+Kettering,39.6957,-84.1496,United States,55175
+Euless,32.8508,-97.0798,United States,55174
+Hoboken,40.7453,-74.0279,United States,55131
+Palm Beach Gardens,26.8488,-80.1656,United States,55036
+Watertown,43.9734,-75.9094,United States,54980
+Grants Pass,42.4333,-123.3317,United States,54973
+Blue Springs,39.0124,-94.2722,United States,54945
+Paramount,33.8976,-118.1651,United States,54909
+West Haven,41.2739,-72.9671,United States,54843
+Colton,34.0538,-117.3254,United States,54828
+Caldwell,43.6458,-116.6591,United States,54660
+Fond du Lac,43.772,-88.4396,United States,54629
+Arroyo Grande,35.1241,-120.5845,United States,54620
+Cathedral City,33.8363,-116.4642,United States,54596
+Cape Girardeau,37.3108,-89.5596,United States,54588
+Rosemead,34.0688,-118.0823,United States,54554
+Delano,35.767,-119.2637,United States,54471
+Stonecrest,33.6843,-84.1373,United States,54471
+Twin Falls,42.5645,-114.4611,United States,54455
+Williamsport,41.2398,-77.0371,United States,54389
+Eagle Pass,28.7118,-100.4832,United States,54299
+Normal,40.522,-88.9877,United States,54284
+West New York,40.7856,-74.0093,United States,54227
+Leesburg,39.1058,-77.5544,United States,54215
+Beaufort,32.4487,-80.7103,United States,54207
+Parker,39.5083,-104.7755,United States,54202
+Southaven,34.9514,-89.9787,United States,54031
+Brunswick,31.145,-81.474,United States,54017
+Revere,42.4191,-71.0035,United States,53993
+Grapevine,32.9343,-97.0744,United States,53982
+Bozeman,45.6828,-111.0548,United States,53949
+Mount Prospect,42.0653,-87.937,United States,53930
+Elyria,41.3761,-82.1063,United States,53883
+Yucaipa,34.0336,-117.0426,United States,53683
+DeSoto,32.5992,-96.8633,United States,53568
+Lenexa,38.9609,-94.8018,United States,53553
+Brookhaven,33.8746,-84.3314,United States,53518
+West Sacramento,38.5556,-121.5504,United States,53512
+Lewiston,46.3935,-116.9934,United States,53436
+Grand Island,40.9214,-98.3584,United States,53424
+Bellevue,41.1535,-95.9357,United States,53424
+Wheaton,41.8561,-88.1083,United States,53373
+Tigard,45.4237,-122.7844,United States,53148
+Minnetonka,44.9332,-93.4617,United States,53085
+Peabody,42.5335,-70.9724,United States,52987
+City of Milford (balance),41.2253,-73.0624,United States,52970
+Palm Desert,33.7378,-116.3695,United States,52932
+Lompoc,34.6618,-120.4714,United States,52856
+Pinellas Park,27.8588,-82.7076,United States,52854
+Perth Amboy,40.5203,-74.2724,United States,52823
+Farmington,36.7555,-108.1823,United States,52555
+Glendora,34.1449,-117.8468,United States,52445
+Apple Valley,44.7458,-93.2006,United States,52435
+Chambersburg,39.9315,-77.6556,United States,52418
+Oak Park,41.8872,-87.7899,United States,52261
+Placentia,33.8807,-117.8553,United States,52157
+Edina,44.8914,-93.3602,United States,51958
+Kentwood,42.8852,-85.5925,United States,51747
+Burien,47.4762,-122.3393,United States,51671
+Aliso Viejo,33.5792,-117.729,United States,51671
+Sierra Vista,31.563,-110.3153,United States,51571
+Hoffman Estates,42.0638,-88.1463,United States,51567
+Apopka,28.7015,-81.5308,United States,51564
+Florissant,38.7996,-90.3269,United States,51443
+Bloomsburg,41.0027,-76.4561,United States,51356
+Plainfield,40.6154,-74.4157,United States,51327
+Saint Cloud,28.2303,-81.2849,United States,51282
+Coral Gables,25.7037,-80.2715,United States,51095
+Cerritos,33.8677,-118.0686,United States,51020
+Hinesville,31.8247,-81.6135,United States,51001
+New Bern,35.0955,-77.0724,United States,50617
+Apex,35.7248,-78.8659,United States,50451
+Summerville,33.0005,-80.1788,United States,50388
+Collierville,35.0474,-89.699,United States,50286
+Methuen,42.734,-71.1889,United States,50259
+Lakewood,41.4824,-81.8008,United States,50249
+Helena,46.5964,-112.0197,United States,50227
+Poway,32.9871,-117.0201,United States,50041

@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import shapely
 from tqdm import tqdm
+from PIL import Image
 
 class xMap():
     def __init__(self, lon: list, lat: list):
@@ -125,30 +126,42 @@ if __name__ == '__main__':
     lat_bottom = 24
     lat_top = 50
 
-    precision = 0.5
-    xmap = xMap([lon_left, lon_right], [lat_bottom, lat_top])
-    us_map = xmap.generate_matrix(precision)
-    np.save('output/us_map.npy', us_map)
+    # precision = 0.5
+    # xmap = xMap([lon_left, lon_right], [lat_bottom, lat_top])
+    # us_map = xmap.generate_matrix(precision)
+    # np.save('output/us_map.npy', us_map)
 
-    #USA
-    print("USA -- MAIN MAP")
-    world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-    us = world[world.name == 'United States of America'].iloc[0]['geometry'].geoms[0]
-    us_landmap = landMass(us_map, us)
-    us_landmass = us_landmap.findlandmass()
-    np.save('output/us_landmass.npy', us_landmass[::-1])
+    # #USA
+    # print("USA -- MAIN MAP")
+    # world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+    # us = world[world.name == 'United States of America'].iloc[0]['geometry'].geoms[0]
+    # us_landmap = landMass(us_map, us)
+    # us_landmass = us_landmap.findlandmass()
+    # np.save('output/us_landmass.npy', us_landmass[::-1])
 
-    #CANADA
-    print("CANADA")
-    can = world[world.name == 'Canada'].iloc[0]['geometry'].geoms[0]
-    can_landmap = landMass(us_map, can)
-    can_landmass = can_landmap.findlandmass()
-    np.save('output/can_landmass.npy', can_landmass[::-1])
+    # #CANADA
+    # print("CANADA")
+    # can = world[world.name == 'Canada'].iloc[0]['geometry'].geoms[0]
+    # can_landmap = landMass(us_map, can)
+    # can_landmass = can_landmap.findlandmass()
+    # np.save('output/can_landmass.npy', can_landmass[::-1])
 
-    #MEXICO
-    print("MEXICO")
-    mex = world[world.name == 'Mexico'].iloc[0]['geometry']
-    mex_landmap = landMass(us_map, mex)
-    mex_landmass = mex_landmap.findlandmass()
-    np.save('output/mex_landmass.npy', mex_landmass[::-1])
-    
+    # #MEXICO
+    # print("MEXICO")
+    # mex = world[world.name == 'Mexico'].iloc[0]['geometry']
+    # mex_landmap = landMass(us_map, mex)
+    # mex_landmass = mex_landmap.findlandmass()
+    # np.save('output/mex_landmass.npy', mex_landmass[::-1])
+    for i in range(1, 100):
+        if i%5 == 0:
+            precision = i/100
+            xmap = xMap([lon_left, lon_right], [lat_bottom, lat_top])
+            us_map = xmap.generate_matrix(precision)
+
+            #USA
+            print(f"USA -- MAIN MAP -- precision of {precision}")
+            world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+            us = world[world.name == 'United States of America'].iloc[0]['geometry'].geoms[0]
+            us_landmap = landMass(us_map, us)
+            us_landmass = us_landmap.findlandmass()
+            Image.fromarray(us_landmass[::-1]).resize((1200, 532)).save(f'usmaps/usmap_{str(i).zfill(2)}.png')        

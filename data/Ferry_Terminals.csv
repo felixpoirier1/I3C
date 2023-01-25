@@ -1,0 +1,685 @@
+﻿OBJECTID,terminal_id,operator_id,terminal_name,term_city,term_state,term_country,msa,urban,latitude,longitude,in_operation,parking,local_bus,intercity_bus,local_rail,intercity_rail,terminal_ownership,terminal_owned_by,terminal_operation,terminal_operated_by,multiple_operators,census_year
+1,984,191,St. Ignace Dock 2,St. Ignace,MI,United States,,1,45.868583,-84.723382,1,1,1,0,0,0,1,,1,,0,2018
+2,915,191,Railroad Dock 1,St. Ignace,MI,United States,,1,45.872838,-84.729233,1,1,1,0,0,0,1,,1,,0,2018
+3,882,64,Mott Island,Isle Royale National,MI,United States,"Houghton, MI",0,48.10741,-88.547357,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+4,444,414,Penns Landing Philadelphia,Philadelphia,PA,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",1,39.946148,-75.139679,1,1,1,0,1,1,1,,1,,0,2018
+5,606,293,Block Island Terminal,Block Island,RI,United States,"Providence-Warwick, RI-MA",0,41.173521,-71.557314,1,0,0,0,0,0,1,,1,,0,2018
+6,282,157,Cheboygan,Cheboygan,MI,United States,,1,45.645547,-84.473839,1,1,0,0,0,0,1,,1,,0,2018
+7,242,151,Bellevue,Royal Oak,MD,United States,"Easton, MD",0,38.702632,-76.180067,1,1,0,0,0,0,0,,0,,0,2018
+8,492,200,Edward Wilmoth Blyden,"Charlotte Amalie, St. Thomas",VI,Virgin Islands,,1,18.338714,-64.938551,0,1,1,0,0,0,0,GOVT VI,0,GOVT VI,1,2018
+9,876,106,Gustavus,Gustavus,AK,United States,,0,58.389103,-135.729608,1,0,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+10,20,244,"West End, Tortola",Tortola,VI,Virgin Islands,,0,18.387405,-64.703452,1,1,0,0,0,0,1,,1,,1,2018
+11,252,130,Charlestown Shuttle Dock,Charlestown,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.371728,-71.054402,1,0,0,0,0,0,0,City of Boston,0,City of Boston,0,2018
+12,327,11,Geraldine,Loma,MT,United States,,0,48.00067,-110.254232,1,0,0,0,0,0,0,Chouteau County,0,Chouteau County,0,2018
+13,52,106,Pelican,Pelican,AK,United States,,0,57.957666,-136.227555,1,1,0,0,0,0,0,City of Pelican,0,City of Pelican,0,2018
+14,40,333,Homer,Homer,AK,United States,,0,59.602478,-151.409955,1,1,0,0,0,0,0,City of Homer,0,City of Homer,1,2018
+15,535,76,Lucerne Dock,Chelan,WA,United States,"Wenatchee, WA",0,48.201453,-120.598901,1,0,0,0,0,0,0,U.S. Forest Service,0,U.S. Forest Service,0,2018
+16,928,47,Bokampers,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,26.16819,-80.103688,1,1,1,0,0,0,1,,1,,0,2018
+17,235,3,Casco Bay Ferry Terminal,Portland,ME,United States,"Portland-South Portland, ME",1,43.656668,-70.248538,1,1,1,1,0,0,0,City of Portland,0,Casco Bay Island Transit District,0,2018
+18,904,354,Sand Dollar,Beaufort,NC,United States,"Morehead City, NC",0,34.699596,-76.635847,1,0,0,0,0,0,0,State of North Carolina,0,North Carolina,0,2018
+19,605,258,John Deere Commons Landing,Moline,IL,United States,"Davenport-Moline-Rock Island, IA-IL",1,41.509354,-90.519533,1,1,1,1,0,0,0,"City of Moline, IL",0,"City of Moline, IL",0,2018
+20,431,93,Put in Bay,Put-in-Bay,OH,United States,"Port Clinton, OH",0,41.655176,-82.816221,1,1,1,0,0,0,1,,1,,0,2018
+21,169,135,Logansport SR-269 (Reeds Ferry Road),Morgantown,KY,United States,"Bowling Green, KY",0,37.260208,-86.775296,1,1,0,0,0,0,0,Butler County Fiscal Court,0,Butler County Fiscal Court,0,2018
+22,817,43,Haig Point - Hilton Head,Hilton Head ,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",1,32.177501,-80.768055,1,1,0,0,0,0,1,,1,,0,2018
+23,4,14,Victoria Inner Harbor,Victoria,BC,Canada,,0,48.421635,-123.372031,1,1,1,1,1,0,0,City of Victoria,1,,0,2018
+24,693,270,Milwaukee Fery Dock,Milwaukee,WI,United States,"Milwaukee-Waukesha-West Allis, WI",1,43.003606,-87.885949,1,1,0,0,0,0,0,Port of Milwaukee,1,,0,2018
+25,889,433,Dyerville Loop,Myers Flat,CA,United States,"Eureka-Arcata-Fortuna, CA",0,40.32822,-123.842023,0,1,0,0,0,0,0,county of humboldt,0,Johnny Rodriguez,0,2018
+26,418,379,Sans Souci,Windsor,NC,United States,,0,35.913063,-76.817598,1,1,0,0,0,0,0,NCDOT - Div 1,0,NCDOT - Div 1,0,2018
+27,447,104,Catano,Catano,PR,Puerto Rico,"San Juan-Carolina-Caguas, PR",1,18.443895,-66.116833,1,0,0,0,0,0,0,PRMTA,0,PRMTA,0,2018
+28,920,97,Hollis Curl Landing,Camden,AL,United States,,0,32.042891,-87.302162,1,0,0,0,0,0,0,Wilcox County,1,,0,2018
+29,201,156,East Pointe a la Hache,East Pointe a la Hache,LA,United States,"New Orleans-Metairie, LA",0,29.575738,-89.793792,1,1,0,0,0,0,0,Plaquemines Parish Goverment,0,Plaquemines Parish Goverment,0,2018
+30,25,97,Dauphin Island,Dauphin Island,AL,United States,"Mobile, AL",0,30.251671,-88.08194,1,1,0,0,0,0,0,Dauphin Island city,0,HMSGM,0,2018
+31,75,4,Avalon,Avalon,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.344617,-118.322031,1,0,0,1,0,0,2,City of Avalon,1,,1,2018
+32,992,373,Ikea Dock,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.670925,-74.013387,1,1,1,1,0,0,1,,1,,0,2018
+33,682,314,Mainland Ferry Terminal,Raymond,ME,United States,"Portland-South Portland, ME",0,43.849316,-70.50991,1,0,0,0,0,0,0,Town of Frye Island,0,Town of Frye Island,0,2018
+34,640,461,Port Aransas Terminal,Port Aransas,TX,United States,"Corpus Christi, TX",0,27.839964,-97.069132,1,0,0,0,0,0,0,exas Department of Transportation,0,exas Department of Transportation,0,2018
+35,403,379,Cedar Island,Cedar Island,NC,United States,"Morehead City, NC",0,35.018791,-76.313966,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+36,559,473,Blennerhassett Island ,Parkersburg,WV,United States,"Parkersburg-Vienna, WV",1,39.272284,-81.598776,1,0,0,0,0,0,1,,1,,0,2018
+37,995,437,National Harbor ,Fort Washington,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.786704,-77.017802,1,1,1,0,0,0,1,,1,,0,2018
+38,668,304,Hat Island Marina,Everett,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,48.020155,-122.322502,1,1,0,0,0,0,1,,1,,0,2018
+39,326,392,North terminal (Lloyd Road),Chinook,MT,United States,,0,47.737469,-109.39176,1,0,0,0,0,0,0,Blaine County,0,Blaine County,0,2018
+40,980,43,Buckingham Landing,Hilton Head ,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",1,32.230406,-80.798327,1,1,0,0,0,0,2,Roller,1,,1,2018
+41,672,310,Rhode Island Fast Ferry (Quonset Point),North Kingstown,RI,United States,"Providence-Warwick, RI-MA",1,41.586697,-71.412697,1,1,1,0,1,0,0,State of Rhode Island,1,,0,2018
+42,588,382,Lower Algiers,New Orleans,LA,United States,"New Orleans-Metairie, LA",1,29.922054,-89.973373,1,0,0,0,0,0,0,LADOTD,1,,0,2018
+43,171,88,Mammoth Cave Green River (South),Mammoth Cave,KY,United States,"Bowling Green, KY",0,37.179513,-86.112458,1,1,0,0,0,0,0,Mammoth Cave NPS,0,Mammoth Cave NPS,0,2018
+44,492,185,Edward Wilmoth Blyden,"Charlotte Amalie, St. Thomas",VI,Virgin Islands,,1,18.338714,-64.938551,1,1,1,1,0,0,0,USVI Port Authority,0,USVI Port Authority,1,2018
+45,238,278,Stonington Ferry Terminal,Stonington,ME,United States,,0,44.154027,-68.659799,1,1,0,0,0,0,1,,1,,0,2018
+46,516,269,Annapolis Ferry Terminal,Port Orchard,WA,United States,"Bremerton-Silverdale, WA",1,47.549145,-122.616364,1,1,1,0,0,0,0,KITSAP TRANSIT,0,KITSAP TRANSIT,0,2018
+47,180,382,Algiers Point,New Orleans,LA,United States,"New Orleans-Metairie, LA",1,29.952996,-90.056152,1,0,0,1,0,0,0,LADOTD,1,,0,2018
+48,868,440,Paulus Hook,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.713809,-74.03192,1,1,1,0,1,1,1,,1,,0,2018
+49,1001,457,Herron Island Mainland,Lakebay,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.275562,-122.815767,1,1,0,0,0,0,1,,1,,0,2018
+50,413,379,Knotts Island,Knotts Island,NC,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",0,36.483528,-75.926913,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+51,702,142,Belford,Belford,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.433299,-74.078807,1,1,0,0,0,0,0,Monmouth County,1,,0,2018
+52,400,379,Bayview,Bayview,NC,United States,"Washington, NC",0,35.427998,-76.740744,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+53,871,472,Dumbo Brooklyn Bridge Park,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703553,-73.995815,1,1,1,0,0,0,0,Brooklyn Bridge Park,0,NYCEDC,0,2018
+54,132,297,Honeymoon Island State Park,Dunedin,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",1,28.05886,-82.817053,1,1,0,0,0,0,0,State of Florida,0,State of Florida,0,2018
+55,454,445,Church Street Pier,Bristol,RI,United States,"Providence-Warwick, RI-MA",1,41.668323,-71.278762,1,1,1,1,0,0,0,Town of Bristol ,2,Town of Bristol,0,2018
+56,532,384,Coupeville Fery Dock,Coupeville,WA,United States,"Oak Harbor, WA",0,48.159055,-122.6727,1,1,1,0,0,0,0,WA State Parks,0,WSF,0,2018
+57,394,21,Watch Hill,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.692313,-72.989581,0,0,0,0,0,0,0,National Park Service,1,,0,2018
+58,158,377,Grafton Ferry Dock,Grafton,IL,United States,"St. Louis, MO-IL",0,38.964102,-90.49472,1,1,1,1,0,0,0,STATE OF ILLINOIS,0,STATE OF ILLINOIS,1,2018
+59,623,450,Perrotti Park,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.489276,-71.317683,1,1,1,1,0,0,0,"City of Newport, RI",0,"City of Newport, RI",1,2018
+60,612,21,Davis Park Ferry Terminal,Patchogue,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.748356,-73.016675,1,1,0,0,0,0,0,Town of Brookhaven,1,,0,2018
+61,115,35,New London Terminal,New London,CT,United States,"Norwich-New London, CT",1,41.355833,-72.092575,1,1,1,1,1,0,0,Fishers Island Ferry District,0,Fishers Island Ferry District,1,2018
+62,354,330,Bemus Point,Bemus Point,NY,United States,"Jamestown-Dunkirk-Fredonia, NY",1,42.157724,-79.396928,1,1,0,0,0,0,0,Chautauqua county DPF,0,Numerous,0,2018
+63,288,6,Harsens Island State Route 154,Harsens Island,MI,United States,"Detroit-Warren-Dearborn, MI",0,42.614152,-82.561034,1,0,0,0,0,0,1,,1,,0,2018
+64,710,130,Hull Town Dock ,Hull,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.30286,-70.919783,1,1,1,0,0,0,0,Town of Hull,0,Town of Hull,0,2018
+65,407,379,Currituck,Currituck,NC,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",0,36.449384,-76.013401,1,0,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+66,351,34,Atlantique Marina Dock Bay Shore,"Atlantique, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.642968,-73.173702,1,1,1,0,0,0,0,Town of Islip,0,"Fire Island Ferries, Inc.",0,2018
+67,417,465,Portsmouth Island,Portsmouth,NC,United States,"Morehead City, NC",0,35.073688,-76.065246,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+68,239,87,Swan's Island,Swan's Island,ME,United States,,0,44.181201,-68.423712,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+69,1000,457,Herron Island,Lakebay,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.266992,-122.827471,1,1,0,0,0,0,1,,1,,0,2018
+70,311,152,Ship Island National Park,Biloxi,MS,United States,"Gulfport-Biloxi-Pascagoula, MS",0,30.214683,-88.97142,1,1,1,0,0,0,0,National Park Service,0,National Park service,0,2018
+71,353,34,Fire Island Ferry Terminal Bay Shore,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.715592,-73.242443,1,1,1,0,1,0,1,,1,,0,2018
+72,757,64,Windigo,Washington Harbor,MI,United States,"Houghton, MI",0,47.912041,-89.158462,1,0,0,0,0,0,0,National Park Service,0,National Park Service,1,2018
+73,91,127,Pier 41,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.809484,-122.412231,1,1,1,0,1,0,1,,1,,1,2018
+74,696,308,City Hall Landing,Savannah,GA,United States,"Savannah, GA",1,32.081771,-81.090282,1,0,0,0,0,0,0,Chatham Area Transit,0,Chatham Area Transit,0,2018
+75,426,181,Fly Landing,Fly,OH,United States,,0,39.566103,-81.004042,1,1,0,0,0,0,0,Jackson Township,0,Sistersville Ferry Board,0,2018
+76,533,384,Kingston,Kingston,WA,United States,"Bremerton-Silverdale, WA",1,47.794975,-122.49456,1,1,1,1,0,0,0,Port of Kingston,0,WSF,0,2018
+77,105,110,Tiburon Ferry Terminal,Tiburon,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.872765,-122.455371,1,0,0,0,0,0,1,,1,,1,2018
+78,100,137,Ryer Island Howard Landing Ferry,Walnut Grove,CA,United States,"Vallejo-Fairfield, CA",0,38.236452,-121.604065,1,0,0,0,0,0,0,Dept Transportation,0,Dept Transportation,0,2018
+79,3,384,Sidney,Sidney,BC,Canada,,0,48.643047,-123.396647,1,0,1,0,0,0,0,Town of Sidney BC,0,WSF,0,2018
+80,1012,466,Egmont Key,St. Petersburg,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",0,27.586213,-82.759863,1,0,0,0,0,0,0,State of Florida,0,State of Florida,0,2018
+81,723,97,Gee's Bend Landing,Gee's Bend,AL,United States,,0,32.055739,-87.303654,1,1,0,0,0,0,0,Wilcox County,1,,0,2018
+82,946,333,Seldovia Bay Ferry,Homer,AK,United States,,0,59.606496,-151.414732,1,1,0,0,0,0,0,City of Homer,0,City of Homer,0,2018
+83,713,265,Bar Harbor Inn Pier,Bar Harbor,ME,United States,,1,44.391959,-68.203392,1,1,1,0,0,0,1,,1,,0,2018
+84,518,269,Bremerton,Bremerton,WA,United States,"Bremerton-Silverdale, WA",1,47.561755,-122.624926,1,1,1,1,0,0,0,KITSAP TRANSIT,0,KITSAP TRANSIT,1,2018
+85,743,106,Wrangell,Wrangell,AK,United States,,0,56.474473,-132.391808,1,0,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+86,313,105,"State Route K, South Bank",Salem,MO,United States,,0,37.375381,-91.551891,1,0,0,0,0,0,0,NPS - Ozark National Waterways,0,NPS - Ozark National Waterways,0,2018
+87,911,42,Tobin Harbor,Isle Royale National,MI,United States,"Houghton, MI",0,48.158812,-88.471718,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+88,766,258,Isle of Capri Landing,Bettendorf,IA,United States,"Davenport-Moline-Rock Island, IA-IL",1,41.521513,-90.505474,1,1,1,0,0,0,1,,1,,0,2018
+89,65,106,Whittier,Whittier,AK,United States,,0,60.77662,-148.683117,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+90,358,174,Cherry Grove,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.660753,-73.090023,1,1,1,0,0,0,1,,1,,0,2018
+91,604,258,Village of East Davenport Landing,Davenport,IA,United States,"Davenport-Moline-Rock Island, IA-IL",1,41.528408,-90.544082,1,1,1,0,0,0,0,"City of Davenport, Iowa",0,"City of Davenport, Iowa",0,2018
+92,542,125,Black Ball Ferry Line,Port Angeles,WA,United States,"Port Angeles, WA",1,48.121891,-123.430694,1,1,1,1,0,0,1,,1,,0,2018
+93,495,200,"Red Hook, Urman Victor Fredericks",St. Thomas,VI,Virgin Islands,,1,18.32668,-64.848927,1,1,1,0,0,0,0,GOVT VI ,0,GOVT VI,1,2018
+94,349,440,Port Liberte,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.68741,-74.074987,1,0,0,0,0,0,1,,1,,0,2018
+95,931,79,Madison County Ramp,Richmond,KY,United States,"Richmond-Berea, KY",0,37.846884,-84.435251,1,0,0,0,0,0,0,Valley View Ferry Authority,0,Valley View Ferry Authority,0,2018
+96,667,304,10th Street Dock,Everett,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,48.004286,-122.223114,1,1,0,0,0,0,0,Port of Everett,0,Port of Everett,1,2018
+97,64,106,Valdez,Valdez,AK,United States,,0,61.123855,-146.365291,1,1,0,1,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+98,514,143,Waterside Norfolk,Norfolk,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",1,36.843337,-76.290964,1,0,1,0,0,0,0,Hampton Roads Transit,0,Hampton Roads Transit,0,2018
+99,240,87,Vinalhaven,Vinalhaven,ME,United States,,0,44.043085,-68.839425,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+100,898,32,Sandy Hook Beach,Highlands,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.464716,-74.007302,1,1,0,0,0,0,0,National Parks,1,,0,2018
+101,1003,462,108 Street ,Rockaway,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.584187,-73.831729,1,1,1,1,0,0,0,EDC,1,,0,2018
+102,69,113,"Peel Ferry, AR Side",Peel,AR,United States,,0,36.494387,-92.780178,1,1,0,0,0,0,0,ARDOT,0,ARDOT,0,2018
+103,900,472,Rockaway Ferry Landing,Queens,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.568457,-73.88445,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+104,50,106,Kodiak,Kodiak,AK,United States,,1,57.78696,-152.402582,1,1,0,0,0,0,0,City of Kodiak,0,City of Kodiak,0,2018
+105,754,246,Avoca Island near Levee Road,Morgan City,LA,United States,"Morgan City, LA",1,29.684599,-91.190401,1,1,0,0,0,0,0,St. Mary Parish Government,0,St. Mary Parish Government,0,2018
+106,950,405,Liberty Landing Marina,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.710057,-74.040038,1,1,0,0,1,1,1,,1,,0,2018
+107,495,289,"Red Hook, Urman Victor Fredericks",St. Thomas,VI,Virgin Islands,,1,18.32668,-64.848927,1,1,1,0,0,0,0,Virgin Islands Port Authority,0,Virgin Islands Port Authority,1,2018
+108,485,281,St. Joseph Island,St. Joseph Island,TX,United States,"Corpus Christi, TX",0,27.952602,-96.987667,1,0,0,0,0,0,1,,1,,0,2018
+109,379,21,NPS Ferry Terminal,Patchogue,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.749166,-73.0168,0,1,1,0,0,1,0,National Park Service,0,National Park Service,0,2018
+110,568,77,Manitowoc,Manitowoc,WI,United States,"Manitowoc, WI",1,44.090232,-87.651214,1,1,0,0,0,0,0,City of Manitowoc,1,,0,2018
+111,316,283,Dorena,Dorena,MO,United States,,0,36.586405,-89.214028,1,1,0,0,0,0,0,Mississippi County,0,Mississippi County,0,2018
+112,567,86,Town Dock,LaPointe,WI,United States,,0,46.779113,-90.789458,0,1,0,0,0,0,,,,,0,2018
+113,359,21,Davis Park,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.685856,-73.004754,1,0,0,0,0,0,0,Town of Brookhaven,1,,0,2018
+114,157,224,Golden Eagle Ferry Road (IL),Golden Eagle,IL,United States,"St. Louis, MO-IL",0,38.871629,-90.567354,1,1,0,0,0,0,2,Calhoun County IL,2,Calhoun County Highway Dept.,0,2018
+115,953,432,Havasu Landing Resort,Havasu Lake,CA,United States,"Riverside-San Bernardino-Ontario, CA",0,34.482179,-114.403558,1,1,0,0,0,0,1,,1,,0,2018
+116,903,354,Bird Shoal,Beaufort,NC,United States,"Morehead City, NC",1,34.715155,-76.667603,1,0,0,0,0,0,0,North Carolina,0,North Carolina,0,2018
+117,393,142,Pier 11 Wall Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,0,0,0,0,0,0,NYC EDC,1,,1,2018
+118,187,382,Chalmette,New Orleans,LA,United States,"New Orleans-Metairie, LA",1,29.927604,-89.971183,1,0,0,0,0,0,0,LADOTD,1,,0,2018
+119,334,32,Hesse Pier - Atlantic Highlands,Atlantic Highlands,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.419357,-74.034355,1,1,0,0,0,0,1,,1,,0,2018
+120,360,34,Dunewood Bay Shore,"Dunewood, Ferry Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.641941,-73.180193,1,1,1,0,1,0,1,,1,,0,2018
+121,170,88,Mammoth Cave Green River (North),Mammoth Cave,KY,United States,"Bowling Green, KY",0,37.179657,-86.11304,1,1,0,0,0,0,0,Mammoth Cave NPS,0,Mammoth Cave NPS,0,2018
+122,281,124,Charlevoix BIBCO Dock,Charlevoix,MI,United States,,1,45.318271,-85.257643,1,1,1,1,0,0,0,City of Charlevoix,1,,0,2018
+123,730,265,Winter Harbor,Winter Harbor,ME,United States,,0,44.391724,-68.081661,1,1,1,0,0,0,1,,1,,0,2018
+124,677,400,Battery Maritime Builiding,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.700767,-74.011666,1,1,1,0,1,0,1,,1,,0,2018
+125,700,440,Midtown West 39 Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.760629,-74.003942,1,0,1,1,0,0,0,NYC,1,,0,2018
+126,570,215,Northport,Northport,WI,United States,,0,45.290834,-86.977237,1,1,0,0,0,0,2,Door County,1,,0,2018
+127,245,221,"White's Ferry Landing, MD",Dickerson,MD,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",0,39.154632,-77.519735,1,0,0,0,0,0,1,,1,,0,2018
+128,968,450,Fall River Ferry Terminal,Fall River,MA,United States,"Providence-Warwick, RI-MA",1,41.704525,-71.164253,1,1,1,1,0,0,0,Commonwealth of Massachusetts,1,,0,2018
+129,388,34,Seaview Bay Shore,"Seaview, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.648951,-73.150414,1,1,1,0,1,0,1,,1,,0,2018
+130,432,285,Sandusky,Sandusky,OH,United States,"Sandusky, OH",1,41.458236,-82.713174,1,1,0,0,0,0,0,City of Sandusky,0,"Owen Sound Transportation Company, Limited",1,2018
+131,553,155,Steilacoom,Steilacoom,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.173159,-122.603111,1,1,0,0,0,0,0,Pierce County  ,0,Pierce County  ,0,2018
+132,557,216,South Landing,Keller Ferry,WA,United States,,0,47.929515,-118.690214,1,0,0,0,0,0,0,WSDOT,0,WSDOT,0,2018
+133,416,379,Hatteras South,Ocracoke,NC,United States,,0,35.18979,-75.780155,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+134,250,222,Widgeon SR 362 Whitehaven Ferry Road,Princess Anne,MD,United States,"Salisbury, MD-DE",0,38.266291,-75.78803,1,0,0,0,0,0,0,Wicomico County,0,Wicomico County Roads,0,2018
+135,343,374,Liberty State Park,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.705765,-74.033855,1,1,0,0,1,1,0,NJ DEP,1,,0,2018
+136,265,32,Nantucket,Nantucket,MA,United States,,1,41.286193,-70.096106,1,1,0,0,0,0,0,State of Massachusetts,1,,1,2018
+137,602,258,Riverbend Commons Landing,Moline,IL,United States,"Davenport-Moline-Rock Island, IA-IL",1,41.514517,-90.500534,1,1,1,0,0,0,0,Rock Island County Metropolitan Mass Transit District,0,Rock Island County Metropolitan Mass Transit District,0,2018
+138,342,440,Hoboken Train Station,Hoboken,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.735122,-74.026451,1,1,1,1,1,1,0,Port Authority,1,,0,2018
+139,700,142,Midtown West 39 Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.760629,-74.003942,1,0,1,0,0,0,0,NYC DOT,1,,0,2018
+140,667,471,10th Street Dock,Everett,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,48.004286,-122.223114,1,1,0,0,0,0,0,City of Everett,0,City of Everett,1,2018
+141,531,155,Ketron Island,Ketron Island,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.162244,-122.629223,1,1,0,0,0,0,0,Pierce County  ,0,Pierce County  ,0,2018
+142,926,130,Providencetown (MacMillian Pier),Provincetown,MA,United States,"Barnstable Town, MA",1,42.049221,-70.181432,1,1,0,0,0,0,0,Town of Provincetown,0,Town of Provincetown,0,2018
+143,73,127,Angel Island,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",0,37.868683,-122.435304,1,0,0,0,0,0,0,Angel island state park,0,Angel island state park,1,2018
+144,208,156,West Pointe a la Hache,West Pointe a la Hache,LA,United States,"New Orleans-Metairie, LA",0,29.570072,-89.797252,1,1,0,0,0,0,0,Plaquemines Parish Goverment,0,Plaquemines Parish Goverment,0,2018
+145,853,354,Beaufort Town Docks,Beaufort,NC,United States,"Morehead City, NC",1,34.715003,-76.663261,1,1,1,0,0,0,1,,1,,0,2018
+146,1024,472,Long Island City Ferry Landing ,Queens,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.748308,-73.957806,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+147,969,434,Bricktown Landing,Oklahoma City,OK,United States,"Oklahoma City, OK",1,35.457293,-97.504091,1,1,1,0,0,0,0,City of Oklahoma City,1,,0,2018
+148,85,397,Jersey Island,Jersey Island,CA,United States,"San Francisco-Oakland-Hayward, CA",0,38.054909,-121.657304,1,0,0,0,0,0,0,Delta Ferry Authority,0,Delta Ferry Authority,0,2018
+149,414,379,Minnesott Beach,Minnesott Beach,NC,United States,"New Bern, NC",0,34.967456,-76.806269,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+150,711,440,Liberty Harbor,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.711269,-74.043422,1,1,0,0,1,0,1,,1,,0,2018
+151,258,130,Hingham Intermodal,Hingham,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.254188,-70.919837,1,1,1,0,1,0,0,MBTA,0,MBTA,1,2018
+152,54,106,Port Lions,Port Lions,AK,United States,,0,57.860504,-152.860384,1,1,0,0,0,0,0,City of Port Lions,0,City of Port Lions,0,2018
+153,887,436,Seacrest Park Passenger Ferry Dock,West Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.589427,-122.379618,1,1,1,1,0,0,0,City of Seattle,0,King County,0,2018
+154,688,40,AT&T Park,San Francsico,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.778176,-122.387179,1,1,1,0,1,0,0,Port of SF,0,GGBHTD,0,2018
+155,627,142,Ossining,Ossining,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.157055,-73.870866,1,1,0,0,1,1,0,Village of Ossining,0,NYC MTA,0,2018
+156,947,333,Seldovia City Harbor,Seldovia,AK,United States,,0,59.440457,-151.720497,1,1,0,0,0,0,0,City of Seldovia,0,City of Seldovia,0,2018
+157,804,311,Chinatown,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.857173,-87.634995,1,1,1,1,1,0,1,,1,,0,2018
+158,99,137,Ryer Island,Walnut Grove,CA,United States,"Vallejo-Fairfield, CA",0,38.186727,-121.659231,1,0,0,0,0,0,0,Dept Transportation,0,Dept Transportation,0,2018
+159,262,130,Long Wharf,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.360827,-71.049931,1,1,1,1,1,1,0,City of Boston,0,City of Boston,0,2018
+160,725,148,Hart Island,Hart Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.852193,-73.772705,1,0,0,0,0,0,0,NYC DOT,0,NYC DOT,0,2018
+161,88,5,Balboa Pavilion,Newport Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.602957,-117.899228,1,1,1,0,0,0,1,,1,,0,2018
+162,914,42,Malone Bay,Isle Royale National,MI,United States,"Houghton, MI",0,47.984066,-88.799827,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+163,384,174,Sailors Haven,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.657216,-73.104672,1,1,1,0,0,0,1,,1,,0,2018
+164,53,106,Petersburg,Petersburg,AK,United States,,0,56.808489,-132.976197,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+165,967,446,Outer Harbor,Buffalo,NY,United States,"Buffalo-Cheektowaga-Niagara Falls, NY",1,42.876148,-78.882251,1,1,1,0,1,0,0,Erie Canal Harbor Development Corp,1,,0,2018
+166,430,288,Port Clinton,Port Clinton,OH,United States,"Port Clinton, OH",1,41.51459,-82.942386,1,1,0,0,0,0,1,,1,,0,2018
+167,159,377,Kampsville Ferry (West Side),Kampsville,IL,United States,"St. Louis, MO-IL",0,39.299599,-90.608458,1,1,1,1,0,0,0,STATE OF ILLINOIS,0,STATE OF ILLINOIS,0,2018
+168,355,462,"Sunset Park, Brooklyn Army Terminal",Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.646753,-74.026891,1,1,1,1,0,0,0,EDC,1,,1,2018
+169,877,106,Dutch Harbor,Unalaska,AK,United States,,0,53.891619,-166.534587,1,0,0,0,0,0,0,City of Unalaska,0,City of Unalaska,0,2018
+170,374,293,Viking Dock,Montauk,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.073395,-71.939621,1,0,0,0,0,0,1,,1,,0,2018
+171,386,34,Saltaire Bay Shore,"Saltaire, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.641517,-73.199432,1,1,1,0,1,0,1,,0,"Fire Island Ferries, Inc.",0,2018
+172,123,23,Woodland Ferry,Woodland Ferry,DE,United States,"Salisbury, MD-DE",0,38.600214,-75.657368,1,0,0,0,0,0,0,State,0,State,0,2018
+173,975,182,Anacortes Ferry,Anacortes,WA,United States,"Mount Vernon-Anacortes, WA",1,48.519136,-122.623639,1,1,1,0,0,0,0,Skagit County,0,Skagit County Public Works,0,2018
+174,71,260,Alameda Main Street,Alameda,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.791221,-122.294178,1,1,0,0,0,0,0,City of Alameda,0,Blue & Gold Fleet (under contract to WETA),0,2018
+175,361,462,East 34th Street,Manhattan,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.743619,-73.970854,1,1,1,1,1,1,0,DOT,1,,0,2018
+176,1015,470,Ofu ,Ofu Manua,AS,United States,,0,-14.163545,-169.682191,1,1,1,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+177,378,18,Orient Point Terminal,Orient,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,41.154151,-72.240463,1,1,1,1,0,0,1,,1,,0,2018
+178,484,232,South Landing,Deer Park,TX,United States,"Houston-The Woodlands-Sugar Land, TX",1,29.762119,-95.08054,1,0,0,0,0,0,0,Harris Count Precinct 2,0,Harris County Precinct 2,0,2018
+179,888,433,McCann,Myers Flat,CA,United States,"Eureka-Arcata-Fortuna, CA",0,40.332078,-123.841725,1,1,0,0,0,0,0,county of humboldt,0,county of humboldt,0,2018
+180,757,42,Windigo,Washington Harbor,MI,United States,"Houghton, MI",0,47.912041,-89.158462,1,0,0,0,0,0,0,NPS,0,NPS,1,2018
+181,498,210,Albemarle Landing,Scottsville,VA,United States,"Charlottesville, VA",0,37.756839,-78.51194,1,1,0,0,0,0,1,,1,,0,2018
+182,103,127,Sausalito Ferry Terminal,Sausalito,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.856167,-122.477508,1,1,1,0,0,0,1,,1,,1,2018
+183,267,310,Oak Bluffs,Oak Bluffs,MA,United States,"Vineyard Haven, MA",1,41.45841,-70.55881,1,1,1,1,0,0,0,Town of Oak Bluffs,0,Town of Oak Bluffs,1,2018
+184,433,90,Wheatland East,Marion County,OR,United States,"Salem, OR",0,45.089991,-123.044356,1,1,0,0,0,0,0,Marion County,0,Marion County,0,2018
+185,369,462,Hunter Point South,Hunters Point,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.741867,-73.96135,1,1,1,1,1,1,0,EDC,1,,0,2018
+186,369,472,Hunter Point South,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.741867,-73.96135,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+187,120,483,Fort Delaware,Delaware City,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",0,39.584436,-75.572777,1,0,0,0,0,0,0,DNREC,0,DNREC,0,2018
+188,72,469,Alcatraz Island,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",0,37.826734,-122.420816,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+189,499,210,Buckingham Landing,Scottsville,VA,United States,"Charlottesville, VA",0,37.758305,-78.512293,1,1,0,0,0,0,1,,1,,0,2018
+190,896,268,Prisoners Harbor Santa Cruz Island,Channel Islands NP,CA,United States,"Santa Maria-Santa Barbara, CA",0,34.020493,-119.684296,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+191,106,4,Two Harbors,Two Harbors,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",0,33.442197,-118.497787,1,0,0,0,0,0,1,,1,,0,2018
+192,115,18,New London Terminal,New London,CT,United States,"Norwich-New London, CT",1,41.355833,-72.092575,1,1,1,1,1,1,1,,1,,1,2018
+193,278,6,Algonac (Pointe Tremble Road),Algonac,MI,United States,"Detroit-Warren-Dearborn, MI",1,42.618019,-82.560497,1,0,0,0,0,0,1,,1,,0,2018
+194,409,379,Elwell,Council,NC,United States,,0,34.473676,-78.369197,1,1,0,0,0,0,0,NCDOT - Div 6,0,NCDOT - Div 6,0,2018
+195,990,373,West 42 street (Pier 83),New york,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.762963,-74.001584,1,1,1,1,0,0,0,Hudson Rive Park,1,,0,2018
+196,893,264,Rose Island Lighthouse,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.49521,-71.341588,1,0,0,0,0,0,1,,1,,0,2018
+197,404,379,Cherry Branch,Havelock,NC,United States,"New Bern, NC",0,34.937434,-76.81117,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+198,664,130,Spectacle Island,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",0,42.32149,-70.988658,1,0,0,0,0,0,0,City of Boston,0,City of Boston,0,2018
+199,996,437,Georgetown Harbour,Washington DC ,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.901395,-77.06096,1,1,1,0,0,0,1,,2,National Park Service,0,2018
+200,398,379,Aurora,Aurora,NC,United States,"Washington, NC",0,35.377259,-76.7483,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+201,528,16,Inchelium,Inchelium,WA,United States,,0,48.277772,-118.153327,1,1,0,0,0,0,2,Bureau of Indian Affairs,2,Colville Tribe,0,2018
+202,1017,470,Tau,Tau Manua,AS,United States,,0,-14.240002,-169.510451,1,1,1,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+203,886,436,Pier 50,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.601223,-122.338629,1,1,1,1,0,0,0,WA State DOT Ferries Division,0,King County,1,2018
+204,1005,466,Fort Desoto Bay Pier,St. Petersburg,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",0,27.647103,-82.716713,1,1,0,0,0,0,0,Pinellas County,1,,0,2018
+205,910,42,Belle Isle,Isle Royale National,MI,United States,"Houghton, MI",0,48.150878,-88.588034,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+206,562,86,Bayfield,Bayfield,WI,United States,,0,46.811957,-90.812251,1,1,1,0,0,0,1,,1,,0,2018
+207,249,222,Whitehaven SR 352,Princess Anne,MD,United States,"Salisbury, MD-DE",0,38.268509,-75.788622,1,0,0,0,0,0,0,Wicomico County,0,Wicomico County Roads,0,2018
+208,970,452,Bakers Island Beach,Salem,MA,United States,"Boston-Cambridge-Newton, MA-NH",0,42.534265,-70.789535,1,0,0,0,0,0,1,,1,,0,2018
+209,878,106,Old Harbor,Old Harbor,AK,United States,,0,57.199668,-153.306962,1,1,0,0,0,0,0,City of Old Harbor,0,City of Old Harbor,0,2018
+210,1004,462,Sheepshead Bay,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.583011,-73.936886,1,1,1,1,0,0,0,New York Parks,1,,0,2018
+211,657,373,Battery Park,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.702668,-74.017125,1,1,1,1,0,0,0,Hudson River Parks,0,Hudson River Parks,0,2018
+212,519,76,Chelan Dock,Chelan,WA,United States,"Wenatchee, WA",1,47.836404,-120.039791,1,1,1,0,0,0,1,,1,,0,2018
+213,680,266,Fort Sumter National Monument,Charleston Harbor,SC,United States,"Charleston-North Charleston, SC",0,32.753491,-79.875374,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+214,396,405,World Financial,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.714756,-74.01781,1,0,1,0,1,1,0,City of New York,1,,0,2018
+215,105,127,Tiburon Ferry Terminal,Tiburon,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.872765,-122.455371,1,1,1,1,0,0,1,,1,,1,2018
+216,630,263,Alamitos Bay,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.747656,-118.115552,1,1,1,0,0,0,0,City of Long Beach ,0,City of Long Beach ,0,2018
+217,591,384,Colman Dock/Pier 52,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.602037,-122.339806,1,1,1,0,0,0,0,WSF,0,WSF,1,2018
+218,226,3,Little Diamond Island,Portland,ME,United States,"Portland-South Portland, ME",0,43.662755,-70.209506,1,0,0,0,0,0,0,MDOT,0,Casco Bay Island Transit District,0,2018
+219,117,17,Rocky Hill Ferry Landing,Rocky Hill,CT,United States,"Hartford-West Hartford-East Hartford, CT",1,41.666371,-72.629607,1,1,0,0,0,0,0,State of Connecticut,0,CT DOT,0,2018
+220,300,42,Rock Harbor,Isle Royale National,MI,United States,"Houghton, MI",0,48.145655,-88.486235,1,0,0,0,0,0,0,NPS,0,NPS,1,2018
+221,648,378,"McMillian Landing, East",Tompkinsville,KY,United States,,0,36.689161,-85.566266,1,1,0,0,0,0,0,KY Transportation Cabinet,0,KY Transportation Cabinet,0,2018
+222,966,446,Canalside,Buffalo,NY,United States,"Buffalo-Cheektowaga-Niagara Falls, NY",1,42.877312,-78.879565,1,1,1,0,1,0,0,Erie Canal Harbor Development Corp,1,,0,2018
+223,29,106,Akutan,Akutan,AK,United States,,0,54.133163,-165.777511,1,0,0,0,0,0,0,Aleutians East Borough,0,Aleutians East Borough,0,2018
+224,694,270,Muskegon Ferry Dock,Muskegon,MI,United States,"Muskegon, MI",1,43.2195,-86.291896,1,1,0,0,0,0,0,City Of Muskegon,1,,0,2018
+225,577,484,Melrose Landing (Freeport Marina),Daufuskie Island,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",0,32.132042,-80.872952,1,1,0,0,0,0,1,,1,,0,2018
+226,987,301,A 21 (Fisher's Island Terminal),Fisher Island,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,25.764265,-80.139341,1,0,0,0,0,0,1,,1,,0,2018
+227,599,484,Harbor Town,Hilton Head,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",1,32.13829,-80.81155,1,1,0,0,0,0,1,,1,,0,2018
+228,429,93,Middle Bass Island,Middle Bass,OH,United States,"Port Clinton, OH",0,41.670901,-82.809489,1,1,0,0,0,0,1,,1,,0,2018
+229,530,216,North Landing,Keller Ferry,WA,United States,,0,47.946815,-118.690754,1,0,0,0,0,0,0,WSDOT,0,WSDOT,0,2018
+230,338,483,Fort Mott,Pennsville,NJ,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",0,39.601157,-75.554581,1,1,0,0,0,0,0,NJDEP,0,NJDEP,0,2018
+231,86,40,Larkspur Ferry Terminal,Larkspur,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.945294,-122.508797,1,1,1,0,0,0,0,GGBHTD,0,GGBHTD,0,2018
+232,377,34,Ocean Beach Bay Shore,"Ocean Beach, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.649272,-73.156519,1,1,1,0,1,0,2,Village of Ocean Beach,2,"Fire Island Ferries, Inc.",0,2018
+233,73,110,Angel Island,Tiburon,CA,United States,"San Francisco-Oakland-Hayward, CA",0,37.868683,-122.435304,1,0,0,0,0,0,0,Department of Parks and Recreation,1,,1,2018
+234,178,378,"McMillian Landing, West (178)",Tompkinsville,KY,United States,,0,36.688438,-85.567258,1,1,0,0,0,0,0,KY Transportation Cabinet,0,KY Transportation Cabinet,0,2018
+235,19,185,"Road Town, Tortola",Tortola,VI,Virgin Islands,,0,18.419112,-64.617851,1,1,1,1,0,0,0,V.I. Ports Authority,0,V.I. Ports Authority,0,2018
+236,396,142,World Financial,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.714756,-74.01781,1,0,1,0,0,0,0,Port Authority,1,,0,2018
+237,383,75,Port Kent,Port Kent,NY,United States,,0,44.526427,-73.403297,1,1,0,0,1,0,1,,1,,0,2018
+238,944,311,Riverwalk,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.887166,-87.631344,1,1,1,1,1,0,1,,1,,0,2018
+239,393,440,Pier 11 Wall Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,0,1,0,0,0,0,NYC,1,,1,2018
+240,215,3,Cliff Island,Portland,ME,United States,"Portland-South Portland, ME",0,43.69503,-70.110121,1,1,0,0,0,0,0,City of Portland,0,Casco Bay Island Transit District,0,2018
+241,189,382,South Bank SR 559,Fort Necessity,LA,United States,,0,31.917419,-91.919079,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+242,284,29,De Tour Ferry Dock,De Tour Village,MI,United States,"Sault Ste. Marie, MI",0,45.99242,-83.898112,1,1,1,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+243,39,305,Clark Bay Hollis Terminal,Hollis,AK,United States,,0,55.490431,-132.622198,1,1,0,0,0,0,1,,1,,0,2018
+244,421,379,Parker SR1175,Winton,NC,United States,,0,36.436045,-76.953176,1,1,0,0,0,0,0,NCDOT - Div 1,0,NCDOT - Div 1,0,2018
+245,366,35,Fisher's Island,Fisher's Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,41.256352,-72.030293,1,1,0,0,0,0,0,Fishers Island Ferry District,0,Fishers Island Ferry District,0,2018
+246,229,117,Monhegan Island,Monhegan Island,ME,United States,,0,43.765194,-69.321752,1,0,0,0,0,0,1,,1,,0,2018
+247,536,220,Lummi Island Dock,Lummi Island,WA,United States,"Bellingham, WA",0,48.720508,-122.681169,1,1,0,0,0,0,0,Whatcom County,0,Whatcom County,0,2018
+248,300,64,Rock Harbor,Isle Royale National,MI,United States,"Houghton, MI",0,48.145655,-88.486235,1,0,0,0,0,0,0,National Park Service,0,National Park Service,1,2018
+249,929,47,Lake Point Towers,Hallandale Beach,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,25.983685,-80.123966,0,0,0,0,0,0,,,,,0,2018
+250,368,147,Greenport,Greenport,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.100237,-72.361733,1,1,0,1,0,1,0,MTA-LIRR,1,,0,2018
+251,244,195,Crisfield,Crisfield,MD,United States,"Salisbury, MD-DE",1,37.977487,-75.864108,0,1,0,0,0,0,1,,1,,0,2018
+252,652,382,Enterprise,Columbia,LA,United States,,0,31.916044,-91.919674,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+253,74,263,Aquarium,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.761972,-118.194489,1,1,1,0,0,0,0,City of Long Beach,0,City of Long Beach,0,2018
+254,697,308,Waving Girl Landing,Savannah,GA,United States,"Savannah, GA",1,32.079427,-81.081823,1,0,0,0,0,0,0,Chatham Area Transit,0,Chatham Area Transit,0,2018
+255,623,264,Perrotti Park,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.489276,-71.317683,1,1,1,1,0,0,0,CITY OF NEWPORT,0,CITY OF NEWPORT,1,2018
+256,817,484,Haig Point - Hilton Head,Hilton Head,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",1,32.177501,-80.768055,1,1,0,0,0,0,1,,1,,0,2018
+257,550,384,Shaw,Shaw Island,WA,United States,,0,48.584752,-122.929759,1,1,0,0,0,0,0,WSF,0,WSF,0,2018
+258,297,29,Neebish Island Ferry Dock,Neebish Island,MI,United States,"Sault Ste. Marie, MI",0,46.284704,-84.210018,1,1,0,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+259,678,472,Governors Island Pier 107,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.686762,-74.016487,1,0,0,0,0,0,0,Trust for Governors Island ,0,United States Park Service ,0,2018
+260,912,42,Daisy Farm,Isle Royale National,MI,United States,"Houghton, MI",0,48.091174,-88.594389,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+261,495,244,"Red Hook, Urman Victor Fredericks",St. Thomas,VI,Virgin Islands,,1,18.32668,-64.848927,1,1,1,0,0,0,1,,1,,1,2018
+262,488,75,Burlington,Burlington,VT,United States,"Burlington-South Burlington, VT",1,44.47461,-73.22124,1,1,1,0,1,0,1,,1,,0,2018
+263,991,373,Pier 16,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.704903,-74.002157,1,1,1,1,0,0,0,South Seaport ,1,,0,2018
+264,412,379,Hatteras North,Hatteras,NC,United States,"Kill Devil Hills, NC",0,35.208046,-75.702749,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+265,618,106,Yakutat,Yakutat,AK,United States,,0,59.54843,-139.734047,1,0,0,0,0,0,0,City of Yakutat,0,City of Yakutat,0,2018
+266,114,17,Hadlyme Ferry Landing,Hadlyme,CT,United States,"Norwich-New London, CT",0,41.420124,-72.42825,1,1,0,0,0,0,0,State of Connecticut,0,CT DOT,0,2018
+267,909,42,McCargoe Cove,Isle Royale National,MI,United States,"Houghton, MI",0,48.087292,-88.708143,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+268,112,133,Bridgeport,Bridgeport,CT,United States,"Bridgeport-Stamford-Norwalk, CT",1,41.17531,-73.185381,1,0,0,0,1,1,0,Bridgeport Port Authority,2,BPA/Ferry,0,2018
+269,871,373,Dumbo Brooklyn Bridge Park,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703553,-73.995815,1,0,1,0,0,0,0,NYC EDC,0,NYC EDC,0,2018
+270,577,43,Melrose Landing (Freeport Marina),Daufuskie Island ,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",0,32.132042,-80.872952,1,1,0,0,0,0,2,Melrose Beach Club ,1,,0,2018
+271,875,106,Annette Bay,Metlakatla,AK,United States,,0,55.268258,-131.560722,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+272,978,480,Little Brewster Island (Beacon/Lighthouse Island),,MA,United States,"Boston-Cambridge-Newton, MA-NH",0,42.32795,-70.892479,1,0,0,0,0,0,0,US Coast Guard,0,US Coast Guard,0,2018
+273,508,383,Ottoman,Lancaster,VA,United States,,0,37.709885,-76.492193,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+274,76,116,Balboa,Newport Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.60539,-117.898526,1,0,0,0,0,0,1,,1,,0,2018
+275,972,47,Hilton Marina,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,26.101845,-80.119689,1,1,1,0,0,0,1,,1,,0,2018
+276,258,91,Hingham Intermodal,Hingham,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.254188,-70.919837,1,1,1,0,0,0,0,MA DOT,0,Boston Harbor Cruises,1,2018
+277,997,437,The Wharf ,Washington DC ,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.879687,-77.026969,1,1,0,1,0,1,1,,1,,0,2018
+278,523,76,Fields Point Landing,Chelan,WA,United States,"Wenatchee, WA",0,47.969539,-120.212916,1,1,0,0,0,0,0,Joint NPS and U.S. Forest Service,0,Joint NPS and U.S. Forest Service,0,2018
+279,375,188,South Ferry South,North Haven,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,41.039725,-72.315369,1,1,1,0,0,0,1,,1,,0,2018
+280,329,11,Virgelle,Loma,MT,United States,,0,48.001762,-110.253261,1,1,0,0,0,0,0,Chouteau County,0,Chouteau County,0,2018
+281,305,89,South Manitou Island,Leland,MI,United States,"Traverse City, MI",0,45.01247,-86.09472,1,0,0,0,0,0,0,NATIONAL PARK SERVICE,0,NATIONAL PARK SERVICE,0,2018
+282,980,484,Buckingham Landing,Bluffton,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",1,32.230406,-80.798327,1,1,0,0,0,0,0,"Beaufort County, SC",2,"Beaufort County, SC",1,2018
+283,427,288,Kellyes Island,Kelleys Island,OH,United States,"Sandusky, OH",0,41.592861,-82.711606,1,1,0,0,0,0,1,,1,,0,2018
+284,437,411,Westport Ferry Landing,Westport,OR,United States,"Astoria, OR",0,46.13717,-123.378706,1,0,0,0,0,0,0,"Clatsop County, OR",0,Clatsop County Public Works,0,2018
+285,210,3,Bailey Island,Harpswell,ME,United States,"Portland-South Portland, ME",0,43.748926,-69.990967,1,1,1,0,0,0,1,,0,Casco Bay Island Transit District,0,2018
+286,110,397,Webb Tract,Webb Tract,CA,United States,"San Francisco-Oakland-Hayward, CA",0,38.056922,-121.648931,1,0,0,0,0,0,0,Delta Ferry Authority,0,Delta Ferry Authority,0,2018
+287,941,244,Cruz Bay Creek,St. John,VI,Virgin Islands,,1,18.321447,-64.787142,1,0,0,0,0,0,1,,1,,0,2018
+288,286,29,Drummond Island Ferry Dock,Drummond Island,MI,United States,"Sault Ste. Marie, MI",0,45.988841,-83.878832,1,1,1,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+289,985,260,Mare Island,Vallejo,CA,United States,"Vallejo-Fairfield, CA",1,38.101199,-122.269186,1,1,1,0,0,0,0,WETA,0,Blue & Gold Fleet (under contract to WETA),0,2018
+290,271,130,Rowes Wharf,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.355681,-71.049383,1,1,0,0,1,1,1,,1,,0,2018
+291,555,384,Vashon,Vashon Island,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.510939,-122.463867,1,1,1,0,0,0,0,WSF,0,WSF,1,2018
+292,265,56,Nantucket,Nantucket,MA,United States,,1,41.286193,-70.096106,1,0,0,0,0,0,1,,1,,1,2018
+293,212,87,Bass Harbor,Bass Harbor,ME,United States,,0,44.234864,-68.348631,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+294,1028,471,Jetty Island - Everett Marina,Everett,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,48.003349,-122.226458,1,0,0,0,0,0,0,City of Everett,0,City of Everett,0,2018
+295,728,265,Southwest Harbor,Southwest Harbor,ME,United States,,0,44.277513,-68.318703,1,1,1,0,0,0,0,Southwest Harbor ,0,Southwest Harbor,0,2018
+296,163,294,Turkey River Boat Landing,Guttenburg,IA,United States,,0,42.717809,-91.010268,1,1,0,0,0,0,0,Iowa Fish & Wildlife,0,Iowa Fish & Wildlife,0,2018
+297,676,311,Michigan Avenue,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.889236,-87.625271,1,1,1,1,1,1,1,,1,,0,2018
+298,529,155,Anderson Island,Anderson Island,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.178573,-122.677284,1,1,0,0,0,0,0,Pierce County  ,0,Pierce County  ,0,2018
+299,60,106,Skagway,Skagway,AK,United States,,0,59.448723,-135.325094,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+300,75,5,Avalon,Avalon,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.344617,-118.322031,1,0,1,0,0,0,0,City of Avalon,2,city of Avalon,1,2018
+301,1029,462,Riis Landing Rockaway,Rockaway,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.568457,-73.88445,1,1,1,1,0,0,0,NPS,1,,0,2018
+302,483,381,Port Bolivar,Port Bolivar,TX,United States,"Houston-The Woodlands-Sugar Land, TX",0,29.362248,-94.779413,1,1,1,1,0,0,0,TX DOT,0,TX DOT,0,2018
+303,336,24,Cape May,North Cape May,NJ,United States,"Ocean City, NJ",1,38.968562,-74.959685,1,1,1,0,0,0,0,DRBA,0,DRBA,0,2018
+304,549,14,"Seattle, Pier 69",Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.613529,-122.353677,1,1,1,1,1,1,1,,1,,0,2018
+305,1020,472,Bay Ridge,Brooklyn ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.639909,-74.038124,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+306,971,47,Riverwalk,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,26.117691,-80.14283,1,1,1,0,0,0,0,City of Fort Lauderdale,0,City of Fort Lauderdale,0,2018
+307,886,269,Pier 50,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.601223,-122.338629,1,1,1,1,0,0,0,WSF,0,KITSAP TRANSIT,1,2018
+308,266,32,New Bedford,New Bedford,MA,United States,"Providence-Warwick, RI-MA",1,41.635596,-70.919204,1,1,1,1,0,0,0,State of Massachusetts,1,,0,2018
+309,525,16,Gifford,Gifford,WA,United States,"Spokane-Spokane Valley, WA",0,48.278235,-118.137589,1,1,0,0,0,0,2,Bureau of Indian Affairs,2,ColvilleTribe,0,2018
+310,565,402,Gills Rock,Gills Rock,WI,United States,,0,45.290646,-87.023007,1,1,0,0,0,0,1,,1,,0,2018
+311,246,68,Smith Island,Ewell,MD,United States,"Salisbury, MD-DE",0,37.99552,-76.03066,1,1,0,0,0,0,0,County of Ewell,1,,0,2018
+312,20,185,"West End, Tortola",Tortola,VI,Virgin Islands,,0,18.387405,-64.703452,1,1,1,1,0,0,0,V.I. Ports Authority,0,V.I. Ports Authority,1,2018
+313,272,452,Blaney Street Dock,Salem,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.521379,-70.880356,1,1,0,0,0,0,0,City of Salem,0,City of Salem,0,2018
+314,164,115,Augusta,Augusta,KY,United States,"Cincinnati, OH-KY-IN",0,38.774811,-84.009023,1,0,1,0,0,0,0,City of Augusta,1,,0,2018
+315,480,232,North Landing,Baytown,TX,United States,"Houston-The Woodlands-Sugar Land, TX",1,29.764767,-95.078854,1,0,0,0,0,0,0,Harris County Precinct 2,0,Harris County Precinct 2,0,2018
+316,422,379,San Souci Main (name change - from 'Woodward'),Windsor,NC,United States,,0,35.91128,-76.817554,1,1,0,0,0,0,0,NCDOT - Div 1,0,NCDOT - Div 1,0,2018
+317,1002,459,Harkers Island NPS Visitor Center,Harkers Island,NC,United States,"Morehead City, NC",0,34.685393,-76.526656,1,1,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+318,410,379,Fort Fisher,Fort Fisher,NC,United States,"Wilmington, NC",0,33.961558,-77.939976,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+319,439,13,Southwest Mountain Road,Wilsonville,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",0,45.301053,-122.692893,1,0,0,0,0,0,0,County of Clackamas,0,County of Clackamas,0,2018
+320,255,447,Memorial Warf,Edgartown,MA,United States,"Vineyard Haven, MA",1,41.389415,-70.510015,1,1,0,0,0,0,1,,1,,0,2018
+321,30,106,Angoon,Angoon,AK,United States,,0,57.472632,-134.567189,1,0,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+322,637,268,Beecher Bay Santa Rosa Island,Channel Islands NP,CA,United States,"Santa Maria-Santa Barbara, CA",0,34.008412,-120.046917,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+323,108,260,Vallejo,Vallejo,CA,United States,"Vallejo-Fairfield, CA",1,38.099873,-122.26296,1,1,1,1,0,0,0,City of Vallejo,0,Blue & Gold Fleet (under contract to WETA),0,2018
+324,102,4,San Pedro,San Pedro,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.748706,-118.27403,1,1,1,1,0,0,2,Port of Los Angeles,1,,0,2018
+325,935,68,City Dock,Chrisfield,MD,United States,"Salisbury, MD-DE",1,37.977487,-75.864108,1,1,0,0,0,0,0,City of Christfield,1,,0,2018
+326,507,456,Onancock,Onancock,VA,United States,,0,37.711691,-75.755395,1,1,0,0,0,0,1,,1,,0,2018
+327,280,8,Eveline Township Landing,Eveline Township,MI,United States,,0,45.255934,-85.182682,1,1,1,0,0,0,0,Charlevoix County Transportation Authority,0,Charlevoix County Transportation Authority,0,2018
+328,228,87,Matinicus,Matinicus Isle,ME,United States,,0,43.865221,-68.885151,1,0,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+329,994,437,Alexandria City Dock,Alexandria ,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.805081,-77.038341,1,1,1,0,0,0,0,City of Alexandria ,2,City of Alexandria ,0,2018
+330,309,152,Gulfport Harbor Ticket Office,Gulfport,MS,United States,"Gulfport-Biloxi-Pascagoula, MS",1,30.363761,-89.089557,1,1,1,0,0,0,0,City of Gulfport,1,,0,2018
+331,393,462,Pier 11 Wall Street,Manhattan,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,1,1,1,1,1,0,DOT,1,,1,2018
+332,634,268,Ventura Harbor,Ventura,CA,United States,"Oxnard-Thousand Oaks-Ventura, CA",1,34.244507,-119.26496,1,1,1,0,0,0,0,Ventura Port District,1,,0,2018
+333,881,263,Hotel Maya,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.756826,-118.197634,1,1,1,0,0,0,0,City of Long Beach ,0,City of Long Beach ,0,2018
+334,432,288,Sandusky,Sandusky,OH,United States,"Sandusky, OH",1,41.458236,-82.713174,1,1,0,0,0,0,1,,1,,1,2018
+335,227,3,Long Island,Town of Long Island,ME,United States,"Portland-South Portland, ME",0,43.691827,-70.165196,1,1,0,0,0,0,0,MDOT,0,Casco Bay Island Transit District,0,2018
+336,974,143,North Landing,Portmouth,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",1,36.838789,-76.296434,1,1,0,0,0,0,0,Hampton Roads Transit,0,Hampton Roads Transit,0,2018
+337,49,106,King Cove,King Cove,AK,United States,,0,55.055691,-162.323039,1,1,0,0,0,0,0,Aleutians East Borough,0,Aleutians East Borough,0,2018
+338,83,260,AT&T Park,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.778176,-122.387179,1,1,1,1,1,1,0,Port of San Francisco,0,Blue & Gold Fleet (under contract to WETA),0,2018
+339,505,383,Merry Point,Merry Point,VA,United States,,0,37.714825,-76.491442,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+340,675,311,River North (LaSalle),Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.887764,-87.631758,1,1,1,1,1,0,1,,1,,0,2018
+341,517,106,Bellingham,Bellingham,WA,United States,"Bellingham, WA",1,48.721865,-122.512261,1,1,1,1,1,1,0,Port of Bellingham,0,Port of Bellingham,0,2018
+342,880,263,Belmont Pier,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",0,33.755539,-118.148577,0,1,1,0,0,0,0,City of Long Beach ,0,City of Long Beach ,0,2018
+343,1018,470,Auasi,Auasi Tutuila,AS,United States,,1,-14.271498,-170.573142,1,1,1,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+344,51,305,Port Chester Terminal,Metlakatla,AK,United States,,0,55.118089,-131.547104,1,1,0,0,0,0,0,Alaska Marine Highways System,1,,0,2018
+345,122,24,Lewes,Lewes,DE,United States,"Salisbury, MD-DE",1,38.782499,-75.119726,1,1,1,0,0,0,0,DRBA,0,DRBA,0,2018
+346,376,34,Ocean Bay Park Bay Shore,"Ocean Bay Park, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.651276,-73.139885,1,1,1,0,1,0,1,,1,,0,2018
+347,449,104,"Isabel II, Vieques",Vieques,PR,Puerto Rico,,1,18.152637,-65.443812,1,0,0,0,0,0,0,PRPA,0,PRMTA,0,2018
+348,104,263,Shoreline Village,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.762436,-118.199086,1,1,1,0,0,0,0,City of Long Beach ,0,City of Long Beach,0,2018
+349,183,382,Cameron,Cameron,LA,United States,"Lake Charles, LA",0,29.803945,-93.344745,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+350,854,459,Shackleford Banks,Beaufort,NC,United States,"Morehead City, NC",0,34.686943,-76.643575,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+351,139,53,May Port,Jacksonville,FL,United States,"Jacksonville, FL",1,30.39565,-81.429856,1,1,1,0,0,0,0,Jacksonville Transportation Authority,1,,0,2018
+352,251,447,Chappy Point,Edgartown,MA,United States,"Vineyard Haven, MA",1,41.388703,-70.508428,1,1,0,0,0,0,1,,1,,0,2018
+353,197,382,Canal Street,New Orleans,LA,United States,"New Orleans-Metairie, LA",1,29.949758,-90.062072,1,0,0,1,0,0,0,LADOTD,1,,0,2018
+354,948,367,Kentucky Dock,Marion,KY,United States,,0,37.460655,-88.165782,1,0,0,0,0,0,1,,1,,0,2018
+355,405,379,Parkers SR 1306,Como,NC,United States,,0,36.437042,-76.95372,1,1,0,0,0,0,0,NCDOT - Div 1,0,NCDOT - Div 1,0,2018
+356,513,456,Tangier,Tangier,VA,United States,,0,37.828223,-75.991343,1,1,0,0,0,0,1,,1,,0,2018
+357,259,226,Hyannis,Hyannis,MA,United States,"Barnstable Town, MA",1,41.650914,-70.276963,1,1,0,0,0,0,0,"W.H., M.V. & Nt. Steamship Authority",0,"W.H., M.V. & Nt. Steamship Authority",1,2018
+358,701,32,Jersey City,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.713809,-74.03192,1,1,0,0,0,0,0,State of New Jersey,1,,0,2018
+359,606,273,Block Island Terminal,Block Island,RI,United States,"Providence-Warwick, RI-MA",0,41.173521,-71.557314,1,1,0,0,0,0,1,,1,,0,2018
+360,370,34,Kismet Bay Shore,"Kismet, Fire Island",NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.638267,-73.204684,1,1,1,0,1,0,1,,1,,0,2018
+361,217,3,Diamond Cove,Portland,ME,United States,"Portland-South Portland, ME",0,43.684736,-70.191285,1,0,0,0,0,0,1,,0,Casco Bay Island Transit District,0,2018
+362,945,311,Chicago Avenue,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.888499,-87.622347,1,1,1,1,1,0,1,,1,,0,2018
+363,986,301,A 20 (Miami Beach Terminal),Miami Beach,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,25.771665,-80.151188,1,0,1,0,0,0,1,,1,,0,2018
+364,450,104,Fajardo,Fajardo,PR,Puerto Rico,"San Juan-Carolina-Caguas, PR",1,18.334647,-65.631366,1,0,0,0,0,0,0,PRPA,0,PRMTA,0,2018
+365,591,269,Colman Dock/Pier 52,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.602037,-122.339806,1,1,1,1,0,0,0,WSF,0,KITSAP TRANSIT,1,2018
+366,222,278,Isle au Haut Town Landing,Isle au Haut,ME,United States,,0,44.07349,-68.639251,1,1,0,0,0,0,0,Town of Isle au Haut,1,,0,2018
+367,45,106,Ketchikan,Ketchikan,AK,United States,"Ketchikan, AK",1,55.353667,-131.694622,1,1,1,0,0,0,0,State of Alaska,0,Alaska Marine Highway,1,2018
+368,534,384,Lopez,Lopez Island,WA,United States,,0,48.570871,-122.88309,1,1,0,0,0,0,0,WSF,0,WSF,0,2018
+369,91,260,Pier 41,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.809484,-122.412231,1,1,1,0,1,0,0,Port of San Francisco,0,Blue & Gold Fleet (under contract to WETA),1,2018
+370,699,32,North Hoboken,Hoboken,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.752752,-74.022456,1,1,0,0,0,0,0,State of New Jersey,1,,0,2018
+371,457,264,Fort Adams,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.474172,-71.336125,1,1,0,0,0,0,0,STATE OF RHODE ISLAND DEM,0,STATE OF RI DEM - FT. ADAMS,0,2018
+372,679,266,Liberty Square,Charleston,SC,United States,"Charleston-North Charleston, SC",1,32.790829,-79.924778,1,1,1,1,0,0,0,National Park Service,0,National Park Service,0,2018
+373,466,196,Cumberland City,Cumberland City,TN,United States,,0,36.394442,-87.633693,1,0,0,0,0,0,0,Tennessee Department of Transportation,2,Tennessee Department of Transportation,0,2018
+374,125,297,Caladesi Island State Park,Dunedin,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",0,28.031886,-82.819428,1,0,0,0,0,0,0,State of Florida,0,State of Florida,0,2018
+375,551,384,Southworth,Port Orchard,WA,United States,"Bremerton-Silverdale, WA",1,47.512991,-122.495834,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+376,4,125,Victoria Inner Harbor,Victoria,BC,Canada,,0,48.421635,-123.372031,1,1,1,1,0,0,1,,1,,0,2018
+377,18,244,Great Harbor Jost Van Dyke BVI,Belle Vue,VI,Virgin Islands,,0,18.443352,-64.753476,1,1,0,0,0,0,1,,1,,0,2018
+378,325,11,Carter,Floweree,MT,United States,,0,47.760594,-110.897195,1,1,0,0,0,0,0,Chouteau County,0,,0,2018
+379,564,168,Washington Island,Washington Island,WI,United States,,0,45.400777,-86.856031,1,1,0,0,0,0,0,State of Wisconsin,0,State of Wisconsin,0,2018
+380,1013,469,Pier 33,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.806833,-122.404333,1,1,1,1,0,0,0,City of San Francisco,0,City of San Francisco,0,2018
+381,554,384,Tahlequah,Vashon Island,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.332031,-122.507788,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+382,883,434,Regatta Park Landing,Oklahoma City,OK,United States,"Oklahoma City, OK",1,35.458697,-97.504683,1,1,1,0,0,0,0,Central Oklahoma Transportation and Parking Authority,1,,0,2018
+383,683,314,Island Ferry Terminal,Frye Island,ME,United States,"Portland-South Portland, ME",0,43.847991,-70.518718,1,0,0,0,0,0,0,Town of Frye Island,0,Town of Frye Island,0,2018
+384,267,153,Oak Bluffs,Oak Bluffs,MA,United States,"Vineyard Haven, MA",1,41.45841,-70.55881,1,1,1,0,0,0,0,Town of Oak Bluffs,1,,1,2018
+385,364,34,Fair Harbor Bay Shore,Fair Harbor,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.641155,-73.186283,1,1,1,0,1,0,1,,1,,0,2018
+386,216,10,Cousins Island Wharf,Yarmouth,ME,United States,"Portland-South Portland, ME",0,43.751923,-70.13935,1,1,1,0,0,0,0,"Town of Yarmouth, ME",0,Town of Chebeague Island,0,2018
+387,290,8,Ironton Landing,Ironton,MI,United States,,0,45.256186,-85.184916,1,1,1,0,0,0,0,Charlevoix County Transportation Authority,0,Charlevoix County Transportation Authority,0,2018
+388,539,384,Mukilteo,Mukilteo,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.949482,-122.304864,1,1,1,1,1,0,0,Port of Everett,0,WSF,0,2018
+389,304,29,Sault Ste. Marie Ferry Dock,Sault Ste. Marie,MI,United States,"Sault Ste. Marie, MI",1,46.486131,-84.301899,1,1,1,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+390,582,250,Saquatucket Harbor,Harwich Port,MA,United States,"Barnstable Town, MA",1,41.669274,-70.058034,1,1,1,0,0,0,0,Town of Harwich,0,Town of Harwich Harbormaster,0,2018
+391,795,263,Pine Avenue,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.76139,-118.193136,1,1,0,0,0,0,0,City of Long Beach,0,City of Long Beach,0,2018
+392,166,468,Anderson Ferry,Constance,KY,United States,"Cincinnati, OH-KY-IN",0,39.071401,-84.626316,1,1,0,0,0,0,1,,1,,0,2018
+393,156,377,Kampsville Ferry (East Side),Eldred,IL,United States,,0,39.300103,-90.604214,1,1,1,1,0,0,0,STATE OF ILLINOIS,0,STATE OF ILLINOIS,0,2018
+394,674,311,Ogilvie/Union (West Loop),Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.882166,-87.638591,1,1,1,1,1,1,1,,1,,0,2018
+395,321,438,Grafton Ferry (MO),St. Charles,MO,United States,"St. Louis, MO-IL",0,38.957935,-90.436533,1,1,0,0,0,0,0,City of Grafton,0,City of Grafton,1,2018
+396,690,47,Las Olas,Fort Lauderdale,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,26.118702,-80.144879,1,1,1,1,0,0,0,City of Fort Lauderdale,0,City of Fort Lauderdale,0,2018
+397,919,400,Soissons Landing,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.693205,-74.01504,1,0,0,0,0,0,1,,1,,0,2018
+398,524,14,Friday Harbor,San Juan Island,WA,United States,,0,48.535724,-123.013986,1,1,1,1,0,0,0,Port of Friday Harbor,0,Port of Friday Harbor,0,2018
+399,199,382,Plaquemine,Plaquemine,LA,United States,"Baton Rouge, LA",1,30.283495,-91.223271,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+400,402,379,Ellwell Carvers Creek,Riegelwood,NC,United States,,0,34.474635,-78.368672,1,1,0,0,0,0,0,NCDOT - Div 6,0,NCDOT - Div 6,0,2018
+401,151,31,Lahaina Harbor,Lahaina,HI,United States,"Kahului-Wailuku-Lahaina, HI",1,20.871852,-156.678939,1,1,1,0,0,0,0,State of Hawaii,0,State of Hawaii,0,2018
+402,461,43,Haig Point - Daufuskie Island,Daufuskie Island,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",0,32.147745,-80.839108,1,1,0,0,0,0,1,,1,,0,2018
+403,61,106,Tatitlek,Tatitlek,AK,United States,,0,60.864008,-146.683134,1,1,0,0,0,0,0,North Pacific Rim Housing Authority,0,North Pacific Rim Housing Authority,0,2018
+404,118,17,Glastonbury Ferry Landing,Glastonburg,CT,United States,"Hartford-West Hartford-East Hartford, CT",1,41.665626,-72.626382,1,1,0,0,0,0,0,State of Connecticut,0,CT DOT,0,2018
+405,173,88,Mammoth Cave  Ferry (Ollie),Mammoth Cave,KY,United States,"Bowling Green, KY",0,37.202869,-86.238157,1,1,0,0,0,0,0,Mammoth Cave NPS,0,Mammoth Cave NPS,0,2018
+406,37,106,Haines,Haines,AK,United States,,0,59.281792,-135.461783,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+407,390,148,Whitehall Terminal,Manhattan,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.700459,-74.013367,1,1,1,0,1,0,0,NYC DOT,0,NYC DOT,0,2018
+408,752,215,Detroit Harbor,Washington Island,WI,United States,,0,45.339096,-86.936948,1,1,0,0,0,0,1,,1,,0,2018
+409,471,196,Benton County,Big Sandy,TN,United States,,0,36.299654,-87.958942,1,0,0,0,0,0,0,Tennessee Department of Transportation,2,Tennessee Department of Transportation,0,2018
+410,868,142,Paulus Hook,Jersey City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.713809,-74.03192,1,0,0,0,1,0,1,,1,,0,2018
+411,328,11,Highwood,Highwood,MT,United States,,0,47.760112,-110.895213,1,1,0,0,0,0,0,Chouteau County,0,Chouteau County,0,2018
+412,308,42,Hat Point,Grand Portage,MN,United States,,0,47.962437,-89.652773,1,1,0,0,0,0,0,Grand Portage RTC,0,Grand Portage RTC,0,2018
+413,367,290,Fort Ticonderoga,Ticonderoga,NY,United States,,0,43.854073,-73.385064,1,1,0,0,1,0,1,,1,,0,2018
+414,659,264,East Ferry Wharf,Jamestown,RI,United States,"Providence-Warwick, RI-MA",1,41.49645,-71.365645,1,1,1,1,0,0,1,,1,,0,2018
+415,461,484,Haig Point - Daufuskie Island,Daufuskie Island,SC,United States,"Hilton Head Island-Bluffton-Beaufort, SC",0,32.147745,-80.839108,1,1,0,0,0,0,1,,1,,0,2018
+416,408,334,Davis (Cape Lookout Ferry Service),Davis,NC,United States,"Morehead City, NC",0,34.796804,-76.456002,1,1,0,0,0,0,1,,1,,0,2018
+417,276,122,World Trade Center Boston,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.35085,-71.041924,1,1,1,0,1,1,0,Massport,2,Massport,0,2018
+418,908,311,North Avenue,Chicago,IL,United States,"Chicago-Naperville-Elgin, IL-IN-WI",1,41.910071,-87.655724,1,1,0,0,0,0,1,,1,,0,2018
+419,867,4,Catalina Landing,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.762925,-118.199372,1,1,1,1,0,0,1,,1,,0,2018
+420,138,227,City of Key West Ferry Terminal,Key West,FL,United States,"Key West, FL",1,24.56279,-81.80122,1,1,1,0,0,0,0,City of Key West,0,City of Key West,0,2018
+421,1030,224,Golden Eagle Ferry Road (MO),St. Charles,MO,United States,"St. Louis, MO-IL",0,38.957935,-90.436533,1,1,0,0,0,0,2,Calhoun County IL,2,Calhoun County Highway Dept.,1,2018
+422,448,104,Culebra,Culebra,PR,Puerto Rico,,0,18.301235,-65.302565,1,0,0,0,0,0,0,PRPA,0,PRMTA,0,2018
+423,298,89,North Manitou Island,Leland,MI,United States,"Traverse City, MI",0,45.12102,-85.97383,1,0,0,0,0,0,0,NATIONAL PARK SERVICE,0,NATIONAL PARK SERVICE,0,2018
+424,204,156,Scarsdale,Scarsdale,LA,United States,"New Orleans-Metairie, LA",0,29.848099,-89.977983,1,1,0,0,0,0,0,Plaquemines Parish Goverment,0,Plaquemines Parish Goverment,0,2018
+425,415,465,Community Square,Ocracoke,NC,United States,,0,35.115394,-75.986636,1,1,0,0,0,0,0,Ocracoke Foundation Inc. ,1,,1,2018
+426,981,481,Jenny Lake East Dock,Moose,WY,United States,"Jackson, WY-ID",0,43.751884,-110.725752,1,1,0,0,0,0,0,National Park Service- Grand Teton,1,,0,2018
+427,306,29,Sugar Island Ferry Dock,Sugar Island,MI,United States,"Sault Ste. Marie, MI",0,46.484914,-84.297264,1,1,0,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+428,55,106,Sand Point,Sand Point,AK,United States,,0,55.331925,-160.503963,1,0,0,0,0,0,0,City of Sand Point,0,City of Sand Point,0,2018
+429,267,226,Oak Bluffs,Oak Bluffs,MA,United States,"Vineyard Haven, MA",1,41.45841,-70.55881,1,0,1,0,0,0,0,"W.H., M.V. & Nt. Steamship Authority",0,"W.H., M.V. & Nt. Steamship Authority",1,2018
+430,220,87,Frenchboro,Frenchboro,ME,United States,,0,44.121467,-68.362338,1,0,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+431,425,468,Anderson Ferry (Riverside),Cincinnati,OH,United States,"Cincinnati, OH-KY-IN",1,39.075993,-84.623942,1,1,0,0,0,0,1,,1,,0,2018
+432,512,383,Sunnybank,Reedville,VA,United States,,0,37.8867,-76.266815,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+433,40,106,Homer,Homer,AK,United States,,0,59.602478,-151.409955,1,1,0,0,0,0,0,City of Homer,0,Alaska Marine Highway,1,2018
+434,601,143,Harbor Park,Norfolk,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",1,36.841602,-76.280268,1,1,0,0,1,1,0,Hampton Roads Transit,0,Hampton Roads Transit,0,2018
+435,347,142,Port Imperial,Weehawken,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.776371,-74.010013,1,1,1,1,1,0,0,N J Transit,1,,0,2018
+436,154,367,Cave In Rock Dock,Cave In Rock,IL,United States,,0,37.466796,-88.166235,1,0,0,0,0,0,1,,1,,0,2018
+437,200,382,Sunshine,Sunshine,LA,United States,"Baton Rouge, LA",0,30.285651,-91.209799,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+438,500,143,High Street Landing Portsmouth,Portsmouth,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",1,36.83512,-76.296118,1,1,0,0,0,0,0,Hampton Roads Transit,0,Hampton Roads Transit,0,2018
+439,339,141,Greenville Yard,Jersery City,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.679131,-74.073371,1,0,0,0,0,0,1,,1,,0,2018
+440,105,40,Tiburon Ferry Terminal,Tiburon,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.872765,-122.455371,1,1,1,0,0,0,0,City of Tiburon,0,GGBHTD,1,2018
+441,385,148,St. George Terminal,Staten Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.644109,-74.071816,1,1,1,0,1,0,0,NYC DOT,0,NYC DOT,0,2018
+442,113,17,Chester Ferry Landing,Chester,CT,United States,"Hartford-West Hartford-East Hartford, CT",0,41.419291,-72.433195,1,0,0,0,0,0,0,State of Connecticut,0,CT DOT,0,2018
+443,925,464,Providence Ferry Landing,Providence,RI,United States,"Providence-Warwick, RI-MA",1,41.815758,-71.398411,1,1,1,1,0,1,0,RI Department of Environmental Management,1,,0,2018
+444,223,87,Islesboro,Islesboro,ME,United States,,0,44.2808,-68.942922,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+445,214,3,Chebeague Island (Northeast end),Town of Chebeague,ME,United States,"Portland-South Portland, ME",0,43.716282,-70.126639,1,1,0,0,0,0,0,MDOT,0,Casco Bay Island Transit District,0,2018
+446,434,90,Buena Vista West,Polk County,OR,United States,"Salem, OR",0,44.770168,-123.147308,1,1,0,0,0,0,0,Marion County,0,Marion County,0,2018
+447,10,285,Pelee Island Terminal,Pelee Island,ON,Canada,,0,41.762847,-82.691822,1,1,0,0,0,0,0,"Ministry of Transportation, Ontario",0,"Owen Sound Transportation Company, Limited",0,2018
+448,431,288,Put in Bay,Put-in-Bay,OH,United States,"Port Clinton, OH",0,41.655176,-82.816221,1,1,0,0,0,0,1,,1,,0,2018
+449,942,141,65th Street Rail Yard,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.644681,-74.02886,1,0,0,0,0,0,2,NYCEDC,1,,0,2018
+450,45,305,Ketchikan,Ketchikan,AK,United States,"Ketchikan, AK",1,55.353667,-131.694622,1,1,1,0,0,0,0,Alaska Marine Highway System,1,,1,2018
+451,44,106,Kake,Kake,AK,United States,,0,56.961029,-133.921204,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+452,361,373,East 34th Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.743619,-73.970854,1,1,1,1,0,0,0,NYC,0,NYC EDC,0,2018
+453,134,53,Fort George,Jacksonville,FL,United States,"Jacksonville, FL",1,30.395139,-81.436251,1,1,0,0,0,0,0,Jacksonville Transportation Authority,1,,0,2018
+454,62,106,Tenakee,Tenakee,AK,United States,,0,57.779157,-135.219333,1,0,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+455,103,40,Sausalito Ferry Terminal,Sausalito,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.856167,-122.477508,1,1,1,0,0,0,0,City of Sausalito ,0,GGBHTD,1,2018
+456,636,268,Scorpion Santa Cruz Island,Channel Islands NP,CA,United States,"Santa Maria-Santa Barbara, CA",0,34.050011,-119.556074,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+457,438,90,Wheatland West,Yamhill County,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",0,45.090598,-123.046213,1,1,0,0,0,0,0,Marion County,0,Marion County,0,2018
+458,993,373,Randalls island,Queens ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.79726,-73.927531,1,1,1,0,0,0,0,NYC PARKS,0,NYC Parks,0,2018
+459,873,472,Atlantic Avenue Pier 6,Brooklyn ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.69235,-74.002104,1,1,1,0,0,0,0,Brooklyn Bridge Park,0,NYCEDC,0,2018
+460,395,174,Water Island,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.673995,-73.042212,1,1,1,0,0,0,1,,1,,0,2018
+461,753,246,Morgan City,Morgan City,LA,United States,"Morgan City, LA",1,29.686154,-91.190146,1,1,0,0,0,0,0,St. Mary Parish Government,0,St. Mary Parish Government,0,2018
+462,34,106,Cordova,Cordova,AK,United States,,0,60.557175,-145.756075,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+463,899,32,East 35th Street,Manhattan,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.744167,-73.970421,1,0,1,1,1,1,0,New York Economic Development Corporation,1,,0,2018
+464,503,221,"White's Ferry Landing, VA",Leesburg,VA,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",0,39.155087,-77.522891,1,0,0,0,0,0,1,,1,,0,2018
+465,77,116,Balboa Island,Newport Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.602957,-117.899228,1,0,0,0,0,0,1,,1,,0,2018
+466,555,436,Vashon,Vashon Island,WA,United States,"Seattle-Tacoma-Bellevue, WA",0,47.510939,-122.463867,1,1,1,0,0,0,0,WA State DOT Ferries Division,0,King County,1,2018
+467,943,264,Ann Street Pier,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.483356,-71.316159,1,1,1,1,0,0,0,CITY OF NEWPORT,0,CITY OF NEWPORT,0,2018
+468,355,472,"Sunset Park, Brooklyn Army Terminal",Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.646753,-74.026891,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,1,2018
+469,1026,475,Detroit-Windsor Truck Ferry (Windsor),Windsor,ON,Canada,,0,42.268003,-83.102614,1,0,0,0,0,0,1,,1,,0,2018
+470,345,142,Lincoln Harbor,Weehawken,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.758717,-74.022654,1,0,1,1,1,0,1,,1,,0,2018
+471,415,379,Community Square,Ocracoke,NC,United States,,0,35.115394,-75.986636,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,1,2018
+472,913,42,Chippewa Harbor,Isle Royale National,MI,United States,"Houghton, MI",0,48.028921,-88.650404,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+473,623,32,Perrotti Park,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.489276,-71.317683,1,1,0,0,0,0,0,State of Rhode Island,1,,1,2018
+474,213,117,Boothbay Harbor,Boothbay,ME,United States,,0,43.849933,-69.628379,1,1,0,0,0,0,1,,1,,0,2018
+475,476,196,Indian Mound,Indian Mound,TN,United States,,0,36.397125,-87.634529,1,0,0,0,0,0,0,Tennessee Department of Transportation,2,Tennessee Department of Transportation,0,2018
+476,897,268,Santa Barbara Island,Channel Islands NP,CA,United States,"Santa Maria-Santa Barbara, CA",0,33.481597,-119.029884,0,0,0,0,0,0,0,NPS,0,NPS,0,2018
+477,420,379,Swan Quarter,Swan Quarter,NC,United States,,0,35.39384,-76.328406,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,0,2018
+478,387,174,Sayville Ferry Terminal,Sayville,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.72718,-73.071548,1,1,1,0,0,0,1,,1,,0,2018
+479,396,440,World Financial,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.714756,-74.01781,1,0,0,0,0,0,0,Port Authority,1,,0,2018
+480,73,469,Angel Island,Angel Island,CA,United States,"San Francisco-Oakland-Hayward, CA",0,37.868683,-122.435304,1,0,0,0,0,0,0,California State Parks,0,California State Parks,1,2018
+481,458,450,Point Judith Ferry Terminal,Narragansett,RI,United States,"Providence-Warwick, RI-MA",1,41.379331,-71.510866,1,1,1,1,0,0,0,"State of RI, DEM",1,,0,2018
+482,930,79,Jessamine County Ramp,Nicholasville,KY,United States,"Lexington-Fayette, KY",0,37.84762,-84.43617,1,0,0,0,0,0,0,Valley View Ferry Authority,0,Valley View Ferry Authority,0,2018
+483,1014,470,Interisland Terminal,Pago Pago,AS,United States,,1,-14.276137,-170.6819,1,1,1,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+484,478,381,Galveston,Galveston,TX,United States,"Houston-The Woodlands-Sugar Land, TX",1,29.327516,-94.77361,1,1,1,1,0,0,0,TX DOT,0,TX DOT,0,2018
+485,623,464,Perrotti Park,Newport,RI,United States,"Providence-Warwick, RI-MA",1,41.489276,-71.317683,1,1,1,1,0,0,0,City of Newport,1,,1,2018
+486,279,29,Barbeau Ferry Dock,Barbeau,MI,United States,"Sault Ste. Marie, MI",0,46.284562,-84.212471,1,1,0,0,0,0,0,Eastern Upper Peninsula Transportation Authority,0,Eastern Upper Peninsula Transportation Authority,0,2018
+487,979,480,Central Wharf,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.358906,-71.048649,1,1,1,1,1,0,1,,1,,0,2018
+488,424,93,Catawba Point,Port Clinton,OH,United States,"Port Clinton, OH",1,41.587506,-82.837236,1,1,1,0,0,0,1,,1,,0,2018
+489,393,472,Pier 11 Wall Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,1,1,0,0,0,0,New York City DOT ,0,New York City DOT ,1,2018
+490,628,374,Statue of Liberty,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.689881,-74.047667,1,0,0,0,0,0,0,Dept of the Interior - NPS,1,,0,2018
+491,835,268,Channel Islands Harbor,Oxnard,CA,United States,"Oxnard-Thousand Oaks-Ventura, CA",1,34.1684,-119.22783,1,1,1,0,0,0,0,Ventura County Harbor Department,1,,0,2018
+492,267,56,Oak Bluffs,Oak Bluffs,MA,United States,"Vineyard Haven, MA",1,41.45841,-70.55881,1,0,0,0,0,0,1,,1,,1,2018
+493,314,105,"State Route K, North Bank",Salem,MO,United States,,0,37.375748,-91.552101,1,0,0,0,0,0,0,NPS - Ozark National Waterways,0,NPS - Ozark National Waterways,0,2018
+494,561,181,Catherine Street Landing,Sistersville,WV,United States,,0,39.564584,-80.999243,1,1,0,0,0,0,0,City of Sistersville,0,Sistersville Ferry Board,0,2018
+495,1,106,Prince Rupert,Prince Rupert,BC,Canada,,0,54.295825,-130.352983,1,0,1,1,1,0,0,Prince Rupert Port Authority,0,Alaska Marine Highway,0,2018
+496,607,293,New London,New London,CT,United States,"Norwich-New London, CT",1,41.355833,-72.092575,1,0,0,0,0,0,1,,1,,0,2018
+497,382,133,Port Jefferson,Port Jefferson,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.948155,-73.070359,1,1,1,0,0,0,1,,1,,0,2018
+498,265,226,Nantucket,Nantucket,MA,United States,,1,41.286193,-70.096106,1,1,0,0,0,0,0,"W.H., M.V. & Nt. Steamship Authority",0,"W.H., M.V. & Nt. Steamship Authority",1,2018
+499,98,137,Rio Vista,Isleton,CA,United States,"Vallejo-Fairfield, CA",0,38.186772,-121.662188,1,0,0,0,0,0,0,Dept Transportation,0,Dept Transportation,0,2018
+500,716,142,Newburgh,Newburgh,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.500894,-74.004839,1,1,0,0,0,0,1,,0,NYC MTA,0,2018
+501,115,273,New London Terminal,New London,CT,United States,"Norwich-New London, CT",1,41.355833,-72.092575,1,1,1,1,1,0,1,,1,,1,2018
+502,265,250,Nantucket,Nantucket,MA,United States,,1,41.286193,-70.096106,1,0,1,0,0,0,1,,1,,1,2018
+503,399,198,Bald Head Island,Bald Head Island,NC,United States,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",0,33.876533,-78.00075,1,1,1,0,0,0,1,,1,,0,2018
+504,622,379,Southport,Southport,NC,United States,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",0,33.931198,-77.996175,1,1,0,0,0,0,0,NCDOT - Ferry,0,NCDOT - Ferry,1,2018
+505,57,477,Seward Harbor,Seward,AK,United States,,0,60.11994,-149.43447,1,1,0,0,0,0,0,City of Seward,0,City of Seward,0,2018
+506,121,23,Bethel,Bethel,DE,United States,"Salisbury, MD-DE",0,38.599265,-75.656214,1,0,0,0,0,0,0,State,0,State,0,2018
+507,808,342,Fort Dock,St. Augustine,FL,United States,"Jacksonville, FL",1,29.715695,-81.239195,1,0,0,0,0,0,0,U.S. National Park Service,0,U.S. National Park Service,0,2018
+508,686,265,Great Cranberry,Great Cranberry,ME,United States,,0,44.258888,-68.269738,1,0,0,0,0,0,0,Southwest Harbor,0,Cranberry Islands,0,2018
+509,182,156,Belle Chasse,Belle Chasse,LA,United States,"New Orleans-Metairie, LA",1,29.85548,-89.980924,1,1,0,0,0,0,0,Plaquemines Parish Goverment,0,Plaquemines Parish Goverment,0,2018
+510,998,437,Diamond Teague Park,Washington DC ,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.871024,-77.005563,1,1,0,0,0,0,2,District of Columbia ,2,District of Columbia,0,2018
+511,569,225,Merrimac SR 113,Merrimac,WI,United States,"Baraboo, WI",0,43.37076,-89.6271,1,0,0,0,0,0,0,State of Wisconsin,0,State of Wisconsin,0,2018
+512,33,106,Cold Bay,Cold Bay,AK,United States,,0,55.207391,-162.695769,1,0,0,0,0,0,0,Aleutians East Borough,0,Aleutians East Borough,0,2018
+513,752,402,Detroit Harbor,Washington Island,WI,United States,,0,45.339096,-86.936948,1,1,0,0,0,0,1,,1,,0,2018
+514,323,193,Ste. Genevieve Little Rock Landing,Ste. Genevieve,MO,United States,,0,38.004383,-90.058738,1,1,0,0,0,0,0,City of Ste. Genevieve,0,City of Ste. Genevieve,0,2018
+515,543,269,Port Orchard Ferry Terminal,Port Orchard,WA,United States,"Bremerton-Silverdale, WA",1,47.543031,-122.63562,1,1,1,1,0,0,0,KITSAP TRANSIT,0,KITSAP TRANSIT,0,2018
+516,511,383,Scotland,Surry County,VA,United States,,0,37.185542,-76.784416,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+517,727,100,Long Point North Core Banks,Cape Lookout National,NC,United States,"Morehead City, NC",0,34.899383,-76.257651,1,0,0,0,0,0,0,US Governement,0,us government,0,2018
+518,541,384,Orcas,Orcas Island,WA,United States,,0,48.597302,-122.943601,1,1,0,0,0,0,0,WSF,0,WSF,0,2018
+519,176,135,Rochester SR-369 (Butler County),Rochester,KY,United States,"Bowling Green, KY",0,37.214758,-86.893898,1,1,0,0,0,0,0,Butler County Fiscal Court,0,Butler County Fiscal Court,0,2018
+520,101,40,San Francisco Ferry Building,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.796882,-122.393217,1,0,1,0,1,0,0,Port of SF,0,GGBHTD,1,2018
+521,610,10,Stone Pier,Chebeague Island,ME,United States,"Portland-South Portland, ME",0,43.751668,-70.107967,1,1,1,0,0,0,0,Town of Chebeague Island,0,Town of Chebeague Island,0,2018
+522,502,383,Ophelia,Ophelia,VA,United States,,0,37.890676,-76.269654,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+523,771,430,Halls Crossing,Halls Crossing,UT,United States,,0,37.473772,-110.69705,1,1,0,0,0,0,0,State of Utah DOT/NPS,0,State of Utah DOT/NPS,0,2018
+524,243,222,North Upper Ferry Road,Quantico,MD,United States,"Salisbury, MD-DE",1,38.342069,-75.695933,1,0,0,0,0,0,0,Wicomico County,0,Wicomico County Roads,0,2018
+525,870,472,South Williamsburg Ferry Landing (Schaefer Landing),Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.708572,-73.970212,1,1,0,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+526,635,268,Anacapa Island,Channel Islands NP,CA,United States,"Oxnard-Thousand Oaks-Ventura, CA",0,34.016552,-119.362073,1,0,0,0,0,0,0,NPS,0,NPS,0,2018
+527,380,75,Cumberland Head,Cumberland Head,NY,United States,"Plattsburgh, NY",1,44.699062,-73.380341,1,1,1,0,0,0,1,,1,,0,2018
+528,938,200,"Cruz Bay, Loredon Boynes Sr. Dock",St. John,VI,Virgin Islands,,1,18.331549,-64.79591,1,1,1,0,0,0,0,GOVT VI,0,GOVT VI,0,2018
+529,874,472,Greenpoint ,Brooklyn ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.73127,-73.963592,1,1,1,0,0,0,1,,1,,0,2018
+530,699,142,North Hoboken,Hoboken,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.752752,-74.022456,1,0,1,0,0,0,1,,1,,0,2018
+531,292,77,Ludington,Ludington,MI,United States,"Ludington, MI",1,43.949147,-86.451155,1,1,0,0,0,0,1,,1,,0,2018
+532,31,106,Chenega Bay,Chenega Bay,AK,United States,,0,60.06356,-148.007988,1,1,0,0,0,0,0,North Pacific Rim Housing Authority,0,North Pacific Rim Housing Authority,0,2018
+533,698,308,Trade Center Landing,Savannah,GA,United States,"Savannah, GA",1,32.083289,-81.086182,1,1,0,0,0,0,0,Chatham Area Transit,0,Chatham Area Transit,0,2018
+534,299,157,Pointe Aux Pins,Bois Blanc Island,MI,United States,,0,45.726881,-84.451578,1,1,0,0,0,0,0,Bois Blanc Township,0,Bois Blanc Township,0,2018
+535,925,32,Providence Ferry Landing,Providence,RI,United States,"Providence-Warwick, RI-MA",1,41.815758,-71.398411,1,1,1,0,0,0,0,State of Rhode Island,1,,0,2018
+536,622,198,Southport,Deep Point,NC,United States,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",0,33.931198,-77.996175,1,1,0,0,0,0,1,,1,,1,2018
+537,1022,472,Roosevelt Island Ferry Landing,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.756702,-73.952557,1,1,1,0,0,0,0,RIOC,0,NYCEDC,0,2018
+538,289,64,Houghton Mainland,Houghton,MI,United States,"Houghton, MI",1,47.123188,-88.563858,1,1,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+539,639,268,San Miguel Island,Channel Islands NP,CA,United States,"Santa Maria-Santa Barbara, CA",0,34.047421,-120.352734,1,0,0,0,0,0,0,US Navy,0,NPS,0,2018
+540,807,342,Visitor Center Dock,St. Augustine,FL,United States,"Jacksonville, FL",1,29.714582,-81.235122,1,1,0,0,0,0,0,U.S. National Park Service,0,U.S. National Park Service,0,2018
+541,544,384,Port Townsend,Port Townsend,WA,United States,,1,48.111118,-122.759031,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+542,620,397,Bradford Island,Bradford,CA,United States,"San Francisco-Oakland-Hayward, CA",0,38.056928,-121.646714,1,0,0,0,0,0,0,Delta Ferry Authority,0,Delta Ferry Authority,0,2018
+543,84,137,Grand Island,Walnut Grove,CA,United States,"Sacramento--Roseville--Arden-Arcade, CA",0,38.236649,-121.602504,1,0,0,0,0,0,0,Dept Transportation,0,Dept Transportation,0,2018
+544,952,432,Baywatch,Lake Havasu City,AZ,United States,"Lake Havasu City-Kingman, AZ",1,34.472468,-114.348418,1,1,0,0,0,0,1,,1,,0,2018
+545,78,260,Alameda Harbor Bay,Alameda,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.736421,-122.257284,1,1,1,0,0,0,0,City of Alameda,0,Blue & Gold Fleet (under contract to WETA),0,2018
+546,901,334,Great Island,Great Island,NC,United States,"Morehead City, NC",0,34.76134,-76.41322,1,1,0,0,0,0,1,,1,,0,2018
+547,247,151,Oxford,Oxford,MD,United States,"Easton, MD",0,38.693531,-76.174045,1,1,0,0,0,0,0,,0,,0,2018
+548,161,193,Modoc,Ste. Genevieve,IL,United States,,0,38.009382,-90.053525,1,1,0,0,0,0,0,Illinois Department of Transportation,0,Illinois Department of Transportation,0,2018
+549,546,411,Puget Island Ferry Landing,Cathlamet,WA,United States,,0,46.153566,-123.377228,1,0,0,0,0,0,0,"Wahkiakum County, WA",0,Wahkiakum County Public Works,0,2018
+550,397,100,Atlantic,Atlantic,NC,United States,"Morehead City, NC",0,34.879556,-76.340417,1,1,0,0,0,0,1,,1,,0,2018
+551,168,283,Hickman Ferry Dock,Hickman,KY,United States,"Union City, TN-KY",0,36.568324,-89.212365,1,1,0,0,0,0,0,Hickman-Fulton County RiverPort,0,Hickman-Fulton County Riverport,0,2018
+552,662,281,Fisherman's Wharf,Port Aransas,TX,United States,"Corpus Christi, TX",0,27.839992,-97.059505,1,0,0,0,0,0,1,,1,,0,2018
+553,712,31,Manele Harbor,Manele,HI,United States,"Kahului-Wailuku-Lahaina, HI",0,20.742344,-156.888053,1,1,0,0,0,0,0,State of Hawaii,0,State of Hawaii,0,2018
+554,513,195,Tangier,Tangier,VA,United States,,0,37.828223,-75.991343,0,0,0,0,0,0,1,,1,,0,2018
+555,35,106,False Pass,False Pass,AK,United States,,0,54.854416,-163.406912,1,0,0,0,0,0,0,Village of False Pass,0,Village of False Pass,0,2018
+556,58,106,Sitka,Sitka,AK,United States,,0,57.129384,-135.381281,1,1,1,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+557,548,384,Point Defiance,Tacoma,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.306329,-122.514152,1,1,1,0,0,0,0,Tacoma Parks Dept,0,WSF,0,2018
+558,320,113,"Peel Ferry, MO Side",Protem,AR,United States,,0,36.490187,-92.793782,1,1,0,0,0,0,0,ARDOT,0,ARDOT,0,2018
+559,613,384,Anacortes,Anacortes,WA,United States,"Mount Vernon-Anacortes, WA",1,48.507387,-122.677542,1,1,1,0,0,0,0,Port of Anacortes,0,WSF,0,2018
+560,926,122,Providencetown (MacMillian Pier),Provincetown,MA,United States,"Barnstable Town, MA",1,42.049221,-70.181432,1,1,1,1,0,0,0,Town of Provincetown,0,Town of Provincetown,0,2018
+561,96,263,Queen Mary,Long Beach,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.753871,-118.192604,1,1,1,0,0,0,1,,1,,0,2018
+562,982,481,Jenny Lake West Dock,Moose,WY,United States,"Jackson, WY-ID",0,43.767284,-110.743995,1,0,0,0,0,0,0,National Park Service- Grand Teton National Park,1,,0,2018
+563,43,106,Juneau/Auke Bay,Juneau,AK,United States,"Juneau, AK",0,58.381394,-134.684979,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+564,719,142,Beacon,Beacon,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.505665,-73.986089,1,1,0,0,1,1,0,Town of Beacon,0,NYC MTA,0,2018
+565,902,354,Carrot Island,Beaufort,NC,United States,"Morehead City, NC",1,34.708204,-76.632498,1,0,0,0,0,0,0,State of North Carolina,0,North Carolina,0,2018
+566,1006,466,Shell Key Boat Ramp,St. Petersburg,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",0,27.650028,-82.737243,1,1,0,0,0,0,0,Pinellas County,1,,0,2018
+567,237,117,Squirrel Island,Squirrel Island,ME,United States,,0,43.810718,-69.633877,1,0,0,0,0,0,1,,1,,0,2018
+568,312,214,Chickasaw Road,Vicksburg,MS,United States,"Vicksburg, MS",0,32.400887,-90.922238,1,1,0,0,0,0,0,WARREN COUNTY BOS,0,WARREN COUNTY BOS,0,2018
+569,131,227,"Garden Key Dock, Dry Tortugas National Park",,FL,United States,"Key West, FL",0,24.62732,-82.87228,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+570,101,127,San Francisco Ferry Building,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.796882,-122.393217,1,1,1,1,1,1,0,Port of S.F.,0,Port of S.F.,1,2018
+571,361,472,East 34th Street,New York ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.743619,-73.970854,1,1,1,0,0,0,0,New York City DOT,0,New York City DOT,0,2018
+572,275,226,Woods Hole,Falmouth,MA,United States,"Barnstable Town, MA",1,41.522294,-70.670169,1,1,1,1,0,0,0,"W.H., M.V. & Nt. Steamship Authority",0,"W.H., M.V. & Nt. Steamship Authority",0,2018
+573,56,106,Seldovia,Seldovia,AK,United States,,0,59.440457,-151.720497,1,1,0,0,0,0,0,City of Seldovia,0,City of Seldovia,0,2018
+574,1031,438,Grafton Ferry (IL),Grafton,IL,United States,"St. Louis, MO-IL",0,38.964102,-90.49472,1,1,0,0,0,0,0,City of Grafton,0,City of Grafton,1,2018
+575,310,214,Kings Point Road,Vicksburg,MS,United States,"Vicksburg, MS",0,32.399695,-90.925873,1,1,0,0,0,0,0,WARREN COUNTY BOS,0,WARREN COUNTY BOS,0,2018
+576,218,278,Duck Harbor,Isle au Haut,ME,United States,,0,44.02906,-68.653139,1,0,0,0,0,0,0,National Park Service,1,,0,2018
+577,391,330,Stow,Bemus Point,NY,United States,"Jamestown-Dunkirk-Fredonia, NY",0,42.157124,-79.400101,1,1,0,0,0,0,0,Chautauqua. Ounty DPF,0,Numerous,0,2018
+578,401,459,Cape Lookout,Harkers Island,NC,United States,"Morehead City, NC",0,34.624984,-76.523885,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+579,641,461,Harbor Island Terminal,Aransas Pass,TX,United States,"Corpus Christi, TX",0,27.844006,-97.070304,1,0,0,0,0,0,0,exas Department of Transportation,0,exas Department of Transportation,0,2018
+580,1010,466,Hubbards Marina,Madeira Beach,FL,United States,"Tampa-St. Petersburg-Clearwater, FL",1,27.784352,-82.782021,1,1,0,0,0,0,1,,1,,0,2018
+581,885,434,Meridian Landing,Oklahoma City,OK,United States,"Oklahoma City, OK",1,35.448805,-97.595418,1,1,1,0,0,0,0,Central Oklahoma Transportation and Parking Authority,1,,0,2018
+582,521,384,Edmonds,Edmonds,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.813358,-122.385442,1,1,1,1,1,1,0,WSF,0,WSF,0,2018
+583,89,260,Oakland,Oakland,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.794493,-122.280151,1,1,1,0,0,0,0,City of Oakland,0,Blue & Gold Fleet (under contract to WETA),0,2018
+584,365,174,Fire Island Pines,Fire Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,40.665469,-73.069307,1,1,1,0,0,0,1,,1,,0,2018
+585,165,88,Mammoth Cave Ferry,Mammoth Cave,KY,United States,"Bowling Green, KY",0,37.202316,-86.23748,1,0,0,0,0,0,0,Mammoth Cave NPS,0,Mammoth Cave NPS,0,2018
+586,872,472,North Williamsburg,Brooklyn ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.720885,-73.96493,1,0,0,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+587,695,226,Vineyard Haven,Vineyard Haven,MA,United States,"Vineyard Haven, MA",1,41.455758,-70.600193,1,0,1,0,0,0,0,"W.H., M.V. & Nt. Steamship Authority",0,"W.H., M.V. & Nt. Steamship Authority",0,2018
+588,350,373,Red Hook/Atlantic Basin Ferry Landing,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.68101,-74.013301,1,1,1,0,0,0,1,,1,,0,2018
+589,574,168,Rock Island State Park,Rock Island State Park,WI,United States,,0,45.409068,-86.829705,1,0,0,0,0,0,0,State of Wisconsin,0,State of Wisconsin,0,2018
+590,452,104,Old San Juan Pier 2,San Juan,PR,Puerto Rico,"San Juan-Carolina-Caguas, PR",1,18.462778,-66.113079,1,0,0,0,0,0,0,PRPA,0,PRMTA,0,2018
+591,657,374,Battery Park,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.702668,-74.017125,1,0,1,1,1,0,0,NYC Parks & Rec,1,,0,2018
+592,303,124,Beaver Island BIBCO Dock,Beaver Island,MI,United States,,0,45.746833,-85.518751,1,1,0,0,0,0,1,,1,,0,2018
+593,733,382,Holly Beach,Cameron,LA,United States,"Lake Charles, LA",0,29.803876,-93.349637,1,0,0,0,0,0,0,LADOTD,0,LADOTD,0,2018
+594,999,437,National Mall,Washington DC ,DC,United States,"Washington-Arlington-Alexandria, DC-VA-MD-WV",1,38.883956,-77.047233,1,0,0,0,0,0,0,National Park Service ,0,National Park Service,0,2018
+595,256,153,Falmouth Harbor,Falmouth,MA,United States,"Barnstable Town, MA",1,41.550885,-70.600594,1,1,0,0,0,0,1,,1,,0,2018
+596,241,222,South Upper Ferry Road,Quantico,MD,United States,"Salisbury, MD-DE",1,38.340962,-75.695426,1,0,0,0,0,0,0,Wicomico County,0,Wicomico County Roads,0,2018
+597,32,106,Chignik,Chignik,AK,United States,,0,56.297975,-158.387038,1,0,0,0,0,0,1,,0,City of Chignik,0,2018
+598,1025,473,Civitan Park,Belpre,OH,United States,"Marietta, OH",1,39.274812,-81.598005,1,1,0,0,0,0,0,City of Belpre,0,City of Belpre,0,2018
+599,294,191,Mackinaw City Dock 1,Mackinaw City,MI,United States,,0,45.772224,-84.722719,1,1,1,0,0,0,1,,1,,0,2018
+600,526,220,Gooseberry Dock,Bellingham,WA,United States,"Bellingham, WA",0,48.731252,-122.670177,1,1,1,1,0,0,0,Whatcom County,0,Whatcom County,0,2018
+601,393,32,Pier 11 Wall Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,0,1,0,1,0,0,New York Economic Development Corporation,1,,1,2018
+602,552,76,Stehekin Landing,Stehekin,WA,United States,"Wenatchee, WA",0,48.308636,-120.657553,1,0,0,0,0,0,0,National Park Service,0,National Park Service,0,2018
+603,456,445,Homestead Dock,Prudence Island,RI,United States,"Providence-Warwick, RI-MA",0,41.618955,-71.304125,1,1,0,0,0,0,0,Town of Portsmouth,1,,0,2018
+604,494,289,"Enighed Pond, Theovald Moorehead",St. John,VI,Virgin Islands,,1,18.327606,-64.79346,1,1,1,0,0,0,0,Virgin Islands Port Authority,0,Virgin Islands Port Authority,0,2018
+605,1016,470,Faleasao,Faleasao Manua,AS,United States,,0,-14.220628,-169.514923,1,1,1,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+606,291,89,Fishtown Dock,Leland,MI,United States,"Traverse City, MI",0,45.024137,-85.762078,1,1,0,0,0,0,1,,1,,0,2018
+607,884,434,Exchange Landing,Oklahoma City,OK,United States,"Oklahoma City, OK",1,35.458201,-97.541363,1,1,1,0,0,0,0,Central Oklahoma Transportation and Parking Authority,1,,0,2018
+608,932,127,Pier 39,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.809077,-122.411211,1,1,1,0,1,0,1,,1,,0,2018
+609,879,106,Ouzinkie,Ouzinkie,AK,United States,,0,57.921375,-152.500855,1,1,0,0,0,0,0,City of Ouzinkie,0,City of Ouzinkie,0,2018
+610,989,301,A 26b (Fisher's Island Terminal II),Fisher Island,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,25.76305,-80.14123,1,0,0,0,0,0,1,,1,,0,2018
+611,41,106,Hoonah,Hoonah,AK,United States,,0,58.116467,-135.457871,1,1,0,0,0,0,0,State of Alaska,0,Alaska Marine Highway,0,2018
+612,491,290,Shoreham,Shoreham,VT,United States,,0,43.855318,-73.376512,1,0,0,0,0,0,1,,1,,0,2018
+613,362,374,Ellis Island,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.698927,-74.040446,1,0,0,0,0,0,0,Dept of the Interior - NPS,1,,0,2018
+614,518,384,Bremerton,Bremerton,WA,United States,"Bremerton-Silverdale, WA",1,47.561755,-122.624926,1,1,1,0,0,0,0,WSF,0,WSF,1,2018
+615,513,194,Tangier,Tangier,VA,United States,,0,37.828223,-75.991343,1,1,0,0,0,0,1,,1,,0,2018
+616,472,196,Houston County,Stewart,TN,United States,,0,36.307945,-87.949608,1,0,0,0,0,0,0,Tennessee Department of Transportation,2,Tennessee Department of Transportation,0,2018
+617,233,3,Peaks Island,Portland,ME,United States,"Portland-South Portland, ME",0,43.655455,-70.200076,1,1,0,0,0,0,0,MDOT,0,Casco Bay Island Transit District,0,2018
+618,293,191,Mackinac Island Dock 1,Mackinac Island,MI,United States,,0,45.847378,-84.617663,1,0,0,0,0,0,1,,1,,0,2018
+619,231,87,North Haven,North Haven,ME,United States,,0,44.126593,-68.873191,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+620,862,384,Friday Harbor,Friday Harbor,WA,United States,,0,48.535724,-123.013986,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+621,510,194,Buzzard Point,Reedville,VA,United States,,0,37.842214,-76.287663,1,1,0,0,0,0,1,,1,,0,2018
+622,389,147,Shelter Island,Shelter Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,41.087382,-72.358132,1,1,0,0,0,0,1,,1,,0,2018
+623,146,192,Meridian Dock,Meridian,GA,United States,"Brunswick, GA",0,31.453345,-81.362885,1,1,0,0,0,0,0,State of Georgia,0,GA DNR,0,2018
+624,626,142,Haverstraw,Haverstraw,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,41.192804,-73.958052,1,1,0,0,0,0,1,,0,NYC MTA,0,2018
+625,560,473,Point Park,Parkersburg,WV,United States,"Parkersburg-Vienna, WV",1,39.266544,-81.566748,1,1,0,0,0,0,0,City of Parkersburg,0,City of Parkersburg,0,2018
+626,153,377,Brussels Ferry Dock,Brussels,IL,United States,"St. Louis, MO-IL",0,38.967159,-90.49493,1,1,1,1,0,0,0,STATE OF ILLINOIS,0,STATE OF ILLINOIS,0,2018
+627,501,383,Jamestown,Williamsburg,VA,United States,"Virginia Beach-Norfolk-Newport News, VA-NC",0,37.21997,-76.791414,1,0,0,0,0,0,0,VDOT,0,VDOT,0,2018
+628,221,3,Great Diamond island,Portland,ME,United States,"Portland-South Portland, ME",0,43.670453,-70.199389,1,0,0,0,0,0,0,MDOT,0,Casco Bay Island Transit District,0,2018
+629,558,384,Bainbridge,Bainbridge Island,WA,United States,"Bremerton-Silverdale, WA",1,47.62251,-122.509417,1,1,1,1,0,0,0,WSF,0,WSF,0,2018
+630,762,192,Marsh Landing Dock,Sapelo Island,GA,United States,"Brunswick, GA",0,31.417945,-81.296085,1,1,0,0,0,0,0,State of Georgia,0,GA DNR,0,2018
+631,606,450,Block Island Terminal,Block Island,RI,United States,"Providence-Warwick, RI-MA",0,41.173521,-71.557314,1,1,0,0,0,0,1,,1,,0,2018
+632,435,13,North Locust Street,Canby,OR,United States,"Portland-Vancouver-Hillsboro, OR-WA",0,45.299007,-122.692778,1,0,0,0,0,0,0,County of Clackamas,0,County of Clackamas,0,2018
+633,707,142,Edgewater,Edgewater,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.827909,-73.969683,1,0,1,1,0,0,0,Boro of Edgewater,1,,0,2018
+634,922,244,Anegada,Anegada,VI,Virgin Islands,,0,18.721761,-64.380958,1,1,0,0,0,0,1,,1,,0,2018
+635,330,392,South terminal (Stafford Ferry Road),Winifred,MT,United States,,0,47.73704,-109.390162,1,0,0,0,0,0,0,Fergus County,0,Fergus County,0,2018
+636,1027,477,Aialik Bay,Seward,AK,United States,,0,59.851194,-149.656986,1,0,0,0,0,0,0,Port Graham Native Corporation,1,,0,2018
+637,916,260,South San Francisco Oyster Point,South San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.663642,-122.377186,1,1,1,0,0,0,0,WETA,0,Blue & Gold Fleet (under contract to WETA),0,2018
+638,625,130,George's Island,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",0,42.31958,-70.931037,1,0,0,0,0,0,0,City of Boston,0,City of Boston,0,2018
+639,645,244,Virgin Gorda BVI,Spanish Town,VI,Virgin Islands,,0,18.452672,-64.437571,1,1,0,0,0,0,1,,1,,0,2018
+640,267,32,Oak Bluffs,Oak Bluffs,MA,United States,"Vineyard Haven, MA",1,41.45841,-70.55881,1,0,1,0,0,0,0,State of Massachusetts,1,,1,2018
+641,335,414,Camden Booth,Camden,NJ,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",1,39.944185,-75.132631,1,1,1,0,1,1,1,,1,,0,2018
+642,520,384,Clinton,Clinton,WA,United States,"Oak Harbor, WA",0,47.974795,-122.349381,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+643,47,199,Gravina Island Terminal,Ketchikan,AK,United States,"Ketchikan, AK",0,55.356504,-131.70707,1,1,1,0,0,0,0,Ketchikan Gateway Borough,0,Ketchikan Gateway Borough,0,2018
+644,81,4,Dana Point,Dana Point,CA,United States,"Los Angeles-Long Beach-Anaheim, CA",1,33.459983,-117.691728,1,1,1,1,0,0,2,City of Orange,1,,0,2018
+645,490,75,Grand Isle,Grand Isle,VT,United States,"Burlington-South Burlington, VT",0,44.688278,-73.349772,1,1,0,0,0,0,1,,1,,0,2018
+646,46,199,Ketchikan Side Terminal,Ketchikan,AK,United States,"Ketchikan, AK",1,55.353912,-131.692296,1,1,1,0,0,0,0,Ketchikan Gateway Borough,0,Ketchikan Gateway Borough,0,2018
+647,101,260,San Francisco Ferry Building,San Francisco,CA,United States,"San Francisco-Oakland-Hayward, CA",1,37.796882,-122.393217,1,0,1,1,1,1,0,Port of San Francisco,0,Blue & Gold Fleet (under contract to WETA),1,2018
+648,772,430,Bullfrog Marina,Bullfrog,UT,United States,,0,37.519127,-110.744598,1,1,0,0,0,0,0,State of Utah DOT/NPS,0,State of Utah DOT/NPS,0,2018
+649,225,87,Lincolnville,Lincolnville,ME,United States,,0,44.280498,-69.005646,1,1,0,0,0,0,0,State of Maine,0,State of Maine,0,2018
+650,119,483,Delaware City,Delaware City,DE,United States,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",0,39.578079,-75.587653,1,1,1,0,0,0,0,DNREC,0,DNREC,0,2018
+651,705,148,City Island,City Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.848384,-73.781315,1,0,1,0,0,0,0,NYC DOT,0,NYC DOT,0,2018
+652,423,115,Boude's Ferry,Georgetown,OH,United States,"Cincinnati, OH-KY-IN",0,38.780322,-84.010514,1,1,1,0,0,0,1,,1,,0,2018
+653,988,301,A 26 (Port of Miami),Port of Miami,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,25.7774,-80.17117,1,0,0,0,0,0,1,,1,,0,2018
+654,393,373,Pier 11 Wall Street,New York,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.703473,-74.006065,1,1,1,1,0,0,0,NYC ,0,NYC EDC,1,2018
+655,1019,470,Aunu'u,Aunu'u Aunu'u Isl,AS,United States,,0,-14.283394,-170.560998,1,1,0,0,0,0,0,American Samoa Government,0,Department of Port Administration,0,2018
+656,983,191,Mackinac Island Dock 2,Mackinac Island,MI,United States,,0,45.848807,-84.616109,1,0,0,0,0,0,1,,1,,0,2018
+657,175,135,Presntiss SR-267 (Reeds Ferry Road),Beaver Dam,KY,United States,"Bowling Green, KY",0,37.259772,-86.776302,1,1,0,0,0,0,0,Butler County Fiscal Court,0,Butler County Fiscal Court,0,2018
+658,363,75,Essex,Essex,NY,United States,,0,44.310814,-73.35073,1,1,0,0,0,0,1,,1,,0,2018
+659,261,130,Logan Airport Ferry,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.360114,-71.027485,1,1,1,0,0,1,0,Massport,0,Massport,0,2018
+660,56,333,Seldovia,Seldovia,AK,United States,,0,59.440457,-151.720497,1,1,0,0,0,0,0,City of Seldovia,0,City of Seldovia,0,2018
+661,681,266,Patriots Point,Mt. Pleasant,SC,United States,"Charleston-North Charleston, SC",1,32.790463,-79.906257,1,1,0,0,0,0,0,Patriots Point Development Authority,0,Patriots Point Development Authority,0,2018
+662,285,475,Detroit-Winsor Truck Ferry (Detroit),Detroit,MI,United States,"Detroit-Warren-Dearborn, MI",1,42.288431,-83.103606,1,0,0,0,0,0,1,,1,,0,2018
+663,585,188,South Ferry North,Shelter Island,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",0,41.044519,-72.31722,1,1,0,0,0,0,1,,1,,0,2018
+664,259,56,Hyannis,Hyannis,MA,United States,"Barnstable Town, MA",1,41.650914,-70.276963,1,1,0,0,0,0,1,,1,,1,2018
+665,271,91,Rowes Wharf,Boston,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.355681,-71.049383,1,1,1,0,0,0,1,,1,,0,2018
+666,489,75,Charlotte,Charlotte,VT,United States,"Burlington-South Burlington, VT",0,44.30124,-73.297239,1,1,0,0,0,0,1,,1,,0,2018
+667,522,384,Fauntleroy,Seattle,WA,United States,"Seattle-Tacoma-Bellevue, WA",1,47.523185,-122.396597,1,1,1,0,0,0,0,WSF,0,WSF,0,2018
+668,236,87,Rockland,Rockland,ME,United States,,1,44.1077,-69.107891,1,1,1,1,0,0,0,State of Maine,0,State of Maine,0,2018
+669,167,135,Cool Springs SR-369 (Ohio County),Rochester,KY,United States,,0,37.215928,-86.894132,1,1,0,0,0,0,0,Butler County Fiscal Court,0,Butler County Fiscal Court,0,2018
+670,341,32,Highlands Terminal,Highlands,NJ,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.409444,-73.996254,1,1,0,0,0,0,1,,1,,0,2018
+671,350,472,Red Hook/Atlantic Basin Ferry Landing,Brooklyn,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.68101,-74.013301,1,1,1,0,0,0,0,PANYNJ,0,NYCEDC,0,2018
+672,563,294,Port of Cassville,Cassville,WI,United States,"Platteville, WI",0,42.713385,-90.992677,1,1,0,0,0,0,0,Village of Cassville,0,Village of Casville,0,2018
+673,527,182,Guemes Island,Anacortes,WA,United States,"Mount Vernon-Anacortes, WA",0,48.528055,-122.624706,1,1,0,0,0,0,0,Skagit County,0,Skagit County Public Works,0,2018
+674,853,459,Beaufort Town Docks,Beaufort,NC,United States,"Morehead City, NC",1,34.715003,-76.663261,1,1,0,0,0,0,1,,1,,0,2018
+675,272,130,Blaney Street Dock,Salem,MA,United States,"Boston-Cambridge-Newton, MA-NH",1,42.521379,-70.880356,1,1,1,1,0,0,0,City of Salem,0,City of Salem,0,2018
+676,939,90,Buena Vista East,Marion County,OR,United States,"Salem, OR",0,44.769717,-123.144833,1,1,0,0,0,0,0,Marion County,0,Marion County,0,2018
+677,572,225,Okee SR 113,Lodi,WI,United States,"Madison, WI",0,43.365736,-89.621269,1,1,0,0,0,0,0,State of Wisconsin,0,State of Wisconsin,0,2018
+678,1021,472,Astoria ,Queens ,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.771683,-73.935773,1,1,1,0,0,0,0,NYCDSBS,0,NYCEDC,0,2018
+679,396,462,World Financial,Manhattan,NY,United States,"New York-Newark-Jersey City, NY-NJ-PA",1,40.714756,-74.01781,1,1,1,1,1,1,0,EDC,1,,0,2018
+680,927,47,Margaritaville,Hollywood,FL,United States,"Miami-Fort Lauderdale-West Palm Beach, FL",1,26.018744,-80.117438,1,1,1,1,0,0,1,,1,,0,2018
+681,27,97,Fort Morgan,Fort Morgan,AL,United States,"Daphne-Fairhope-Foley, AL",0,30.232811,-88.01557,1,1,0,0,0,0,0,Al-Dot,0,HMSGM,0,2018
+682,145,455,Cumberland Island,St. Marys,GA,United States,"St. Marys, GA",0,30.75429,-81.47423,1,0,0,0,0,0,0,Cumberland Island National Seashore/National Park Service,0,Cumberland Island National Seashore/National Park Service,0,2018
+683,148,455,St. Marys,St. Marys,GA,United States,"St. Marys, GA",1,30.719647,-81.550314,1,1,0,0,0,0,0,Cumberland Island National Seashore/National Park Service,0,Cumberland Island National Seashore/National Park Service,0,2018
+684,302,191,Main Dock 3,St. Ignace,MI,United States,,1,45.872844,-84.729237,1,1,1,0,0,0,1,,1,,0,2018

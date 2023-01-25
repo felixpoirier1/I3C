@@ -1,0 +1,302 @@
+
+<!-- saved from url=(0302)https://9882fkhzaxc.cloud.databricksusercontent.com/static/5c1169516c0ada2d2212c13a8c2b05efa98c42ac39bd1af0706058ed28c69aed/static/iframe.html#%7B%22parentUri%22%3A%22https%3A%2F%2Fadb-2172541414276548.8.azuredatabricks.net%22%2C%22frameId%22%3A%22iframe-guid-5fe27cff-aabf-4b24-886c-a67fca2c84ae%22%7D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style>
+    
+/**
+ * NB: this stylesheet is loaded inline in sandboxed HTML iframes that may contain
+ * arbitrary untrusted content.  Be very careful what rules you add here.
+ */
+body, .mfe-root {
+  background-color: transparent;
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+#content-wrapper {
+  overflow: auto;
+}
+
+#content-wrapper .markdown {
+  /**
+   * without overriding this, the height is 100% (of the containing block), which is
+   * initially quite small. The content will not fit, and will then depend on the
+   * `overflow` property, which is `hidden`. In theory, `overflow: visible` will expand the
+   * height to fit, but it has a bad interaction with postResizeMessage which causes the div
+   * to keep growing in size under _some_ (ES-9273) circumstances. `height: auto` has the same
+   * effect of allowing the browser to size the div but without the bad effects.
+   **/
+  height: auto;
+}
+
+/**
+ * Approximates the JupyterLab Light theme for display of pandas-like DataFrames.
+ *
+ * TODO: JupyterLab parameterizes theme-able properties using CSS variables.  This
+ * implementation hard-codes them.
+ */
+.dataframe {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  table-layout: fixed;
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+}
+.dataframe thead {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
+}
+.dataframe tr {
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+.dataframe th {
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+.dataframe tbody tr:nth-child(odd) {
+  background: white;
+}
+.dataframe tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+.dataframe tbody tr:hover {
+  background-color: rgb(218, 242, 254);
+}
+.dataframe tbody tr th:only-of-type {
+  vertical-align: middle;
+}
+.dataframe tbody td {
+  font-size: 12px;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+
+/**
+ * CSS Variables to override the data summary (Data Profile) output
+ */
+#facets {
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'FontAwesome';
+}
+
+.db-summary-container .db-summary-items {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'FontAwesome';
+}
+
+  </style>
+  <!--<base href="https://adb-2172541414276548.8.azuredatabricks.net" target="_blank">--><base href="." target="_blank">
+  <script>
+    (function() {
+      var parentUri = 'https://adb-2172541414276548.8.azuredatabricks.net';
+      var originalWidth = null;
+      var originalHeight = null;
+      var scale = 1.0;
+      window.onerror = function(error) {
+        window.parent.postMessage({
+          type: 'frameJsError',
+          loc: window.location.href,
+          frameId: 'iframe-guid-5fe27cff-aabf-4b24-886c-a67fca2c84ae',
+          error: error,
+        }, parentUri);
+      };
+      function postResizeMessage() {
+        // There are 3 cases, and we take the first that's available
+        // 1) happy path: content is inlined. We use getBoundingClientRect to capture the dimension
+        //    of (scaled) visible content, including the margin.
+        //    {height, width} is captured via {bottom, right} to include any margin {top, left}.
+        //    This will handle both when there's collapsing margin & not. See go/pr/43508
+        // 2) content is loaded dynamically, in which case getBoundingClientRect().height may be 0.
+        //    we use scroll{Width, Height} to capture the dimension regardless of what's currently
+        //    visible.
+        // 3) source in the iframe attaches to the document body and not the content-wrapper.
+        //    we use document.body.scroll{Width, Height}. See ES-3770
+        var wrapper = document.getElementById('content-wrapper');
+        var rect = wrapper.getBoundingClientRect();
+        var newWidth = (scale && rect.right / scale) || wrapper.scrollWidth || document.body.scrollWidth;
+        var newHeight = (scale && rect.bottom / scale) || wrapper.scrollHeight || document.body.scrollHeight;
+        if (Math.round(newWidth) != Math.round(originalWidth) || Math.round(newHeight) != Math.round(originalHeight)) {
+          originalWidth = newWidth;
+          originalHeight = newHeight;
+          window.parent.postMessage({
+            type: 'frameResizeEvent',
+            frameId: 'iframe-guid-5fe27cff-aabf-4b24-886c-a67fca2c84ae',
+            loc: window.location.href,
+            height: originalHeight,
+            width: originalWidth,
+            isAutoScaled: false,
+          }, parentUri);
+        }
+      };
+      // Sync size 4 times per second
+      setInterval(postResizeMessage, 250);
+
+      window.addEventListener('message', function(msg) {
+        var origin = msg.origin || msg.originalEvent.origin;
+        var isExportedHTML = origin === 'null' && parentUri === '*';
+        if (origin !== parentUri && !isExportedHTML) {
+          console.error('Invalid origin', origin, parentUri);
+          return;
+        }
+
+        
+        // set wrapper div's height to be the height of the iframe to make vertical scrolling work
+        var clientHeight = document.getElementsByTagName('body')[0].clientHeight;
+        document.body.style.height = clientHeight + 'px';
+        
+      });
+      
+    })();
+  </script>
+  </head><body style="height: 213px;"><div id="content-wrapper" class=""><div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>cap_rate_nominal</th>
+      <th>cppi_index</th>
+      <th>date</th>
+      <th>date_fc_release</th>
+      <th>date_fc_release_id</th>
+      <th>demand_growth</th>
+      <th>fc_publish</th>
+      <th>market_id</th>
+      <th>market_publish</th>
+      <th>mrevpaf_growth</th>
+      <th>ncf_growth</th>
+      <th>noi_growth</th>
+      <th>occupancy</th>
+      <th>rent_growth</th>
+      <th>scenario_id</th>
+      <th>scenario_publish</th>
+      <th>sector_id</th>
+      <th>sector_publish</th>
+      <th>supply_growth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2000-12-31</td>
+      <td>2021-03-31</td>
+      <td>15</td>
+      <td>NaN</td>
+      <td>2021 Q1</td>
+      <td>1891</td>
+      <td>Top 50</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>Exceptionally Strong Growth</td>
+      <td>14</td>
+      <td>Development Site - Residential</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2000-12-31</td>
+      <td>2022-03-31</td>
+      <td>21</td>
+      <td>NaN</td>
+      <td>2022 Q1</td>
+      <td>1891</td>
+      <td>Top 50</td>
+      <td>0.0568</td>
+      <td>0.0471</td>
+      <td>0.0465</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>Exceptionally Strong Growth</td>
+      <td>11</td>
+      <td>Strip Center</td>
+      <td>0.0272</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2000-12-31</td>
+      <td>2021-12-31</td>
+      <td>20</td>
+      <td>NaN</td>
+      <td>2021 Q4</td>
+      <td>1891</td>
+      <td>Top 50</td>
+      <td>0.0566</td>
+      <td>0.0470</td>
+      <td>0.0463</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>Exceptionally Strong Growth</td>
+      <td>11</td>
+      <td>Strip Center</td>
+      <td>0.0276</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2000-12-31</td>
+      <td>2021-09-30</td>
+      <td>18</td>
+      <td>NaN</td>
+      <td>2021 Q3</td>
+      <td>1891</td>
+      <td>Top 50</td>
+      <td>0.0567</td>
+      <td>0.0472</td>
+      <td>0.0465</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>Exceptionally Strong Growth</td>
+      <td>11</td>
+      <td>Strip Center</td>
+      <td>0.0276</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  </div></body></html>
